@@ -26,3 +26,7 @@ img {
     max-width: 100%;
     height: auto;
 }
+
+.p-site-footer .wp-block-columns {
+    margin-bottom: 0;
+}
