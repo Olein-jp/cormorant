@@ -12,7 +12,35 @@
       "customWidth": true
     },
     "color": {
-      "link": false
+      "link": false,
+      "palette": [
+        {
+          "slug": "accent-color",
+          "color": "#082A40",
+          "name": "Accent color"
+        },
+        {
+          "slug": "sub-accent-color",
+          "color": "#163A59",
+          "name": "Sub accent color"
+        },
+        {
+          "slug": "recommended-color-01",
+          "color": "#2C5273",
+          "name": "Recommended color 01"
+        },
+        {
+          "slug": "recommended-color-02",
+          "color": "#7790A6",
+          "name": "Recommended color 02"
+        },
+        {
+          "slug": "recommended-color-03",
+          "color": "#B8CAD9",
+          "name": "Recommended color 03"
+        }
+
+      ]
     },
     "spacing": {
       "customPadding": true,
