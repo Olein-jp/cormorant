@@ -12,8 +12,13 @@
       "customWidth": true
     },
     "color": {
-      "link": false,
+      "custom": false,
       "palette": [
+        {
+          "slug": "White",
+          "color": "#ffffff",
+          "name": "White"
+        },
         {
           "slug": "accent-color",
           "color": "#082A40",
@@ -41,6 +46,29 @@
         }
 
       ]
+    },
+    "blocks": {
+      "core/paragraph": {
+        "color": {
+          "palette": [
+            {
+              "slug": "white",
+              "color": "#ffffff",
+              "name": "White"
+            },
+            {
+              "slug": "accent-color",
+              "color": "#082A40",
+              "name": "Accent color"
+            },
+            {
+              "slug": "sub-accent-color",
+              "color": "#163A59",
+              "name": "Sub accent color"
+            }
+          ]
+        }
+      }
     },
     "spacing": {
       "customPadding": true,
