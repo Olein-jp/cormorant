@@ -11,22 +11,3 @@ License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Text Domain: cormorant
  */
-
-body {
-    margin: 0;
-    overflow-x: hidden;
-}
-
-* {
-    box-sizing: border-box;
-}
-
-/* Elements */
-img {
-    max-width: 100%;
-    height: auto;
-}
-
-.p-site-footer .wp-block-columns {
-    margin-bottom: 0;
-}
