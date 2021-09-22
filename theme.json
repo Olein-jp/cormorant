@@ -1,10 +1,6 @@
 {
   "version":1,
   "settings": {
-    "layout": {
-      "contentSize": "840px",
-      "wideSize": "1100px"
-    },
     "border": {
       "customColor": true,
       "customRadius": true,
@@ -12,7 +8,7 @@
       "customWidth": true
     },
     "color": {
-      "custom": false,
+      "link": true,
       "palette": [
         {
           "slug": "White",
@@ -44,44 +40,122 @@
           "color": "#B8CAD9",
           "name": "Recommended color 03"
         }
-
       ]
     },
-    "blocks": {
-      "core/paragraph": {
-        "color": {
-          "palette": [
-            {
-              "slug": "white",
-              "color": "#ffffff",
-              "name": "White"
-            },
-            {
-              "slug": "accent-color",
-              "color": "#082A40",
-              "name": "Accent color"
-            },
-            {
-              "slug": "sub-accent-color",
-              "color": "#163A59",
-              "name": "Sub accent color"
-            }
-          ]
-        }
+    "custom": {
+      "font-primary": "var( --wp--preset--font-family--noto-sans )",
+      "font-weight": {
+        "normal": 400,
+        "bold": 700
       }
+    },
+    "layout": {
+      "contentSize": "840px",
+      "wideSize": "1100px"
     },
     "spacing": {
       "customPadding": true,
-      "units": [ "px", "em", "rem", "vh", "vw" ]
+      "units": [
+        "px",
+        "em",
+        "rem",
+        "vh",
+        "vw"
+      ]
+    },
+    "typography": {
+      "customFontSize": true,
+      "customLineHeight": true,
+      "fontSizes": [
+        {
+          "slug": "tiny",
+          "size": "16.0px",
+          "name": "Tiny"
+        },
+        {
+          "slug": "small",
+          "size": "18px",
+          "name": "Small"
+        },
+        {
+          "slug": "normal",
+          "size": "21px",
+          "name": "Normal"
+        },
+        {
+          "slug": "large",
+          "size": "24px",
+          "name": "Large"
+        },
+        {
+          "slug": "extra-large",
+          "size": "32.0px",
+          "name": "Extra large"
+        },
+        {
+          "slug": "huge",
+          "size": "64.0px",
+          "name": "Huge"
+        },
+        {
+          "slug": "gigantic",
+          "size": "96px",
+          "name": "Gigantic"
+        },
+        {
+          "slug": "heading-1",
+          "size": "64px",
+          "name": "Heading 1"
+        },
+        {
+          "slug": "heading-2",
+          "size": "48px",
+          "name": "Heading 2"
+        },
+        {
+          "slug": "heading-3",
+          "size": "40px",
+          "name": "Heading 3"
+        },
+        {
+          "slug": "heading-4",
+          "size": "32px",
+          "name": "Heading 4"
+        },
+        {
+          "slug": "heading-5",
+          "size": "24px",
+          "name": "Heading 5"
+        },
+        {
+          "slug": "heading-6",
+          "size": "16px",
+          "name": "Heading 6"
+        }
+      ],
+      "fontFamilies": [
+        {
+          "fontFamily": "\"Noto Sans JP\", sans-serif",
+          "slug": "noto-sans",
+          "name": "Noto Sans",
+          "google": "family=Noto+Sans+JP:wght@100;300;400;700"
+        },
+        {
+          "fontFamily": "\"Helvetica Neue\", \"Helvetica\", \"Hiragino Sans\", \"Hiragino Kaku Gothic ProN\", \"Arial\", \"Yu Gothic\", \"Meiryo\", sans-serif",
+          "slug": "system-sans-serif",
+          "name": "System Sans Serif"
+        },
+        {
+          "fontFamily": "\"Times New Roman\", \"YuMincho\", \"Hiragino Mincho ProN\", \"Yu Mincho\", \"MS PMincho\", serif",
+          "slug": "system-serif",
+          "name": "System Serif"
+        },
+        {
+          "fontFamily": "ui-monospace, Menlo, Consolas, Monaco, \"Liberation Mono\", \"Lucida Console\", monospace",
+          "slug": "system-monospace",
+          "name": "System Monospace"
+        }
+      ]
     }
-  },
-  "styles": {
-
-  },
-  "customTemplates": {
-
-  },
-  "templateParts": {
-
   }
 }
