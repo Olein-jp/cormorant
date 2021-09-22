@@ -38,10 +38,29 @@ add_action( 'after_setup_theme', 'cormorant_setup' );
  */
 if ( ! function_exists( 'cormorant_styles' ) ) {
 	function cormorant_styles() {
+
+		wp_register_style(
+			'cormorant-styles-google-fonts',
+			cormorant_get_google_fonts_url()
+		);
+
+		wp_register_style(
+			'cormorant-styles-blocks',
+			get_template_directory_uri() . '/assets/css/blocks.css'
+		);
+
+		$dependencies = apply_filters(
+			'cormorant_style_dependencies',
+			array(
+				'cormorant-styles-google-fonts',
+				'cormorant-styles-blocks'
+			)
+		);
+
 		wp_enqueue_style(
-			'cormorant-style',
-			get_stylesheet_uri(),
-			null,
+			'cormorant-styles-front-end',
+			get_template_directory_uri() . '/assets/css/front-end.css',
+			$dependencies,
 			wp_get_theme( 'cormorant' )->get( 'Version' )
 		);
 	}
@@ -69,7 +88,7 @@ if ( ! function_exists( 'cormorant_editor_styles' ) ) {
  * Builds a Google Fonts request URL from the Google Fonts families used in theme.json.
  * Based on a solution in the Blockbase and Tove theme (see readme.txt for licensing info).
  *
- * @return $fonts_url
+ * @return $cormorant_google_fonts_url
  */
 if ( ! function_exists( 'cormorant_get_google_fonts_url' ) ) {
 	function cormorant_get_google_fonts_url() {
@@ -108,4 +127,3 @@ if ( ! function_exists( 'cormorant_get_google_fonts_url' ) ) {
 			esc_url_raw( 'https://fonts.googleapis.com/css2?' . implode( '&', $font_family_urls ) . '&display=swap' ) );
 	}
 }
-
