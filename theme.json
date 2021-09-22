@@ -11,9 +11,14 @@
       "link": true,
       "palette": [
         {
-          "slug": "White",
+          "slug": "white",
           "color": "#ffffff",
           "name": "White"
+        },
+        {
+          "slug": "text-color",
+          "color": "#333333",
+          "name": "Text color"
         },
         {
           "slug": "accent-color",
@@ -156,6 +161,17 @@
           "name": "System Monospace"
         }
       ]
+    }
+  },
+  "styles": {
+    "blocks": {
+    },
+    "color": {
+      "background": "var( --wp--preset--color--background )",
+      "text": "var( --wp--preset--color--text-color )",
+      "link": "var( --wp--preset--color--accent-color )"
+    },
+    "elements": {
     }
   }
 }
