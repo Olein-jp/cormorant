@@ -3,8 +3,8 @@ This theme is designed as a block theme to support WordPress full site editing.
 
 Gifu City in Gifu Prefecture is famous for a traditional event called Ukai (cormorant fishing). That's how I came up with the name.
 
-== Licenses ==
 
+== Licenses ==
 Cormorant bundles the following third-party resources:
 
 Noto Sans font
