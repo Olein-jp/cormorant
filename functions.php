@@ -1,4 +1,8 @@
 <?php
+
+/**
+ * Theme supports
+ */
 if ( ! function_exists( 'cormorant_setup' ) ) {
 	function cormorant_setup() {
 
@@ -29,6 +33,9 @@ if ( ! function_exists( 'cormorant_setup' ) ) {
 }
 add_action( 'after_setup_theme', 'cormorant_setup' );
 
+/**
+ * Enqueue styles
+ */
 if ( ! function_exists( 'cormorant_styles' ) ) {
 	function cormorant_styles() {
 		wp_enqueue_style(
