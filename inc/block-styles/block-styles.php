@@ -21,6 +21,5 @@ if ( ! function_exists( 'cormorant_register_block_styles' ) ) {
 		);
 
 	}
-
 	add_action( 'init', 'cormorant_register_block_styles' );
 }
