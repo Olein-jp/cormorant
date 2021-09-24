@@ -52,6 +52,13 @@
       "font-weight": {
         "normal": 400,
         "bold": 700
+      },
+      "letter-spacing": {
+        "body": "0.015em"
+      },
+      "line-height": {
+        "body": 1.7,
+        "heading": 1.5
       }
     },
     "layout": {
@@ -59,8 +66,11 @@
       "wideSize": "1100px"
     },
     "spacing": {
+      "blockGap": null,
       "customPadding": true,
+      "customMargin": true,
       "units": [
+        "%",
         "px",
         "em",
         "rem",
@@ -74,37 +84,37 @@
       "fontSizes": [
         {
           "slug": "tiny",
-          "size": "16.0px",
+          "size": "12.0px",
           "name": "Tiny"
         },
         {
           "slug": "small",
-          "size": "18px",
+          "size": "14px",
           "name": "Small"
         },
         {
           "slug": "normal",
-          "size": "21px",
+          "size": "16px",
           "name": "Normal"
         },
         {
           "slug": "large",
-          "size": "24px",
+          "size": "22px",
           "name": "Large"
         },
         {
           "slug": "extra-large",
-          "size": "32.0px",
+          "size": "28.0px",
           "name": "Extra large"
         },
         {
           "slug": "huge",
-          "size": "64.0px",
+          "size": "56.0px",
           "name": "Huge"
         },
         {
           "slug": "gigantic",
-          "size": "96px",
+          "size": "86px",
           "name": "Gigantic"
         },
         {
@@ -167,11 +177,21 @@
     "blocks": {
     },
     "color": {
-      "background": "var( --wp--preset--color--background )",
       "text": "var( --wp--preset--color--text-color )",
       "link": "var( --wp--preset--color--accent-color )"
     },
     "elements": {
+      "link": {
+        "color": {
+          "text": "inherit"
+        }
+      }
+    },
+    "typography": {
+      "fontFamily": "var( --wp--custom--font-primary )",
+      "fontSize": "var( --wp--preset--font-size--normal )",
+      "letterSpacing": "var( --wp--custom--letter-spacing--body )",
+      "lineHeight": "var( --wp--custom--line-height--body )"
     }
   }
 }

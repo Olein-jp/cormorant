@@ -119,11 +119,27 @@ if ( ! function_exists( 'cormorant_get_google_fonts_url' ) ) {
 			if ( ! empty( $font_family['google'] ) ) $font_family_urls[] = $font_family['google'];
 		}
 
-		if ( ! $font_family_urls ) return '';
+		if ( ! $font_family_urls ) {
+			return '';
+		}
 
 		// Return a single request URL for all of the font families.
 		return apply_filters(
 			'cormorant_google_fonts_url',
 			esc_url_raw( 'https://fonts.googleapis.com/css2?' . implode( '&', $font_family_urls ) . '&display=swap' ) );
 	}
+}
+
+/**
+ * Block patterns.
+ */
+if ( function_exists( 'register_block_pattern' ) ) {
+	require get_template_directory() . '/inc/block-patterns/block-patterns.php';
+}
+
+/**
+ * Block styles..
+ */
+if ( function_exists( 'register_block_style' ) ) {
+	require get_template_directory() . '/inc/block-styles/block-styles.php';
 }
