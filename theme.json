@@ -300,6 +300,14 @@
         "typography": {
           "fontWeight": "var( --wp--custom--font-weight--normal )"
         }
+      },
+      "core/spacer": {
+        "spacing": {
+          "margin": {
+            "top": "0px",
+            "bottom": "0px"
+          }
+        }
       }
     },
     "color": {
