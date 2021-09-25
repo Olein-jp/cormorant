@@ -16,6 +16,11 @@
           "name": "White"
         },
         {
+          "slug": "background",
+          "color": "#f4f4f4",
+          "name": "Background"
+        },
+        {
           "slug": "text-color",
           "color": "#333333",
           "name": "Text color"
@@ -54,7 +59,8 @@
         "bold": 700
       },
       "letter-spacing": {
-        "body": "0.015em"
+        "body": "0.015em",
+        "heading": "0.01em"
       },
       "line-height": {
         "body": 1.7,
@@ -206,8 +212,9 @@
           },
           "margin": {
             "left": "var( --wp--custom--spacing--single )",
+            "top": "var( --wp--custom--spacing--double )",
             "right": "var( --wp--custom--spacing--single )",
-            "bottom": "var( --wp--custom--spacing--single )"
+            "bottom": "var( --wp--custom--spacing--double )"
           }
         },
         "typography": {
@@ -218,6 +225,7 @@
       }
     },
     "color": {
+      "background": "var( --wp--preset--color--background )",
       "text": "var( --wp--preset--color--text-color )",
       "link": "var( --wp--preset--color--accent-color )"
     },
