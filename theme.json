@@ -308,6 +308,12 @@
             "bottom": "calc( 0 * var( --wp--custom--spacing--base ) )"
           }
         }
+      },
+      "core/table": {
+        "typography": {
+          "fontSize": "var( --wp--preset--font-size--small )",
+          "lineHeight": "var( --wp--custom--line-height--body )"
+        }
       }
     },
     "color": {
