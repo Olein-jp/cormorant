@@ -1,0 +1,39 @@
+{
+  "name": "cormorant",
+  "version": "1.0.0",
+  "description": "This theme is designed as a block theme to support WordPress full site editing.",
+  "main": "index.php",
+  "scripts": {
+    "wp-env": "wp-env",
+    "start": "wp-env start && open http://localhost:8888",
+    "stop": "npm run wp db export sql/local.sql && wp-env stop",
+    "cli": "wp-env run cli",
+    "wp": "wp-env run cli wp",
+    "pretest": "wp-env start && wp-env run composer 'install --no-interaction'",
+    "test:lint:php": "wp-env run composer run-script lint",
+    "test:lint": "run-s test:lint:*",
+    "test": "run-s test:*",
+    "check": "composer format && composer lint",
+    "clean": "rimraf assets",
+    "compile:css": "sass src/scss:assets/css/ --no-source-map",
+    "compile": "npm run clean && npm-run-all -s compile:*",
+    "build": "npm run check && npm run compile"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Olein-jp/cormorant.git"
+  },
+  "author": "Koji Kuno",
+  "license": "GPL-2.0+",
+  "bugs": {
+    "url": "https://github.com/Olein-jp/cormorant/issues"
+  },
+  "homepage": "https://github.com/Olein-jp/cormorant#readme",
+  "devDependencies": {
+    "@wordpress/env": "^4.1.1",
+    "@wordpress/scripts": "^18.0.1",
+    "dart-sass": "^1.25.0",
+    "npm-run-all": "^4.1.5",
+    "rimraf": "^3.0.2"
+  }
+}

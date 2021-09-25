@@ -1,0 +1,27 @@
+{
+  "type": "wordpress-theme",
+  "license": "GPL-2.0-or-later",
+  "authors": [
+    {
+      "name": "Koji Kuno",
+      "email": "info@olein-design.com",
+      "homepage": "https://olein-design.com"
+    }
+  ],
+  "require-dev": {
+    "dealerdirect/phpcodesniffer-composer-installer": "^0.7",
+    "squizlabs/php_codesniffer": "^3.5",
+    "phpcompatibility/php-compatibility": "^9.3",
+    "wp-coding-standards/wpcs": "^2.3",
+    "sirbrillig/phpcs-variable-analysis": "^2.10",
+    "wp-phpunit/wp-phpunit": "^5.6"
+  },
+  "require": {
+    "php": ">=5.6"
+  },
+  "scripts": {
+    "format": "phpcbf --standard=./.phpcs.xml.dist --report-summary --report-source",
+    "lint": "phpcs --standard=./.phpcs.xml.dist",
+    "install-theme": "rm -rf ./.themes && mkdir ./.themes && wget -P ./.themes https://github.com/inc2734/snow-monkey/archive/master.zip && unzip -o -qq ./.themes/master.zip -d ./.themes && mv ./.themes/snow-monkey-master ./.themes/snow-monkey && cd .themes/snow-monkey && composer install --no-dev"
+  }
+}
