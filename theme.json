@@ -255,6 +255,11 @@
         "typography": {
           "lineHeight": "calc( 1em + var( --wp--custom--spacing--base ))"
         }
+      },
+      "core/preformatted": {
+        "typography": {
+          "fontSize": "var( --wp--preset--font-size--small )"
+        }
       }
     },
     "color": {
