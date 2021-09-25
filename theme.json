@@ -221,6 +221,14 @@
           "fontWeight": "bold",
           "lineHeight": "1.25"
         }
+      },
+      "core/calendar": {
+        "color": {
+          "text": "var( --wp--preset--color--accent-color )"
+        },
+        "typography": {
+          "fontSize": "var( --wp--preset--font-size--small )"
+        }
       }
     },
     "color": {
