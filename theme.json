@@ -237,6 +237,13 @@
         "spacing": {
           "padding": "calc( 2 * var( --wp--custom--spacing--base ) )"
         }
+      },
+      "core/file": {
+        "typography": {
+          "fontSize": "var( --wp--preset--font-size--small )",
+          "fontWeight": "var( --wp--custom--font-weight--bold )",
+          "lineHeight": "var( --wp--custom--line-height--heading )"
+        }
       }
     },
     "color": {
