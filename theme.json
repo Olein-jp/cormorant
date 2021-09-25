@@ -278,6 +278,17 @@
             "bottom": "0px"
           }
         }
+      },
+      "core/site-tagline": {
+        "spacing": {
+          "margin": {
+            "top": "0px",
+            "bottom": "0px"
+          }
+        },
+        "typography": {
+          "fontSize": "var( --wp--preset--font-size--normal )"
+        }
       }
     },
     "color": {
