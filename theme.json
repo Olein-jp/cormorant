@@ -229,6 +229,14 @@
         "typography": {
           "fontSize": "var( --wp--preset--font-size--small )"
         }
+      },
+      "core/cover": {
+        "color": {
+          "text": "var( --wp--preset--color--white )"
+        },
+        "spacing": {
+          "padding": "calc( 2 * var( --wp--custom--spacing--base ) )"
+        }
       }
     },
     "color": {
