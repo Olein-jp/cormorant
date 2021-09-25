@@ -260,6 +260,14 @@
         "typography": {
           "fontSize": "var( --wp--preset--font-size--small )"
         }
+      },
+      "core/post-featured-image": {
+        "spacing": {
+          "margin": {
+            "top": "0px",
+            "bottom": "0px"
+          }
+        }
       }
     },
     "color": {
