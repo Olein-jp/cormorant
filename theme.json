@@ -244,6 +244,17 @@
           "fontWeight": "var( --wp--custom--font-weight--bold )",
           "lineHeight": "var( --wp--custom--line-height--heading )"
         }
+      },
+      "core/paragraph": {
+        "spacing": {
+          "margin": {
+            "top": "0px",
+            "bottom": "1em"
+          }
+        },
+        "typography": {
+          "lineHeight": "calc( 1em + var( --wp--custom--spacing--base ))"
+        }
       }
     },
     "color": {
