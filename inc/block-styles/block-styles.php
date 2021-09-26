@@ -20,10 +20,10 @@ if ( ! function_exists( 'cormorant_register_block_styles' ) ) {
 
 		// Sample style
 		register_block_style(
-			'core/heading',
+			'core/columns',
 			array(
-				'name'  => 'cormorant-sample-block-style',
-				'label' => esc_html__( 'Sample', 'cormorant' ),
+				'name'  => 'cormorant-no-gutters',
+				'label' => esc_html__( 'No Gutters', 'cormorant' ),
 			)
 		);
 
