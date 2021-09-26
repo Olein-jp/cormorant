@@ -223,6 +223,12 @@ caption {
 }
 
 .l-site-content {
+  width: 100%;
+  padding: 0 calc(1 * var(--wp--custom--spacing--base));
+  @media (min-width: 782px) {
+    padding: 0;
+  }
+
   .wp-block-post-template {
     margin-top: 0;
   }
