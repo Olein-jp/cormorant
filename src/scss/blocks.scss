@@ -106,7 +106,7 @@
     th {
       border: 2px solid var(--wp--preset--color--sub-accent-color);
       color: inherit;
-      padding: calc(0.3 * var(--wp--custom--spacing--base));
+      padding: calc(0.3 * var(--wp--custom--spacing--base)) 0;
       text-align: center;
       @media (min-width: 782px) {
         padding: calc(0.7 * var(--wp--custom--spacing--base));
