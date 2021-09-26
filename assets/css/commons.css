@@ -5,24 +5,20 @@ body {
   margin: 0;
   padding: 0;
 }
-
 /*--------------------------------------------------------------
     Setup
 --------------------------------------------------------------*/
 :root {
   font-family: "Helvetica Neue", "Helvetica", "Hiragino Sans", "Hiragino Kaku Gothic ProN", "Arial", "Yu Gothic", "Meiryo", sans-serif;
 }
-
 body {
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
   box-sizing: border-box;
 }
-
 * {
   letter-spacing: inherit;
 }
-
 a {
   text-underline-offset: 0.1em;
   -webkit-text-decoration-skip-ink: all;
@@ -30,11 +26,9 @@ a {
   -webkit-text-decoration-style: underline;
   text-decoration-style: underline;
 }
-
 a:hover {
   text-decoration: none;
 }
-
 /*--------------------------------------------------------------
     Element Base
 --------------------------------------------------------------*/
@@ -45,40 +39,32 @@ ol {
   margin: calc(2 * var(--wp--custom--spacing--base)) 0 calc(2 * var(--wp--custom--spacing--base)) 0;
   padding: 0;
 }
-
 li {
   margin: calc(0.5 * var(--wp--custom--spacing--base)) 0 calc(0.5 * var(--wp--custom--spacing--base)) 1.2em;
 }
-
 li > ul,
 li > ol {
   margin-top: calc(0.5 * var(--wp--custom--spacing--base));
   margin-bottom: calc(0.5 * var(--wp--custom--spacing--base));
 }
-
 dt,
 dd {
   line-height: var(--wp--custom--line-height--body);
 }
-
 dt {
   font-weight: var(--wp--custom--font-weight--bold);
 }
-
 dt + dd {
   margin-top: 5px;
 }
-
 dd + dt {
   margin-top: 15px;
 }
-
 /* Media
 ------------------------------*/
 figure {
   margin: 0;
 }
-
 iframe,
 img,
 embed,
@@ -86,19 +72,16 @@ object,
 svg {
   display: block;
 }
-
 iframe {
   border: none;
   max-width: 100%;
 }
-
 img,
 embed,
 object {
   height: auto;
   max-width: 100%;
 }
-
 figcaption {
   color: inherit;
   display: block;
@@ -108,11 +91,9 @@ figcaption {
   margin-top: calc(0.7 * var(--wp--custom--spacing--base));
   text-align: left;
 }
-
 figcaption a {
   color: inherit;
 }
-
 /* Quotes
 ------------------------------*/
 blockquote {
@@ -122,7 +103,6 @@ blockquote {
   margin: 0 0 1em 0;
   padding: 0 0 0 var(--wp--custom--spacing--base);
 }
-
 cite {
   font-size: var(--wp--preset--font-size--small);
   font-style: normal;
@@ -131,12 +111,10 @@ cite {
   text-align: inherit;
   text-transform: uppercase;
 }
-
 blockquote cite {
   display: block;
   margin-top: var(--wp--custom--spacing--base);
 }
-
 /* Separator
 ------------------------------*/
 hr {
@@ -147,52 +125,43 @@ hr {
   margin-bottom: calc(2 * var(--wp--custom--spacing--base));
   opacity: 1;
 }
-
 /* Tables
 ------------------------------*/
 table {
   font-size: var(--wp--preset--font-size--small);
   margin: calc(2 * var(--wp--custom--spacing--base)) auto;
 }
-
 table * {
   border-color: currentColor;
   line-height: inherit;
 }
-
 table thead,
 table tfoot {
   border: none;
 }
-
 tr {
   vertical-align: baseline;
 }
-
 th:not([class*=has-text-align-]),
 td:not([class*=has-text-align-]) {
   text-align: left;
 }
-
 th,
 td {
   border-style: solid;
   border-width: 2px;
   min-width: 50px;
 }
-
 th,
 td,
 caption {
   padding: var(--wp--custom--spacing--base);
 }
-
 caption {
   background-color: var(--wp--preset--color--accent-color);
   color: var(--wp--preset--color--white);
   text-align: center;
 }
-
 /* code
 ------------------------------*/
 pre {
@@ -204,14 +173,12 @@ pre {
   padding: calc(1.5 * var(--wp--custom--spacing--base));
   white-space: pre-wrap;
 }
-
 /*--------------------------------------------------------------
     Typography
 --------------------------------------------------------------*/
 *[class*=has-heading-] {
   letter-spacing: var(--wp--custom--letter-spacing--heading);
 }
-
 /*--------------------------------------------------------------
     Layout
 --------------------------------------------------------------*/
@@ -219,36 +186,29 @@ pre {
   padding: calc(1 * var(--wp--custom--spacing--base)) 0;
   margin-bottom: calc(2 * var(--wp--custom--spacing--base));
 }
-
 .l-site-header > .wp-block-columns {
   margin-bottom: 0 !important;
 }
-
 .l-site-content {
   width: 100%;
   padding: 0 calc(1 * var(--wp--custom--spacing--base));
 }
-
 .l-site-content .wp-block-post-template {
   margin-top: 0;
 }
-
 .l-site-footer {
   padding: calc(0.5 * var(--wp--custom--spacing--base));
   background-color: var(--wp--preset--color--accent-color);
   color: var(--wp--preset--color--white);
   line-height: 1;
 }
-
 @media (min-width: 782px) {
   blockquote {
     padding: 0 0 0 calc(2 * var(--wp--custom--spacing--base));
   }
-
   blockquote cite {
     margin-top: calc(1.5 * var(--wp--custom--spacing--base));
   }
-
   .l-site-content {
     padding: 0;
   }

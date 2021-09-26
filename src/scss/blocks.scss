@@ -544,3 +544,22 @@
     padding: calc(3 * var(--wp--custom--spacing--base));
   }
 }
+
+/*--------------------------------------------------------------
+    Block : Embed
+--------------------------------------------------------------*/
+.wp-block-embed {
+  &.alignfull {
+    video,
+    iframe {
+      width: 100%;
+    }
+  }
+
+  .alignfull {
+    video,
+    iframe {
+      width: 100%;
+    }
+  }
+}
