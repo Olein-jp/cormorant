@@ -55,11 +55,17 @@ if ( ! function_exists( 'cormorant_styles' ) ) {
 			get_template_directory_uri() . '/assets/css/blocks.css'
 		);
 
+		wp_register_style(
+			'cormorant-styles-commons',
+			get_template_directory_uri() . '/assets/css/commons.css'
+		);
+
 		$dependencies = apply_filters(
 			'cormorant_style_dependencies',
 			array(
 				'cormorant-styles-google-fonts',
 				'cormorant-styles-blocks',
+				'cormorant-styles-commons'
 			)
 		);
 
