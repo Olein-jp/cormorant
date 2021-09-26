@@ -203,6 +203,18 @@ caption {
   text-align: center;
 }
 
+/* code
+------------------------------*/
+pre {
+  background-color: var(--wp--preset--color--accent-color);
+  color: var(--wp--preset--color--white);
+  font-size: var(--wp--preset--font-size--small);
+  font-family: var(--wp--preset--font-family--system-monospace);
+  line-height: var(--wp--custom--line-height--body);
+  padding: calc(1.5 * var(--wp--custom--spacing--base));
+  white-space: pre-wrap;
+}
+
 /*--------------------------------------------------------------
     Typography
 --------------------------------------------------------------*/
