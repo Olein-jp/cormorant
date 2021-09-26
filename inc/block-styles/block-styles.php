@@ -18,7 +18,7 @@ if ( ! function_exists( 'cormorant_register_block_styles' ) ) {
 			return;
 		}
 
-		// Sample style
+		// No Gutters
 		register_block_style(
 			'core/columns',
 			array(
