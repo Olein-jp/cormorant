@@ -15,7 +15,7 @@
     "test": "run-s test:*",
     "check": "composer format && composer lint",
     "clean": "rimraf assets",
-    "compile:css": "sass src/scss:assets/css/ --no-source-map",
+    "compile:css": "sass src/scss:assets/css/ --no-source-map --style expanded && postcss assets/css/*.css -r",
     "compile": "npm run clean && npm-run-all -s compile:*",
     "build": "npm run check && npm run compile"
   },
@@ -32,8 +32,14 @@
   "devDependencies": {
     "@wordpress/env": "^4.1.1",
     "@wordpress/scripts": "^18.0.1",
+    "autoprefixer": "^10.3.6",
+    "css-mqpacker": "^7.0.0",
     "dart-sass": "^1.25.0",
     "npm-run-all": "^4.1.5",
+    "postcss": "^8.3.8",
+    "postcss-cli": "^9.0.0",
+    "postcss-import": "^14.0.2",
+    "postcss-mq-optimize": "^1.1.0",
     "rimraf": "^3.0.2"
   }
 }
