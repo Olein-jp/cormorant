@@ -176,3 +176,9 @@
     margin-top: calc(2 * var(--wp--custom--spacing--base));
   }
 }
+
+/* Style : No Gutters
+------------------------------*/
+.wp-block-columns.is-style-cormorant-no-gutters > .wp-block-column {
+  margin: 0 !important;
+}
