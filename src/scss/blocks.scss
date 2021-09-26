@@ -88,3 +88,62 @@
 .wp-block-button__link.is-style-outline {
   padding: .9em 1.3em;
 }
+
+/*--------------------------------------------------------------
+    Block : Calendar
+--------------------------------------------------------------*/
+.wp-block-calendar {
+  table {
+    background-color: var(--wp--preset--color--recommended-color-03);
+    color: inherit;
+    font-size: inherit;
+    margin: 0;
+  }
+
+  :root & {
+    caption,
+    tbody td,
+    th {
+      border: 2px solid var(--wp--preset--color--sub-accent-color);
+      color: inherit;
+      padding: calc(0.3 * var(--wp--custom--spacing--base));
+      text-align: center;
+      @media (min-width: 782px) {
+        padding: calc(0.7 * var(--wp--custom--spacing--base));
+      }
+    }
+
+    caption {
+      color: var(--wp--preset--color--white);
+    }
+
+    table {
+      thead {
+        border: none;
+      }
+
+      th {
+        background-color: transparent;
+        font-weight: var(--wp--custom--font-weight--bold);
+      }
+    }
+
+    nav {
+      display: flex;
+      justify-content: space-between;
+      margin-top: var(--wp--custom--spacing--base);
+    }
+  }
+}
+
+.wp-calendar-table {
+  :root & {
+    caption {
+      background-color: var(--wp--preset--color--accent-color);
+      border-bottom: none;
+      font-size: var(--wp--preset--font-size--small);
+      letter-spacing: var(--wp--custom--letter-spacing--body);
+      text-transform: uppercase;
+    }
+  }
+}
