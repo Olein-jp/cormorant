@@ -578,18 +578,15 @@ h6.has-background {
 .wp-block-navigation__responsive-container.is-menu-open :where(.submenu-container, .wp-block-navigation__responsive-container .wp-block-navigation-link__container) a {
   padding: 0;
 }
-
 .wp-block-navigation__responsive-container.is-menu-open a:focus {
   text-decoration: underline !important;
   -webkit-text-decoration-style: dotted;
   text-decoration-style: dotted;
 }
-
 .wp-block-navigation .wp-block-search {
   margin-top: 0;
   margin-bottom: 0;
 }
-
 /*--------------------------------------------------------------
     Block : Paragraph
 --------------------------------------------------------------*/
@@ -604,6 +601,17 @@ p.has-background {
   font-weight: var(---wp--custom--font-weight--bold);
   padding: 0.2em 0;
   text-align: center;
+}
+
+/*--------------------------------------------------------------
+    Block : Post Date
+--------------------------------------------------------------*/
+.wp-block-post-date a {
+  text-decoration: none;
+}
+
+.wp-block-post-date a:hover, .wp-block-post-date a:focus {
+  text-decoration: underline;
 }
 
 @media (min-width: 782px) {

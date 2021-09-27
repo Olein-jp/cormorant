@@ -938,3 +938,17 @@ p.has-background {
   padding: .2em 0;
   text-align: center;
 }
+
+/*--------------------------------------------------------------
+    Block : Post Date
+--------------------------------------------------------------*/
+.wp-block-post-date {
+  a {
+    text-decoration: none;
+
+    &:hover,
+    &:focus {
+      text-decoration: underline;
+    }
+  }
+}
