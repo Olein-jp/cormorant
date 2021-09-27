@@ -195,9 +195,6 @@ pre {
   margin-top: 0;
   margin-bottom: 0;
 }
-.l-site-content .wp-block-post-template {
-  margin-top: 0;
-}
 .l-site-footer {
   padding: calc(0.5 * var(--wp--custom--spacing--base));
   background-color: var(--wp--preset--color--accent-color);
