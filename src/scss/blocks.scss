@@ -1100,3 +1100,39 @@ p.has-background {
 
   }
 }
+
+/*--------------------------------------------------------------
+    Block : Query Pagination
+    @todo Preparing to block styles
+--------------------------------------------------------------*/
+.wp-block-query-pagination {
+  justify-content: space-between;
+  width: 100%;
+
+  :root & {
+    a {
+      display: block;
+      margin: 0;
+      text-decoration: none;
+
+      &:hover,
+      &:focus {
+        text-decoration: underline;
+      }
+
+      & + a {
+        padding-left: 16px;
+      }
+    }
+
+    .wp-block-query-pagination-next {
+      margin-left: auto;
+      text-align: right;
+
+      &:only-child {
+        margin-left: auto;
+      }
+    }
+  }
+
+}
