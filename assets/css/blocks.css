@@ -343,23 +343,19 @@
 .wp-block-embed.alignfull iframe {
   width: 100%;
 }
-
 .wp-block-embed .alignfull video,
 .wp-block-embed .alignfull iframe {
   width: 100%;
 }
-
 /*--------------------------------------------------------------
     Block : Featured Image
 --------------------------------------------------------------*/
 .wp-block-post-featured-image a {
   display: block;
 }
-
 .wp-block-post-featured-image img {
   margin: 0 auto;
 }
-
 /*--------------------------------------------------------------
     Block : File
 --------------------------------------------------------------*/
@@ -368,7 +364,6 @@
   display: flex;
   justify-content: space-between;
 }
-
 .wp-block-file a.wp-block-file__button {
   font-size: inherit;
   font-weight: inherit;
@@ -385,6 +380,13 @@
 
 .wp-block-file a.wp-block-file__button:focus, .wp-block-file a.wp-block-file__button:hover {
   text-decoration: underline;
+}
+
+/*--------------------------------------------------------------
+    Block : Gallery
+--------------------------------------------------------------*/
+.blocks-gallery-grid {
+  width: 100%;
 }
 
 @media (min-width: 782px) {
