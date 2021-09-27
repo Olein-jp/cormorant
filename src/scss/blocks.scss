@@ -728,3 +728,20 @@ h6 {
     }
   }
 }
+
+/*--------------------------------------------------------------
+    Block : Latest Posts
+--------------------------------------------------------------*/
+.wp-block-latest-posts {
+  & > li {
+    margin-left: 0;
+  }
+
+  &__post-author,
+  &__post-date {
+    color: inherit;
+    font-size: var(--wp--preset--font-size--tiny);
+  }
+
+  /* @todo Preparing block style for this */
+}

@@ -432,18 +432,15 @@ h6.has-background {
 .wp-block-image.alignright, .wp-block-image .alignright {
   margin: 0 0 calc(1.5 * var(--wp--custom--spacing--base)) calc(1.5 * var(--wp--custom--spacing--base));
 }
-
 .wp-block-image img {
   display: block;
   height: auto;
   margin: 0;
 }
-
 :root .wp-block-image figcaption {
   margin-bottom: 0;
   margin-top: calc(0.7 * var(--wp--custom--spacing--base));
 }
-
 /*--------------------------------------------------------------
     Block : Latest Comments
 --------------------------------------------------------------*/
@@ -451,11 +448,9 @@ h6.has-background {
   margin-left: 0;
   margin-bottom: calc(2 * var(--wp--custom--spacing--base));
 }
-
 .wp-block-latest-comments__comment-excerpt {
   margin-top: calc(0.5 * var(--wp--custom--spacing--base));
 }
-
 .wp-block-latest-comments__comment-date, .wp-block-latest-comments__comment-excerpt p {
   font-size: var(--wp--preset--font-size--small);
 }
@@ -467,6 +462,22 @@ h6.has-background {
 
 .wp-block-latest-comments__comment-excerpt p:last-child {
   margin-bottom: 0;
+}
+
+/*--------------------------------------------------------------
+    Block : Latest Posts
+--------------------------------------------------------------*/
+.wp-block-latest-posts {
+  /* @todo Preparing block style for this */
+}
+
+.wp-block-latest-posts > li {
+  margin-left: 0;
+}
+
+.wp-block-latest-posts__post-author, .wp-block-latest-posts__post-date {
+  color: inherit;
+  font-size: var(--wp--preset--font-size--tiny);
 }
 
 @media (min-width: 782px) {
