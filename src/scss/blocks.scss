@@ -617,3 +617,22 @@
 .blocks-gallery-grid {
   width: 100%;
 }
+
+/*--------------------------------------------------------------
+    Block : Group
+--------------------------------------------------------------*/
+.wp-block-group {
+  :root & {
+    > *:first-child {
+      margin-top: 0;
+    }
+
+    > *:last-child {
+      margin-bottom: 0;
+    }
+  }
+
+  :root &.has-background {
+    padding: calc(2 * var(--wp--custom--spacing--base));
+  }
+}
