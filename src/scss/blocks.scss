@@ -1210,3 +1210,20 @@ p.has-background {
     width: 40px;
   }
 }
+
+/*--------------------------------------------------------------
+    Block : Separator
+--------------------------------------------------------------*/
+.wp-block-separator {
+  background-color: currentColor;
+  width: 100px;
+
+  &.is-style-wide,
+  &.is-style-dots {
+    width: 100%;
+  }
+
+  &.has-background:not(.is-style-dots) {
+    height: 2px;
+  }
+}
