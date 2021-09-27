@@ -976,3 +976,17 @@ p.has-background {
 .post-navigation-link-next a:after {
   content: " >";
 }
+
+/*--------------------------------------------------------------
+    Block : Post Title
+--------------------------------------------------------------*/
+.wp-block-post-title {
+  a {
+    text-decoration: none;
+
+    &:hover,
+    &:focus {
+      text-decoration: underline;
+    }
+  }
+}
