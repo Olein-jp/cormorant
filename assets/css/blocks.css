@@ -375,18 +375,15 @@
 .wp-block-file a.wp-block-file__button:active, .wp-block-file a.wp-block-file__button:focus, .wp-block-file a.wp-block-file__button:hover, .wp-block-file a.wp-block-file__button:visited {
   opacity: 0.75;
 }
-
 .wp-block-file a.wp-block-file__button:focus, .wp-block-file a.wp-block-file__button:hover {
   text-decoration: underline;
 }
-
 /*--------------------------------------------------------------
     Block : Gallery
 --------------------------------------------------------------*/
 .blocks-gallery-grid {
   width: 100%;
 }
-
 /*--------------------------------------------------------------
     Block : Group
 --------------------------------------------------------------*/
@@ -400,6 +397,48 @@
 
 :root .wp-block-group.has-background {
   padding: calc(2 * var(--wp--custom--spacing--base));
+}
+
+/*--------------------------------------------------------------
+    Block : Heading
+--------------------------------------------------------------*/
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-feature-settings: "lnum";
+  font-variant-numeric: lining-nums;
+}
+
+h1.has-background,
+h2.has-background,
+h3.has-background,
+h4.has-background,
+h5.has-background,
+h6.has-background {
+  padding: 0.25em 0.4em;
+}
+
+h1.has-background.has-text-align-center,
+h2.has-background.has-text-align-center,
+h3.has-background.has-text-align-center,
+h4.has-background.has-text-align-center,
+h5.has-background.has-text-align-center,
+h6.has-background.has-text-align-center {
+  margin-right: auto !important;
+  margin-left: auto !important;
+}
+
+h1.has-background.has-text-align-right,
+h2.has-background.has-text-align-right,
+h3.has-background.has-text-align-right,
+h4.has-background.has-text-align-right,
+h5.has-background.has-text-align-right,
+h6.has-background.has-text-align-right {
+  margin-right: 0 !important;
+  margin-left: auto !important;
 }
 
 @media (min-width: 782px) {

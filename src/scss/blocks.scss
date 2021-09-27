@@ -636,3 +636,34 @@
     padding: calc(2 * var(--wp--custom--spacing--base));
   }
 }
+
+/*--------------------------------------------------------------
+    Block : Heading
+--------------------------------------------------------------*/
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-feature-settings: "lnum";
+  font-variant-numeric: lining-nums;
+
+  &.has-background {
+    padding: .25em .4em;
+
+    /* @todo Are they needed?
+    ------------------------------*/
+    //&.has-text-align-center {
+    //  margin-right: auto !important;
+    //  margin-left: auto !important;
+    //}
+
+    /* @todo Are they needed?
+    ------------------------------*/
+    //&.has-text-align-right {
+    //  margin-right: 0 !important;
+    //  margin-left: auto !important;
+    //}
+  }
+}
