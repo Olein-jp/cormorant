@@ -848,14 +848,12 @@ p.has-background {
 .wp-block-table {
   margin: 0;
 }
-
 .wp-block-table figcaption {
   color: var(--wp--preset--color--accent-color);
   font-size: var(--wp--preset--font-size--tiny);
   margin: calc(0.75 * var(--wp--custom--spacing--base)) 0 0 0;
   text-align: inherit;
 }
-
 /*--------------------------------------------------------------
     Block : Template Part
 --------------------------------------------------------------*/
@@ -870,6 +868,17 @@ p.has-background {
 }
 
 .wp-block-template-part.has-background > *:last-child, .wp-block-template-part.has-background > .wp-block:last-child > *:last-child {
+  margin-bottom: 0;
+}
+
+/*--------------------------------------------------------------
+    Block : Term Description
+--------------------------------------------------------------*/
+.wp-block-term-description > *:first-child {
+  margin-top: 0;
+}
+
+.wp-block-term-description > *:last-child {
   margin-bottom: 0;
 }
 

@@ -1308,3 +1308,16 @@ p.has-background {
     }
   }
 }
+
+/*--------------------------------------------------------------
+    Block : Term Description
+--------------------------------------------------------------*/
+.wp-block-term-description {
+  & > *:first-child {
+    margin-top: 0;
+  }
+
+  & > *:last-child {
+    margin-bottom: 0;
+  }
+}
