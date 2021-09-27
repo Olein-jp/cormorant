@@ -65,7 +65,7 @@ if ( ! function_exists( 'cormorant_styles' ) ) {
 			array(
 				'cormorant-styles-google-fonts',
 				'cormorant-styles-blocks',
-				'cormorant-styles-commons'
+				'cormorant-styles-commons',
 			)
 		);
 
@@ -87,7 +87,12 @@ if ( ! function_exists( 'cormorant_editor_styles' ) ) {
 	function cormorant_editor_styles() {
 
 		add_editor_style(
-			'./assets/css/editor.css'
+			array(
+				'./assets/css/editor.css',
+				'./assets/css/blocks.css',
+				'./assets/css/commons.css',
+				cormorant_get_google_fonts_url(),
+			)
 		);
 
 	}
