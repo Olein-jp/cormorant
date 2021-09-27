@@ -1068,3 +1068,35 @@ p.has-background {
     font-size: inherit;
   }
 }
+
+/*--------------------------------------------------------------
+    Block : Query Loop
+--------------------------------------------------------------*/
+.wp-block-query {
+  > *:first-child {
+    margin-top: 0;
+  }
+
+  > *:last-child {
+    margin-bottom: 0;
+  }
+}
+
+.wp-block-post-template {
+  margin: 0;
+}
+
+:root .wp-block-post-template {
+  > .wp-block-post {
+    margin: 0 0 calc(2 * var(--wp--custom--spacing--base));
+
+    > *:first-child {
+      margin-top: 0;
+    }
+
+    > *:last-child {
+      margin-bottom: 0;
+    }
+
+  }
+}
