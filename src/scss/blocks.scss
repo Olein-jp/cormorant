@@ -731,6 +731,7 @@ h6 {
 
 /*--------------------------------------------------------------
     Block : Latest Posts
+    @todo Preparing block style
 --------------------------------------------------------------*/
 .wp-block-latest-posts {
   & > li {
@@ -742,8 +743,6 @@ h6 {
     color: inherit;
     font-size: var(--wp--preset--font-size--tiny);
   }
-
-  /* @todo Preparing block style for this */
 }
 
 /*--------------------------------------------------------------
