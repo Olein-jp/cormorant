@@ -593,7 +593,6 @@ h6.has-background {
 p.has-background {
   padding: var(--wp--custom--spacing--base) calc(1.5 * var(--wp--custom--spacing--base));
 }
-
 /* Drop Cap */
 .has-drop-cap:not(:focus):first-letter {
   color: var(--wp--preset--color--accent-color);
@@ -612,6 +611,17 @@ p.has-background {
 
 .wp-block-post-date a:hover, .wp-block-post-date a:focus {
   text-decoration: underline;
+}
+
+/*--------------------------------------------------------------
+    Block : Post Excerpt
+--------------------------------------------------------------*/
+.wp-block-post-excerpt > *:first-child {
+  margin-top: 0;
+}
+
+.wp-block-post-excerpt > *:last-child {
+  margin-bottom: 0;
 }
 
 @media (min-width: 782px) {

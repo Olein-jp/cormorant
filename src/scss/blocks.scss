@@ -952,3 +952,16 @@ p.has-background {
     }
   }
 }
+
+/*--------------------------------------------------------------
+    Block : Post Excerpt
+--------------------------------------------------------------*/
+.wp-block-post-excerpt {
+  & > *:first-child {
+    margin-top: 0;
+  }
+
+  & > *:last-child {
+    margin-bottom: 0;
+  }
+}
