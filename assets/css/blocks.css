@@ -420,18 +420,15 @@ h6.has-background {
   /* @todo Are they needed?
   ------------------------------*/
 }
-
 /*--------------------------------------------------------------
     Block : Image
 --------------------------------------------------------------*/
 .wp-block-image.alignfull img, .wp-block-image .alignfull img {
   width: 100%;
 }
-
 .wp-block-image.alignleft, .wp-block-image .alignleft {
   margin: 0 calc(1.5 * var(--wp--custom--spacing--base));
 }
-
 .wp-block-image.alignright, .wp-block-image .alignright {
   margin: 0 0 calc(1.5 * var(--wp--custom--spacing--base)) calc(1.5 * var(--wp--custom--spacing--base));
 }
@@ -445,6 +442,31 @@ h6.has-background {
 :root .wp-block-image figcaption {
   margin-bottom: 0;
   margin-top: calc(0.7 * var(--wp--custom--spacing--base));
+}
+
+/*--------------------------------------------------------------
+    Block : Latest Comments
+--------------------------------------------------------------*/
+.wp-block-latest-comments > .wp-block-latest-comments__comment {
+  margin-left: 0;
+  margin-bottom: calc(2 * var(--wp--custom--spacing--base));
+}
+
+.wp-block-latest-comments__comment-excerpt {
+  margin-top: calc(0.5 * var(--wp--custom--spacing--base));
+}
+
+.wp-block-latest-comments__comment-date, .wp-block-latest-comments__comment-excerpt p {
+  font-size: var(--wp--preset--font-size--small);
+}
+
+.wp-block-latest-comments__comment-excerpt p {
+  line-height: var(--wp--custom--line-height--body);
+  margin: 0 0 1em;
+}
+
+.wp-block-latest-comments__comment-excerpt p:last-child {
+  margin-bottom: 0;
 }
 
 @media (min-width: 782px) {

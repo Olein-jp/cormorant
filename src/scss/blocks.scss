@@ -700,3 +700,31 @@ h6 {
     margin-top: calc(.7 * var(--wp--custom--spacing--base));
   }
 }
+
+/*--------------------------------------------------------------
+    Block : Latest Comments
+--------------------------------------------------------------*/
+.wp-block-latest-comments {
+  & > &__comment {
+    margin-left: 0;
+    margin-bottom: calc(2 * var(--wp--custom--spacing--base));
+  }
+
+  &__comment-excerpt {
+    margin-top: calc(.5 * var(--wp--custom--spacing--base));
+  }
+
+  &__comment-date,
+  &__comment-excerpt p {
+    font-size: var(--wp--preset--font-size--small);
+  }
+
+  &__comment-excerpt p {
+    line-height: var(--wp--custom--line-height--body);
+    margin: 0 0 1em;
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+}
