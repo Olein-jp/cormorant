@@ -789,17 +789,14 @@ p.has-background {
   margin-left: var(--wp--custom--spacing--base);
   min-width: 60px;
 }
-
 .wp-block-search .wp-block-search__button.has-icon {
   padding: 0;
 }
-
 .wp-block-search .wp-block-search__button svg {
   margin: auto;
   height: 40px;
   width: 40px;
 }
-
 /*--------------------------------------------------------------
     Block : Separator
 --------------------------------------------------------------*/
@@ -814,6 +811,24 @@ p.has-background {
 
 .wp-block-separator.has-background:not(.is-style-dots) {
   height: 2px;
+}
+
+/*--------------------------------------------------------------
+    Block : Site Logo
+--------------------------------------------------------------*/
+.wp-block-site-logo.aligncenter {
+  text-align: center;
+}
+
+/*--------------------------------------------------------------
+    Block : Site Title
+--------------------------------------------------------------*/
+.wp-block-site-title a {
+  text-decoration: none;
+}
+
+.wp-block-site-title a:focus, .wp-block-site-title a:hover {
+  text-decoration: underline;
 }
 
 @media (min-width: 782px) {

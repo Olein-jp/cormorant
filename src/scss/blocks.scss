@@ -1227,3 +1227,24 @@ p.has-background {
     height: 2px;
   }
 }
+
+/*--------------------------------------------------------------
+    Block : Site Logo
+--------------------------------------------------------------*/
+.wp-block-site-logo.aligncenter {
+  text-align: center;
+}
+
+/*--------------------------------------------------------------
+    Block : Site Title
+--------------------------------------------------------------*/
+.wp-block-site-title {
+  a {
+    text-decoration: none;
+
+    &:focus,
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}
