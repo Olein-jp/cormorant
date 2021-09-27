@@ -709,33 +709,28 @@ p.has-background {
 .wp-block-post-template {
   margin: 0;
 }
-
 :root .wp-block-post-template > .wp-block-post {
   margin: 0 0 calc(2 * var(--wp--custom--spacing--base));
 }
-
 :root .wp-block-post-template > .wp-block-post > *:first-child {
   margin-top: 0;
 }
-
 :root .wp-block-post-template > .wp-block-post > *:last-child {
   margin-bottom: 0;
 }
-
 /*--------------------------------------------------------------
     Block : Query Pagination
+    @todo Preparing to block styles
 --------------------------------------------------------------*/
 .wp-block-query-pagination {
   justify-content: space-between;
   width: 100%;
 }
-
 :root .wp-block-query-pagination a {
   display: block;
   margin: 0;
   text-decoration: none;
 }
-
 :root .wp-block-query-pagination a:hover, :root .wp-block-query-pagination a:focus {
   text-decoration: underline;
 }
@@ -751,6 +746,30 @@ p.has-background {
 
 :root .wp-block-query-pagination .wp-block-query-pagination-next:only-child {
   margin-left: auto;
+}
+
+/*--------------------------------------------------------------
+    Block : Quote
+--------------------------------------------------------------*/
+:root .wp-block-quote {
+  border-left: 2px solid currentColor;
+  padding: 0 0 0 var(--wp--custom--spacing--base);
+}
+
+:root .wp-block-quote.has-text-align-center {
+  border-width: 0;
+  padding: 0;
+}
+
+:root .wp-block-quote.has-text-align-right {
+  border: none;
+  border-right: 2px solid currentColor;
+  padding: 0 var(--wp--custom--spacing--base) 0 0;
+}
+
+:root .wp-block-quote cite {
+  font-size: var(--wp--preset--font-size--heading-6);
+  text-align: inherit;
 }
 
 @media (min-width: 782px) {
@@ -863,5 +882,13 @@ p.has-background {
   .wp-block-pullquote .wp-block-pullquote__citation {
     font-size: var(--wp--preset--font-size--normal);
     margin-top: calc(1.5 * var(--wp--custom--spacing--base));
+  }
+
+  :root .wp-block-quote {
+    padding: 0 0 0 calc(2 * var(--wp--custom--spacing--base));
+  }
+
+  :root .wp-block-quote.has-text-align-right {
+    padding: 0 calc(2 * var(--wp--custom--spacing--base)) 0 0;
   }
 }

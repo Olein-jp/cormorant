@@ -1136,3 +1136,35 @@ p.has-background {
   }
 
 }
+
+/*--------------------------------------------------------------
+    Block : Quote
+--------------------------------------------------------------*/
+:root .wp-block-quote {
+  border-left: 2px solid currentColor;
+  padding: 0 0 0 var(--wp--custom--spacing--base);
+
+  @media (min-width: 782px) {
+    padding: 0 0 0 calc(2 * var(--wp--custom--spacing--base));
+  }
+
+  &.has-text-align-center {
+    border-width: 0;
+    padding: 0;
+  }
+
+  &.has-text-align-right {
+    border: none;
+    border-right: 2px solid currentColor;
+    padding: 0 var(--wp--custom--spacing--base) 0 0;
+
+    @media (min-width: 782px) {
+      padding: 0 calc(2 * var(--wp--custom--spacing--base)) 0 0;
+    }
+  }
+
+  cite {
+    font-size: var(--wp--preset--font-size--heading-6);
+    text-align: inherit;
+  }
+}
