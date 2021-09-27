@@ -835,16 +835,13 @@ p.has-background {
 :root .wp-block-social-links.has-large-icon-size {
   font-size: var(--wp--preset--font-size--large);
 }
-
 :root .wp-block-social-links.has-huge-icon-size {
   font-size: var(--wp--preset--font-size--huge);
 }
-
 :root .wp-block-social-links .wp-block-social-link svg {
   height: calc(1em + 4px);
   width: calc(1em + 4px);
 }
-
 /*--------------------------------------------------------------
     Block : Table
 --------------------------------------------------------------*/
@@ -857,6 +854,23 @@ p.has-background {
   font-size: var(--wp--preset--font-size--tiny);
   margin: calc(0.75 * var(--wp--custom--spacing--base)) 0 0 0;
   text-align: inherit;
+}
+
+/*--------------------------------------------------------------
+    Block : Template Part
+--------------------------------------------------------------*/
+.wp-block-template-part.has-background {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding: var(--wp--custom--spacing--base) 0;
+}
+
+.wp-block-template-part.has-background > *:first-child, .wp-block-template-part.has-background > .wp-block:first-child > *:first-child {
+  margin-top: 0;
+}
+
+.wp-block-template-part.has-background > *:last-child, .wp-block-template-part.has-background > .wp-block:last-child > *:last-child {
+  margin-bottom: 0;
 }
 
 @media (min-width: 782px) {
