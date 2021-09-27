@@ -331,13 +331,11 @@
   margin-left: auto;
   width: 100%;
 }
-
 /* Reply Respond
 ------------------------------*/
 .commentlist .comment-respond {
   margin: calc(1.5 * var(--wp--custom--spacing--base)) 0 0;
 }
-
 /*--------------------------------------------------------------
     Block : Embed
 --------------------------------------------------------------*/
@@ -349,6 +347,44 @@
 .wp-block-embed .alignfull video,
 .wp-block-embed .alignfull iframe {
   width: 100%;
+}
+
+/*--------------------------------------------------------------
+    Block : Featured Image
+--------------------------------------------------------------*/
+.wp-block-post-featured-image a {
+  display: block;
+}
+
+.wp-block-post-featured-image img {
+  margin: 0 auto;
+}
+
+/*--------------------------------------------------------------
+    Block : File
+--------------------------------------------------------------*/
+.wp-block-file__content-wrapper {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+}
+
+.wp-block-file a.wp-block-file__button {
+  font-size: inherit;
+  font-weight: inherit;
+  line-height: inherit;
+}
+
+.wp-block-file a.wp-block-file__button:not(:only-child) {
+  margin-left: var(--wp--custom--spacing--base);
+}
+
+.wp-block-file a.wp-block-file__button:active, .wp-block-file a.wp-block-file__button:focus, .wp-block-file a.wp-block-file__button:hover, .wp-block-file a.wp-block-file__button:visited {
+  opacity: 0.75;
+}
+
+.wp-block-file a.wp-block-file__button:focus, .wp-block-file a.wp-block-file__button:hover {
+  text-decoration: underline;
 }
 
 @media (min-width: 782px) {

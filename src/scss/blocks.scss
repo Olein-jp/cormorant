@@ -576,3 +576,37 @@
     margin: 0 auto;
   }
 }
+
+/*--------------------------------------------------------------
+    Block : File
+--------------------------------------------------------------*/
+.wp-block-file {
+  &__content-wrapper {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  a.wp-block-file__button {
+    font-size: inherit;
+    font-weight: inherit;
+    line-height: inherit;
+
+    &:not(:only-child) {
+      margin-left: var(--wp--custom--spacing--base);
+    }
+
+    &:active,
+    &:focus,
+    &:hover,
+    &:visited {
+      opacity: .75;
+    }
+
+    &:focus,
+    &:hover {
+      text-decoration: underline;
+    }
+
+  }
+}
