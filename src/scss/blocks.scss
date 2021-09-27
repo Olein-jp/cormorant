@@ -1248,3 +1248,28 @@ p.has-background {
     }
   }
 }
+
+/*--------------------------------------------------------------
+    Block : Social Links
+--------------------------------------------------------------*/
+:root .wp-block-social-links {
+  gap: calc(.5 * var(--wp--custom--spacing--base));
+  font-size: var(--wp--preset--font-size--normal);
+
+  @media (min-width: 782px) {
+    gap: calc(1 * var(--wp--custom--spacing--base));
+  }
+
+  &.has-large-icon-size {
+    font-size: var(--wp--preset--font-size--large);
+  }
+
+  &.has-huge-icon-size {
+    font-size: var(--wp--preset--font-size--huge);
+  }
+
+  .wp-block-social-link svg {
+    height: calc(1em + 4px);
+    width: calc(1em + 4px);
+  }
+}
