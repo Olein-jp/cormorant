@@ -965,3 +965,14 @@ p.has-background {
     margin-bottom: 0;
   }
 }
+
+/*--------------------------------------------------------------
+    Block : Post Navigation
+--------------------------------------------------------------*/
+.post-navigation-link-previous a:before {
+  content: "< ";
+}
+
+.post-navigation-link-next a:after {
+  content: " >";
+}
