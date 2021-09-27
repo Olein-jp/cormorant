@@ -1,5 +1,16 @@
 /*--------------------------------------------------------------
-    This is comment
+    Setup
 --------------------------------------------------------------*/
-body {
+html, body {
+  border: none;
+  margin: 0;
+  padding: 0;
+}
+
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: inherit;
+  -moz-box-sizing: inherit;
+  box-sizing: inherit;
 }
