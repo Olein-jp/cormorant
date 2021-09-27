@@ -745,3 +745,32 @@ h6 {
 
   /* @todo Preparing block style for this */
 }
+
+/*--------------------------------------------------------------
+    Block : Media and Text
+    @todo Preparing block styles
+--------------------------------------------------------------*/
+.wp-block-media-text {
+  & &__content {
+    padding: var(--wp--custom--spacing--base);
+  }
+
+  &:not(.has-background):not(.is-stacked-on-mobile) &__content {
+    padding-top: 0;
+    padding-bottom: 0;
+    @media (min-width: 782px) {
+      padding-left: 0;
+      padding-right: 0;
+    }
+  }
+
+  :root &__content {
+    > *:first-child {
+      margin-top: 0;
+    }
+
+    > *:last-child {
+      margin-bottom: 0;
+    }
+  }
+}

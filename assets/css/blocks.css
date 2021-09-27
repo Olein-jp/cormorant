@@ -454,16 +454,13 @@ h6.has-background {
 .wp-block-latest-comments__comment-date, .wp-block-latest-comments__comment-excerpt p {
   font-size: var(--wp--preset--font-size--small);
 }
-
 .wp-block-latest-comments__comment-excerpt p {
   line-height: var(--wp--custom--line-height--body);
   margin: 0 0 1em;
 }
-
 .wp-block-latest-comments__comment-excerpt p:last-child {
   margin-bottom: 0;
 }
-
 /*--------------------------------------------------------------
     Block : Latest Posts
 --------------------------------------------------------------*/
@@ -478,6 +475,30 @@ h6.has-background {
 .wp-block-latest-posts__post-author, .wp-block-latest-posts__post-date {
   color: inherit;
   font-size: var(--wp--preset--font-size--tiny);
+}
+
+/*--------------------------------------------------------------
+    Block : Media and Text
+--------------------------------------------------------------*/
+.wp-block-media-text {
+  /* @todo Preparing block styles */
+}
+
+.wp-block-media-text .wp-block-media-text__content {
+  padding: var(--wp--custom--spacing--base);
+}
+
+.wp-block-media-text:not(.has-background):not(.is-stacked-on-mobile) .wp-block-media-text__content {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+:root .wp-block-media-text__content > *:first-child {
+  margin-top: 0;
+}
+
+:root .wp-block-media-text__content > *:last-child {
+  margin-bottom: 0;
 }
 
 @media (min-width: 782px) {
@@ -556,14 +577,22 @@ h6.has-background {
     content: "";
     display: block;
   }
+
   .comment-form-comment textarea {
     height: 170px;
   }
+
   .comment-respond input[type=submit] {
     width: auto;
   }
+
   .commentlist .comment-respond {
     margin-top: calc(3 * var(--wp--custom--spacing--base));
     padding: calc(3 * var(--wp--custom--spacing--base));
+  }
+
+  .wp-block-media-text:not(.has-background):not(.is-stacked-on-mobile) .wp-block-media-text__content {
+    padding-left: 0;
+    padding-right: 0;
   }
 }
