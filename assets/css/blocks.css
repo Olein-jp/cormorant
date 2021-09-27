@@ -734,20 +734,16 @@ p.has-background {
 :root .wp-block-query-pagination a:hover, :root .wp-block-query-pagination a:focus {
   text-decoration: underline;
 }
-
 :root .wp-block-query-pagination a + a {
   padding-left: 16px;
 }
-
 :root .wp-block-query-pagination .wp-block-query-pagination-next {
   margin-left: auto;
   text-align: right;
 }
-
 :root .wp-block-query-pagination .wp-block-query-pagination-next:only-child {
   margin-left: auto;
 }
-
 /*--------------------------------------------------------------
     Block : Quote
 --------------------------------------------------------------*/
@@ -755,7 +751,6 @@ p.has-background {
   border-left: 2px solid currentColor;
   padding: 0 0 0 var(--wp--custom--spacing--base);
 }
-
 :root .wp-block-quote.has-text-align-center {
   border-width: 0;
   padding: 0;
@@ -770,6 +765,44 @@ p.has-background {
 :root .wp-block-quote cite {
   font-size: var(--wp--preset--font-size--heading-6);
   text-align: inherit;
+}
+
+/*--------------------------------------------------------------
+    Block : Search
+--------------------------------------------------------------*/
+.wp-block-search__label {
+  display: block;
+  font-size: var(--wp--preset--font-size--small);
+  font-weight: var(--wp--custom--font-weight--bold);
+  margin: 0 0 calc(0.5 * var(--wp--custom--spacing--base)) 0;
+}
+
+.wp-block-search .wp-block-search__inside-wrapper, .wp-block-search .wp-block-search__input, .wp-block-search .wp-block-search__button {
+  background-color: var(--wp--preset--color--accent-color);
+  border: 2px solid var(--wp--preset--color--accent-color);
+  font-size: var(--wp--preset--font-size--small);
+  padding: 15px 18px;
+}
+
+.wp-block-search .wp-block-search__button {
+  align-items: center;
+  color: var(--wp--preset--color--white);
+  display: flex;
+  flex-shrink: 0;
+  font-weight: var(--wp--custom--font-weight--bold);
+  justify-content: center;
+  margin-left: var(--wp--custom--spacing--base);
+  min-width: 60px;
+}
+
+.wp-block-search .wp-block-search__button.has-icon {
+  padding: 0;
+}
+
+.wp-block-search .wp-block-search__button svg {
+  margin: auto;
+  height: 40px;
+  width: 40px;
 }
 
 @media (min-width: 782px) {
@@ -887,7 +920,6 @@ p.has-background {
   :root .wp-block-quote {
     padding: 0 0 0 calc(2 * var(--wp--custom--spacing--base));
   }
-
   :root .wp-block-quote.has-text-align-right {
     padding: 0 calc(2 * var(--wp--custom--spacing--base)) 0 0;
   }
