@@ -1273,3 +1273,17 @@ p.has-background {
     width: calc(1em + 4px);
   }
 }
+
+/*--------------------------------------------------------------
+    Block : Table
+--------------------------------------------------------------*/
+.wp-block-table {
+  margin: 0;
+
+  figcaption {
+    color: var(--wp--preset--color--accent-color);
+    font-size: var(--wp--preset--font-size--tiny);
+    margin: calc(.75 * var(--wp--custom--spacing--base)) 0 0 0;
+    text-align: inherit;
+  }
+}
