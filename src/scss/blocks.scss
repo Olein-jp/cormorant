@@ -922,3 +922,19 @@ h6 {
     margin-bottom: 0;
   }
 }
+
+/*--------------------------------------------------------------
+    Block : Paragraph
+--------------------------------------------------------------*/
+p.has-background {
+  padding: var(--wp--custom--spacing--base) calc(1.5 * var(--wp--custom--spacing--base));
+}
+
+/* Drop Cap */
+.has-drop-cap:not(:focus):first-letter {
+  color: var(--wp--preset--color--accent-color);
+  font-size: 3.5em;
+  font-weight: var(---wp--custom--font-weight--bold);
+  padding: .2em 0;
+  text-align: center;
+}
