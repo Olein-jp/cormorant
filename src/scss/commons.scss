@@ -236,8 +236,9 @@ pre {
 
 .l-site-content {
   width: 100%;
-  margin: 0;
   padding: 0 calc(1 * var(--wp--custom--spacing--base));
+  margin-top: 0;
+  margin-bottom: 0;
   @media (min-width: 782px) {
     padding: 0;
   }
