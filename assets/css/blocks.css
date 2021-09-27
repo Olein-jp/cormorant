@@ -643,6 +643,8 @@ p.has-background {
 --------------------------------------------------------------*/
 .wp-block-pullquote {
   text-align: inherit;
+  border-top: none;
+  border-bottom: none;
 }
 .wp-block-pullquote blockquote {
   border: none;
@@ -862,26 +864,21 @@ p.has-background {
   margin-bottom: 0;
   padding: var(--wp--custom--spacing--base) 0;
 }
-
 .wp-block-template-part.has-background > *:first-child, .wp-block-template-part.has-background > .wp-block:first-child > *:first-child {
   margin-top: 0;
 }
-
 .wp-block-template-part.has-background > *:last-child, .wp-block-template-part.has-background > .wp-block:last-child > *:last-child {
   margin-bottom: 0;
 }
-
 /*--------------------------------------------------------------
     Block : Term Description
 --------------------------------------------------------------*/
 .wp-block-term-description > *:first-child {
   margin-top: 0;
 }
-
 .wp-block-term-description > *:last-child {
   margin-bottom: 0;
 }
-
 @media (min-width: 782px) {
   .wp-block-buttons {
     -moz-column-gap: calc(2 * var(--wp--custom--spacing--base));

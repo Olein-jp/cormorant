@@ -996,6 +996,8 @@ p.has-background {
 --------------------------------------------------------------*/
 .wp-block-pullquote {
   text-align: inherit;
+  border-top: none;
+  border-bottom: none;
 
   blockquote {
     border: none;
