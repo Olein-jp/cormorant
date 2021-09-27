@@ -420,6 +420,33 @@ h6.has-background {
   /* @todo Are they needed?
   ------------------------------*/
 }
+
+/*--------------------------------------------------------------
+    Block : Image
+--------------------------------------------------------------*/
+.wp-block-image.alignfull img, .wp-block-image .alignfull img {
+  width: 100%;
+}
+
+.wp-block-image.alignleft, .wp-block-image .alignleft {
+  margin: 0 calc(1.5 * var(--wp--custom--spacing--base));
+}
+
+.wp-block-image.alignright, .wp-block-image .alignright {
+  margin: 0 0 calc(1.5 * var(--wp--custom--spacing--base)) calc(1.5 * var(--wp--custom--spacing--base));
+}
+
+.wp-block-image img {
+  display: block;
+  height: auto;
+  margin: 0;
+}
+
+:root .wp-block-image figcaption {
+  margin-bottom: 0;
+  margin-top: calc(0.7 * var(--wp--custom--spacing--base));
+}
+
 @media (min-width: 782px) {
   .wp-block-buttons {
     -moz-column-gap: calc(2 * var(--wp--custom--spacing--base));

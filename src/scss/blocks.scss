@@ -667,3 +667,36 @@ h6 {
     //}
   }
 }
+
+/*--------------------------------------------------------------
+    Block : Image
+--------------------------------------------------------------*/
+.wp-block-image {
+  &.alignfull,
+  & .alignfull {
+    img {
+      width: 100%;
+    }
+  }
+
+  &.alignleft,
+  & .alignleft {
+    margin: 0 calc(1.5 * var(--wp--custom--spacing--base));
+  }
+
+  &.alignright,
+  & .alignright {
+    margin: 0 0 calc(1.5 * var(--wp--custom--spacing--base)) calc(1.5 * var(--wp--custom--spacing--base));
+  }
+
+  img {
+    display: block;
+    height: auto;
+    margin: 0;
+  }
+
+  :root & figcaption {
+    margin-bottom: 0;
+    margin-top: calc(.7 * var(--wp--custom--spacing--base));
+  }
+}
