@@ -1,8 +1,6 @@
 {
-  "name": "cormorant",
-  "version": "1.0.0",
-  "description": "This theme is designed as a block theme to support WordPress full site editing.",
-  "main": "index.php",
+  "author": "Koji Kuno",
+  "license": "GPL-2.0+",
   "scripts": {
     "wp-env": "wp-env",
     "start": "wp-env start && open http://localhost:8888",
@@ -17,18 +15,12 @@
     "clean": "rimraf assets",
     "compile:css": "sass src/scss:assets/css/ --no-source-map --style expanded && postcss assets/css/*.css -r",
     "compile": "npm run clean && npm-run-all -s compile:*",
-    "build": "npm run check && npm run compile"
+    "build": "npm run check && npm run compile",
+    "clean:zip": "rimraf cormorant.zip",
+    "zip:pack": "rsync -a --exclude='/vendor' --exclude='/node_modules' --exclude='.*' --exclude='*.config.js' --exclude='*.xml.dist' --exclude='*.ruleset.xml' --exclude='package*.json' . cormorant && cd cormorant && composer install --no-dev",
+    "zip:archive": "zip -9 -qmr cormorant.zip cormorant",
+    "zip": "npm run clean:zip && npm run zip:pack && npm run zip:archive"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Olein-jp/cormorant.git"
-  },
-  "author": "Koji Kuno",
-  "license": "GPL-2.0+",
-  "bugs": {
-    "url": "https://github.com/Olein-jp/cormorant/issues"
-  },
-  "homepage": "https://github.com/Olein-jp/cormorant#readme",
   "devDependencies": {
     "@wordpress/env": "^4.1.1",
     "@wordpress/scripts": "^18.0.1",
