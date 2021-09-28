@@ -58,11 +58,11 @@ if ( ! function_exists( 'cormorant_register_block_patterns' ) ) {
 			array(
 
 				/* Call to Action */
-				'cormorant/cta-horizontal' => array(
-					'title'         => esc_html( 'Horizontal call to action.', 'cormorant' ),
+				'cormorant/cta-text-button' => array(
+					'title'         => esc_html( 'Text and Button', 'cormorant' ),
 					'categories'    => array( 'cormorant-cta' ),
 					'viewportWidth' => $viewport['wide'],
-					'content'       => cormorant_get_block_pattern_markup( 'cta/cta-horizontal' ),
+					'content'       => cormorant_get_block_pattern_markup( 'cta/text-button' ),
 				),
 
 			)
