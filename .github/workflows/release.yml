@@ -47,13 +47,14 @@ jobs:
             ${{ runner.os }}-composer-${{ env.cache-name }}-
             ${{ runner.os }}-composer-
             ${{ runner.os }}-
+
       - name: Composer install
         run: composer install
 
-      - name: Build project
+      - name: Npm build
         run: npm run build
 
-      - name: Archive
+      - name: Create zip file
         run: npm run zip
 
       - name: Create Release

@@ -18,7 +18,7 @@
     "compile:css": "sass src/scss:assets/css/ --no-source-map --style expanded && postcss assets/css/*.css -r",
     "compile": "npm run clean && npm-run-all -s compile:*",
     "build": "npm run check && npm run compile",
-    "zip:pack": "npm run clean-zip-directory && rsync -a --exclude='/vendor' --exclude='/node_modules' --exclude='.*' --exclude='*.config.js' --exclude='*.xml.dist' --exclude='*.ruleset.xml' --exclude='package*.json' . cormorant && cd cormorant && composer install --no-dev",
+    "zip:pack": "npm run clean-zip-directory && rsync -a --exclude='/vendor' --exclude='/node_modules' --exclude='.*' --exclude='*.config.js' --exclude='*.xml.dist' --exclude='*.ruleset.xml' --exclude='package*.json' ./ cormorant",
     "zip:archive": "npm run clean-zip && zip -9 -qmr cormorant.zip cormorant",
     "zip": "npm run zip:pack && cd cormorant && composer install --no-dev && cd ../ && npm run zip:archive"
   },
