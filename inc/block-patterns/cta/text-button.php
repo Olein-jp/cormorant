@@ -7,7 +7,7 @@
 ?>
 <!-- wp:group {"align":"wide","style":{"border":{"style":"solid","width":"4px"}},"borderColor":"recommended-color-02","backgroundColor":"white"} -->
 <div class="wp-block-group alignwide has-border-color has-recommended-color-02-border-color has-white-background-color has-background"
-	 style="border-style:solid;border-width:4px">
+	 style="border-style:solid; border-width:4px">
 	<!-- wp:paragraph {"align":"center"} -->
 	<p class="has-text-align-center">Eu per primis facilisis venenatis neque nisl integer, faucibus egestas rhoncus
 		malesuada hendrerit eget aliquam volutpat, vehicula pharetra class quam quisque ac. Habitasse integer libero
