@@ -6,8 +6,7 @@
  */
 ?>
 <!-- wp:group {"align":"wide","style":{"border":{"style":"solid","width":"4px"}},"borderColor":"recommended-color-02","backgroundColor":"white"} -->
-<div class="wp-block-group alignwide has-border-color has-recommended-color-02-border-color has-white-background-color has-background"
-	 style="border-style:solid; border-width:4px">
+<div class="wp-block-group alignwide has-border-color has-recommended-color-02-border-color has-white-background-color has-background" style="border-style:solid; border-width:4px">
 	<!-- wp:paragraph {"align":"center"} -->
 	<p class="has-text-align-center">Eu per primis facilisis venenatis neque nisl integer, faucibus egestas rhoncus
 		malesuada hendrerit eget aliquam volutpat, vehicula pharetra class quam quisque ac. Habitasse integer libero
@@ -20,8 +19,7 @@
 	<!-- wp:buttons {"contentJustification":"center"} -->
 	<div class="wp-block-buttons is-content-justification-center">
 		<!-- wp:button {"style":{"typography":{"fontFamily":"var:preset|font-family|noto-sans"}},"fontSize":"large"} -->
-		<div class="wp-block-button has-custom-font-size has-large-font-size"
-			 style="font-family:var(--wp--preset--font-family--noto-sans)">
+		<div class="wp-block-button has-custom-font-size has-large-font-size" style="font-family:var(--wp--preset--font-family--noto-sans)">
 			<a class="wp-block-button__link">Button</a>
 		</div>
 		<!-- /wp:button -->
