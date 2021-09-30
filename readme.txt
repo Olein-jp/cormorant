@@ -47,3 +47,7 @@ Version 0.0.5(2021-09-30)
 --------------------
 - Changed text on readme.txt
 - Changed screenshot.png size to 1200x800
+
+Version 0.0.6(2021-09-30)
+--------------------
+- Changed package.json scripts for release archive file in developing environment

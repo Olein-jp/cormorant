@@ -18,9 +18,9 @@
     "compile:css": "sass src/scss:assets/css/ --no-source-map --style expanded && postcss assets/css/*.css -r",
     "compile": "npm run clean && npm-run-all -s compile:*",
     "build": "npm run check && npm run compile",
-    "zip:pack": "npm run clean-zip-directory && rsync -a --exclude='/vendor' --exclude='/node_modules' --exclude='.*' --exclude='*.config.js' --exclude='*.xml.dist' --exclude='*.ruleset.xml' --exclude='package*.json' ./ cormorant",
+    "zip:pack": "npm run clean-zip-directory && rsync -a --exclude='/vendor' --exclude='/node_modules' --exclude='/src' --exclude='.idea' --exclude='/.git' --exclude='.*' --exclude='*.config.js' --exclude='*.xml.dist' --exclude='*.ruleset.xml' --exclude='package.json' --exclude='package-lock.json' --exclude='composer.json' --exclude='composer.lock' ./ cormorant",
     "zip:archive": "npm run clean-zip && zip -9 -qmr cormorant.zip cormorant",
-    "zip": "npm run zip:pack && cd cormorant && composer install --no-dev && cd ../ && npm run zip:archive"
+    "zip": "npm run zip:pack && npm run zip:archive"
   },
   "devDependencies": {
     "@wordpress/env": "^4.1.1",
