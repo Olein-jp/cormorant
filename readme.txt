@@ -51,3 +51,7 @@ Version 0.0.5(2021-09-30)
 Version 0.0.6(2021-09-30)
 --------------------
 - Changed package.json scripts for release archive file in developing environment
+
+Version 0.0.7(2021-10-01)
+--------------------
+- remove hidden files by reviewer
