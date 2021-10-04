@@ -57,12 +57,34 @@ if ( ! function_exists( 'cormorant_register_block_patterns' ) ) {
 			'cormorant_block_patterns',
 			array(
 
-				/* Call to Action */
-				'cormorant/cta-text-button' => array(
+				/*
+				 * cta/text-button
+				 */
+				'cormorant/cta-text-button'            => array(
 					'title'         => esc_html( 'Text and Button', 'cormorant' ),
 					'categories'    => array( 'cormorant-cta' ),
 					'viewportWidth' => $viewport['wide'],
 					'content'       => cormorant_get_block_pattern_markup( 'cta/text-button' ),
+				),
+
+				/*
+				 * cta/left-text-right-button
+				 */
+				'cormorant/cta-left-text-right-button' => array(
+					'title'         => esc_html( 'Left Text and Right Button', 'cormorant' ),
+					'categories'    => array( 'cormorant-cta' ),
+					'viewportWidth' => $viewport['wide'],
+					'content'       => cormorant_get_block_pattern_markup( 'cta/left-text-right-button' ),
+				),
+
+				/*
+				 * cta/left-button-right-text
+				 */
+				'cormorant/cta-left-button-right-text' => array(
+					'title'         => esc_html( 'Left Button and Right Text', 'cormorant' ),
+					'categories'    => array( 'cormorant-cta' ),
+					'viewportWidth' => $viewport['wide'],
+					'content'       => cormorant_get_block_pattern_markup( 'cta/left-button-right-text' ),
 				),
 
 			)
