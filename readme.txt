@@ -30,6 +30,10 @@ Included as part of:
 	- cormorant_get_google_fonts_url(), for building a Google Fonts request URL from fonts set in theme.json
 
 == Changelog ==
+Version 0.0.10(2021-10-16)
+--------------------
+- Changed site title font size
+
 Version 0.0.9(2021-10-04)
 --------------------
 - Added Block Patterns(Left Text and Right Button/Left Button and Right Text)
