@@ -30,6 +30,10 @@ Included as part of:
 	- cormorant_get_google_fonts_url(), for building a Google Fonts request URL from fonts set in theme.json
 
 == Changelog ==
+Version 0.0.11(2021-10-18)
+--------------------
+- Fixed bugs at navigation and menu on mobile
+
 Version 0.0.10(2021-10-16)
 --------------------
 - Changed site title font size
