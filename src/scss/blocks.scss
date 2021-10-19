@@ -1242,7 +1242,9 @@ p.has-background {
 --------------------------------------------------------------*/
 .wp-block-site-title {
   a {
+    display: inline-block;
     text-decoration: none;
+    width: 100%;
 
     &:focus,
     &:hover {
