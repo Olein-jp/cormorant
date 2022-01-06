@@ -154,6 +154,26 @@ if ( ! function_exists( 'cormorant_get_google_fonts_url' ) ) {
 /**
  * Block patterns.
  */
+function cormorant_register_block_patterns() {
+	$block_pattern_categories = array(
+		'featured' => array( 'label' => __( 'Featured', 'cormorant' ) ),
+		'footer'   => array( 'label' => __( 'Footers', 'cormorant' ) ),
+		'header'   => array( 'label' => __( 'Headers', 'cormorant' ) ),
+		'query'    => array( 'label' => __( 'Query', 'cormorant' ) ),
+		'pages'    => array( 'label' => __( 'Pages', 'cormorant' ) ),
+	);
+	/**
+	 * Filters the theme block pattern categories.
+	 */
+	$block_pattern_categories = apply_filters( 'cormorant_block_pattern_categories', $block_pattern_categories );
+
+	foreach ( $block_pattern_categories as $name => $properties ) {
+		if ( WP_Block_Pattern_Categories_Registry::get_instance()->is_registered( $name ) ) {
+			register_block_pattern_category( $name. $properties );
+		}
+	}
+}
+
 if ( function_exists( 'register_block_pattern' ) ) {
 	require get_template_directory() . '/inc/block-patterns/block-patterns.php';
 }
