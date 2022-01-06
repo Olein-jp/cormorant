@@ -1,6 +1,7 @@
 {
   "version":1,
   "settings": {
+    "appearanceTools": true,
     "border": {
       "customColor": true,
       "customRadius": true,
