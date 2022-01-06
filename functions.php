@@ -161,6 +161,7 @@ function cormorant_register_block_patterns() {
 		'header'   => array( 'label' => __( 'Headers', 'cormorant' ) ),
 		'query'    => array( 'label' => __( 'Query', 'cormorant' ) ),
 		'pages'    => array( 'label' => __( 'Pages', 'cormorant' ) ),
+		'cta'      => array( 'label' => __( 'CTA', 'cormorant' ) ),
 	);
 	/**
 	 * Filters the theme block pattern categories.
@@ -168,19 +169,40 @@ function cormorant_register_block_patterns() {
 	$block_pattern_categories = apply_filters( 'cormorant_block_pattern_categories', $block_pattern_categories );
 
 	foreach ( $block_pattern_categories as $name => $properties ) {
-		if ( WP_Block_Pattern_Categories_Registry::get_instance()->is_registered( $name ) ) {
-			register_block_pattern_category( $name. $properties );
+		if ( ! WP_Block_Pattern_Categories_Registry::get_instance()->is_registered( $name ) ) {
+			register_block_pattern_category( $name, $properties );
 		}
 	}
-}
 
-if ( function_exists( 'register_block_pattern' ) ) {
-	require get_template_directory() . '/inc/block-patterns/block-patterns.php';
+	$block_patterns = array(
+		'cta-text-button',
+		'cta-left-text-right-button',
+		'cta-left-button-right-text'
+	);
+
+	/**
+	 * Filter the theme block patterns.
+	 */
+	$block_patterns = apply_filters( 'cormorant_block_patterns', $block_patterns );
+
+	foreach ( $block_patterns as $block_pattern ) {
+		$pattern_file = get_theme_file_path( '/inc/patterns/' . $block_pattern . '.php' );
+
+		register_block_pattern(
+			'cormorant/' . $block_pattern,
+			require $pattern_file
+		);
+	}
 }
+add_action( 'init', 'cormorant_register_block_patterns', 9 );
+
+//if ( function_exists( 'register_block_pattern' ) ) {
+//	require get_template_directory() . '/inc/block-patterns/block-patterns.php';
+//}
 
 /**
  * Block styles..
  */
-if ( function_exists( 'register_block_style' ) ) {
-	require get_template_directory() . '/inc/block-styles/block-styles.php';
-}
+//if ( function_exists( 'register_block_style' ) ) {
+//	require get_template_directory() . '/inc/block-styles/block-styles.php';
+//}
