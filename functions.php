@@ -175,14 +175,3 @@ function cormorant_register_block_patterns() {
 	}
 }
 add_action( 'init', 'cormorant_register_block_patterns', 9 );
-
-//if ( function_exists( 'register_block_pattern' ) ) {
-//	require get_template_directory() . '/inc/block-patterns/block-patterns.php';
-//}
-
-/**
- * Block styles..
- */
-//if ( function_exists( 'register_block_style' ) ) {
-//	require get_template_directory() . '/inc/block-styles/block-styles.php';
-//}
