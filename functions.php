@@ -12,29 +12,8 @@ if ( ! function_exists( 'cormorant_setup' ) ) {
 	 */
 	function cormorant_setup() {
 
-		load_theme_textdomain( 'cormorant', get_template_directory() . '/languages' );
-
-		// Add default posts and comments RSS feed links to head.
-		add_theme_support( 'automatic-feed-links' );
-
-		// Add support for responsive embedded content.
-		add_theme_support( 'responsive-embeds' );
-
-		// Add support for editor styles.
-		add_theme_support( 'editor-styles' );
-
-		// Add support for post thumbnails.
-		add_theme_support( 'post-thumbnails' );
-		set_post_thumbnail_size( 1800, 9999 );
-
-		// HTML5 semantic markup.
-		add_theme_support(
-			'html5',
-			array(
-				'comment-form',
-				'comment-list',
-			)
-		);
+		// Add support for block styles.
+		add_theme_support( 'wp-block-styles' );
 	}
 }
 add_action( 'after_setup_theme', 'cormorant_setup' );
@@ -88,6 +67,7 @@ if ( ! function_exists( 'cormorant_editor_styles' ) ) {
 
 		add_editor_style(
 			array(
+				'style.css',
 				'./assets/css/editor.css',
 				'./assets/css/blocks.css',
 				'./assets/css/commons.css',
