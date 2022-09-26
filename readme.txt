@@ -1,38 +1,37 @@
 == cormorant ==
 Contributors: Koji Kuno
-Requires at least: 5.8
+Donate link: https://www.amazon.co.jp/hz/wishlist/ls/WH93ZBVDA08I
+Requires at least: 6.1
 Requires PHP: 5.6
-Tested up to: 5.8
+Tested up to: 6.1
 Stable tag: trunk
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
 == Installation ==
-1. Upload the theme
-2. Make sure the Gutenberg plugin (version 11.5 or newer) is active
+1. Make sure you're running WordPress 6.1 or later.
+2. Upload the theme
 3. Activate the theme
 
 == Licenses ==
-Cormorant is derived from the TT1 Blocks theme, Copyright (c) 2020 WordPress.org.
-and the Tove Blocks theme which licensed by GPLv2 or later(https://wordpress.org/themes/tove/).
+Cormorant which is WordPress theme is licensed by GPLv2 or later.
 
 Cormorant bundles the following third-party resources:
 
-Noto Sans Japanese
+BIZ UDPGothic
 License: SIL Open Font License, 1.1, https://opensource.org/licenses/OFL-1.1
-Source: https://fonts.google.com/noto/specimen/Noto+Sans+JP
-
-Code from Blockbase
-Copyright (c) 2021 Automattic Inc.
-License: GPLv2, https://www.gnu.org/licenses/gpl-2.0.html
-Source: https://wordpress.org/themes/blockbase/
-Included as part of:
-	- cormorant_get_google_fonts_url(), for building a Google Fonts request URL from fonts set in theme.json
+Source: https://fonts.google.com/specimen/BIZ+UDPGothic
 
 == Changelog ==
+Version 1.0.0
+--------------------
+- Changed almost styles via theme.json
+- Renewal color palette
+- Added gradients
+
 Version 0.0.12(2021-10-19)
 --------------------
-- Changed come styles
+- Changed some styles
 - Added page template parts of header-vertical layout
 - Changed markup of around navigation
 
