@@ -1,9 +1,9 @@
 /*
 Theme Name: Cormorant
-Theme URI: https://github.com/Olein-jp/cormorant
-description: This theme is designed as a block theme to support WordPress full site editing. Gifu City in Gifu Prefecture, Japan is famous for a traditional event called Ukai (cormorant fishing). That's how I came up with the name. You must have the Gutenberg Plugin Activate to use this theme before ready for full site editing on released WordPress.
+Theme URI: https://cormorant.kunokoji.com
+description: This theme is designed as a block theme to support WordPress full site editing. Gifu City in Gifu Prefecture, Japan is famous for a traditional fishing method called Ukai (cormorant fishing). That's how I came up with the name. Simple design. So you can use for blog, single page for business, self portfolio, and more.
 Author: Koji Kuno
-Author URI: https://olein-design.com
+Author URI: https://kunokoji.com
 Tags: blog, grid-layout, one-column, two-columns, three-columns, four-columns, custom-background, custom-colors, custom-logo, custom-menu, editor-style, featured-images, sticky-post, threaded-comments, translation-ready, block-styles, wide-blocks, full-site-editing
 Version: 1.0.0
 Requires PHP: 5.6
@@ -12,34 +12,3 @@ License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Text Domain: cormorant
  */
-
-/**
-Alignment styles.
- */
-body > .is-root-container,
-.edit-post-visual-editor__post-title-wrapper,
-.wp-block-group.alignfull,
-.wp-block-cover.alignfull,
-.is-root-container .wp-block[data-align="full"] > .wp-block-group,
-.is-root-container .wp-block[data-align="full"] > .wp-block-cover {
-    padding-left: var(--wp--custom--spacing--base);
-    padding-right: var(--wp--custom--spacing--base);
-}
-
-.wp-site-blocks .alignfull,
-.is-root-container .wp-block[data-align="full"] {
-    margin-left: calc(-1 * var(--wp--custom--spacing--base)) !important;
-    margin-right: calc(-1 * var(--wp--custom--spacing--base)) !important;
-    width: unset;
-}
-
-/* Blocks inside columns don't have negative margins. */
-.wp-site-blocks .wp-block-columns .wp-block-column .alignfull,
-.is-root-container .wp-block-columns .wp-block-column .wp-block[data-align="full"],
-    /* We also want to avoid stacking negative margins. */
-.wp-site-blocks .alignfull:not(.wp-block-group) .alignfull,
-.is-root-container .wp-block[data-align="full"] > *:not(.wp-block-group) .wp-block[data-align="full"] {
-    margin-left: auto !important;
-    margin-right: auto !important;
-    width: inherit;
-}
