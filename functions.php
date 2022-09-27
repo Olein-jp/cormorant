@@ -40,7 +40,12 @@ if ( ! function_exists( 'cormorant_editor_styles' ) ) {
 	 * Enqueue editor styles
 	 */
 	function cormorant_editor_styles() {
-		add_editor_style( 'style.css' );
+		add_editor_style( 'assets/css/style.css' );
 	}
 	add_action( 'admin_init', 'cormorant_editor_styles' );
 }
+
+/**
+ * Include Registration of Block Styles
+ */
+require 'inc/block-styles/block-styles.php';

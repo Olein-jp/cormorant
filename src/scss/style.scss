@@ -1,6 +1,14 @@
 /*--------------------------------------------------------------
     Setup
 --------------------------------------------------------------*/
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+}
+
 input,
 textarea,
 select {
@@ -62,4 +70,46 @@ label {
 
 @media ( min-width: 782px ) {
 
+}
+
+/*--------------------------------------------------------------
+    Block Styles
+--------------------------------------------------------------*/
+/* Color Palette
+------------------------------*/
+$colors: foreground, background, primary, secondary, tertiary, quaternary;
+
+/* core/separator
+------------------------------*/
+@each $color in $colors {
+  .is-style-cormorant-#{$color}-striped-separator {
+    background-image: repeating-linear-gradient(135deg, transparent, transparent 10px, var( --wp--preset--color--#{$color} ) 10px, var( --wp--preset--color--#{$color} ) 20px);
+    background-color: transparent;
+    height: 15px;
+    border-bottom: none;
+    &:not(.is-style-wide):not(.is-style-dots) {
+      width: 100%;
+    }
+  }
+}
+
+/* core/image
+------------------------------*/
+@each $color in $colors {
+  .is-style-cormorant-#{$color}-striped-image-background {
+    background-image: repeating-linear-gradient(135deg, transparent, transparent 10px, var( --wp--preset--color--#{$color} ) 10px, var( --wp--preset--color--#{$color} ) 20px);
+    & > img {
+      border-color: var( --wp--preset--color--#{$color} );
+    }
+
+    padding: clamp( 10px, 1vw, 2vw );
+    & > img {
+      border: 2px solid;
+    }
+    & > figcaption {
+      margin: 0;
+      padding: .2em;
+      background-color: var( --wp--preset--color--background );
+    }
+  }
 }
