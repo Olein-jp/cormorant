@@ -77,6 +77,31 @@ if ( ! function_exists( 'cormorant_register_block_styles' ) ) {
 				'name'   => 'cormorant-foreground-striped-heading',
 				'label'  => esc_html__( 'Foreground Stripe', 'cormorant' ),
 			],
+			[
+				'target' => 'core/query-pagination',
+				'name'   => 'cormorant-foreground-block-pagination',
+				'label'  => esc_html__( 'Foreground Block', 'cormorant' ),
+			],
+			[
+				'target' => 'core/query-pagination',
+				'name'   => 'cormorant-primary-block-pagination',
+				'label'  => esc_html__( 'Primary Block', 'cormorant' ),
+			],
+			[
+				'target' => 'core/query-pagination',
+				'name'   => 'cormorant-secondary-block-pagination',
+				'label'  => esc_html__( 'Secondary Block', 'cormorant' ),
+			],
+			[
+				'target' => 'core/query-pagination',
+				'name'   => 'cormorant-tertiary-block-pagination',
+				'label'  => esc_html__( 'Tertiary Block', 'cormorant' ),
+			],
+			[
+				'target' => 'core/query-pagination',
+				'name'   => 'cormorant-quaternary-block-pagination',
+				'label'  => esc_html__( 'Quaternary Block', 'cormorant' ),
+			],
 		];
 
 		foreach ( $block_styles as $block_style ) {

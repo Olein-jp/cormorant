@@ -325,6 +325,11 @@
           "slug": "heading-6",
           "size": "clamp(20px, 1.666vw, 26px)",
           "name": "Heading 6"
+        },
+        {
+          "slug": "site-title",
+          "size": "clamp(36px, 6.666vw, 96px)",
+          "name": "Site Title"
         }
       ]
     }
@@ -444,7 +449,7 @@
         },
         "typography": {
           "fontFamily": "inherit",
-          "fontSize": "var( --wp--preset--font-size--gigantic )",
+          "fontSize": "var( --wp--preset--font-size--site-title )",
           "fontStyle": "inherit",
           "fontWeight": "700",
           "textTransform": "inherit"
@@ -567,7 +572,19 @@
       "lineHeight": "var( --wp--custom--typography--line-height--body )"
     }
   },
-  "customTemplates": [],
+  "customTemplates": [
+    {
+      "name": "template-blank",
+      "title": "Blank Template"
+    },
+    {
+      "name": "page-full-width-feature-image",
+      "title": "Full Width Feature Image",
+      "postTypes": [
+        "page"
+      ]
+    }
+  ],
   "templateParts": [
     {
       "title": "Header",
@@ -582,6 +599,11 @@
     {
       "title": "Header - with tagline and menu",
       "name": "header-with-tagline-and-menu",
+      "area": "header"
+    },
+    {
+      "title": "Header - site title and overlay menu",
+      "name": "header-site-title-and-overlay-menu",
       "area": "header"
     },
     {

@@ -22,6 +22,12 @@ BIZ UDPGothic
 License: SIL Open Font License, 1.1, https://opensource.org/licenses/OFL-1.1
 Source: https://fonts.google.com/specimen/BIZ+UDPGothic
 
+PHOTO
+Bob Richards
+https://stocksnap.io/author/bobrichards
+License: CC0 https://creativecommons.org/publicdomain/zero/1.0/
+Source: https://stocksnap.io/photo/abstract-fire-QYACYW59XD
+
 == Changelog ==
 Version 1.0.0
 --------------------

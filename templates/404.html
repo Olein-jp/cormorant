@@ -1,15 +1,33 @@
-<!-- wp:template-part { "slug":"header", "tagName":"header", "className":"l-site-header", "layout":{"inherit":true} } /-->
+<!-- wp:template-part {"slug":"header-site-title","theme":"cormorant","tagName":"header","className":"l-site-header"} /-->
 
-<!-- wp:group {"tagName":"main","layout":{"inherit":true}} -->
+<!-- wp:group {"tagName":"main"} -->
 <main class="wp-block-group">
-	<!-- wp:heading {"level":1, "fontSize":"large"} -->
-	<h1 class="has-large-font-size">Ooops! That page can't be found.</h1>
-	<!-- /wp:heading -->
-	<!-- wp:paragraph -->
-	<p>It looks like noting was found at this location. Would you like to try a search?</p>
-	<!-- /wp:paragraph -->
-	<!-- wp:search {"label":"", "buttonText":"search"} /-->
+	<!-- wp:group {"layout":{"inherit":true}} -->
+	<div class="wp-block-group">
+		<!-- wp:paragraph {"style":{"typography":{"fontStyle":"normal","fontWeight":"700"}},"fontSize":"large"} -->
+		<p class="has-large-font-size" style="font-style:normal;font-weight:700">It seems like we couldn’t find the page you’re looking for. You can search for it in the form below.</p>
+		<!-- /wp:paragraph -->
+
+		<!-- wp:heading -->
+		<h2>Search</h2>
+		<!-- /wp:heading -->
+
+		<!-- wp:search {"label":"","buttonText":"Search"} /-->
+
+		<!-- wp:heading -->
+		<h2>Category</h2>
+		<!-- /wp:heading -->
+
+		<!-- wp:tag-cloud {"numberOfTags":40,"taxonomy":"category","showTagCounts":true,"smallestFontSize":"14pt","largestFontSize":"14pt"} /-->
+
+		<!-- wp:heading -->
+		<h2>Tags</h2>
+		<!-- /wp:heading -->
+
+		<!-- wp:tag-cloud {"numberOfTags":40,"showTagCounts":true,"smallestFontSize":"14pt","largestFontSize":"14pt"} /-->
+	</div>
+	<!-- /wp:group -->
 </main>
 <!-- /wp:group -->
 
-<!-- wp:template-part { "slug":"footer", "tagName":"footer", "className":"l-site-footer", "layout":{"inherit":true} } /-->
+<!-- wp:template-part {"slug":"footer","theme":"cormorant","tagName":"footer","className":"l-site-footer"} /-->

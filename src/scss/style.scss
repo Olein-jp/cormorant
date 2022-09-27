@@ -29,6 +29,8 @@ label {
     Core Blocks
 --------------------------------------------------------------*/
 .site-header {
+  /* core/site-title
+  ------------------------------*/
   .wp-block-site-title {
     a {
       text-decoration: none;
@@ -39,7 +41,10 @@ label {
   }
 }
 
-.wp-block-post-content {
+/* core/post-content
+------------------------------*/
+.wp-block-post-content,
+.site-content {
   padding-left: var( --wp--custom--spacing--unit );
   padding-right: var( --wp--custom--spacing--unit );
   @media ( min-width: 782px ) {
@@ -48,6 +53,8 @@ label {
   }
 }
 
+/* core/post-comments
+------------------------------*/
 .wp-block-post-comments {
   & > h3 {
     font-weight: 700;
@@ -68,8 +75,17 @@ label {
   }
 }
 
-@media ( min-width: 782px ) {
-
+/* core/query
+------------------------------*/
+.wp-block-query {
+  .wp-block-post-template {
+    .wp-block-post {
+      .wp-block-post-title,
+      .wp-block-post-date {
+        margin-block-start: .25em;
+      }
+    }
+  }
 }
 
 /*--------------------------------------------------------------
@@ -110,6 +126,59 @@ $colors: foreground, background, primary, secondary, tertiary, quaternary;
       margin: 0;
       padding: .2em;
       background-color: var( --wp--preset--color--background );
+    }
+  }
+}
+
+/* core/query-pagination
+------------------------------*/
+@each $color in $colors {
+  @if $color != background {
+    .wp-block-query-pagination.is-style-cormorant-#{$color}-block-pagination {
+      flex-wrap: nowrap;
+      flex-direction: column;
+      width: 100%;
+      @media (min-width: 782px) {
+        flex-wrap: wrap;
+        flex-direction: inherit;
+      }
+
+      .wp-block-query-pagination-previous:has(.is-arrow-arrow),
+      .wp-block-query-pagination-next:has(.is-arrow-arrow),
+      .post-navigation-link-previous,
+      .post-navigation-link-next {
+        display: inline-block;
+        margin: 0;
+        width: 100%;
+        padding: 1em 1.5em;
+        line-height: 1;
+        background-color: var(--wp--preset--color--#{$color});
+        color: var(--wp--preset--color--background);
+        @media (min-width: 782px) {
+          width: auto;
+        }
+      }
+
+      .wp-block-query-pagination-next:has(.is-arrow-arrow) {
+        text-align: right;
+      }
+
+      .wp-block-query-pagination-numbers {
+        margin: 0;
+
+        .page-numbers {
+          display: inline-block;
+          padding: .5em 1em;
+          border: 2px solid var(--wp--preset--color--#{$color});
+          background-color: var(--wp--preset--color--background);
+          color: var(--wp--preset--color--#{$color});
+
+          &.current {
+            background-color: var(--wp--preset--color--#{$color});
+            color: var(--wp--preset--color--background);
+          }
+        }
+      }
     }
   }
 }
