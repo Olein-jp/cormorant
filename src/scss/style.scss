@@ -1,0 +1,65 @@
+/*--------------------------------------------------------------
+    Setup
+--------------------------------------------------------------*/
+input,
+textarea,
+select {
+  background-color: var( --wp--preset--color--background );
+  border: 1px solid var( --wp--preset--color--primary );
+  border-radius: 5px;
+  color: var( --wp--preset--color--foreground );
+  max-width: 100%;
+  padding: .5em;
+}
+
+label {
+  font-size: var( --wp--preset--font-size--small );
+  font-weight: 700;
+}
+
+/*--------------------------------------------------------------
+    Core Blocks
+--------------------------------------------------------------*/
+.site-header {
+  .wp-block-site-title {
+    a {
+      text-decoration: none;
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+}
+
+.wp-block-post-content {
+  padding-left: var( --wp--custom--spacing--unit );
+  padding-right: var( --wp--custom--spacing--unit );
+  @media ( min-width: 782px ) {
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
+
+.wp-block-post-comments {
+  & > h3 {
+    font-weight: 700;
+  }
+  .navigation {
+
+  }
+  .commentlist {
+
+  }
+  .navigation {
+
+  }
+  .comment-respond {
+    .comment-reply-title {
+      font-weight: 700;
+    }
+  }
+}
+
+@media ( min-width: 782px ) {
+
+}

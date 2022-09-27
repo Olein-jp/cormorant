@@ -17,47 +17,23 @@ if ( ! function_exists( 'cormorant_setup' ) ) {
 	}
 }
 add_action( 'after_setup_theme', 'cormorant_setup' );
-//
-//if ( ! function_exists( 'cormorant_styles' ) ) {
-//	/**
-//	 * Enqueue styles
-//	 */
-//	function cormorant_styles() {
-//
-//		wp_register_style(
-//			'cormorant-styles-google-fonts',
-//			cormorant_get_google_fonts_url()
-//		);
-//
-//		wp_register_style(
-//			'cormorant-styles-blocks',
-//			get_template_directory_uri() . '/assets/css/blocks.css'
-//		);
-//
-//		wp_register_style(
-//			'cormorant-styles-commons',
-//			get_template_directory_uri() . '/assets/css/commons.css'
-//		);
-//
-//		$dependencies = apply_filters(
-//			'cormorant_style_dependencies',
-//			array(
-//				'cormorant-styles-google-fonts',
-//				'cormorant-styles-blocks',
-//				'cormorant-styles-commons',
-//			)
-//		);
-//
-//		wp_enqueue_style(
-//			'cormorant-styles-front-end',
-//			get_template_directory_uri() . '/assets/css/front-end.css',
-//			$dependencies,
-//			wp_get_theme( 'cormorant' )->get( 'Version' )
-//		);
-//	}
-//
-//	add_action( 'wp_enqueue_scripts', 'cormorant_styles' );
-//}
+
+if ( ! function_exists( 'cormorant_styles' ) ) {
+	/**
+	 * Enqueue styles
+	 */
+	function cormorant_styles() {
+
+		wp_enqueue_style(
+			'cormorant-styles',
+			get_template_directory_uri() . '/assets/css/style.css',
+			array(),
+			wp_get_theme( 'cormorant' )->get( 'Version' )
+		);
+	}
+
+	add_action( 'wp_enqueue_scripts', 'cormorant_styles' );
+}
 //
 //if ( ! function_exists( 'cormorant_editor_styles' ) ) {
 //	/**
