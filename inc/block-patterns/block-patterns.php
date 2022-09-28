@@ -12,8 +12,19 @@ if ( ! function_exists( 'cormorant_register_block_categories' ) ) {
 	 */
 	function cormorant_register_block_pattern_categories() {
 		$cormorant_block_pattern_categories = array(
-			'cta'    => array( 'label' => __( 'CTA', 'cormorant' ) ),
+			'section'    => array( 'label' => __( 'Section', 'cormorant' ) ),
+			'hero' => array( 'label' => __( 'Hero', 'cormorant' ) ),
+			'column' => array( 'label' => __( 'Column', 'cormorant' ) ),
+			'banner' => array( 'label' => __( 'Banner', 'cormorant' ) ),
+			'cta' => array( 'label' => __( 'CTA', 'cormorant' ) ),
+			'qa' => array( 'label' => __( 'QA', 'cormorant' ) ),
+			'query' => array( 'label' => __( 'Query', 'cormorant' ) ),
+			'page' => array( 'label' => __( 'Page', 'cormorant' ) ),
 			'header' => array( 'label' => __( 'Header', 'cormorant' ) ),
+			'footer' => array( 'label' => __( 'Footer', 'cormorant' ) ),
+			'paragraph' => array( 'label' => __( 'Paragraph', 'cormorant' ) ),
+			'gallery' => array( 'label' => __( 'Gallery', 'cormorant' ) ),
+			'button' => array( 'label' => __( 'Button', 'cormorant' ) ),
 		);
 		/**
 		 * Filter to add block pattern categories

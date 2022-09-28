@@ -88,6 +88,20 @@ label {
   }
 }
 
+/* core/comments-query-loop
+------------------------------*/
+.wp-block-comments-query-loop {
+  .comment-respond {
+    .comment-form {
+      display: flex;
+      flex-direction: column;
+      > * {
+        margin-block-start: calc( 0.5 * var( --wp--style--block-gap ) );
+      }
+    }
+  }
+}
+
 /*--------------------------------------------------------------
     Block Styles
 --------------------------------------------------------------*/
@@ -147,6 +161,9 @@ $colors: foreground, background, primary, secondary, tertiary, quaternary;
       .wp-block-query-pagination-next:has(.is-arrow-arrow),
       .post-navigation-link-previous,
       .post-navigation-link-next {
+        &:empty {
+          display: none;
+        }
         display: inline-block;
         margin: 0;
         width: 100%;
