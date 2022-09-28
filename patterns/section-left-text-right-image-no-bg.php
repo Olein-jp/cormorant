@@ -32,7 +32,7 @@
 		<!-- /wp:buttons -->
 	</div>
 	<figure class="wp-block-media-text__media" style="background-image:url(http://cormorant.wp/wp-content/uploads/2022/09/StockSnap_QYACYW59XD-1024x768.jpg);background-position:50% 50%">
-		<img src="http://cormorant.wp/wp-content/uploads/2022/09/StockSnap_QYACYW59XD-1024x768.jpg" alt="sample image" class="wp-image-2003 size-full"/>
+		<img src="<?php echo get_template_directory_uri(); ?>/assets/images/StockSnap_QYACYW59XD-1024x768.jpg" alt="" class="wp-image-2003 size-full"/>
 	</figure>
 </div>
 <!-- /wp:media-text -->
