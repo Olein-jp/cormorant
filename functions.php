@@ -49,3 +49,8 @@ if ( ! function_exists( 'cormorant_editor_styles' ) ) {
  * Include Registration of Block Styles
  */
 require 'inc/block-styles/block-styles.php';
+
+/**
+ * Include Registration of Block Categories and Patterns
+ */
+require 'inc/block-patterns/block-patterns.php';
