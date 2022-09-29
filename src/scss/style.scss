@@ -161,6 +161,13 @@ $colors: foreground, background, primary, secondary, tertiary, quaternary;
   }
 }
 
+@each $color in $colors {
+  .is-style-cormorant-#{$color}-dotted-heading {
+    padding-bottom: 0.05em;
+    border-bottom: 0.3em dotted var(--wp--preset--color--#{$color});
+  }
+}
+
 /* core/image
 ------------------------------*/
 @each $color in $colors {

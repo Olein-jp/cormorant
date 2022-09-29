@@ -168,6 +168,41 @@ if ( ! function_exists( 'cormorant_register_block_styles' ) ) {
 				'label'  => esc_html__( 'Foreground Block', 'cormorant' ),
 			],
 			[
+				'target' => 'core/heading',
+				'name'   => 'cormorant-foreground-dotted-heading',
+				'label'  => esc_html__( 'Foreground Dot', 'cormorant' ),
+			],
+			[
+				'target' => 'core/heading',
+				'name'   => 'cormorant-background-dotted-heading',
+				'label'  => esc_html__( 'Background Dot', 'cormorant' ),
+			],
+			[
+				'target' => 'core/heading',
+				'name'   => 'cormorant-primary-dotted-heading',
+				'label'  => esc_html__( 'Primary Dot', 'cormorant' ),
+			],
+			[
+				'target' => 'core/heading',
+				'name'   => 'cormorant-secondary-dotted-heading',
+				'label'  => esc_html__( 'Secondary Dot', 'cormorant' ),
+			],
+			[
+				'target' => 'core/heading',
+				'name'   => 'cormorant-tertiary-dotted-heading',
+				'label'  => esc_html__( 'Tertiary Dot', 'cormorant' ),
+			],
+			[
+				'target' => 'core/heading',
+				'name'   => 'cormorant-quaternary-dotted-heading',
+				'label'  => esc_html__( 'Quaternary Dot', 'cormorant' ),
+			],
+			[
+				'target' => 'core/query-pagination',
+				'name'   => 'cormorant-foreground-block-pagination',
+				'label'  => esc_html__( 'Foreground Block', 'cormorant' ),
+			],
+			[
 				'target' => 'core/query-pagination',
 				'name'   => 'cormorant-primary-block-pagination',
 				'label'  => esc_html__( 'Primary Block', 'cormorant' ),
