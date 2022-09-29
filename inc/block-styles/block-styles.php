@@ -163,11 +163,6 @@ if ( ! function_exists( 'cormorant_register_block_styles' ) ) {
 				'label'  => esc_html__( 'Quaternary Stripe', 'cormorant' ),
 			],
 			[
-				'target' => 'core/query-pagination',
-				'name'   => 'cormorant-foreground-block-pagination',
-				'label'  => esc_html__( 'Foreground Block', 'cormorant' ),
-			],
-			[
 				'target' => 'core/heading',
 				'name'   => 'cormorant-foreground-dotted-heading',
 				'label'  => esc_html__( 'Foreground Dot', 'cormorant' ),
@@ -196,6 +191,36 @@ if ( ! function_exists( 'cormorant_register_block_styles' ) ) {
 				'target' => 'core/heading',
 				'name'   => 'cormorant-quaternary-dotted-heading',
 				'label'  => esc_html__( 'Quaternary Dot', 'cormorant' ),
+			],
+			[
+				'target' => 'core/heading',
+				'name'   => 'cormorant-foreground-dashed-heading',
+				'label'  => esc_html__( 'Foreground Dash', 'cormorant' ),
+			],
+			[
+				'target' => 'core/heading',
+				'name'   => 'cormorant-background-dashed-heading',
+				'label'  => esc_html__( 'Background Dash', 'cormorant' ),
+			],
+			[
+				'target' => 'core/heading',
+				'name'   => 'cormorant-primary-dashed-heading',
+				'label'  => esc_html__( 'Primary Dash', 'cormorant' ),
+			],
+			[
+				'target' => 'core/heading',
+				'name'   => 'cormorant-secondary-dashed-heading',
+				'label'  => esc_html__( 'Secondary Dash', 'cormorant' ),
+			],
+			[
+				'target' => 'core/heading',
+				'name'   => 'cormorant-tertiary-dashed-heading',
+				'label'  => esc_html__( 'Tertiary Dash', 'cormorant' ),
+			],
+			[
+				'target' => 'core/heading',
+				'name'   => 'cormorant-quaternary-dashed-heading',
+				'label'  => esc_html__( 'Quaternary Dash', 'cormorant' ),
 			],
 			[
 				'target' => 'core/query-pagination',
