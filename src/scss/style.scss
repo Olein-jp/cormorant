@@ -148,10 +148,10 @@ $colors: foreground, background, primary, secondary, tertiary, quaternary;
     &:after {
       background-image: repeating-linear-gradient(135deg, transparent, transparent 10px, var(--wp--preset--color--#{$color}) 10px, var(--wp--preset--color--#{$color}) 20px);
       position: absolute;
-      top: inherit;
-      right: inherit;
-      bottom: 0;
-      left: -10px;
+      top: inherit !important;
+      right: inherit !important;
+      bottom: 0 !important;
+      left: -10px !important;
       display: block;
       content: '';
       width: 100%;
