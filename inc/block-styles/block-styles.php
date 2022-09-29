@@ -43,6 +43,66 @@ if ( ! function_exists( 'cormorant_register_block_styles' ) ) {
 				'label'  => esc_html__( 'Quaternary Stripe', 'cormorant' ),
 			],
 			[
+				'target' => 'core/separator',
+				'name'   => 'cormorant-foreground-dotted-separator',
+				'label'  => esc_html__( 'Foreground Dotted', 'cormorant' ),
+			],
+			[
+				'target' => 'core/separator',
+				'name'   => 'cormorant-background-dotted-separator',
+				'label'  => esc_html__( 'Background Dotted', 'cormorant' ),
+			],
+			[
+				'target' => 'core/separator',
+				'name'   => 'cormorant-primary-dotted-separator',
+				'label'  => esc_html__( 'Primary Dotted', 'cormorant' ),
+			],
+			[
+				'target' => 'core/separator',
+				'name'   => 'cormorant-secondary-dotted-separator',
+				'label'  => esc_html__( 'Secondary Dotted', 'cormorant' ),
+			],
+			[
+				'target' => 'core/separator',
+				'name'   => 'cormorant-tertiary-dotted-separator',
+				'label'  => esc_html__( 'Tertiary Dotted', 'cormorant' ),
+			],
+			[
+				'target' => 'core/separator',
+				'name'   => 'cormorant-quaternary-dotted-separator',
+				'label'  => esc_html__( 'Quaternary Dotted', 'cormorant' ),
+			],
+			[
+				'target' => 'core/separator',
+				'name'   => 'cormorant-foreground-dashed-separator',
+				'label'  => esc_html__( 'Foreground Dashed', 'cormorant' ),
+			],
+			[
+				'target' => 'core/separator',
+				'name'   => 'cormorant-background-dashed-separator',
+				'label'  => esc_html__( 'Background Dashed', 'cormorant' ),
+			],
+			[
+				'target' => 'core/separator',
+				'name'   => 'cormorant-primary-dashed-separator',
+				'label'  => esc_html__( 'Primary Dashed', 'cormorant' ),
+			],
+			[
+				'target' => 'core/separator',
+				'name'   => 'cormorant-secondary-dashed-separator',
+				'label'  => esc_html__( 'Secondary Dashed', 'cormorant' ),
+			],
+			[
+				'target' => 'core/separator',
+				'name'   => 'cormorant-tertiary-dashed-separator',
+				'label'  => esc_html__( 'Tertiary Dashed', 'cormorant' ),
+			],
+			[
+				'target' => 'core/separator',
+				'name'   => 'cormorant-quaternary-dashed-separator',
+				'label'  => esc_html__( 'Quaternary Dashed', 'cormorant' ),
+			],
+			[
 				'target' => 'core/image',
 				'name'   => 'cormorant-foreground-striped-image-background',
 				'label'  => esc_html__( 'Foreground Stripe', 'cormorant' ),

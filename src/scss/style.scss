@@ -123,6 +123,22 @@ $colors: foreground, background, primary, secondary, tertiary, quaternary;
   }
 }
 
+@each $color in $colors {
+  .is-style-cormorant-#{$color}-dotted-separator {
+    width: 100% !important;
+    border: none;
+    border-bottom: 15px dotted var(--wp--preset--color--#{$color});
+  }
+}
+
+@each $color in $colors {
+  .is-style-cormorant-#{$color}-dashed-separator {
+    width: 100% !important;
+    border: none;
+    border-bottom: 15px dashed var(--wp--preset--color--#{$color});
+  }
+}
+
 /* core/image
 ------------------------------*/
 @each $color in $colors {
