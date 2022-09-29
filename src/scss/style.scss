@@ -139,6 +139,28 @@ $colors: foreground, background, primary, secondary, tertiary, quaternary;
   }
 }
 
+/* core/heading
+------------------------------*/
+@each $color in $colors {
+  .is-style-cormorant-#{$color}-striped-heading {
+    position: relative;
+    padding-bottom: 15px;
+    &:after {
+      background-image: repeating-linear-gradient(135deg, transparent, transparent 10px, var(--wp--preset--color--#{$color}) 10px, var(--wp--preset--color--#{$color}) 20px);
+      position: absolute;
+      top: inherit;
+      right: inherit;
+      bottom: 0;
+      left: -10px;
+      display: block;
+      content: '';
+      width: 100%;
+      background-color: transparent;
+      height: 15px;
+    }
+  }
+}
+
 /* core/image
 ------------------------------*/
 @each $color in $colors {

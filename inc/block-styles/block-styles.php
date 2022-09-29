@@ -138,6 +138,31 @@ if ( ! function_exists( 'cormorant_register_block_styles' ) ) {
 				'label'  => esc_html__( 'Foreground Stripe', 'cormorant' ),
 			],
 			[
+				'target' => 'core/heading',
+				'name'   => 'cormorant-background-striped-heading',
+				'label'  => esc_html__( 'Background Stripe', 'cormorant' ),
+			],
+			[
+				'target' => 'core/heading',
+				'name'   => 'cormorant-primary-striped-heading',
+				'label'  => esc_html__( 'Primary Stripe', 'cormorant' ),
+			],
+			[
+				'target' => 'core/heading',
+				'name'   => 'cormorant-secondary-striped-heading',
+				'label'  => esc_html__( 'Secondary Stripe', 'cormorant' ),
+			],
+			[
+				'target' => 'core/heading',
+				'name'   => 'cormorant-tertiary-striped-heading',
+				'label'  => esc_html__( 'Tertiary Stripe', 'cormorant' ),
+			],
+			[
+				'target' => 'core/heading',
+				'name'   => 'cormorant-quaternary-striped-heading',
+				'label'  => esc_html__( 'Quaternary Stripe', 'cormorant' ),
+			],
+			[
 				'target' => 'core/query-pagination',
 				'name'   => 'cormorant-foreground-block-pagination',
 				'label'  => esc_html__( 'Foreground Block', 'cormorant' ),
