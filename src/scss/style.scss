@@ -268,3 +268,19 @@ $colors: foreground, background, primary, secondary, tertiary, quaternary;
     }
   }
 }
+
+/* core/code
+------------------------------*/
+@each $color in $colors {
+  .is-style-cormorant-#{$color}-code {
+    @if $color == background or $color == secondary {
+      color: var( --wp--preset--color--foreground );
+    } @else {
+      color: var( --wp--preset--color--background );
+    }
+    background-color: var( --wp--preset--color--#{$color});
+    padding: var( --wp--preset--spacing--small );
+    border-radius: 0;
+    border: none;
+  }
+}
