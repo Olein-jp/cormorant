@@ -112,7 +112,7 @@ $colors: foreground, background, primary, secondary, tertiary, quaternary;
 /* core/separator
 ------------------------------*/
 @each $color in $colors {
-  .is-style-cormorant-#{$color}-striped-separator {
+  .is-style-cormorant-striped-separator-#{$color} {
     background-image: repeating-linear-gradient(135deg, transparent, transparent 10px, var( --wp--preset--color--#{$color} ) 10px, var( --wp--preset--color--#{$color} ) 20px);
     background-color: transparent;
     height: 15px;
@@ -124,7 +124,7 @@ $colors: foreground, background, primary, secondary, tertiary, quaternary;
 }
 
 @each $color in $colors {
-  .is-style-cormorant-#{$color}-dotted-separator {
+  .is-style-cormorant-dotted-separator-#{$color} {
     width: 100% !important;
     border: none;
     border-bottom: 15px dotted var(--wp--preset--color--#{$color});
@@ -132,7 +132,7 @@ $colors: foreground, background, primary, secondary, tertiary, quaternary;
 }
 
 @each $color in $colors {
-  .is-style-cormorant-#{$color}-dashed-separator {
+  .is-style-cormorant-dashed-separator-#{$color} {
     width: 100% !important;
     border: none;
     border-bottom: 15px dashed var(--wp--preset--color--#{$color});
@@ -142,7 +142,7 @@ $colors: foreground, background, primary, secondary, tertiary, quaternary;
 /* core/heading
 ------------------------------*/
 @each $color in $colors {
-  .is-style-cormorant-#{$color}-striped-heading {
+  .is-style-cormorant-striped-heading-#{$color} {
     position: relative;
     padding-bottom: 15px;
     &:after {
@@ -162,14 +162,14 @@ $colors: foreground, background, primary, secondary, tertiary, quaternary;
 }
 
 @each $color in $colors {
-  .is-style-cormorant-#{$color}-dotted-heading {
+  .is-style-cormorant-dotted-heading-#{$color} {
     padding-bottom: 0.05em;
     border-bottom: 0.3em dotted var(--wp--preset--color--#{$color});
   }
 }
 
 @each $color in $colors {
-  .is-style-cormorant-#{$color}-dashed-heading {
+  .is-style-cormorant-dashed-heading-#{$color} {
     padding-bottom: 0.05em;
     border-bottom: 0.3em dashed var(--wp--preset--color--#{$color});
   }
@@ -178,7 +178,7 @@ $colors: foreground, background, primary, secondary, tertiary, quaternary;
 /* core/image
 ------------------------------*/
 @each $color in $colors {
-  .is-style-cormorant-#{$color}-striped-image-background {
+  .is-style-cormorant-striped-image-background-#{$color} {
     background-image: repeating-linear-gradient(135deg, transparent, transparent 10px, var( --wp--preset--color--#{$color} ) 10px, var( --wp--preset--color--#{$color} ) 20px);
     & > img {
       border-color: var( --wp--preset--color--#{$color} );
@@ -200,7 +200,7 @@ $colors: foreground, background, primary, secondary, tertiary, quaternary;
 ------------------------------*/
 @each $color in $colors {
   @if $color != background {
-    .wp-block-query-pagination.is-style-cormorant-#{$color}-block-pagination {
+    .wp-block-query-pagination.is-style-cormorant-block-pagination-#{$color} {
       flex-wrap: nowrap;
       flex-direction: column;
       width: 100%;
