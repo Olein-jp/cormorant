@@ -185,6 +185,13 @@ $colors: foreground, background, primary, secondary, tertiary, quaternary;
   }
 }
 
+@each $color in $colors {
+  .is-style-cormorant-blur-shadow-#{$color} {
+    padding: var( --wp--preset--spacing--x-small );
+    box-shadow: 0 0 20px var(--wp--preset--color--#{$color});
+  }
+}
+
 /* core/image
 ------------------------------*/
 @each $color in $colors {

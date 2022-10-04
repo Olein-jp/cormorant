@@ -253,6 +253,36 @@ if ( ! function_exists( 'cormorant_register_block_styles' ) ) {
 				'label'  => esc_html__( 'Quaternary Solid Shadow', 'cormorant' ),
 			],
 			[
+				'target' => 'core/group',
+				'name'   => 'cormorant-blur-shadow-foreground',
+				'label'  => esc_html__( 'Foreground Blur Shadow', 'cormorant' ),
+			],
+			[
+				'target' => 'core/group',
+				'name'   => 'cormorant-blur-shadow-background',
+				'label'  => esc_html__( 'Background Blur Shadow', 'cormorant' ),
+			],
+			[
+				'target' => 'core/group',
+				'name'   => 'cormorant-blur-shadow-primary',
+				'label'  => esc_html__( 'Primary Blur Shadow', 'cormorant' ),
+			],
+			[
+				'target' => 'core/group',
+				'name'   => 'cormorant-blur-shadow-secondary',
+				'label'  => esc_html__( 'Secondary Blur Shadow', 'cormorant' ),
+			],
+			[
+				'target' => 'core/group',
+				'name'   => 'cormorant-blur-shadow-tertiary',
+				'label'  => esc_html__( 'Tertiary Blur Shadow', 'cormorant' ),
+			],
+			[
+				'target' => 'core/group',
+				'name'   => 'cormorant-blur-shadow-quaternary',
+				'label'  => esc_html__( 'Quaternary Blur Shadow', 'cormorant' ),
+			],
+			[
 				'target' => 'core/query-pagination',
 				'name'   => 'cormorant-block-pagination-foreground',
 				'label'  => esc_html__( 'Block - Foreground', 'cormorant' ),
