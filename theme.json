@@ -211,6 +211,33 @@
     },
     "spacing": {
       "blockGap": true,
+      "spacingSizes": [
+        {
+          "size": "20px",
+          "slug": "X-small",
+          "name": "xSmall"
+        },
+        {
+          "size": "30px",
+          "slug": "small",
+          "name": "Small"
+        },
+        {
+          "size": "40px",
+          "slug": "medium",
+          "name": "Medium"
+        },
+        {
+          "size": "50px",
+          "slug": "large",
+          "name": "Large"
+        },
+        {
+          "size": "60px",
+          "slug": "X-large",
+          "name": "xLarge"
+        }
+      ],
       "units": [
         "%",
         "px",

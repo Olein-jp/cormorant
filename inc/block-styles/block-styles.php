@@ -223,6 +223,36 @@ if ( ! function_exists( 'cormorant_register_block_styles' ) ) {
 				'label'  => esc_html__( 'Dashed Quaternary', 'cormorant' ),
 			],
 			[
+				'target' => 'core/group',
+				'name'   => 'cormorant-solid-shadow-foreground',
+				'label'  => esc_html__( 'Foreground Solid Shadow', 'cormorant' ),
+			],
+			[
+				'target' => 'core/group',
+				'name'   => 'cormorant-solid-shadow-background',
+				'label'  => esc_html__( 'Background Solid Shadow', 'cormorant' ),
+			],
+			[
+				'target' => 'core/group',
+				'name'   => 'cormorant-solid-shadow-primary',
+				'label'  => esc_html__( 'Primary Solid Shadow', 'cormorant' ),
+			],
+			[
+				'target' => 'core/group',
+				'name'   => 'cormorant-solid-shadow-secondary',
+				'label'  => esc_html__( 'Secondary Solid Shadow', 'cormorant' ),
+			],
+			[
+				'target' => 'core/group',
+				'name'   => 'cormorant-solid-shadow-tertiary',
+				'label'  => esc_html__( 'Tertiary Solid Shadow', 'cormorant' ),
+			],
+			[
+				'target' => 'core/group',
+				'name'   => 'cormorant-solid-shadow-quaternary',
+				'label'  => esc_html__( 'Quaternary Solid Shadow', 'cormorant' ),
+			],
+			[
 				'target' => 'core/query-pagination',
 				'name'   => 'cormorant-block-pagination-foreground',
 				'label'  => esc_html__( 'Block - Foreground', 'cormorant' ),

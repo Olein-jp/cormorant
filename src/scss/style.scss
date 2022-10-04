@@ -175,6 +175,16 @@ $colors: foreground, background, primary, secondary, tertiary, quaternary;
   }
 }
 
+/* core/paragraph
+------------------------------*/
+@each $color in $colors {
+  .is-style-cormorant-solid-shadow-#{$color} {
+    border: 1px solid var(--wp--preset--color--#{$color});
+    padding: var( --wp--preset--spacing--x-small );
+    box-shadow: 5px 5px var(--wp--preset--color--#{$color});
+  }
+}
+
 /* core/image
 ------------------------------*/
 @each $color in $colors {

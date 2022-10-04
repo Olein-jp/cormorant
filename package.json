@@ -15,6 +15,7 @@
     "clean": "rimraf assets",
     "clean-zip-directory": "rimraf cormonrant",
     "clean-zip": "rimraf cormorant.zip",
+    "compile:js": "wp-scripts build src/js/block-variations.js --output-path=assets/js",
     "compile:css": "sass src/scss:assets/css/ --no-source-map --style expanded && npx postcss assets/css/*.css --use autoprefixer -d assets/css/",
     "compile": "npm run clean && npm-run-all -s compile:*",
     "build": "npm run check && npm run compile",
@@ -26,7 +27,9 @@
     "updateNpmPackage": "npm install"
   },
   "devDependencies": {
+    "@wordpress/blocks": "^11.17.0",
     "@wordpress/env": "^5.3.0",
+    "@wordpress/i18n": "^4.18.0",
     "@wordpress/scripts": "^24.2.0",
     "autoprefixer": "^10.4.12",
     "css-mqpacker": "^7.0.0",
