@@ -399,6 +399,11 @@ if ( ! function_exists( 'cormorant_register_block_styles' ) ) {
 			],
 		];
 
+		/**
+		 * Filter hook for adding block style
+		 */
+		$block_styles = apply_filters( 'cormorant_register_block_pattern', $block_styles );
+
 		foreach ( $block_styles as $block_style ) {
 			register_block_style(
 				$block_style['target'],
