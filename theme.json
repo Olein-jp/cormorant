@@ -218,22 +218,22 @@
           "name": "xSmall"
         },
         {
-          "size": "30px",
+          "size": "40px",
           "slug": "small",
           "name": "Small"
         },
         {
-          "size": "40px",
+          "size": "60px",
           "slug": "medium",
           "name": "Medium"
         },
         {
-          "size": "50px",
+          "size": "80px",
           "slug": "large",
           "name": "Large"
         },
         {
-          "size": "60px",
+          "size": "100px",
           "slug": "X-large",
           "name": "xLarge"
         }
