@@ -323,7 +323,7 @@ $colors: foreground, background, primary, secondary, tertiary, quaternary;
       &:hover {
         background: var(--wp--preset--color--#{$color});
         color: var(--wp--preset--color--background);
-        @if $color == secondary {
+        @if $color == foreground or $color == secondary {
           color: var(--wp--preset--color--background);
         } @else {
           color: var(--wp--preset--color--foreground);
