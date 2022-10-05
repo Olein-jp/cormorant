@@ -397,6 +397,16 @@ if ( ! function_exists( 'cormorant_register_block_styles' ) ) {
 				'name'   => 'cormorant-quaternary-outline-square-button',
 				'label'  => esc_html__( 'Quaternary Outline Square', 'cormorant' ),
 			],
+			[
+				'target' => 'core/column',
+				'name'   => 'cormorant-foreground-shadow-column',
+				'label'  => esc_html__( 'Foreground Shadow', 'cormorant' ),
+			],
+			[
+				'target' => 'core/column',
+				'name'   => 'cormorant-background-shadow-column',
+				'label'  => esc_html__( 'Background Shadow', 'cormorant' ),
+			],
 		];
 
 		/**
