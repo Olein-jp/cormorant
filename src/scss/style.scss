@@ -290,3 +290,45 @@ $colors: foreground, background, primary, secondary, tertiary, quaternary;
     border: none;
   }
 }
+
+/* core/button
+------------------------------*/
+@each $color in $colors {
+  .is-style-cormorant-#{$color}-filled-square-button {
+    .wp-block-button__link {
+      background: var(--wp--preset--color--#{$color});
+      border: 2px solid var(--wp--preset--color--#{$color});
+      border-radius: 0 !important;
+      transition: all .5s ease;
+      @if $color == background {
+        color: var(--wp--preset--color--foreground);
+      } @else {
+        color: var(--wp--preset--color--background);
+      }
+
+      &:hover {
+        background: transparent;
+        color: var(--wp--preset--color--#{$color});
+      }
+    }
+  }
+  .is-style-cormorant-#{$color}-outline-square-button {
+    .wp-block-button__link {
+      background: transparent;
+      border: 2px solid var(--wp--preset--color--#{$color});
+      border-radius: 0 !important;
+      color: var(--wp--preset--color--#{$color});
+      transition: all .5s ease;
+
+      &:hover {
+        background: var(--wp--preset--color--#{$color});
+        color: var(--wp--preset--color--background);
+        @if $color == secondary {
+          color: var(--wp--preset--color--background);
+        } @else {
+          color: var(--wp--preset--color--foreground);
+        }
+      }
+    }
+  }
+}

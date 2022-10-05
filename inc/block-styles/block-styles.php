@@ -337,6 +337,66 @@ if ( ! function_exists( 'cormorant_register_block_styles' ) ) {
 				'name'   => 'cormorant-quaternary-code',
 				'label'  => esc_html__( 'Quaternary Code', 'cormorant' ),
 			],
+			[
+				'target' => 'core/button',
+				'name'   => 'cormorant-foreground-filled-square-button',
+				'label'  => esc_html__( 'Foreground Filled Square', 'cormorant' ),
+			],
+			[
+				'target' => 'core/button',
+				'name'   => 'cormorant-background-filled-square-button',
+				'label'  => esc_html__( 'Background Filled Square', 'cormorant' ),
+			],
+			[
+				'target' => 'core/button',
+				'name'   => 'cormorant-primary-filled-square-button',
+				'label'  => esc_html__( 'Primary Filled Square', 'cormorant' ),
+			],
+			[
+				'target' => 'core/button',
+				'name'   => 'cormorant-secondary-filled-square-button',
+				'label'  => esc_html__( 'Secondary Filled Square', 'cormorant' ),
+			],
+			[
+				'target' => 'core/button',
+				'name'   => 'cormorant-tertiary-filled-square-button',
+				'label'  => esc_html__( 'Tertiary Filled Square', 'cormorant' ),
+			],
+			[
+				'target' => 'core/button',
+				'name'   => 'cormorant-quaternary-filled-square-button',
+				'label'  => esc_html__( 'Quaternary Filled Square', 'cormorant' ),
+			],
+			[
+				'target' => 'core/button',
+				'name'   => 'cormorant-foreground-outline-square-button',
+				'label'  => esc_html__( 'Foreground Outline Square', 'cormorant' ),
+			],
+			[
+				'target' => 'core/button',
+				'name'   => 'cormorant-background-outline-square-button',
+				'label'  => esc_html__( 'Background Outline Square', 'cormorant' ),
+			],
+			[
+				'target' => 'core/button',
+				'name'   => 'cormorant-primary-outline-square-button',
+				'label'  => esc_html__( 'Primary Outline Square', 'cormorant' ),
+			],
+			[
+				'target' => 'core/button',
+				'name'   => 'cormorant-secondary-outline-square-button',
+				'label'  => esc_html__( 'Secondary Outline Square', 'cormorant' ),
+			],
+			[
+				'target' => 'core/button',
+				'name'   => 'cormorant-tertiary-outline-square-button',
+				'label'  => esc_html__( 'Tertiary Outline Square', 'cormorant' ),
+			],
+			[
+				'target' => 'core/button',
+				'name'   => 'cormorant-quaternary-outline-square-button',
+				'label'  => esc_html__( 'Quaternary Outline Square', 'cormorant' ),
+			],
 		];
 
 		foreach ( $block_styles as $block_style ) {
