@@ -16,6 +16,7 @@ if ( ! function_exists( 'cormorant_register_block_categories' ) ) {
 			'cormorant-section' => array( 'label' => __( 'Cormorant Section', 'cormorant' ) ),
 			'cormorant-hero'    => array( 'label' => __( 'Cormorant Hero', 'cormorant' ) ),
 			'cormorant-column'  => array( 'label' => __( 'Cormorant Column', 'cormorant' ) ),
+			'cormorant-profile' => array( 'label' => __( 'Cormorant Profile', 'cormorant' ) ),
 			'banner'            => array( 'label' => __( 'Banner', 'cormorant' ) ),
 			'qa'                => array( 'label' => __( 'QA', 'cormorant' ) ),
 			'query'             => array( 'label' => __( 'Query', 'cormorant' ) ),
