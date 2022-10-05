@@ -614,28 +614,33 @@
   ],
   "templateParts": [
     {
-      "title": "Header",
-      "name": "header",
+      "title": "Header - First",
+      "name": "header-1",
       "area": "header"
     },
     {
-      "title": "Header - site title",
-      "name": "header-site-title",
+      "title": "Header - Second",
+      "name": "header-2",
       "area": "header"
     },
     {
-      "title": "Header - with tagline and menu",
-      "name": "header-with-tagline-and-menu",
+      "title": "Header - Third",
+      "name": "header-3",
       "area": "header"
     },
     {
-      "title": "Header - site title and overlay menu",
-      "name": "header-site-title-and-overlay-menu",
-      "area": "header"
+      "title": "Footer - First",
+      "name": "footer-1",
+      "area": "footer"
     },
     {
-      "title": "Footer",
-      "name": "footer",
+      "title": "Footer - Second",
+      "name": "footer-2",
+      "area": "footer"
+    },
+    {
+      "title": "Footer - Third",
+      "name": "footer-3",
       "area": "footer"
     }
   ]

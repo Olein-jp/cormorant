@@ -20,7 +20,7 @@ if ( ! function_exists( 'cormorant_register_block_categories' ) ) {
 			'qa'        => array( 'label' => __( 'QA', 'cormorant' ) ),
 			'query'     => array( 'label' => __( 'Query', 'cormorant' ) ),
 			'page'      => array( 'label' => __( 'Page', 'cormorant' ) ),
-			'header'    => array( 'label' => __( 'Header', 'cormorant' ) ),
+			'cormorant-header'    => array( 'label' => __( 'Cormorant Header', 'cormorant' ) ),
 			'cormorant-footer'    => array( 'label' => __( 'Cormorant Footer', 'cormorant' ) ),
 			'paragraph' => array( 'label' => __( 'Paragraph', 'cormorant' ) ),
 			'gallery'   => array( 'label' => __( 'Gallery', 'cormorant' ) ),
