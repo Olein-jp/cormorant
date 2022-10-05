@@ -2,7 +2,7 @@
 /**
  * Title: 2 Column Light
  * Slug: cormorant/column-2-light
- * Categories: column
+ * Categories: cormorant-column
  * Description: 2 Columns styled light
  * Block Types: core/group, core/columns, core/paragraph, core/buttons, core/heading
  *

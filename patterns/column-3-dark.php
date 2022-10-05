@@ -2,7 +2,7 @@
 /**
  * Title: 3 Column Dark
  * Slug: cormorant/column-3-dark
- * Categories: column
+ * Categories: cormorant-column
  * Description: 3 Columns styled dark
  * Block Types: core/group, core/columns, core/paragraph, core/buttons, core/heading
  *

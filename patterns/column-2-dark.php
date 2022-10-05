@@ -2,7 +2,7 @@
 /**
  * Title: 2 Column Dark
  * Slug: cormorant/column-2-dark
- * Categories: column
+ * Categories: cormorant-column
  * Description: 2 Columns styled dark
  * Block Types: core/group, core/columns, core/paragraph, core/buttons, core/heading
  *

@@ -2,7 +2,7 @@
 /**
  * Title: CTA Horizontal Dark
  * Slug: cormorant/cta-horizontal-dark
- * Categories: cta
+ * Categories: cormorant-cta
  * Description: Call To Action styled Horizontal dark
  * Block Types: core/group, core/columns, core/paragraph, core/buttons,
  *

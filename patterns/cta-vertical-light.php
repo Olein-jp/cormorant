@@ -2,7 +2,7 @@
 /**
  * Title: CTA Vertical Light
  * Slug: cormorant/cta-vertical-light
- * Categories: cta
+ * Categories: cormorant-cta
  * Description: Call To Action styled Vertical light
  * Block Types: core/group, core/paragraph, core/buttons,
  *

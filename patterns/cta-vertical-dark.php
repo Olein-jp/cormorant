@@ -2,7 +2,7 @@
 /**
  * Title: CTA Vertical Dark
  * Slug: cormorant/cta-vertical-dark
- * Categories: cta
+ * Categories: cormorant-cta
  * Description: Call To Action styled Vertical dark
  * Block Types: core/group, core/paragraph, core/buttons,
  *

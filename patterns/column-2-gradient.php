@@ -2,7 +2,7 @@
 /**
  * Title: 2 Column Gradient
  * Slug: cormorant/column-2-gradient
- * Categories: column
+ * Categories: cormorant-column
  * Description: 2 Columns styled gradient
  * Block Types: core/group, core/columns, core/paragraph, core/buttons, core/heading
  *
