@@ -45,20 +45,6 @@ if ( ! function_exists( 'cormorant_editor_styles' ) ) {
 	add_action( 'admin_init', 'cormorant_editor_styles' );
 }
 
-if ( ! function_exists( 'cormorant_enqueue_block_variations' ) ) {
-	/**
-	 * Enqueue Block Variations
-	 */
-	function cormorant_enqueue_block_variations() {
-		wp_enqueue_script(
-			'cormorant-block-variations',
-			get_template_directory_uri() . '/assets/js/block-variations.js',
-			array( 'wp-blocks', 'wp-dom-ready', 'wp-edit-post' )
-		);
-	}
-	add_action( 'enqueue_block_editor_assets', 'cormorant_enqueue_block_variations' );
-}
-
 /**
  * If it doesn't have feature image, display
  */

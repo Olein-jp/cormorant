@@ -15,7 +15,6 @@
     "clean": "rimraf assets",
     "clean-zip-directory": "rimraf cormonrant",
     "clean-zip": "rimraf cormorant.zip",
-    "compile:js": "wp-scripts build src/js/block-variations.js --output-path=assets/js",
     "compile:css": "sass src/scss:assets/css/ --no-source-map --style expanded && npx postcss assets/css/*.css --use autoprefixer -d assets/css/",
     "compile": "npm run clean && npm-run-all -s compile:*",
     "build": "npm run check && npm run compile",
