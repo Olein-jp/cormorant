@@ -4,6 +4,7 @@
  * Slug: cormorant/footer-copyright-sns-icon-light
  * Categories: cormorant-footer
  * Description: Copyright and SNS icon link styled light
+ * Keywords: cormorant
  * Block Types: core/group, core/paragraph, core/site-title, core/social-links
  *
  * @author Koji Kuno

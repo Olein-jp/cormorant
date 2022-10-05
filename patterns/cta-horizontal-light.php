@@ -4,6 +4,7 @@
  * Slug: cormorant/cta-horizontal-light
  * Categories: cormorant-cta
  * Description: Call To Action styled Horizontal light
+ * Keywords: cormorant
  * Block Types: core/group, core/columns, core/paragraph, core/buttons,
  *
  * @author Koji Kuno

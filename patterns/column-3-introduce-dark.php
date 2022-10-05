@@ -4,6 +4,7 @@
  * Slug: cormorant/column-3-introduce-dark
  * Categories: cormorant-column
  * Description: 3 Columns for introducing styled dark
+ * Keywords: cormorant
  * Block Types: core/group, core/columns, core/paragraph, core/buttons, core/heading, core/image
  *
  * @author Koji Kuno

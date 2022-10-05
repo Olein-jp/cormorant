@@ -4,6 +4,7 @@
  * Slug: cormorant/footer-cta-copyright-dark
  * Categories: cormorant-footer
  * Description: CTA and Copyright styled dark
+ * Keywords: cormorant
  * Block Types: core/group, core/paragraph, core/site-title, core/header, core/button
  *
  * @author Koji Kuno

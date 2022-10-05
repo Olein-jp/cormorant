@@ -4,6 +4,7 @@
  * Slug: cormorant/column-2-gradient
  * Categories: cormorant-column
  * Description: 2 Columns styled gradient
+ * Keywords: cormorant
  * Block Types: core/group, core/columns, core/paragraph, core/buttons, core/heading
  *
  * @author Koji Kuno

@@ -4,6 +4,7 @@
  * Slug: cormorant/column-3-price-table-light
  * Categories: cormorant-column
  * Description: 3 Columns for price table styled light
+ * Keywords: cormorant
  * Block Types: core/group, core/columns, core/paragraph, core/buttons, core/heading, core/separator
  *
  * @author Koji Kuno

@@ -4,6 +4,7 @@
  * Slug: cormorant/footer-cta-copyright-light
  * Categories: cormorant-footer
  * Description: CTA and Copyright styled light
+ * Keywords: cormorant
  * Block Types: core/group, core/paragraph, core/site-title, core/header, core/button
  *
  * @author Koji Kuno

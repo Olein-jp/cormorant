@@ -4,6 +4,7 @@
  * Slug: cormorant/profile-simple-light
  * Categories: cormorant-profile
  * Description: Simple profile styled light
+ * Keywords: cormorant
  * Block Types: core/group, core/image, core/paragraph, core/social-icons, core/heading
  *
  * @author Koji Kuno

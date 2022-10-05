@@ -4,6 +4,7 @@
  * Slug: cormorant/profile-simple-dark
  * Categories: cormorant-profile
  * Description: Simple profile styled dark
+ * Keywords: cormorant
  * Block Types: core/group, core/image, core/paragraph, core/social-icons, core/heading
  *
  * @author Koji Kuno

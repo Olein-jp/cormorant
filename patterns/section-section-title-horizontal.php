@@ -4,6 +4,7 @@
  * Slug: cormorant/section-section-title-horizontal
  * Categories: cormorant-section
  * Description: Layout horizontally title and description text in section with gradient background which you can change via color palette.
+ * Keywords: cormorant
  * Block Types: core/group, core/columns, core/spacer, core/paragraph, core/buttons,
  *
  * @author Koji Kuno

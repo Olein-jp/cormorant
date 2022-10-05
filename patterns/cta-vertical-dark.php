@@ -4,6 +4,7 @@
  * Slug: cormorant/cta-vertical-dark
  * Categories: cormorant-cta
  * Description: Call To Action styled Vertical dark
+ * Keywords: cormorant
  * Block Types: core/group, core/paragraph, core/buttons,
  *
  * @author Koji Kuno

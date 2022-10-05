@@ -4,6 +4,7 @@
  * Slug: cormorant/header-title-menu-horizontal-dark
  * Categories: cormorant-header
  * Description: Header with Title and Menu styled horizontal colored dark
+ * Keywords: cormorant
  * Block Types: core/group, core/site-title, core/navigation
  *
  * @author Koji Kuno

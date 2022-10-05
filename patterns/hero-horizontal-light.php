@@ -4,6 +4,7 @@
  * Slug: cormorant/hero-horizontal-light
  * Categories: cormorant-hero
  * Description: Horizontal layout Hero styled light
+ * Keywords: cormorant
  * Block Types: core/group, core/image, core/paragraph, core/buttons, core/header
  *
  * @author Koji Kuno

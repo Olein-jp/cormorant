@@ -4,6 +4,7 @@
  * Slug: cormorant/hero-horizontal-dark
  * Categories: cormorant-hero
  * Description: Horizontal layout Hero styled dark
+ * Keywords: cormorant
  * Block Types: core/group, core/image, core/paragraph, core/buttons, core/header
  *
  * @author Koji Kuno

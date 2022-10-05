@@ -4,6 +4,7 @@
  * Slug: cormorant/footer-information-copyright-dark
  * Categories: cormorant-footer
  * Description: Information and Copyright styled dark
+ * Keywords: cormorant
  * Block Types: core/group, core/paragraph, core/site-title, core/header, core/list
  *
  * @author Koji Kuno

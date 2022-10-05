@@ -4,6 +4,7 @@
  * Slug: cormorant/footer-information-copyright-light
  * Categories: cormorant-footer
  * Description: Information and Copyright styled light
+ * Keywords: cormorant
  * Block Types: core/group, core/paragraph, core/site-title, core/header, core/list
  *
  * @author Koji Kuno

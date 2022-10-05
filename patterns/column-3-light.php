@@ -4,6 +4,7 @@
  * Slug: cormorant/column-3-light
  * Categories: cormorant-column
  * Description: 3 Columns styled dark
+ * Keywords: cormorant
  * Block Types: core/group, core/columns, core/paragraph, core/buttons, core/heading
  *
  * @author Koji Kuno
