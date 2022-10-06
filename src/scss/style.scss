@@ -119,9 +119,9 @@ $colors: foreground, background, primary, secondary, tertiary, quaternary;
 ------------------------------*/
 @each $color in $colors {
   .is-style-cormorant-striped-separator-#{$color} {
-    background-image: repeating-linear-gradient(135deg, transparent, transparent 10px, var( --wp--preset--color--#{$color} ) 10px, var( --wp--preset--color--#{$color} ) 20px);
+    background-image: repeating-linear-gradient(135deg, transparent, transparent 5px, var( --wp--preset--color--#{$color} ) 5px, var( --wp--preset--color--#{$color} ) 10px);
     background-color: transparent;
-    height: 15px;
+    height: 5px;
     border-bottom: none;
     &:not(.is-style-wide):not(.is-style-dots) {
       width: 100%;
@@ -133,7 +133,7 @@ $colors: foreground, background, primary, secondary, tertiary, quaternary;
   .is-style-cormorant-dotted-separator-#{$color} {
     width: 100% !important;
     border: none;
-    border-bottom: 15px dotted var(--wp--preset--color--#{$color});
+    border-bottom: 5px dotted var(--wp--preset--color--#{$color});
   }
 }
 
@@ -141,7 +141,7 @@ $colors: foreground, background, primary, secondary, tertiary, quaternary;
   .is-style-cormorant-dashed-separator-#{$color} {
     width: 100% !important;
     border: none;
-    border-bottom: 15px dashed var(--wp--preset--color--#{$color});
+    border-bottom: 5px dashed var(--wp--preset--color--#{$color});
   }
 }
 
@@ -150,9 +150,9 @@ $colors: foreground, background, primary, secondary, tertiary, quaternary;
 @each $color in $colors {
   .is-style-cormorant-striped-heading-#{$color} {
     position: relative;
-    padding-bottom: 15px;
+    padding-left: .2em;
     &:after {
-      background-image: repeating-linear-gradient(135deg, transparent, transparent 10px, var(--wp--preset--color--#{$color}) 10px, var(--wp--preset--color--#{$color}) 20px);
+      background-image: repeating-linear-gradient(135deg, transparent, transparent 5px, var(--wp--preset--color--#{$color}) 5px, var(--wp--preset--color--#{$color}) 10px);
       position: absolute;
       top: inherit !important;
       right: inherit !important;
@@ -162,22 +162,22 @@ $colors: foreground, background, primary, secondary, tertiary, quaternary;
       content: '';
       width: 100%;
       background-color: transparent;
-      height: 15px;
+      height: 5px;
     }
   }
 }
 
 @each $color in $colors {
   .is-style-cormorant-dotted-heading-#{$color} {
-    padding-bottom: 0.05em;
-    border-bottom: 0.3em dotted var(--wp--preset--color--#{$color});
+    padding-left: .2em;
+    border-bottom: 5px dotted var(--wp--preset--color--#{$color});
   }
 }
 
 @each $color in $colors {
   .is-style-cormorant-dashed-heading-#{$color} {
-    padding-bottom: 0.05em;
-    border-bottom: 0.3em dashed var(--wp--preset--color--#{$color});
+    padding-left: .2em;
+    border-bottom: 5px dashed var(--wp--preset--color--#{$color});
   }
 }
 
