@@ -45,9 +45,6 @@ if ( ! function_exists( 'cormorant_editor_styles' ) ) {
 	add_action( 'admin_init', 'cormorant_editor_styles' );
 }
 
-/**
- * If it doesn't have feature image, display
- */
 if ( ! function_exists( 'cormorant_no_feature_image_replace' ) ) {
 		/**
 		 * Output set default image when unset featured image
