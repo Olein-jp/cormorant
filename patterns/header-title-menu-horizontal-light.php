@@ -3,7 +3,7 @@
  * Title: Title and Menu - horizontal - light
  * Slug: cormorant/header-title-menu-horizontal-light
  * Categories: cormorant-header
- * Description: Header with Title and Menu styled horizontal colored light
+ * Description: Header with Title and Menu layout horizontal colored light
  * Keywords: cormorant
  * Block Types: core/group, core/site-title, core/navigation
  *

@@ -3,7 +3,7 @@
  * Title: Copyright and SNS Icon light
  * Slug: cormorant/footer-copyright-sns-icon-light
  * Categories: cormorant-footer
- * Description: Copyright and SNS icon link styled light
+ * Description: Copyright and SNS icon link colored light
  * Keywords: cormorant
  * Block Types: core/group, core/paragraph, core/site-title, core/social-links
  *

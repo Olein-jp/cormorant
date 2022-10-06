@@ -3,7 +3,7 @@
  * Title: Hero Vertical Light
  * Slug: cormorant/hero-vertical-light
  * Categories: cormorant-hero
- * Description: Vertical layout Hero styled light
+ * Description: Hero layout Vertical colored light
  * Keywords: cormorant
  * Block Types: core/group, core/image, core/paragraph, core/buttons, core/header
  *

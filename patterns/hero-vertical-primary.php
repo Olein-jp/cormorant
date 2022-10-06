@@ -1,9 +1,9 @@
 <?php
 /**
- * Title: Hero Vertical Dark
- * Slug: cormorant/hero-vertical-dark
+ * Title: Hero Vertical Primary
+ * Slug: cormorant/hero-vertical-primary
  * Categories: cormorant-hero
- * Description: Vertical layout Hero styled dark
+ * Description: Hero layout Vertical colored primary
  * Keywords: cormorant
  * Block Types: core/group, core/image, core/paragraph, core/buttons, core/header
  *
@@ -12,8 +12,8 @@
  * @since 1.0.0
  */
 ?>
-<!-- wp:group {"tagName":"section","align":"full","style":{"spacing":{"padding":{"top":"var:preset|spacing|X-large","bottom":"var:preset|spacing|X-large"}}},"backgroundColor":"foreground","textColor":"background","layout":{"type":"constrained"}} -->
-<section class="wp-block-group alignfull has-background-color has-foreground-background-color has-text-color has-background" style="padding-top:var(--wp--preset--spacing--x-large);padding-bottom:var(--wp--preset--spacing--x-large)"><!-- wp:group {"layout":{"type":"flex","orientation":"vertical","justifyContent":"center"}} -->
+<!-- wp:group {"tagName":"section","align":"full","style":{"spacing":{"padding":{"top":"var:preset|spacing|X-large","bottom":"var:preset|spacing|X-large"}}},"backgroundColor":"primary","textColor":"background","layout":{"type":"constrained"}} -->
+<section class="wp-block-group alignfull has-background-color has-primary-background-color has-text-color has-background" style="padding-top:var(--wp--preset--spacing--x-large);padding-bottom:var(--wp--preset--spacing--x-large)"><!-- wp:group {"layout":{"type":"flex","orientation":"vertical","justifyContent":"center"}} -->
 	<div class="wp-block-group"><!-- wp:image {"id":2180,"sizeSlug":"large","linkDestination":"none"} -->
 		<figure class="wp-block-image size-large"><img src="<?php echo esc_url( get_template_directory_uri() ) . '/assets/images/StockSnap_MDRPL8PT36.jpg'; ?>" alt="<?php echo esc_attr__( 'Sample Image', 'cormorant' ); ?>" class="wp-image-2180"/></figure>
 		<!-- /wp:image -->
@@ -27,8 +27,8 @@
 		<!-- /wp:paragraph -->
 
 		<!-- wp:buttons {"layout":{"type":"flex","justifyContent":"center"},"style":{"spacing":{"blockGap":"var:preset|spacing|x-small"}}} -->
-		<div class="wp-block-buttons"><!-- wp:button {"className":"is-style-cormorant-background-filled-square-button"} -->
-			<div class="wp-block-button is-style-cormorant-background-filled-square-button"><a class="wp-block-button__link wp-element-button">Click Left Button</a></div>
+		<div class="wp-block-buttons"><!-- wp:button {"textColor":"primary","className":"is-style-cormorant-background-filled-square-button"} -->
+			<div class="wp-block-button is-style-cormorant-background-filled-square-button"><a class="wp-block-button__link has-primary-color has-text-color wp-element-button">Click Left Button</a></div>
 			<!-- /wp:button -->
 
 			<!-- wp:button {"className":"is-style-cormorant-background-outline-square-button"} -->

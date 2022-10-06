@@ -1,9 +1,9 @@
 <?php
 /**
- * Title: Vertical Dark
- * Slug: cormorant/testimonial-vertical-dark
+ * Title: Vertical Primary
+ * Slug: cormorant/testimonial-vertical-primary
  * Categories: cormorant-testimonial
- * Description: Vertical styled dark
+ * Description: Testimonial layout Vertical colored primary
  * Keywords: cormorant
  * Block Types: core/group, core/columns, core/paragraph, core/paragraph
  *
@@ -12,8 +12,8 @@
  * @since 1.0.0
  */
 ?>
-<!-- wp:group {"align":"full","style":{"spacing":{"padding":{"top":"var:preset|spacing|X-large","right":"0","bottom":"var:preset|spacing|X-large","left":"0"}}},"backgroundColor":"foreground","textColor":"background","layout":{"type":"constrained"}} -->
-<div class="wp-block-group alignfull has-background-color has-foreground-background-color has-text-color has-background" style="padding-top:var(--wp--preset--spacing--x-large);padding-right:0;padding-bottom:var(--wp--preset--spacing--x-large);padding-left:0"><!-- wp:group {"align":"wide","style":{"spacing":{"blockGap":"var:preset|spacing|large"}},"layout":{"type":"flex","orientation":"vertical"}} -->
+<!-- wp:group {"align":"full","style":{"spacing":{"padding":{"top":"var:preset|spacing|X-large","right":"0","bottom":"var:preset|spacing|X-large","left":"0"}}},"backgroundColor":"primary","textColor":"background","layout":{"type":"constrained"}} -->
+<div class="wp-block-group alignfull has-background-color has-primary-background-color has-text-color has-background" style="padding-top:var(--wp--preset--spacing--x-large);padding-right:0;padding-bottom:var(--wp--preset--spacing--x-large);padding-left:0"><!-- wp:group {"align":"wide","style":{"spacing":{"blockGap":"var:preset|spacing|large"}},"layout":{"type":"flex","orientation":"vertical"}} -->
 	<div class="wp-block-group alignwide"><!-- wp:columns {"align":"wide"} -->
 		<div class="wp-block-columns alignwide"><!-- wp:column {"width":"80%","style":{"spacing":{"padding":{"top":"var:preset|spacing|small","right":"var:preset|spacing|small","bottom":"var:preset|spacing|small","left":"var:preset|spacing|small"}}},"backgroundColor":"background","textColor":"foreground"} -->
 			<div class="wp-block-column has-foreground-color has-background-background-color has-text-color has-background" style="padding-top:var(--wp--preset--spacing--small);padding-right:var(--wp--preset--spacing--small);padding-bottom:var(--wp--preset--spacing--small);padding-left:var(--wp--preset--spacing--small);flex-basis:80%"><!-- wp:group {"layout":{"type":"flex","flexWrap":"nowrap","verticalAlignment":"top"}} -->

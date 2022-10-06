@@ -1,9 +1,9 @@
 <?php
 /**
- * Title: CTA and Copyright dark
- * Slug: cormorant/footer-cta-copyright-dark
+ * Title: CTA and Copyright Primary
+ * Slug: cormorant/footer-cta-copyright-primary
  * Categories: cormorant-footer
- * Description: CTA and Copyright styled dark
+ * Description: CTA and Copyright colored primary
  * Keywords: cormorant
  * Block Types: core/group, core/paragraph, core/site-title, core/header, core/button
  *
@@ -12,8 +12,8 @@
  * @since 1.0.0
  */
 ?>
-<!-- wp:group {"tagName":"footer","align":"full","style":{"spacing":{"padding":{"top":"var:preset|spacing|medium","right":"var:preset|spacing|x-small","bottom":"var:preset|spacing|small","left":"var:preset|spacing|x-small"}}},"backgroundColor":"foreground","textColor":"background","layout":{"type":"default"},"fontSize":"tiny"} -->
-<footer class="wp-block-group alignfull has-background-color has-foreground-background-color has-text-color has-background has-tiny-font-size" style="padding-top:var(--wp--preset--spacing--medium);padding-right:var(--wp--preset--spacing--x-small);padding-bottom:var(--wp--preset--spacing--small);padding-left:var(--wp--preset--spacing--x-small)"><!-- wp:group {"layout":{"type":"constrained"}} -->
+<!-- wp:group {"tagName":"footer","align":"full","style":{"spacing":{"padding":{"top":"var:preset|spacing|medium","right":"var:preset|spacing|x-small","bottom":"var:preset|spacing|small","left":"var:preset|spacing|x-small"}}},"backgroundColor":"primary","textColor":"background","layout":{"type":"default"},"fontSize":"tiny"} -->
+<footer class="wp-block-group alignfull has-background-color has-primary-background-color has-text-color has-background has-tiny-font-size" style="padding-top:var(--wp--preset--spacing--medium);padding-right:var(--wp--preset--spacing--x-small);padding-bottom:var(--wp--preset--spacing--small);padding-left:var(--wp--preset--spacing--x-small)"><!-- wp:group {"layout":{"type":"constrained"}} -->
 	<div class="wp-block-group"><!-- wp:heading {"textAlign":"center"} -->
 		<h2 class="has-text-align-center">Contact Us</h2>
 		<!-- /wp:heading -->

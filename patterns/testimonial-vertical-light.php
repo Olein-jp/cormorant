@@ -3,7 +3,7 @@
  * Title: Vertical Light
  * Slug: cormorant/testimonial-vertical-light
  * Categories: cormorant-testimonial
- * Description: Vertical styled light
+ * Description: Testimonial layout Vertical colored light
  * Keywords: cormorant
  * Block Types: core/group, core/columns, core/paragraph, core/paragraph
  *

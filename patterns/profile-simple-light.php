@@ -3,7 +3,7 @@
  * Title: Profile Simple Light
  * Slug: cormorant/profile-simple-light
  * Categories: cormorant-profile
- * Description: Simple profile styled light
+ * Description: Simple profile colored light
  * Keywords: cormorant
  * Block Types: core/group, core/image, core/paragraph, core/social-icons, core/heading
  *

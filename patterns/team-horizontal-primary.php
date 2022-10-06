@@ -1,9 +1,9 @@
 <?php
 /**
- * Title: Team horizontal Dark
- * Slug: cormorant/team-horizontal-dark
+ * Title: Team horizontal Primary
+ * Slug: cormorant/team-horizontal-primary
  * Categories: cormorant-team
- * Description: Team horizontal dark
+ * Description: Team horizontal colored primary
  * Keywords: cormorant
  * Block Types: core/group, core/columns, core/paragraph, core/buttons, core/heading, core/image
  *
@@ -12,8 +12,8 @@
  * @since 1.0.0
  */
 ?>
-<!-- wp:group {"align":"full","style":{"spacing":{"padding":{"top":"150px","bottom":"150px"}}},"backgroundColor":"foreground","textColor":"background","layout":{"type":"constrained"}} -->
-<div class="wp-block-group alignfull has-background-color has-foreground-background-color has-text-color has-background" style="padding-top:150px;padding-bottom:150px"><!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|x-small"}},"layout":{"type":"flex","orientation":"vertical","justifyContent":"center"}} -->
+<!-- wp:group {"align":"full","style":{"spacing":{"padding":{"top":"150px","bottom":"150px"}}},"backgroundColor":"primary","textColor":"background","layout":{"type":"constrained"}} -->
+<div class="wp-block-group alignfull has-background-color has-primary-background-color has-text-color has-background" style="padding-top:150px;padding-bottom:150px"><!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|x-small"}},"layout":{"type":"flex","orientation":"vertical","justifyContent":"center"}} -->
 	<div class="wp-block-group"><!-- wp:heading {"textAlign":"center","fontSize":"extra-large"} -->
 		<h2 class="has-text-align-center has-extra-large-font-size">We are the Team</h2>
 		<!-- /wp:heading -->

@@ -3,7 +3,7 @@
  * Title: Team vertical Light
  * Slug: cormorant/team-vertical-light
  * Categories: cormorant-team
- * Description: Team vertical light
+ * Description: Team vertical colored light
  * Keywords: cormorant
  * Block Types: core/group, core/columns, core/paragraph, core/buttons, core/heading, core/image
  *

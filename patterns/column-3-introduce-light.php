@@ -3,7 +3,7 @@
  * Title: 3 Column Introduce Light
  * Slug: cormorant/column-3-introduce-light
  * Categories: cormorant-column
- * Description: 3 Columns for introducing styled light
+ * Description: 3 Columns for introducing colored light
  * Keywords: cormorant
  * Block Types: core/group, core/columns, core/paragraph, core/buttons, core/heading, core/image
  *

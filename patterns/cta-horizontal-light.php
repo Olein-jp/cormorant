@@ -3,7 +3,7 @@
  * Title: CTA Horizontal Light
  * Slug: cormorant/cta-horizontal-light
  * Categories: cormorant-cta
- * Description: Call To Action styled Horizontal light
+ * Description: Call To Action layout Horizontal colored light
  * Keywords: cormorant
  * Block Types: core/group, core/columns, core/paragraph, core/buttons,
  *

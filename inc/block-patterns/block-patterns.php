@@ -12,8 +12,7 @@ if ( ! function_exists( 'cormorant_register_block_categories' ) ) {
 	 */
 	function cormorant_register_block_pattern_categories() {
 		$cormorant_block_pattern_categories = array(
-			'cormorant-cta'         => array( 'label' => __( 'Cormorant - CTA', 'cormorant' ) ),
-			'cormorant-section'     => array( 'label' => __( 'Cormorant Section', 'cormorant' ) ),
+			'cormorant-cta'         => array( 'label' => __( 'Cormorant CTA', 'cormorant' ) ),
 			'cormorant-hero'        => array( 'label' => __( 'Cormorant Hero', 'cormorant' ) ),
 			'cormorant-column'      => array( 'label' => __( 'Cormorant Column', 'cormorant' ) ),
 			'cormorant-profile'     => array( 'label' => __( 'Cormorant Profile', 'cormorant' ) ),

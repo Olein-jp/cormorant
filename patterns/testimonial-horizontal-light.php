@@ -3,7 +3,7 @@
  * Title: Horizontal Light
  * Slug: cormorant/testimonial-horizontal-light
  * Categories: cormorant-testimonial
- * Description: Horizontal styled light
+ * Description: Testimonial layout Horizontal colored light
  * Keywords: cormorant
  * Block Types: core/group, core/columns, core/paragraph, core/paragraph
  *

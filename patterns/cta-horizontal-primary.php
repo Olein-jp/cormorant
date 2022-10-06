@@ -1,9 +1,9 @@
 <?php
 /**
- * Title: CTA Horizontal Dark
- * Slug: cormorant/cta-horizontal-dark
+ * Title: CTA Horizontal Primary
+ * Slug: cormorant/cta-horizontal-primary
  * Categories: cormorant-cta
- * Description: Call To Action styled Horizontal dark
+ * Description: Call To Action layout Horizontal colored primary
  * Keywords: cormorant
  * Block Types: core/group, core/columns, core/paragraph, core/buttons,
  *
@@ -12,8 +12,8 @@
  * @since 1.0.0
  */
 ?>
-<!-- wp:group {"align":"full","style":{"spacing":{"padding":{"top":"var:preset|spacing|X-large","right":"var:preset|spacing|60","bottom":"var:preset|spacing|X-large","left":"var:preset|spacing|60"},"blockGap":"0"}},"backgroundColor":"foreground","textColor":"background","layout":{"type":"constrained"}} -->
-<div class="wp-block-group alignfull has-background-color has-foreground-background-color has-text-color has-background" style="padding-top:var(--wp--preset--spacing--x-large);padding-right:var(--wp--preset--spacing--60);padding-bottom:var(--wp--preset--spacing--x-large);padding-left:var(--wp--preset--spacing--60)"><!-- wp:group {"layout":{"type":"constrained"}} -->
+<!-- wp:group {"align":"full","style":{"spacing":{"padding":{"top":"var:preset|spacing|X-large","right":"var:preset|spacing|60","bottom":"var:preset|spacing|X-large","left":"var:preset|spacing|60"},"blockGap":"0"}},"backgroundColor":"primary","textColor":"background","layout":{"type":"constrained"}} -->
+<div class="wp-block-group alignfull has-background-color has-primary-background-color has-text-color has-background" style="padding-top:var(--wp--preset--spacing--x-large);padding-right:var(--wp--preset--spacing--60);padding-bottom:var(--wp--preset--spacing--x-large);padding-left:var(--wp--preset--spacing--60)"><!-- wp:group {"layout":{"type":"constrained"}} -->
 	<div class="wp-block-group"><!-- wp:heading {"textAlign":"center","level":3} -->
 		<h3 class="has-text-align-center"><strong>Contact Us</strong></h3>
 		<!-- /wp:heading -->

@@ -3,7 +3,7 @@
  * Title: 2 Column Gradient
  * Slug: cormorant/column-2-gradient
  * Categories: cormorant-column
- * Description: 2 Columns styled gradient
+ * Description: 2 Columns colored gradient
  * Keywords: cormorant
  * Block Types: core/group, core/columns, core/paragraph, core/buttons, core/heading
  *
@@ -14,8 +14,8 @@
 ?>
 <!-- wp:group {"align":"full","style":{"spacing":{"padding":{"top":"var:preset|spacing|X-large","bottom":"var:preset|spacing|X-large"}}},"textColor":"background","gradient":"secondary-to-tertiary","layout":{"type":"constrained"}} -->
 <div class="wp-block-group alignfull has-background-color has-secondary-to-tertiary-gradient-background has-text-color has-background" style="padding-top:var(--wp--preset--spacing--x-large);padding-bottom:var(--wp--preset--spacing--x-large)"><!-- wp:columns {"align":"wide"} -->
-	<div class="wp-block-columns alignwide"><!-- wp:column {"style":{"spacing":{"padding":{"top":"var:preset|spacing|medium","right":"var:preset|spacing|medium","bottom":"var:preset|spacing|medium","left":"var:preset|spacing|medium"}},"border":{"width":"2px"},"color":{"background":"#ffffffd6"}},"borderColor":"background","textColor":"foreground"} -->
-		<div class="wp-block-column has-border-color has-background-border-color has-foreground-color has-text-color has-background" style="border-width:2px;background-color:#ffffffd6;padding-top:var(--wp--preset--spacing--medium);padding-right:var(--wp--preset--spacing--medium);padding-bottom:var(--wp--preset--spacing--medium);padding-left:var(--wp--preset--spacing--medium)"><!-- wp:heading {"level":3,"fontSize":"extra-large"} -->
+	<div class="wp-block-columns alignwide"><!-- wp:column {"style":{"spacing":{"padding":{"top":"var:preset|spacing|medium","right":"var:preset|spacing|medium","bottom":"var:preset|spacing|medium","left":"var:preset|spacing|medium"}},"border":{"width":"2px"},"color":{"background":"#ffffffd6"}},"borderColor":"background","textColor":"foreground","className":"is-style-default"} -->
+		<div class="wp-block-column is-style-default has-border-color has-background-border-color has-foreground-color has-text-color has-background" style="border-width:2px;background-color:#ffffffd6;padding-top:var(--wp--preset--spacing--medium);padding-right:var(--wp--preset--spacing--medium);padding-bottom:var(--wp--preset--spacing--medium);padding-left:var(--wp--preset--spacing--medium)"><!-- wp:heading {"level":3,"fontSize":"extra-large"} -->
 			<h3 class="has-extra-large-font-size"><strong>Heading Text</strong></h3>
 			<!-- /wp:heading -->
 
@@ -30,8 +30,8 @@
 			<!-- /wp:buttons --></div>
 		<!-- /wp:column -->
 
-		<!-- wp:column {"style":{"spacing":{"padding":{"top":"var:preset|spacing|medium","right":"var:preset|spacing|medium","bottom":"var:preset|spacing|medium","left":"var:preset|spacing|medium"}},"border":{"width":"2px"},"color":{"background":"#ffffffd6"}},"borderColor":"background","textColor":"foreground"} -->
-		<div class="wp-block-column has-border-color has-background-border-color has-foreground-color has-text-color has-background" style="border-width:2px;background-color:#ffffffd6;padding-top:var(--wp--preset--spacing--medium);padding-right:var(--wp--preset--spacing--medium);padding-bottom:var(--wp--preset--spacing--medium);padding-left:var(--wp--preset--spacing--medium)"><!-- wp:heading {"level":3,"fontSize":"extra-large"} -->
+		<!-- wp:column {"style":{"spacing":{"padding":{"top":"var:preset|spacing|medium","right":"var:preset|spacing|medium","bottom":"var:preset|spacing|medium","left":"var:preset|spacing|medium"}},"border":{"width":"2px"},"color":{"background":"#ffffffd6"}},"borderColor":"background","textColor":"foreground","className":"is-style-default"} -->
+		<div class="wp-block-column is-style-default has-border-color has-background-border-color has-foreground-color has-text-color has-background" style="border-width:2px;background-color:#ffffffd6;padding-top:var(--wp--preset--spacing--medium);padding-right:var(--wp--preset--spacing--medium);padding-bottom:var(--wp--preset--spacing--medium);padding-left:var(--wp--preset--spacing--medium)"><!-- wp:heading {"level":3,"fontSize":"extra-large"} -->
 			<h3 class="has-extra-large-font-size"><strong>Heading Text</strong></h3>
 			<!-- /wp:heading -->
 

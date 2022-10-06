@@ -3,7 +3,7 @@
  * Title: 3 Column Gradient
  * Slug: cormorant/column-3-gradient
  * Categories: cormorant-column
- * Description: 3 Columns styled gradient
+ * Description: 3 Columns colored gradient
  * Keywords: cormorant
  * Block Types: core/group, core/columns, core/paragraph, core/buttons, core/heading
  *

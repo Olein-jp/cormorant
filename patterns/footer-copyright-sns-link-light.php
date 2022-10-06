@@ -3,7 +3,7 @@
  * Title: Copyright and SNS Links light
  * Slug: cormorant/footer-copyright-sns-link-light
  * Categories: cormorant-footer
- * Description: Copyright and SNS text link styled light
+ * Description: Copyright and SNS text link colored light
  * Keywords: cormorant
  * Block Types: core/group, core/paragraph, core/site-title
  *
@@ -23,7 +23,7 @@
 		<!-- /wp:group -->
 
 		<!-- wp:paragraph -->
-		<p><a rel="noreferrer noopener" href="https://www.facebook.com/" target="_blank">Facebook</a> / <a rel="noreferrer noopener" href="https://twitter.com/" target="_blank">Twitter</a> / <a rel="noreferrer noopener" href="https://instagram.com/" target="_blank">Instagram</a></p>
+		<p><a rel="noreferrer noopener" href="https://www.facebook.com/" target="_blank">Facebook</a>&nbsp;/&nbsp;<a rel="noreferrer noopener" href="https://twitter.com/" target="_blank">Twitter</a>&nbsp;/&nbsp;<a rel="noreferrer noopener" href="https://instagram.com/" target="_blank">Instagram</a></p>
 		<!-- /wp:paragraph --></div>
 	<!-- /wp:group --></footer>
 <!-- /wp:group -->

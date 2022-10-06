@@ -3,7 +3,7 @@
  * Title: 3 Column Light
  * Slug: cormorant/column-3-light
  * Categories: cormorant-column
- * Description: 3 Columns styled dark
+ * Description: 3 Columns colored light
  * Keywords: cormorant
  * Block Types: core/group, core/columns, core/paragraph, core/buttons, core/heading
  *

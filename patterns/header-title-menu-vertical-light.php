@@ -3,7 +3,7 @@
  * Title: Title and Menu - vertical - light
  * Slug: cormorant/header-title-menu-vertical-light
  * Categories: cormorant-header
- * Description: Header with Title and Menu styled vertical colored light
+ * Description: Header with Title and Menu layout vertical colored light
  * Keywords: cormorant
  * Block Types: core/group, core/site-title, core/navigation
  *

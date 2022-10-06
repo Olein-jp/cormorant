@@ -3,7 +3,7 @@
  * Title: CTA and Copyright light
  * Slug: cormorant/footer-cta-copyright-light
  * Categories: cormorant-footer
- * Description: CTA and Copyright styled light
+ * Description: CTA and Copyright colored light
  * Keywords: cormorant
  * Block Types: core/group, core/paragraph, core/site-title, core/header, core/button
  *

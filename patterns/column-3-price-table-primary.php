@@ -1,9 +1,9 @@
 <?php
 /**
- * Title: 3 Column Price Table Dark
- * Slug: cormorant/column-3-price-table-dark
+ * Title: 3 Column Price Table Primary
+ * Slug: cormorant/column-3-price-table-primary
  * Categories: cormorant-column
- * Description: 3 Columns for price table styled dark
+ * Description: 3 Columns for price table colored primary
  * Keywords: cormorant
  * Block Types: core/group, core/columns, core/paragraph, core/buttons, core/heading, core/separator
  *
@@ -12,8 +12,8 @@
  * @since 1.0.0
  */
 ?>
-<!-- wp:group {"align":"full","style":{"spacing":{"padding":{"top":"var:preset|spacing|X-large","bottom":"var:preset|spacing|X-large"}}},"backgroundColor":"foreground","textColor":"background","layout":{"type":"constrained"}} -->
-<div class="wp-block-group alignfull has-background-color has-foreground-background-color has-text-color has-background" style="padding-top:var(--wp--preset--spacing--x-large);padding-bottom:var(--wp--preset--spacing--x-large)"><!-- wp:heading {"textAlign":"center","fontSize":"extra-large"} -->
+<!-- wp:group {"align":"full","style":{"spacing":{"padding":{"top":"var:preset|spacing|X-large","bottom":"var:preset|spacing|X-large"}}},"backgroundColor":"primary","textColor":"background","layout":{"type":"constrained"}} -->
+<div class="wp-block-group alignfull has-background-color has-primary-background-color has-text-color has-background" style="padding-top:var(--wp--preset--spacing--x-large);padding-bottom:var(--wp--preset--spacing--x-large)"><!-- wp:heading {"textAlign":"center","fontSize":"extra-large"} -->
 	<h2 class="has-text-align-center has-extra-large-font-size">Price Table</h2>
 	<!-- /wp:heading -->
 
@@ -24,8 +24,8 @@
 	<!-- wp:columns {"align":"wide"} -->
 	<div class="wp-block-columns alignwide"><!-- wp:column {"style":{"border":{"width":"1px"}},"borderColor":"background"} -->
 		<div class="wp-block-column has-border-color has-background-border-color" style="border-width:1px"><!-- wp:group {"style":{"spacing":{"padding":{"top":"20px","right":"20px","bottom":"20px","left":"20px"}}},"backgroundColor":"background","textColor":"foreground","layout":{"type":"constrained"}} -->
-			<div class="wp-block-group has-foreground-color has-background-background-color has-text-color has-background" style="padding-top:20px;padding-right:20px;padding-bottom:20px;padding-left:20px"><!-- wp:heading {"textAlign":"center","level":3,"fontSize":"medium"} -->
-				<h3 class="has-text-align-center has-medium-font-size"><strong>Stardard</strong> - $29.9</h3>
+			<div class="wp-block-group has-foreground-color has-background-background-color has-text-color has-background" style="padding-top:20px;padding-right:20px;padding-bottom:20px;padding-left:20px"><!-- wp:heading {"textAlign":"center","level":3,"textColor":"primary","fontSize":"medium"} -->
+				<h3 class="has-text-align-center has-primary-color has-text-color has-medium-font-size"><strong>Stardard</strong> - $29.9</h3>
 				<!-- /wp:heading --></div>
 			<!-- /wp:group -->
 
@@ -73,8 +73,8 @@
 				<!-- /wp:group -->
 
 				<!-- wp:buttons {"layout":{"type":"flex","justifyContent":"center"}} -->
-				<div class="wp-block-buttons"><!-- wp:button {"width":100,"className":"is-style-cormorant-background-filled-square-button"} -->
-					<div class="wp-block-button has-custom-width wp-block-button__width-100 is-style-cormorant-background-filled-square-button"><a class="wp-block-button__link wp-element-button">More Detail</a></div>
+				<div class="wp-block-buttons"><!-- wp:button {"textColor":"primary","width":100,"className":"is-style-cormorant-background-filled-square-button"} -->
+					<div class="wp-block-button has-custom-width wp-block-button__width-100 is-style-cormorant-background-filled-square-button"><a class="wp-block-button__link has-primary-color has-text-color wp-element-button">More Detail</a></div>
 					<!-- /wp:button --></div>
 				<!-- /wp:buttons --></div>
 			<!-- /wp:group --></div>
@@ -82,8 +82,8 @@
 
 		<!-- wp:column {"style":{"border":{"width":"1px"}},"borderColor":"background"} -->
 		<div class="wp-block-column has-border-color has-background-border-color" style="border-width:1px"><!-- wp:group {"style":{"spacing":{"padding":{"top":"20px","right":"20px","bottom":"20px","left":"20px"}}},"backgroundColor":"background","textColor":"foreground","layout":{"type":"constrained"}} -->
-			<div class="wp-block-group has-foreground-color has-background-background-color has-text-color has-background" style="padding-top:20px;padding-right:20px;padding-bottom:20px;padding-left:20px"><!-- wp:heading {"textAlign":"center","level":3,"fontSize":"medium"} -->
-				<h3 class="has-text-align-center has-medium-font-size"><strong>Premium</strong> - $69.9</h3>
+			<div class="wp-block-group has-foreground-color has-background-background-color has-text-color has-background" style="padding-top:20px;padding-right:20px;padding-bottom:20px;padding-left:20px"><!-- wp:heading {"textAlign":"center","level":3,"textColor":"primary","fontSize":"medium"} -->
+				<h3 class="has-text-align-center has-primary-color has-text-color has-medium-font-size"><strong>Premium</strong> - $69.9</h3>
 				<!-- /wp:heading --></div>
 			<!-- /wp:group -->
 
@@ -131,8 +131,8 @@
 				<!-- /wp:group -->
 
 				<!-- wp:buttons {"layout":{"type":"flex","justifyContent":"center"}} -->
-				<div class="wp-block-buttons"><!-- wp:button {"width":100,"className":"is-style-cormorant-background-filled-square-button"} -->
-					<div class="wp-block-button has-custom-width wp-block-button__width-100 is-style-cormorant-background-filled-square-button"><a class="wp-block-button__link wp-element-button">More Detail</a></div>
+				<div class="wp-block-buttons"><!-- wp:button {"textColor":"primary","width":100,"className":"is-style-cormorant-background-filled-square-button"} -->
+					<div class="wp-block-button has-custom-width wp-block-button__width-100 is-style-cormorant-background-filled-square-button"><a class="wp-block-button__link has-primary-color has-text-color wp-element-button">More Detail</a></div>
 					<!-- /wp:button --></div>
 				<!-- /wp:buttons --></div>
 			<!-- /wp:group --></div>
@@ -140,8 +140,8 @@
 
 		<!-- wp:column {"style":{"border":{"width":"1px"}},"borderColor":"background"} -->
 		<div class="wp-block-column has-border-color has-background-border-color" style="border-width:1px"><!-- wp:group {"style":{"spacing":{"padding":{"top":"20px","right":"20px","bottom":"20px","left":"20px"}}},"backgroundColor":"background","textColor":"foreground","layout":{"type":"constrained"}} -->
-			<div class="wp-block-group has-foreground-color has-background-background-color has-text-color has-background" style="padding-top:20px;padding-right:20px;padding-bottom:20px;padding-left:20px"><!-- wp:heading {"textAlign":"center","level":3,"fontSize":"medium"} -->
-				<h3 class="has-text-align-center has-medium-font-size"><strong>Business</strong> - $99.9</h3>
+			<div class="wp-block-group has-foreground-color has-background-background-color has-text-color has-background" style="padding-top:20px;padding-right:20px;padding-bottom:20px;padding-left:20px"><!-- wp:heading {"textAlign":"center","level":3,"textColor":"primary","fontSize":"medium"} -->
+				<h3 class="has-text-align-center has-primary-color has-text-color has-medium-font-size"><strong>Business</strong> - $99.9</h3>
 				<!-- /wp:heading --></div>
 			<!-- /wp:group -->
 
@@ -189,8 +189,8 @@
 				<!-- /wp:group -->
 
 				<!-- wp:buttons {"layout":{"type":"flex","justifyContent":"center"}} -->
-				<div class="wp-block-buttons"><!-- wp:button {"width":100,"className":"is-style-cormorant-background-filled-square-button"} -->
-					<div class="wp-block-button has-custom-width wp-block-button__width-100 is-style-cormorant-background-filled-square-button"><a class="wp-block-button__link wp-element-button">More Detail</a></div>
+				<div class="wp-block-buttons"><!-- wp:button {"textColor":"primary","width":100,"className":"is-style-cormorant-background-filled-square-button"} -->
+					<div class="wp-block-button has-custom-width wp-block-button__width-100 is-style-cormorant-background-filled-square-button"><a class="wp-block-button__link has-primary-color has-text-color wp-element-button">More Detail</a></div>
 					<!-- /wp:button --></div>
 				<!-- /wp:buttons --></div>
 			<!-- /wp:group --></div>

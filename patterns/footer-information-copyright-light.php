@@ -3,7 +3,7 @@
  * Title: Information and Copyright light
  * Slug: cormorant/footer-information-copyright-light
  * Categories: cormorant-footer
- * Description: Information and Copyright styled light
+ * Description: Information and Copyright colored light
  * Keywords: cormorant
  * Block Types: core/group, core/paragraph, core/site-title, core/header, core/list
  *
