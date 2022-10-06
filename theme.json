@@ -196,8 +196,8 @@
       },
       "typography": {
         "letter-spacing": {
-          "body": "-0.01em",
-          "heading": "-0.02em"
+          "body": "0.01em",
+          "heading": "0.02em"
         },
         "line-height": {
           "body": "1.7",
