@@ -51,6 +51,10 @@ label {
     padding-left: 0;
     padding-right: 0;
   }
+  .page-template-template-blank & {
+    padding-left: 0;
+    padding-right: 0;
+  }
 }
 
 /* core/post-comments
@@ -181,7 +185,7 @@ $colors: foreground, background, primary, secondary, tertiary, quaternary;
   }
 }
 
-/* core/paragraph
+/* core/group
 ------------------------------*/
 @each $color in $colors {
   .is-style-cormorant-solid-shadow-#{$color} {
@@ -341,4 +345,39 @@ $colors: foreground, background, primary, secondary, tertiary, quaternary;
 
 .is-style-cormorant-background-shadow-column {
   box-shadow: 0 0 10px var( --wp--preset--color--background );
+}
+
+/*--------------------------------------------------------------
+    Custom style for DEMO
+--------------------------------------------------------------*/
+@media ( max-width: 781px ) {
+  .demo-first-view {
+    min-height: 100vh;
+    .wp-block-columns {
+      .wp-block-column {
+        padding-left: calc(0.5 * var(--wp--preset--spacing--small));
+        padding-right: calc(0.5 * var(--wp--preset--spacing--small));
+      }
+    }
+  }
+  .demo-feature-points {
+
+    padding: calc(0.5 * var(--wp--preset--spacing--small)) !important;
+
+    .wp-block-columns {
+      gap: 1em;
+    }
+  }
+}
+@media (min-width: 782px) {
+  .demo-first-view {
+    padding-bottom: 140px;
+    min-height: 780px;
+  }
+  .demo-feature-points {
+    padding: inherit;
+    margin-top: -140px !important;
+    position: relative;
+    z-index: 10;
+  }
 }
