@@ -12,10 +12,10 @@
  * @since 1.0.0
  */
 ?>
-<!-- wp:cover {"url":"<?php echo esc_url( get_template_directory_uri() ) . '/assets/images/StockSnap_FOKZ3FZEKE.jpg'; ?>","id":2179,"dimRatio":90,"overlayColor":"foreground","minHeight":331,"minHeightUnit":"px","contentPosition":"center center","style":{"spacing":{"padding":{"top":"var:preset|spacing|medium","right":"var:preset|spacing|medium","bottom":"var:preset|spacing|medium","left":"var:preset|spacing|medium"}}}} -->
-<div class="wp-block-cover" style="padding-top:var(--wp--preset--spacing--medium);padding-right:var(--wp--preset--spacing--medium);padding-bottom:var(--wp--preset--spacing--medium);padding-left:var(--wp--preset--spacing--medium);min-height:331px"><span aria-hidden="true" class="wp-block-cover__background has-foreground-background-color has-background-dim-90 has-background-dim"></span><img src="<?php echo esc_url( get_template_directory_uri() ) . '/assets/images/StockSnap_FOKZ3FZEKE.jpg'; ?>" alt="<?php echo esc_attr__( 'Sample Image', 'cormorant' ); ?>" class="wp-block-cover__image-background wp-image-2179" data-object-fit="cover"/><div class="wp-block-cover__inner-container"><!-- wp:paragraph {"align":"center","fontSize":"huge"} -->
-		<p class="has-text-align-center has-huge-font-size">Banner Heading</p>
-		<!-- /wp:paragraph -->
+<!-- wp:cover {"url":"http://cormorant.wp/wp-content/uploads/2022/10/StockSnap_FOKZ3FZEKE.jpg","id":2179,"dimRatio":90,"overlayColor":"foreground","minHeight":331,"minHeightUnit":"px","contentPosition":"center center","style":{"spacing":{"padding":{"top":"var:preset|spacing|medium","right":"var:preset|spacing|medium","bottom":"var:preset|spacing|medium","left":"var:preset|spacing|medium"}}}} -->
+<div class="wp-block-cover" style="padding-top:var(--wp--preset--spacing--medium);padding-right:var(--wp--preset--spacing--medium);padding-bottom:var(--wp--preset--spacing--medium);padding-left:var(--wp--preset--spacing--medium);min-height:331px"><span aria-hidden="true" class="wp-block-cover__background has-foreground-background-color has-background-dim-90 has-background-dim"></span><img class="wp-block-cover__image-background wp-image-2179" alt="" src="http://cormorant.wp/wp-content/uploads/2022/10/StockSnap_FOKZ3FZEKE.jpg" data-object-fit="cover"/><div class="wp-block-cover__inner-container"><!-- wp:heading {"textAlign":"center","level":3,"fontSize":"huge"} -->
+		<h3 class="has-text-align-center has-huge-font-size">Banner Heading</h3>
+		<!-- /wp:heading -->
 
 		<!-- wp:paragraph {"fontSize":"small"} -->
 		<p class="has-small-font-size">Dis congue dolor aliquam nulla maximus luctus consequat lacus, massa maecenas ligula ultricies id rutrum sociosqu, cursus sed hendrerit duis</p>
