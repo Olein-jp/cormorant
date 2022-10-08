@@ -31,7 +31,7 @@
 		<!-- /wp:paragraph --></div>
 	<!-- /wp:group -->
 
-	<!-- wp:social-links {"iconColor":"primary","iconColorValue":"#024059","iconBackgroundColor":"background","iconBackgroundColorValue":"#ffffff","style":{"spacing":{"blockGap":{"top":"var:preset|spacing|x-small","left":"var:preset|spacing|x-small"}}}} -->
+	<!-- wp:social-links {"iconColor":"primary","iconColorValue":"#024059","iconBackgroundColor":"background","iconBackgroundColorValue":"#ffffff","style":{"spacing":{"blockGap":{"top":"var:preset|spacing|s","left":"var:preset|spacing|s"}}}} -->
 	<ul class="wp-block-social-links has-icon-color has-icon-background-color"><!-- wp:social-link {"url":"https://facebook.com","service":"facebook"} /-->
 
 		<!-- wp:social-link {"url":"https://instagram.com","service":"instagram"} /-->

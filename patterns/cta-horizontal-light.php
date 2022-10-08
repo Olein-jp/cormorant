@@ -12,13 +12,13 @@
  * @since 1.0.0
  */
 ?>
-<!-- wp:group {"align":"full","style":{"spacing":{"padding":{"top":"var:preset|spacing|X-large","right":"var:preset|spacing|60","bottom":"var:preset|spacing|X-large","left":"var:preset|spacing|60"},"blockGap":"0"}},"backgroundColor":"background","textColor":"foreground","layout":{"type":"constrained"}} -->
+<!-- wp:group {"align":"full","style":{"spacing":{"padding":{"top":"var:preset|spacing|2-xl","right":"var:preset|spacing|60","bottom":"var:preset|spacing|2-xl","left":"var:preset|spacing|60"},"blockGap":"0"}},"backgroundColor":"background","textColor":"foreground","layout":{"type":"constrained"}} -->
 <div class="wp-block-group alignfull has-foreground-color has-background-background-color has-text-color has-background" style="padding-top:var(--wp--preset--spacing--x-large);padding-right:var(--wp--preset--spacing--60);padding-bottom:var(--wp--preset--spacing--x-large);padding-left:var(--wp--preset--spacing--60)"><!-- wp:group {"layout":{"type":"constrained"}} -->
 	<div class="wp-block-group"><!-- wp:heading {"textAlign":"center","level":3} -->
 		<h3 class="has-text-align-center"><strong>Contact Us</strong></h3>
 		<!-- /wp:heading -->
 
-		<!-- wp:columns {"verticalAlignment":"center","style":{"spacing":{"margin":{"top":"var:preset|spacing|x-small"}}}} -->
+		<!-- wp:columns {"verticalAlignment":"center","style":{"spacing":{"margin":{"top":"var:preset|spacing|s"}}}} -->
 		<div class="wp-block-columns are-vertically-aligned-center" style="margin-top:var(--wp--preset--spacing--x-small)"><!-- wp:column {"verticalAlignment":"center","width":"66.66%"} -->
 			<div class="wp-block-column is-vertically-aligned-center" style="flex-basis:66.66%"><!-- wp:paragraph -->
 				<p>Diam elit magnis faucibus arcu duis pulvinar malesuada placerat aenean cubilia purus risus sem, luctus in dictum himenaeos urna id commodo sollicitudin iaculis cursus per. Habitant tortor non nascetur lacus enim rutrum fringilla vivamus integer litora vitae nostra</p>

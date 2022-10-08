@@ -12,7 +12,7 @@
  * @since 1.0.0
  */
 ?>
-<!-- wp:group {"tagName":"footer","align":"full","style":{"spacing":{"padding":{"top":"var:preset|spacing|medium","right":"var:preset|spacing|x-small","bottom":"var:preset|spacing|small","left":"var:preset|spacing|x-small"}}},"backgroundColor":"background","textColor":"foreground","layout":{"type":"default"},"fontSize":"tiny"} -->
+<!-- wp:group {"tagName":"footer","align":"full","style":{"spacing":{"padding":{"top":"var:preset|spacing|l","right":"var:preset|spacing|s","bottom":"var:preset|spacing|m","left":"var:preset|spacing|s"}}},"backgroundColor":"background","textColor":"foreground","layout":{"type":"default"},"fontSize":"tiny"} -->
 <footer class="wp-block-group alignfull has-foreground-color has-background-background-color has-text-color has-background has-tiny-font-size" style="padding-top:var(--wp--preset--spacing--medium);padding-right:var(--wp--preset--spacing--x-small);padding-bottom:var(--wp--preset--spacing--small);padding-left:var(--wp--preset--spacing--x-small)"><!-- wp:group {"layout":{"type":"constrained"}} -->
 	<div class="wp-block-group"><!-- wp:heading {"textAlign":"center"} -->
 		<h2 class="has-text-align-center">Contact Us</h2>
@@ -29,7 +29,7 @@
 		<!-- /wp:buttons --></div>
 	<!-- /wp:group -->
 
-	<!-- wp:group {"style":{"spacing":{"blockGap":"5px","margin":{"top":"var:preset|spacing|medium"}}},"layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"center"}} -->
+	<!-- wp:group {"style":{"spacing":{"blockGap":"5px","margin":{"top":"var:preset|spacing|l"}}},"layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"center"}} -->
 	<div class="wp-block-group" style="margin-top:var(--wp--preset--spacing--medium)"><!-- wp:paragraph -->
 		<p>©️</p>
 		<!-- /wp:paragraph -->

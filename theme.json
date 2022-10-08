@@ -190,6 +190,7 @@
       "link": true
     },
     "custom": {
+      "modular-scale": 1.25,
       "spacing": {
         "unit": "1rem"
       },
@@ -214,29 +215,29 @@
       "blockGap": true,
       "spacingSizes": [
         {
-          "size": "1.25rem",
-          "slug": "x-small",
-          "name": "xSmall"
+          "size": "calc( var( --wp--custom--modular-scale ) * 1 )",
+          "slug": "s",
+          "name": "S"
         },
         {
-          "size": "2.5rem",
-          "slug": "small",
-          "name": "Small"
+          "size": "calc( var( --wp--custom--modular-scale ) * 2 )",
+          "slug": "m",
+          "name": "M"
         },
         {
-          "size": "3.75rem",
-          "slug": "medium",
-          "name": "Medium"
+          "size": "calc( var( --wp--custom--modular-scale ) * 3 )",
+          "slug": "l",
+          "name": "L"
         },
         {
-          "size": "5rem",
-          "slug": "large",
-          "name": "Large"
+          "size": "calc( var( --wp--custom--modular-scale ) *4 )",
+          "slug": "xl",
+          "name": "XL"
         },
         {
-          "size": "6.25rem",
-          "slug": "X-large",
-          "name": "xLarge"
+          "size": "calc( var( --wp--custom--modular-scale ) * 5 )",
+          "slug": "2-xl",
+          "name": "2XL"
         }
       ],
       "units": [
@@ -293,7 +294,7 @@
       "fontSizes": [
         {
           "name": "XS",
-          "slug": "x-small",
+          "slug": "xs",
           "size": "0.8rem",
           "fluid": {
             "min": "0.8rem",
@@ -302,7 +303,7 @@
         },
         {
           "name": "S",
-          "slug": "small",
+          "slug": "s",
           "size": "0.8889rem",
           "fluid": {
             "min": "0.8889rem",
@@ -311,7 +312,7 @@
         },
         {
           "name": "M",
-          "slug": "medium",
+          "slug": "m",
           "size": "1rem",
           "fluid": {
             "min": "1rem",
@@ -320,7 +321,7 @@
         },
         {
           "name": "L",
-          "slug": "large",
+          "slug": "l",
           "size": "1.1429rem",
           "fluid": {
             "min": "1.1429rem",
@@ -329,7 +330,7 @@
         },
         {
           "name": "XL",
-          "slug": "x-large",
+          "slug": "xl",
           "size": "1.3333rem",
           "fluid": {
             "min": "1.3333rem",
@@ -338,7 +339,7 @@
         },
         {
           "name": "2XL",
-          "slug": "xx-large",
+          "slug": "2-xl",
           "size": "1.6rem",
           "fluid": {
             "min": "1.6rem",
@@ -347,7 +348,7 @@
         },
         {
           "name": "3XL",
-          "slug": "xxx-large",
+          "slug": "cormorant-3-xl",
           "size": "2rem",
           "fluid": {
             "min": "2rem",

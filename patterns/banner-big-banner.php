@@ -22,7 +22,7 @@
 			<h3 class="has-text-align-center" style="margin-top:0">Malesuada platea morbi</h3>
 			<!-- /wp:heading -->
 
-			<!-- wp:paragraph {"align":"center","style":{"spacing":{"margin":{"top":"var:preset|spacing|x-small"}}}} -->
+			<!-- wp:paragraph {"align":"center","style":{"spacing":{"margin":{"top":"var:preset|spacing|s"}}}} -->
 			<p class="has-text-align-center" style="margin-top:var(--wp--preset--spacing--x-small)">Tortor neque cubilia nibh euismod aptent semper interdum molestie porta leo bibendum, iaculis nec ac consectetur dapibus urna nisi laoreet fames. Etiam diam nascetur dapibus mauris  donec pulvinar magna, rutrum ornare tellus laoreet sit curae</p>
 			<!-- /wp:paragraph -->
 
