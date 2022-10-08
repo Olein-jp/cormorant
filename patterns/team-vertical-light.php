@@ -14,7 +14,7 @@
 ?>
 <!-- wp:group {"align":"full","style":{"spacing":{"padding":{"top":"150px","bottom":"150px"}}},"backgroundColor":"background","textColor":"foreground","layout":{"type":"constrained"}} -->
 <div class="wp-block-group alignfull has-foreground-color has-background-background-color has-text-color has-background" style="padding-top:150px;padding-bottom:150px"><!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|s"}},"layout":{"type":"flex","orientation":"vertical","justifyContent":"left"}} -->
-	<div class="wp-block-group"><!-- wp:heading {"textAlign":"center","fontSize":"extra-large"} -->
+	<div class="wp-block-group"><!-- wp:heading {"textAlign":"center","fontSize":"xl"} -->
 		<h2 class="has-text-align-center has-extra-large-font-size">We are the Team</h2>
 		<!-- /wp:heading -->
 
@@ -33,7 +33,7 @@
 				<!-- /wp:column -->
 
 				<!-- wp:column {"width":"66.66%","style":{"spacing":{"blockGap":"var:preset|spacing|s"}}} -->
-				<div class="wp-block-column" style="flex-basis:66.66%"><!-- wp:paragraph {"fontSize":"large"} -->
+				<div class="wp-block-column" style="flex-basis:66.66%"><!-- wp:paragraph {"fontSize":"l"} -->
 					<p class="has-large-font-size"><strong>Member Name</strong></p>
 					<!-- /wp:paragraph -->
 
@@ -59,7 +59,7 @@
 				<!-- /wp:column -->
 
 				<!-- wp:column {"width":"66.66%","style":{"spacing":{"blockGap":"var:preset|spacing|s"}}} -->
-				<div class="wp-block-column" style="flex-basis:66.66%"><!-- wp:paragraph {"fontSize":"large"} -->
+				<div class="wp-block-column" style="flex-basis:66.66%"><!-- wp:paragraph {"fontSize":"l"} -->
 					<p class="has-large-font-size"><strong>Member Name</strong></p>
 					<!-- /wp:paragraph -->
 
@@ -85,7 +85,7 @@
 				<!-- /wp:column -->
 
 				<!-- wp:column {"width":"66.66%","style":{"spacing":{"blockGap":"var:preset|spacing|s"}}} -->
-				<div class="wp-block-column" style="flex-basis:66.66%"><!-- wp:paragraph {"fontSize":"large"} -->
+				<div class="wp-block-column" style="flex-basis:66.66%"><!-- wp:paragraph {"fontSize":"l"} -->
 					<p class="has-large-font-size"><strong>Member Name</strong></p>
 					<!-- /wp:paragraph -->
 
@@ -111,7 +111,7 @@
 				<!-- /wp:column -->
 
 				<!-- wp:column {"width":"66.66%","style":{"spacing":{"blockGap":"var:preset|spacing|s"}}} -->
-				<div class="wp-block-column" style="flex-basis:66.66%"><!-- wp:paragraph {"fontSize":"large"} -->
+				<div class="wp-block-column" style="flex-basis:66.66%"><!-- wp:paragraph {"fontSize":"l"} -->
 					<p class="has-large-font-size"><strong>Member Name</strong></p>
 					<!-- /wp:paragraph -->
 

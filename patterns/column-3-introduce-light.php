@@ -13,7 +13,7 @@
  */
 ?>
 <!-- wp:group {"align":"full","style":{"spacing":{"padding":{"top":"var:preset|spacing|2-xl","bottom":"var:preset|spacing|2-xl"}}},"backgroundColor":"background","textColor":"foreground","layout":{"type":"constrained"}} -->
-<div class="wp-block-group alignfull has-foreground-color has-background-background-color has-text-color has-background" style="padding-top:var(--wp--preset--spacing--x-large);padding-bottom:var(--wp--preset--spacing--x-large)"><!-- wp:group {"layout":{"type":"constrained"}} -->
+<div class="wp-block-group alignfull has-foreground-color has-background-background-color has-text-color has-background" style="padding-top:var(--wp--preset--spacing--2-xl);padding-bottom:var(--wp--preset--spacing--2-xl)"><!-- wp:group {"layout":{"type":"constrained"}} -->
 	<div class="wp-block-group"><!-- wp:heading {"textAlign":"center"} -->
 		<h2 class="has-text-align-center">Introduced Services</h2>
 		<!-- /wp:heading -->
@@ -30,8 +30,8 @@
 				<figure class="wp-block-image size-large"><img src="<?php echo esc_url( get_template_directory_uri() ) . '/assets/images/StockSnap_MDRPL8PT36.jpg'; ?>" alt="<?php echo esc_attr__( 'Sample Image', 'cormorant' ); ?>" class="wp-image-2180"/></figure>
 				<!-- /wp:image -->
 
-				<!-- wp:heading {"textAlign":"center","level":3,"fontSize":"large"} -->
-				<h3 class="has-text-align-center has-large-font-size"><strong>Heading Text</strong></h3>
+				<!-- wp:heading {"textAlign":"center","level":3,"fontSize":"4-xl"} -->
+				<h3 class="has-text-align-center has-4-xl-font-size"><strong>Heading Text</strong></h3>
 				<!-- /wp:heading -->
 
 				<!-- wp:paragraph {"align":"center"} -->
@@ -52,8 +52,8 @@
 				<figure class="wp-block-image size-large"><img src="<?php echo esc_url( get_template_directory_uri() ) . '/assets/images/StockSnap_MDRPL8PT36.jpg'; ?>" alt="<?php echo esc_attr__( 'Sample Image', 'cormorant' ); ?>" class="wp-image-2180"/></figure>
 				<!-- /wp:image -->
 
-				<!-- wp:heading {"textAlign":"center","level":3,"fontSize":"large"} -->
-				<h3 class="has-text-align-center has-large-font-size"><strong>Heading Text</strong></h3>
+				<!-- wp:heading {"textAlign":"center","level":3,"fontSize":"4-xl"} -->
+				<h3 class="has-text-align-center has-4-xl-font-size"><strong>Heading Text</strong></h3>
 				<!-- /wp:heading -->
 
 				<!-- wp:paragraph {"align":"center"} -->
@@ -74,8 +74,8 @@
 				<figure class="wp-block-image size-large"><img src="<?php echo esc_url( get_template_directory_uri() ) . '/assets/images/StockSnap_MDRPL8PT36.jpg'; ?>" alt="<?php echo esc_attr__( 'Sample Image', 'cormorant' ); ?>" class="wp-image-2180"/></figure>
 				<!-- /wp:image -->
 
-				<!-- wp:heading {"textAlign":"center","level":3,"fontSize":"large"} -->
-				<h3 class="has-text-align-center has-large-font-size"><strong>Heading Text</strong></h3>
+				<!-- wp:heading {"textAlign":"center","level":3,"fontSize":"4-xl"} -->
+				<h3 class="has-text-align-center has-4-xl-font-size"><strong>Heading Text</strong></h3>
 				<!-- /wp:heading -->
 
 				<!-- wp:paragraph {"align":"center"} -->

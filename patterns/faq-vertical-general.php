@@ -21,7 +21,7 @@
 	<div class="wp-block-group alignfull"><!-- wp:group {"style":{"color":{"background":"#02405926"}},"layout":{"type":"constrained"}} -->
 		<div class="wp-block-group has-background" style="background-color:#02405926"><!-- wp:group {"layout":{"type":"constrained"}} -->
 			<div class="wp-block-group"><!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|s"}},"layout":{"type":"flex","flexWrap":"nowrap"}} -->
-				<div class="wp-block-group"><!-- wp:paragraph {"textColor":"primary","fontSize":"extra-large"} -->
+				<div class="wp-block-group"><!-- wp:paragraph {"textColor":"primary","fontSize":"xl"} -->
 					<p class="has-primary-color has-text-color has-extra-large-font-size"><strong>Q</strong></p>
 					<!-- /wp:paragraph -->
 
@@ -31,7 +31,7 @@
 				<!-- /wp:group -->
 
 				<!-- wp:group {"layout":{"type":"flex","flexWrap":"nowrap","verticalAlignment":"top"}} -->
-				<div class="wp-block-group"><!-- wp:paragraph {"fontSize":"extra-large"} -->
+				<div class="wp-block-group"><!-- wp:paragraph {"fontSize":"xl"} -->
 					<p class="has-extra-large-font-size"><strong>A</strong></p>
 					<!-- /wp:paragraph -->
 
@@ -45,7 +45,7 @@
 		<!-- wp:group {"style":{"color":{"background":"#0240590d"}},"layout":{"type":"constrained"}} -->
 		<div class="wp-block-group has-background" style="background-color:#0240590d"><!-- wp:group {"layout":{"type":"constrained"}} -->
 			<div class="wp-block-group"><!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|s"}},"layout":{"type":"flex","flexWrap":"nowrap"}} -->
-				<div class="wp-block-group"><!-- wp:paragraph {"textColor":"primary","fontSize":"extra-large"} -->
+				<div class="wp-block-group"><!-- wp:paragraph {"textColor":"primary","fontSize":"xl"} -->
 					<p class="has-primary-color has-text-color has-extra-large-font-size"><strong>Q</strong></p>
 					<!-- /wp:paragraph -->
 
@@ -55,7 +55,7 @@
 				<!-- /wp:group -->
 
 				<!-- wp:group {"layout":{"type":"flex","flexWrap":"nowrap","verticalAlignment":"top"}} -->
-				<div class="wp-block-group"><!-- wp:paragraph {"fontSize":"extra-large"} -->
+				<div class="wp-block-group"><!-- wp:paragraph {"fontSize":"xl"} -->
 					<p class="has-extra-large-font-size"><strong>A</strong></p>
 					<!-- /wp:paragraph -->
 
@@ -69,7 +69,7 @@
 		<!-- wp:group {"style":{"color":{"background":"#02405926"}},"layout":{"type":"constrained"}} -->
 		<div class="wp-block-group has-background" style="background-color:#02405926"><!-- wp:group {"layout":{"type":"constrained"}} -->
 			<div class="wp-block-group"><!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|s"}},"layout":{"type":"flex","flexWrap":"nowrap"}} -->
-				<div class="wp-block-group"><!-- wp:paragraph {"textColor":"primary","fontSize":"extra-large"} -->
+				<div class="wp-block-group"><!-- wp:paragraph {"textColor":"primary","fontSize":"xl"} -->
 					<p class="has-primary-color has-text-color has-extra-large-font-size"><strong>Q</strong></p>
 					<!-- /wp:paragraph -->
 
@@ -79,7 +79,7 @@
 				<!-- /wp:group -->
 
 				<!-- wp:group {"layout":{"type":"flex","flexWrap":"nowrap","verticalAlignment":"top"}} -->
-				<div class="wp-block-group"><!-- wp:paragraph {"fontSize":"extra-large"} -->
+				<div class="wp-block-group"><!-- wp:paragraph {"fontSize":"xl"} -->
 					<p class="has-extra-large-font-size"><strong>A</strong></p>
 					<!-- /wp:paragraph -->
 
@@ -93,7 +93,7 @@
 		<!-- wp:group {"style":{"color":{"background":"#0240590d"}},"layout":{"type":"constrained"}} -->
 		<div class="wp-block-group has-background" style="background-color:#0240590d"><!-- wp:group {"layout":{"type":"constrained"}} -->
 			<div class="wp-block-group"><!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|s"}},"layout":{"type":"flex","flexWrap":"nowrap"}} -->
-				<div class="wp-block-group"><!-- wp:paragraph {"textColor":"primary","fontSize":"extra-large"} -->
+				<div class="wp-block-group"><!-- wp:paragraph {"textColor":"primary","fontSize":"xl"} -->
 					<p class="has-primary-color has-text-color has-extra-large-font-size"><strong>Q</strong></p>
 					<!-- /wp:paragraph -->
 
@@ -103,7 +103,7 @@
 				<!-- /wp:group -->
 
 				<!-- wp:group {"layout":{"type":"flex","flexWrap":"nowrap","verticalAlignment":"top"}} -->
-				<div class="wp-block-group"><!-- wp:paragraph {"fontSize":"extra-large"} -->
+				<div class="wp-block-group"><!-- wp:paragraph {"fontSize":"xl"} -->
 					<p class="has-extra-large-font-size"><strong>A</strong></p>
 					<!-- /wp:paragraph -->
 

@@ -18,7 +18,7 @@
 		<figure class="wp-block-image size-large"><img src="<?php echo esc_url( get_template_directory_uri() ) . '/assets/images/StockSnap_MDRPL8PT36.jpg'; ?>" alt="<?php echo esc_attr__( 'Sample Image', 'cormorant' ); ?>" class="wp-image-2180"/></figure>
 		<!-- /wp:image -->
 
-		<!-- wp:heading {"textAlign":"center","style":{"typography":{"fontStyle":"normal","fontWeight":"700"}},"fontSize":"extra-large"} -->
+		<!-- wp:heading {"textAlign":"center","style":{"typography":{"fontStyle":"normal","fontWeight":"700"}},"fontSize":"xl"} -->
 		<h2 class="has-text-align-center has-extra-large-font-size" style="font-style:normal;font-weight:700">Hero header title text</h2>
 		<!-- /wp:heading -->
 

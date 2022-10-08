@@ -109,7 +109,7 @@ label {
 /* core/group
 ------------------------------*/
 :where(.wp-block-group.has-background) {
-  padding: var( --wp--preset--spacing--small );
+  padding: var( --wp--preset--spacing--m );
 }
 
 /*--------------------------------------------------------------
@@ -190,14 +190,14 @@ $colors: foreground, background, primary, secondary, tertiary, quaternary;
 @each $color in $colors {
   .is-style-cormorant-solid-shadow-#{$color} {
     border: 1px solid var(--wp--preset--color--#{$color});
-    padding: var( --wp--preset--spacing--x-small );
+    padding: var( --wp--preset--spacing--s );
     box-shadow: 5px 5px var(--wp--preset--color--#{$color});
   }
 }
 
 @each $color in $colors {
   .is-style-cormorant-blur-shadow-#{$color} {
-    padding: var( --wp--preset--spacing--x-small );
+    padding: var( --wp--preset--spacing--s );
     box-shadow: 0 0 20px var(--wp--preset--color--#{$color});
   }
 }
@@ -289,7 +289,7 @@ $colors: foreground, background, primary, secondary, tertiary, quaternary;
       color: var( --wp--preset--color--background );
     }
     background-color: var( --wp--preset--color--#{$color});
-    padding: var( --wp--preset--spacing--small );
+    padding: var( --wp--preset--spacing--m );
     border-radius: 0;
     border: none;
   }
@@ -355,14 +355,14 @@ $colors: foreground, background, primary, secondary, tertiary, quaternary;
     min-height: 100vh;
     .wp-block-columns {
       .wp-block-column {
-        padding-left: calc(0.5 * var(--wp--preset--spacing--small));
-        padding-right: calc(0.5 * var(--wp--preset--spacing--small));
+        padding-left: calc(0.5 * var(--wp--preset--spacing--m));
+        padding-right: calc(0.5 * var(--wp--preset--spacing--m));
       }
     }
   }
   .demo-feature-points {
 
-    padding: calc(0.5 * var(--wp--preset--spacing--small)) !important;
+    padding: calc(0.5 * var(--wp--preset--spacing--m)) !important;
 
     .wp-block-columns {
       gap: 1em;

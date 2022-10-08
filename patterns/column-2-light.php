@@ -13,14 +13,14 @@
  */
 ?>
 <!-- wp:group {"align":"full","style":{"spacing":{"padding":{"top":"var:preset|spacing|2-xl","bottom":"var:preset|spacing|2-xl"}}},"backgroundColor":"background","textColor":"foreground","layout":{"type":"constrained"}} -->
-<div class="wp-block-group alignfull has-foreground-color has-background-background-color has-text-color has-background" style="padding-top:var(--wp--preset--spacing--x-large);padding-bottom:var(--wp--preset--spacing--x-large)"><!-- wp:columns {"align":"wide"} -->
-	<div class="wp-block-columns alignwide"><!-- wp:column {"style":{"spacing":{"padding":{"top":"var:preset|spacing|l","right":"var:preset|spacing|l","bottom":"var:preset|spacing|l","left":"var:preset|spacing|l"}}},"backgroundColor":"foreground","textColor":"background"} -->
-		<div class="wp-block-column has-background-color has-foreground-background-color has-text-color has-background" style="padding-top:var(--wp--preset--spacing--medium);padding-right:var(--wp--preset--spacing--medium);padding-bottom:var(--wp--preset--spacing--medium);padding-left:var(--wp--preset--spacing--medium)"><!-- wp:heading {"level":3,"fontSize":"extra-large"} -->
-			<h3 class="has-extra-large-font-size"><strong>Heading Text</strong></h3>
+<div class="wp-block-group alignfull has-foreground-color has-background-background-color has-text-color has-background" style="padding-top:var(--wp--preset--spacing--2-xl);padding-bottom:var(--wp--preset--spacing--2-xl)"><!-- wp:columns {"align":"wide"} -->
+	<div class="wp-block-columns alignwide"><!-- wp:column {"style":{"spacing":{"padding":{"top":"var:preset|spacing|m","right":"var:preset|spacing|m","bottom":"var:preset|spacing|m","left":"var:preset|spacing|m"}}},"backgroundColor":"foreground","textColor":"background"} -->
+		<div class="wp-block-column has-background-color has-foreground-background-color has-text-color has-background" style="padding-top:var(--wp--preset--spacing--m);padding-right:var(--wp--preset--spacing--m);padding-bottom:var(--wp--preset--spacing--m);padding-left:var(--wp--preset--spacing--m)"><!-- wp:heading {"level":3,"fontSize":"3-xl"} -->
+			<h3 class="has-3-xl-font-size"><strong>Heading Text</strong></h3>
 			<!-- /wp:heading -->
 
-			<!-- wp:paragraph {"style":{"spacing":{"margin":{"top":"var:preset|spacing|s"}}}} -->
-			<p style="margin-top:var(--wp--preset--spacing--x-small)">Nostra ut condimentum blandit dapibus elementum libero lorem gravida pulvinar, lectus purus nisi cubilia eu donec luctus justo himenaeos, metus posuere ultricies conubia id etiam fringilla elit. Leo pellentesque consectetur mus erat class nunc euismod</p>
+			<!-- wp:paragraph -->
+			<p>Nostra ut condimentum blandit dapibus elementum libero lorem gravida pulvinar, lectus purus nisi cubilia eu donec luctus justo himenaeos, metus posuere ultricies conubia id etiam fringilla elit. Leo pellentesque consectetur mus erat class nunc euismod</p>
 			<!-- /wp:paragraph -->
 
 			<!-- wp:buttons {"layout":{"type":"flex","justifyContent":"right"}} -->
@@ -30,13 +30,13 @@
 			<!-- /wp:buttons --></div>
 		<!-- /wp:column -->
 
-		<!-- wp:column {"style":{"spacing":{"padding":{"top":"var:preset|spacing|l","right":"var:preset|spacing|l","bottom":"var:preset|spacing|l","left":"var:preset|spacing|l"}}},"backgroundColor":"foreground","textColor":"background"} -->
-		<div class="wp-block-column has-background-color has-foreground-background-color has-text-color has-background" style="padding-top:var(--wp--preset--spacing--medium);padding-right:var(--wp--preset--spacing--medium);padding-bottom:var(--wp--preset--spacing--medium);padding-left:var(--wp--preset--spacing--medium)"><!-- wp:heading {"level":3,"fontSize":"extra-large"} -->
-			<h3 class="has-extra-large-font-size"><strong>Heading Text</strong></h3>
+		<!-- wp:column {"style":{"spacing":{"padding":{"top":"var:preset|spacing|m","right":"var:preset|spacing|m","bottom":"var:preset|spacing|m","left":"var:preset|spacing|m"}}},"backgroundColor":"foreground","textColor":"background"} -->
+		<div class="wp-block-column has-background-color has-foreground-background-color has-text-color has-background" style="padding-top:var(--wp--preset--spacing--m);padding-right:var(--wp--preset--spacing--m);padding-bottom:var(--wp--preset--spacing--m);padding-left:var(--wp--preset--spacing--m)"><!-- wp:heading {"level":3,"fontSize":"3-xl"} -->
+			<h3 class="has-3-xl-font-size"><strong>Heading Text</strong></h3>
 			<!-- /wp:heading -->
 
-			<!-- wp:paragraph {"style":{"spacing":{"margin":{"top":"var:preset|spacing|s"}}}} -->
-			<p style="margin-top:var(--wp--preset--spacing--x-small)">Nostra ut condimentum blandit dapibus elementum libero lorem gravida pulvinar, lectus purus nisi cubilia eu donec luctus justo himenaeos, metus posuere ultricies conubia id etiam fringilla elit. Leo pellentesque consectetur mus erat class nunc euismod</p>
+			<!-- wp:paragraph -->
+			<p>Nostra ut condimentum blandit dapibus elementum libero lorem gravida pulvinar, lectus purus nisi cubilia eu donec luctus justo himenaeos, metus posuere ultricies conubia id etiam fringilla elit. Leo pellentesque consectetur mus erat class nunc euismod</p>
 			<!-- /wp:paragraph -->
 
 			<!-- wp:buttons {"layout":{"type":"flex","justifyContent":"right"}} -->

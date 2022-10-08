@@ -12,8 +12,8 @@
  * @since 1.0.0
  */
 ?>
-<!-- wp:group {"align":"full","style":{"spacing":{"padding":{"top":"var:preset|spacing|2-xl","right":"var:preset|spacing|60","bottom":"var:preset|spacing|2-xl","left":"var:preset|spacing|60"},"blockGap":"0"}},"backgroundColor":"background","textColor":"foreground","layout":{"type":"constrained"}} -->
-<div class="wp-block-group alignfull has-foreground-color has-background-background-color has-text-color has-background" style="padding-top:var(--wp--preset--spacing--x-large);padding-right:var(--wp--preset--spacing--60);padding-bottom:var(--wp--preset--spacing--x-large);padding-left:var(--wp--preset--spacing--60)"><!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|50"}},"layout":{"type":"flex","orientation":"vertical","justifyContent":"center"}} -->
+<!-- wp:group {"align":"full","style":{"spacing":{"padding":{"top":"var:preset|spacing|m","right":"var:preset|spacing|60","bottom":"var:preset|spacing|m","left":"var:preset|spacing|60"},"blockGap":"0"}},"backgroundColor":"background","textColor":"foreground","layout":{"type":"constrained"}} -->
+<div class="wp-block-group alignfull has-foreground-color has-background-background-color has-text-color has-background" style="padding-top:var(--wp--preset--spacing--m);padding-right:var(--wp--preset--spacing--60);padding-bottom:var(--wp--preset--spacing--m);padding-left:var(--wp--preset--spacing--60)"><!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|50"}},"layout":{"type":"flex","orientation":"vertical","justifyContent":"center"}} -->
 	<div class="wp-block-group"><!-- wp:heading {"level":3} -->
 		<h3><strong>Contact Us</strong></h3>
 		<!-- /wp:heading -->
@@ -23,8 +23,8 @@
 		<!-- /wp:paragraph -->
 
 		<!-- wp:buttons {"layout":{"type":"flex","justifyContent":"center"},"style":{"spacing":{"blockGap":"0"}},"fontSize":"medium"} -->
-		<div class="wp-block-buttons has-custom-font-size has-medium-font-size"><!-- wp:button {"className":"is-style-cormorant-foreground-outline-square-button"} -->
-			<div class="wp-block-button is-style-cormorant-foreground-outline-square-button"><a class="wp-block-button__link wp-element-button">Contact Us</a></div>
+		<div class="wp-block-buttons has-custom-font-size has-medium-font-size"><!-- wp:button {"className":"is-style-cormorant-foreground-outline-square-button","fontSize":"s"} -->
+			<div class="wp-block-button has-custom-font-size is-style-cormorant-foreground-outline-square-button has-s-font-size"><a class="wp-block-button__link wp-element-button">Contact Us</a></div>
 			<!-- /wp:button --></div>
 		<!-- /wp:buttons --></div>
 	<!-- /wp:group --></div>

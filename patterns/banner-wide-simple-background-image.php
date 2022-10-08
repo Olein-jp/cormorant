@@ -22,7 +22,7 @@
 			<h3 class="has-text-align-left" style="margin-top:0;margin-bottom:0">Banner Heading</h3>
 			<!-- /wp:heading -->
 
-			<!-- wp:paragraph {"style":{"spacing":{"margin":{"top":"0","right":"0","bottom":"0","left":"0"}}},"fontSize":"small"} -->
+			<!-- wp:paragraph {"style":{"spacing":{"margin":{"top":"0","right":"0","bottom":"0","left":"0"}}},"fontSize":"s"} -->
 			<p class="has-small-font-size" style="margin-top:0;margin-right:0;margin-bottom:0;margin-left:0">Dignissim vestibulum lobortis ante tincidunt elit gravida lacinia orci torquent iaculis ultrices nulla, est cubilia bibendum arcu venenatis leo ad varius suspendisse mus. Ornare ultrices volutpat montes bibendum diam consequat porta fringilla </p>
 			<!-- /wp:paragraph -->
 

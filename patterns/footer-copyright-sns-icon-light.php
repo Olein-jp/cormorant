@@ -12,18 +12,18 @@
  * @since 1.0.0
  */
 ?>
-<!-- wp:group {"tagName":"footer","align":"full","style":{"spacing":{"padding":{"top":"var:preset|spacing|m","right":"var:preset|spacing|s","bottom":"var:preset|spacing|m","left":"var:preset|spacing|s"}}},"backgroundColor":"background","textColor":"foreground","layout":{"type":"default"},"fontSize":"tiny"} -->
-<footer class="wp-block-group alignfull has-foreground-color has-background-background-color has-text-color has-background has-tiny-font-size" style="padding-top:var(--wp--preset--spacing--small);padding-right:var(--wp--preset--spacing--x-small);padding-bottom:var(--wp--preset--spacing--small);padding-left:var(--wp--preset--spacing--x-small)"><!-- wp:group {"layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"space-between"}} -->
+<!-- wp:group {"tagName":"footer","align":"full","style":{"elements":{"link":{"color":{"text":"var:preset|color|foreground"}}},"spacing":{"padding":{"top":"0.8rem","right":"0.8rem","bottom":"0.8rem","left":"0.8rem"}}},"backgroundColor":"background","textColor":"foreground","layout":{"type":"default"}} -->
+<footer class="wp-block-group alignfull has-foreground-color has-background-background-color has-text-color has-background has-link-color" style="padding-top:0.8rem;padding-right:0.8rem;padding-bottom:0.8rem;padding-left:0.8rem"><!-- wp:group {"layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"space-between"}} -->
 	<div class="wp-block-group"><!-- wp:group {"style":{"spacing":{"blockGap":"5px"}},"layout":{"type":"flex","flexWrap":"nowrap"}} -->
-		<div class="wp-block-group"><!-- wp:paragraph -->
-			<p>©️</p>
+		<div class="wp-block-group"><!-- wp:paragraph {"fontSize":"xs"} -->
+			<p class="has-xs-font-size">©️</p>
 			<!-- /wp:paragraph -->
 
-			<!-- wp:site-title {"level":0,"isLink":false,"style":{"typography":{"fontStyle":"normal","fontWeight":"400"}},"fontSize":"tiny"} /--></div>
+			<!-- wp:site-title {"level":0,"isLink":false,"style":{"typography":{"fontStyle":"normal","fontWeight":"400"}},"fontSize":"xs"} /--></div>
 		<!-- /wp:group -->
 
-		<!-- wp:paragraph -->
-		<p><a href="https://cormorant.kunokoji.com" target="_blank" rel="noreferrer noopener">Privacy Policy</a> / <a href="https://cormorant.kunokoji.com" target="_blank" rel="noreferrer noopener">Terms of Service</a> / <a href="https://cormorant.kunokoji.com" target="_blank" rel="noreferrer noopener">Contact Us</a></p>
+		<!-- wp:paragraph {"fontSize":"xs"} -->
+		<p class="has-xs-font-size"><a href="https://cormorant.kunokoji.com" target="_blank" rel="noreferrer noopener">Privacy Policy</a> / <a href="https://cormorant.kunokoji.com" target="_blank" rel="noreferrer noopener">Terms of Service</a> / <a href="https://cormorant.kunokoji.com" target="_blank" rel="noreferrer noopener">Contact Us</a></p>
 		<!-- /wp:paragraph -->
 
 		<!-- wp:social-links {"iconColor":"background","iconColorValue":"#ffffff","iconBackgroundColor":"foreground","iconBackgroundColorValue":"#333333","openInNewTab":true,"style":{"spacing":{"blockGap":{"top":"0"}}},"layout":{"type":"flex","justifyContent":"right"}} -->

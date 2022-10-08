@@ -190,7 +190,6 @@
       "link": true
     },
     "custom": {
-      "modular-scale": 1.25,
       "spacing": {
         "unit": "1rem"
       },
@@ -215,27 +214,27 @@
       "blockGap": true,
       "spacingSizes": [
         {
-          "size": "calc( var( --wp--custom--modular-scale ) * 1 )",
+          "size": "1.25rem",
           "slug": "s",
           "name": "S"
         },
         {
-          "size": "calc( var( --wp--custom--modular-scale ) * 2 )",
+          "size": "2.5rem",
           "slug": "m",
           "name": "M"
         },
         {
-          "size": "calc( var( --wp--custom--modular-scale ) * 3 )",
+          "size": "3.75rem",
           "slug": "l",
           "name": "L"
         },
         {
-          "size": "calc( var( --wp--custom--modular-scale ) *4 )",
+          "size": "5rem",
           "slug": "xl",
           "name": "XL"
         },
         {
-          "size": "calc( var( --wp--custom--modular-scale ) * 5 )",
+          "size": "6.25rem",
           "slug": "2-xl",
           "name": "2XL"
         }
@@ -348,7 +347,7 @@
         },
         {
           "name": "3XL",
-          "slug": "cormorant-3-xl",
+          "slug": "3-xl",
           "size": "2rem",
           "fluid": {
             "min": "2rem",
@@ -357,7 +356,7 @@
         },
         {
           "name": "4XL",
-          "slug": "xxxx-large",
+          "slug": "4-xl",
           "size": "2.6667rem",
           "fluid": {
             "min": "2.6667rem",
@@ -366,7 +365,7 @@
         },
         {
           "name": "5XL",
-          "slug": "xxxxx-large",
+          "slug": "5-xl",
           "size": "4rem",
           "fluid": {
             "min": "4rem",
@@ -375,7 +374,7 @@
         },
         {
           "name": "6XL",
-          "slug": "xxxxxx-large",
+          "slug": "6-xl",
           "size": "8rem",
           "fluid": {
             "min": "8rem",
@@ -528,7 +527,7 @@
     "elements": {
       "h1": {
         "typography": {
-          "fontSize": "var( --wp--preset--font-size--xxxx-large )",
+          "fontSize": "var( --wp--preset--font-size--5-xl )",
           "fontWeight": "700",
           "letterSpacing": "var( --wp--custom--typography--letter-spacing--heading )",
           "lineHeight": "var( --wp--custom--typography--line-height--small )"
@@ -536,7 +535,7 @@
       },
       "h2": {
         "typography": {
-          "fontSize": "var( --wp--preset--font-size--xxx-large )",
+          "fontSize": "var( --wp--preset--font-size--4-xl )",
           "fontWeight": "700",
           "letterSpacing": "var( --wp--custom--typography--letter-spacing--heading )",
           "lineHeight": "var( --wp--custom--typography--line-height--small )"
@@ -544,7 +543,7 @@
       },
       "h3": {
         "typography": {
-          "fontSize": "var( --wp--preset--font-size--xx-large )",
+          "fontSize": "var( --wp--preset--font-size--3-xl )",
           "fontWeight": "700",
           "letterSpacing": "var( --wp--custom--typography--letter-spacing--heading )",
           "lineHeight": "var( --wp--custom--line-height--small )"
@@ -552,7 +551,7 @@
       },
       "h4": {
         "typography": {
-          "fontSize": "var( --wp--preset--font-size--x-large )",
+          "fontSize": "var( --wp--preset--font-size--2-xl )",
           "fontWeight": "700",
           "letterSpacing": "var( --wp--custom--typography--letter-spacing--heading )",
           "lineHeight": "var( --wp--custom--line-height--small )"
@@ -560,7 +559,7 @@
       },
       "h5": {
         "typography": {
-          "fontSize": "var( --wp--preset--font-size--large )",
+          "fontSize": "var( --wp--preset--font-size--xl )",
           "fontWeight": "700",
           "letterSpacing": "var( --wp--custom--typography--letter-spacing--heading )",
           "lineHeight": "var( --wp--custom--line-height--small )"
@@ -568,8 +567,8 @@
       },
       "h6": {
         "typography": {
-          "fontSize": "var( --wp--preset--font-size--large )",
-          "fontWeight": "700",
+          "fontSize": "var( --wp--preset--font-size--l )",
+          "fontWeight": "400",
           "letterSpacing": "var( --wp--custom--typography--letter-spacing--heading )",
           "lineHeight": "var( --wp--custom--line-height--small )"
         }
@@ -582,7 +581,7 @@
     },
     "typography": {
       "fontFamily": "var( --wp--preset--font-family--default )",
-      "fontSize": "var( --wp--preset--font-size--medium )",
+      "fontSize": "var( --wp--preset--font-size--m )",
       "letterSpacing": "var( --wp--custom--typography--letter-spacing--body )",
       "lineHeight": "var( --wp--custom--typography--line-height--normal )"
     }

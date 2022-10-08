@@ -18,7 +18,7 @@
 	<!-- /wp:image -->
 
 	<!-- wp:group {"style":{"spacing":{"blockGap":"10px","margin":{"top":"0"}}},"layout":{"type":"flex","orientation":"vertical","justifyContent":"center"}} -->
-	<div class="wp-block-group" style="margin-top:0"><!-- wp:heading {"fontSize":"medium"} -->
+	<div class="wp-block-group" style="margin-top:0"><!-- wp:heading {"fontSize":"m"} -->
 		<h2 class="has-medium-font-size">My Name Is Here</h2>
 		<!-- /wp:heading -->
 

@@ -14,7 +14,7 @@
 ?>
 <!-- wp:group {"align":"full","style":{"spacing":{"padding":{"top":"150px","bottom":"150px"}}},"backgroundColor":"background","textColor":"foreground","layout":{"type":"constrained"}} -->
 <div class="wp-block-group alignfull has-foreground-color has-background-background-color has-text-color has-background" style="padding-top:150px;padding-bottom:150px"><!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|s"}},"layout":{"type":"flex","orientation":"vertical","justifyContent":"center"}} -->
-	<div class="wp-block-group"><!-- wp:heading {"textAlign":"center","fontSize":"extra-large"} -->
+	<div class="wp-block-group"><!-- wp:heading {"textAlign":"center","fontSize":"xl"} -->
 		<h2 class="has-text-align-center has-extra-large-font-size">We are the Team</h2>
 		<!-- /wp:heading -->
 
@@ -30,7 +30,7 @@
 			<!-- /wp:image -->
 
 			<!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|s","margin":{"top":"var:preset|spacing|s"}}},"layout":{"type":"flex","orientation":"vertical","justifyContent":"center"}} -->
-			<div class="wp-block-group" style="margin-top:var(--wp--preset--spacing--x-small)"><!-- wp:heading {"level":3,"fontSize":"large"} -->
+			<div class="wp-block-group" style="margin-top:var(--wp--preset--spacing--x-small)"><!-- wp:heading {"level":3,"fontSize":"l"} -->
 				<h3 class="has-large-font-size"><strong>Member Name</strong></h3>
 				<!-- /wp:heading -->
 
@@ -52,7 +52,7 @@
 			<!-- /wp:image -->
 
 			<!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|s","margin":{"top":"var:preset|spacing|s"}}},"layout":{"type":"flex","orientation":"vertical","justifyContent":"center"}} -->
-			<div class="wp-block-group" style="margin-top:var(--wp--preset--spacing--x-small)"><!-- wp:heading {"level":3,"fontSize":"large"} -->
+			<div class="wp-block-group" style="margin-top:var(--wp--preset--spacing--x-small)"><!-- wp:heading {"level":3,"fontSize":"l"} -->
 				<h3 class="has-large-font-size"><strong>Member Name</strong></h3>
 				<!-- /wp:heading -->
 
@@ -74,7 +74,7 @@
 			<!-- /wp:image -->
 
 			<!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|s","margin":{"top":"var:preset|spacing|s"}}},"layout":{"type":"flex","orientation":"vertical","justifyContent":"center"}} -->
-			<div class="wp-block-group" style="margin-top:var(--wp--preset--spacing--x-small)"><!-- wp:heading {"level":3,"fontSize":"large"} -->
+			<div class="wp-block-group" style="margin-top:var(--wp--preset--spacing--x-small)"><!-- wp:heading {"level":3,"fontSize":"l"} -->
 				<h3 class="has-large-font-size"><strong>Member Name</strong></h3>
 				<!-- /wp:heading -->
 
@@ -96,7 +96,7 @@
 			<!-- /wp:image -->
 
 			<!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|s","margin":{"top":"var:preset|spacing|s"}}},"layout":{"type":"flex","orientation":"vertical","justifyContent":"center"}} -->
-			<div class="wp-block-group" style="margin-top:var(--wp--preset--spacing--x-small)"><!-- wp:heading {"level":3,"fontSize":"large"} -->
+			<div class="wp-block-group" style="margin-top:var(--wp--preset--spacing--x-small)"><!-- wp:heading {"level":3,"fontSize":"l"} -->
 				<h3 class="has-large-font-size"><strong>Member Name</strong></h3>
 				<!-- /wp:heading -->
 
