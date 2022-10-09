@@ -13,11 +13,11 @@
  */
 ?>
 <!-- wp:group {"align":"full","style":{"spacing":{"padding":{"top":"var:preset|spacing|2-xl","bottom":"var:preset|spacing|2-xl"}}},"backgroundColor":"background","textColor":"foreground","layout":{"type":"constrained"}} -->
-<div class="wp-block-group alignfull has-foreground-color has-background-background-color has-text-color has-background" style="padding-top:var(--wp--preset--spacing--x-large);padding-bottom:var(--wp--preset--spacing--x-large)"><!-- wp:columns {"align":"wide"} -->
+<div class="wp-block-group alignfull has-foreground-color has-background-background-color has-text-color has-background" style="padding-top:var(--wp--preset--spacing--2-xl);padding-bottom:var(--wp--preset--spacing--2-xl)"><!-- wp:columns {"align":"wide"} -->
 	<div class="wp-block-columns alignwide"><!-- wp:column {"style":{"spacing":{"padding":{"top":"var:preset|spacing|l","right":"var:preset|spacing|l","bottom":"var:preset|spacing|l","left":"var:preset|spacing|l"}}},"backgroundColor":"foreground","textColor":"background"} -->
-		<div class="wp-block-column has-background-color has-foreground-background-color has-text-color has-background" style="padding-top:var(--wp--preset--spacing--medium);padding-right:var(--wp--preset--spacing--medium);padding-bottom:var(--wp--preset--spacing--medium);padding-left:var(--wp--preset--spacing--medium)"><!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|m"}},"layout":{"type":"flex","orientation":"vertical","justifyContent":"center"}} -->
-			<div class="wp-block-group"><!-- wp:paragraph {"style":{"typography":{"lineHeight":"0"}},"fontSize":"2-xl"} -->
-				<p class="has-huge-font-size" style="line-height:0">“</p>
+		<div class="wp-block-column has-background-color has-foreground-background-color has-text-color has-background" style="padding-top:var(--wp--preset--spacing--l);padding-right:var(--wp--preset--spacing--l);padding-bottom:var(--wp--preset--spacing--l);padding-left:var(--wp--preset--spacing--l)"><!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|m"}},"layout":{"type":"flex","orientation":"vertical","justifyContent":"center"}} -->
+			<div class="wp-block-group"><!-- wp:paragraph {"style":{"typography":{"lineHeight":"0"}},"fontSize":"5-xl"} -->
+				<p class="has-5-xl-font-size" style="line-height:0">“</p>
 				<!-- /wp:paragraph -->
 
 				<!-- wp:paragraph {"align":"center"} -->
@@ -25,39 +25,39 @@
 				<!-- /wp:paragraph -->
 
 				<!-- wp:paragraph -->
-				<p><strong><em>-- Koji Kuno, Developer</em></strong></p>
+				<p><strong><em>-- Koji Kuno, Developer --</em></strong></p>
 				<!-- /wp:paragraph --></div>
 			<!-- /wp:group --></div>
 		<!-- /wp:column -->
 
 		<!-- wp:column {"style":{"spacing":{"padding":{"top":"var:preset|spacing|l","right":"var:preset|spacing|l","bottom":"var:preset|spacing|l","left":"var:preset|spacing|l"}}},"backgroundColor":"foreground","textColor":"background"} -->
-		<div class="wp-block-column has-background-color has-foreground-background-color has-text-color has-background" style="padding-top:var(--wp--preset--spacing--medium);padding-right:var(--wp--preset--spacing--medium);padding-bottom:var(--wp--preset--spacing--medium);padding-left:var(--wp--preset--spacing--medium)"><!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|m"}},"layout":{"type":"flex","orientation":"vertical","justifyContent":"center"}} -->
-			<div class="wp-block-group"><!-- wp:paragraph {"style":{"typography":{"lineHeight":"0"}},"fontSize":"2-xl"} -->
-				<p class="has-huge-font-size" style="line-height:0">“</p>
+		<div class="wp-block-column has-background-color has-foreground-background-color has-text-color has-background" style="padding-top:var(--wp--preset--spacing--l);padding-right:var(--wp--preset--spacing--l);padding-bottom:var(--wp--preset--spacing--l);padding-left:var(--wp--preset--spacing--l)"><!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|m"}},"layout":{"type":"flex","orientation":"vertical","justifyContent":"center"}} -->
+			<div class="wp-block-group"><!-- wp:paragraph {"style":{"typography":{"lineHeight":"0"}},"fontSize":"5-xl"} -->
+				<p class="has-5-xl-font-size" style="line-height:0">“</p>
 				<!-- /wp:paragraph -->
 
 				<!-- wp:paragraph {"align":"center"} -->
 				<p class="has-text-align-center">Consequat duis facilisi rutrum ultricies montes habitant vel sagittis, himenaeos conubia tempor ligula efficitur potenti etiam felis vehicula, tristique aenean maximus facilisis dictum scelerisque commodo. Hendrerit aenean venenatis pellentesque blandit laoreet ipsum inceptos diam curae pulvinar, dolor ultricies rhoncus penatibus in commodo cursus nunc</p>
 				<!-- /wp:paragraph -->
 
-				<!-- wp:paragraph {"fontSize":"s"} -->
-				<p class="has-small-font-size"><strong><em>-- Koji Kuno, Developer</em></strong></p>
+				<!-- wp:paragraph -->
+				<p><strong><em>-- Koji Kuno, Developer --</em></strong></p>
 				<!-- /wp:paragraph --></div>
 			<!-- /wp:group --></div>
 		<!-- /wp:column -->
 
 		<!-- wp:column {"style":{"spacing":{"padding":{"top":"var:preset|spacing|l","right":"var:preset|spacing|l","bottom":"var:preset|spacing|l","left":"var:preset|spacing|l"}}},"backgroundColor":"foreground","textColor":"background"} -->
-		<div class="wp-block-column has-background-color has-foreground-background-color has-text-color has-background" style="padding-top:var(--wp--preset--spacing--medium);padding-right:var(--wp--preset--spacing--medium);padding-bottom:var(--wp--preset--spacing--medium);padding-left:var(--wp--preset--spacing--medium)"><!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|m"}},"layout":{"type":"flex","orientation":"vertical","justifyContent":"center"}} -->
-			<div class="wp-block-group"><!-- wp:paragraph {"style":{"typography":{"lineHeight":"0"}},"fontSize":"2-xl"} -->
-				<p class="has-huge-font-size" style="line-height:0">“</p>
+		<div class="wp-block-column has-background-color has-foreground-background-color has-text-color has-background" style="padding-top:var(--wp--preset--spacing--l);padding-right:var(--wp--preset--spacing--l);padding-bottom:var(--wp--preset--spacing--l);padding-left:var(--wp--preset--spacing--l)"><!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|m"}},"layout":{"type":"flex","orientation":"vertical","justifyContent":"center"}} -->
+			<div class="wp-block-group"><!-- wp:paragraph {"style":{"typography":{"lineHeight":"0"}},"fontSize":"5-xl"} -->
+				<p class="has-5-xl-font-size" style="line-height:0">“</p>
 				<!-- /wp:paragraph -->
 
 				<!-- wp:paragraph {"align":"center"} -->
 				<p class="has-text-align-center">Consequat duis facilisi rutrum ultricies montes habitant vel sagittis, himenaeos conubia tempor ligula efficitur potenti etiam felis vehicula, tristique aenean maximus facilisis dictum scelerisque commodo. Hendrerit aenean venenatis pellentesque blandit laoreet ipsum inceptos diam curae pulvinar, dolor ultricies rhoncus penatibus in commodo cursus nunc</p>
 				<!-- /wp:paragraph -->
 
-				<!-- wp:paragraph {"fontSize":"s"} -->
-				<p class="has-small-font-size"><strong><em>-- Koji Kuno, Developer</em></strong></p>
+				<!-- wp:paragraph -->
+				<p><strong><em>-- Koji Kuno, Developer --</em></strong></p>
 				<!-- /wp:paragraph --></div>
 			<!-- /wp:group --></div>
 		<!-- /wp:column --></div>
