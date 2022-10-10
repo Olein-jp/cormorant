@@ -12,22 +12,22 @@
  * @since 1.0.0
  */
 ?>
-<!-- wp:group {"align":"full","style":{"spacing":{"padding":{"top":"var:preset|spacing|2-xl","bottom":"var:preset|spacing|2-xl"},"blockGap":"var:preset|spacing|l"}},"layout":{"type":"constrained"}} -->
-<div class="wp-block-group alignfull" style="padding-top:var(--wp--preset--spacing--x-large);padding-bottom:var(--wp--preset--spacing--x-large)"><!-- wp:group {"align":"wide","style":{"spacing":{"blockGap":"var:preset|spacing|l"}},"layout":{"type":"flex","orientation":"vertical","justifyContent":"center"}} -->
+<!-- wp:group {"align":"full","layout":{"type":"constrained"}} -->
+<div class="wp-block-group alignfull"><!-- wp:group {"align":"wide","style":{"spacing":{"blockGap":"var:preset|spacing|l"}},"layout":{"type":"flex","orientation":"vertical","justifyContent":"center"}} -->
 	<div class="wp-block-group alignwide"><!-- wp:group {"layout":{"type":"constrained"}} -->
-		<div class="wp-block-group"><!-- wp:heading {"textAlign":"center"} -->
-			<h2 class="has-text-align-center">Frequenthy Asked Questions</h2>
+		<div class="wp-block-group"><!-- wp:heading {"textAlign":"center","fontSize":"3-xl"} -->
+			<h2 class="has-text-align-center has-3-xl-font-size">Frequenthy Asked Questions</h2>
 			<!-- /wp:heading -->
 
-			<!-- wp:paragraph {"align":"center"} -->
-			<p class="has-text-align-center">Curae egestas viverra tellus magnis primis neque augue consectetur vivamus velit, malesuada cubilia dolor donec amet diam tristique accumsan. Ultricies sed eu ut morbi et </p>
+			<!-- wp:paragraph {"align":"center","fontSize":"s"} -->
+			<p class="has-text-align-center has-s-font-size">Curae egestas viverra tellus magnis primis neque augue consectetur vivamus velit, malesuada cubilia dolor donec amet diam tristique accumsan. Ultricies sed eu ut morbi et </p>
 			<!-- /wp:paragraph --></div>
 		<!-- /wp:group -->
 
 		<!-- wp:group {"align":"full","layout":{"type":"flex","orientation":"vertical"}} -->
 		<div class="wp-block-group alignfull"><!-- wp:columns {"align":"wide"} -->
 			<div class="wp-block-columns alignwide"><!-- wp:column {"style":{"color":{"background":"#f4f4f4"},"spacing":{"padding":{"top":"var:preset|spacing|m","right":"var:preset|spacing|m","bottom":"var:preset|spacing|m","left":"var:preset|spacing|m"}}}} -->
-				<div class="wp-block-column has-background" style="background-color:#f4f4f4;padding-top:var(--wp--preset--spacing--small);padding-right:var(--wp--preset--spacing--small);padding-bottom:var(--wp--preset--spacing--small);padding-left:var(--wp--preset--spacing--small)"><!-- wp:paragraph {"textColor":"quaternary"} -->
+				<div class="wp-block-column has-background" style="background-color:#f4f4f4;padding-top:var(--wp--preset--spacing--m);padding-right:var(--wp--preset--spacing--m);padding-bottom:var(--wp--preset--spacing--m);padding-left:var(--wp--preset--spacing--m)"><!-- wp:paragraph {"textColor":"quaternary"} -->
 					<p class="has-quaternary-color has-text-color"><strong>Fames ultricies accumsan hac erat phasellus lectus</strong></p>
 					<!-- /wp:paragraph -->
 
@@ -37,7 +37,7 @@
 				<!-- /wp:column -->
 
 				<!-- wp:column {"style":{"color":{"background":"#f4f4f4"},"spacing":{"padding":{"top":"var:preset|spacing|m","right":"var:preset|spacing|m","bottom":"var:preset|spacing|m","left":"var:preset|spacing|m"}}}} -->
-				<div class="wp-block-column has-background" style="background-color:#f4f4f4;padding-top:var(--wp--preset--spacing--small);padding-right:var(--wp--preset--spacing--small);padding-bottom:var(--wp--preset--spacing--small);padding-left:var(--wp--preset--spacing--small)"><!-- wp:paragraph {"textColor":"quaternary"} -->
+				<div class="wp-block-column has-background" style="background-color:#f4f4f4;padding-top:var(--wp--preset--spacing--m);padding-right:var(--wp--preset--spacing--m);padding-bottom:var(--wp--preset--spacing--m);padding-left:var(--wp--preset--spacing--m)"><!-- wp:paragraph {"textColor":"quaternary"} -->
 					<p class="has-quaternary-color has-text-color"><strong>Fames ultricies accumsan hac erat phasellus lectus</strong></p>
 					<!-- /wp:paragraph -->
 
@@ -49,7 +49,7 @@
 
 			<!-- wp:columns {"align":"wide"} -->
 			<div class="wp-block-columns alignwide"><!-- wp:column {"style":{"color":{"background":"#f4f4f4"},"spacing":{"padding":{"top":"var:preset|spacing|m","right":"var:preset|spacing|m","bottom":"var:preset|spacing|m","left":"var:preset|spacing|m"}}}} -->
-				<div class="wp-block-column has-background" style="background-color:#f4f4f4;padding-top:var(--wp--preset--spacing--small);padding-right:var(--wp--preset--spacing--small);padding-bottom:var(--wp--preset--spacing--small);padding-left:var(--wp--preset--spacing--small)"><!-- wp:paragraph {"textColor":"quaternary"} -->
+				<div class="wp-block-column has-background" style="background-color:#f4f4f4;padding-top:var(--wp--preset--spacing--m);padding-right:var(--wp--preset--spacing--m);padding-bottom:var(--wp--preset--spacing--m);padding-left:var(--wp--preset--spacing--m)"><!-- wp:paragraph {"textColor":"quaternary"} -->
 					<p class="has-quaternary-color has-text-color"><strong>Fames ultricies accumsan hac erat phasellus lectus</strong></p>
 					<!-- /wp:paragraph -->
 
@@ -59,7 +59,7 @@
 				<!-- /wp:column -->
 
 				<!-- wp:column {"style":{"color":{"background":"#f4f4f4"},"spacing":{"padding":{"top":"var:preset|spacing|m","right":"var:preset|spacing|m","bottom":"var:preset|spacing|m","left":"var:preset|spacing|m"}}}} -->
-				<div class="wp-block-column has-background" style="background-color:#f4f4f4;padding-top:var(--wp--preset--spacing--small);padding-right:var(--wp--preset--spacing--small);padding-bottom:var(--wp--preset--spacing--small);padding-left:var(--wp--preset--spacing--small)"><!-- wp:paragraph {"textColor":"quaternary"} -->
+				<div class="wp-block-column has-background" style="background-color:#f4f4f4;padding-top:var(--wp--preset--spacing--m);padding-right:var(--wp--preset--spacing--m);padding-bottom:var(--wp--preset--spacing--m);padding-left:var(--wp--preset--spacing--m)"><!-- wp:paragraph {"textColor":"quaternary"} -->
 					<p class="has-quaternary-color has-text-color"><strong>Fames ultricies accumsan hac erat phasellus lectus</strong></p>
 					<!-- /wp:paragraph -->
 
