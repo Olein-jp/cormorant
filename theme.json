@@ -237,6 +237,16 @@
           "size": "6.25rem",
           "slug": "2-xl",
           "name": "2XL"
+        },
+        {
+          "size": "7.5rem",
+          "slug": "3-xl",
+          "name": "3XL"
+        },
+        {
+          "size": "8.75rem",
+          "slug": "4-xl",
+          "name": "4XL"
         }
       ],
       "units": [
