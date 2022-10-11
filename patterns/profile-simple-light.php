@@ -1,5 +1,4 @@
 <?php
-
 /**
  * Title: Profile Simple Light
  * Slug: cormorant/profile-simple-light
@@ -16,7 +15,7 @@
 <!-- wp:group {"align":"full","style":{"spacing":{"padding":{"top":"25vh","bottom":"25vh"}},"elements":{"link":{"color":{"text":"var:preset|color|background"}}}},"backgroundColor":"background","textColor":"foreground","layout":{"type":"flex","orientation":"vertical","justifyContent":"center"}} -->
 <div class="wp-block-group alignfull has-foreground-color has-background-background-color has-text-color has-background has-link-color" style="padding-top:25vh;padding-bottom:25vh">
 	<!-- wp:image {"id":2194,"width":150,"height":150,"sizeSlug":"large","linkDestination":"none","className":"is-style-rounded"} -->
-	<figure class="wp-block-image size-large is-resized is-style-rounded"><img src="<?php echo esc_url(get_template_directory_uri()) . '/assets/images/cormorant-shape-background.png'; ?>" alt="<?php echo esc_attr__('Sample Image', 'cormorant'); ?>" class="wp-image-2194" width="150" height="150" /></figure>
+	<figure class="wp-block-image size-large is-resized is-style-rounded"><img src="<?php echo esc_url( get_template_directory_uri() ) . '/assets/images/cormorant-shape-background.png'; ?>" alt="<?php echo esc_attr__( 'Sample Image', 'cormorant' ); ?>" class="wp-image-2194" width="150" height="150" /></figure>
 	<!-- /wp:image -->
 
 	<!-- wp:group {"style":{"spacing":{"blockGap":"0"}},"layout":{"type":"flex","orientation":"vertical","justifyContent":"center"}} -->
