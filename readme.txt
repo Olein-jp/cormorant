@@ -2,7 +2,7 @@
 Contributors: Koji Kuno
 Donate link: https://www.amazon.co.jp/hz/wishlist/ls/WH93ZBVDA08I
 Requires at least: 6.1
-Requires PHP: 5.6
+Requires PHP: 7.4
 Tested up to: 6.1
 Stable tag: trunk
 License: GPLv2 or later
