@@ -432,6 +432,11 @@ if ( ! function_exists( 'cormorant_register_block_styles' ) ) {
 				'name'   => 'cormorant-background-shadow-column',
 				'label'  => esc_html__( 'Background Shadow', 'cormorant' ),
 			],
+			[
+				'target' => 'core/query',
+				'name'   => 'cormorant-panel-blur-shadow',
+				'label'  => esc_html__( 'Panel Blur Shadow', 'cormorant' ),
+			],
 		];
 
 		/**

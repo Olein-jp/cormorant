@@ -13,16 +13,16 @@
  */
 ?>
 <!-- wp:group {"align":"wide","layout":{"inherit":true,"type":"constrained"}} -->
-<div class="wp-block-group alignwide"><!-- wp:query {"queryId":1,"query":{"perPage":"9","pages":0,"offset":0,"postType":"post","order":"desc","orderBy":"date","author":"","search":"","exclude":[],"sticky":"exclude","inherit":false},"displayLayout":{"type":"flex","columns":3},"align":"wide"} -->
-	<div class="wp-block-query alignwide"><!-- wp:group {"tagName":"header","style":{"spacing":{"padding":{"top":"var:preset|spacing|l","right":"var:preset|spacing|l","bottom":"var:preset|spacing|l","left":"var:preset|spacing|l"},"blockGap":"var:preset|spacing|s"}},"layout":{"type":"flex","orientation":"vertical","justifyContent":"center"}} -->
+<div class="wp-block-group alignwide"><!-- wp:query {"queryId":1,"query":{"perPage":"9","pages":0,"offset":0,"postType":"post","order":"desc","orderBy":"date","author":"","search":"","exclude":[],"sticky":"exclude","inherit":false},"displayLayout":{"type":"flex","columns":3},"align":"wide","className":"is-style-cormorant-panel-blur-shadow"} -->
+	<div class="wp-block-query alignwide is-style-cormorant-panel-blur-shadow"><!-- wp:group {"tagName":"header","style":{"spacing":{"padding":{"top":"var:preset|spacing|l","right":"var:preset|spacing|l","bottom":"var:preset|spacing|l","left":"var:preset|spacing|l"},"blockGap":"var:preset|spacing|s"}},"layout":{"type":"flex","orientation":"vertical","justifyContent":"center"}} -->
 		<header class="wp-block-group" style="padding-top:var(--wp--preset--spacing--l);padding-right:var(--wp--preset--spacing--l);padding-bottom:var(--wp--preset--spacing--l);padding-left:var(--wp--preset--spacing--l)"><!-- wp:query-title {"type":"archive","textAlign":"center","fontSize":"4-xl"} /-->
 
 			<!-- wp:term-description {"textAlign":"center","fontSize":"s"} /--></header>
 		<!-- /wp:group -->
 
 		<!-- wp:post-template -->
-		<!-- wp:group {"style":{"spacing":{"blockGap":"0","margin":{"bottom":"var:preset|spacing|l"}}},"layout":{"type":"flex","orientation":"vertical"}} -->
-		<div class="wp-block-group" style="margin-bottom:var(--wp--preset--spacing--l)"><!-- wp:post-featured-image {"isLink":true,"width":"100%"} /-->
+		<!-- wp:group {"layout":{"type":"flex","orientation":"vertical"}} -->
+		<div class="wp-block-group"><!-- wp:post-featured-image {"isLink":true,"width":"100%"} /-->
 
 			<!-- wp:post-title {"isLink":true,"style":{"spacing":{"margin":{"bottom":"10px"}}},"fontSize":"3-xl"} /-->
 
