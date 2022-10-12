@@ -225,6 +225,20 @@ $colors: foreground, background, primary, secondary, tertiary, quaternary;
 
 /* core/query-pagination
 ------------------------------*/
+/* Default */
+.wp-block-query-pagination-previous,
+.wp-block-query-pagination-next,
+.post-navigation-link-previous,
+.post-navigation-link-next {
+  text-decoration: none;
+}
+.wp-block-query-pagination {
+  .wp-block-query-pagination-numbers {
+    .page-numbers {
+
+    }
+  }
+}
 
 /* Style block */
 @each $color in $colors {
@@ -252,6 +266,10 @@ $colors: foreground, background, primary, secondary, tertiary, quaternary;
         line-height: 1;
         background-color: var(--wp--preset--color--#{$color});
         color: var(--wp--preset--color--background);
+        transition: all .5s ease;
+        &:hover {
+          opacity: 0.75;
+        }
         @media (min-width: 782px) {
           width: auto;
         }
@@ -270,7 +288,11 @@ $colors: foreground, background, primary, secondary, tertiary, quaternary;
           border: 2px solid var(--wp--preset--color--#{$color});
           background-color: var(--wp--preset--color--background);
           color: var(--wp--preset--color--#{$color});
-
+          text-decoration: none;
+          transition: all .5s ease;
+          &:not(.current):hover {
+            opacity: 0.75;
+          }
           &.current {
             background-color: var(--wp--preset--color--#{$color});
             color: var(--wp--preset--color--background);
@@ -309,6 +331,10 @@ $colors: foreground, background, primary, secondary, tertiary, quaternary;
         background-color: var(--wp--preset--color--#{$color});
         border-radius: 1.5em;
         color: var(--wp--preset--color--background);
+        transition: all .5s ease;
+        &:hover {
+          opacity: 0.75;
+        }
         @media (min-width: 782px) {
           width: auto;
         }
@@ -335,22 +361,17 @@ $colors: foreground, background, primary, secondary, tertiary, quaternary;
           border-radius: 1.5rem;
           background-color: var(--wp--preset--color--background);
           color: var(--wp--preset--color--#{$color});
-
+          text-decoration: none;
+          transition: all .5s ease;
+          &:not(.current):hover {
+            opacity: 0.75;
+          }
           &.current {
             background-color: var(--wp--preset--color--#{$color});
             color: var(--wp--preset--color--background);
           }
         }
       }
-    }
-  }
-}
-
-/* Default */
-.wp-block-query-pagination {
-  .wp-block-query-pagination-numbers {
-    .page-numbers {
-      display: inline-block;
     }
   }
 }
