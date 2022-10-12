@@ -360,7 +360,7 @@
     },
     "layout": {
       "contentSize": "40rem",
-      "wideSize": "85rem"
+      "wideSize": "70rem"
     },
     "spacing": {
       "blockGap": true,
