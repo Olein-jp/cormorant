@@ -12,8 +12,8 @@
  * @since 1.0.0
  */
 ?>
-<!-- wp:group {"tagName":"footer","align":"full","style":{"spacing":{"padding":{"top":"var:preset|spacing|l","right":"var:preset|spacing|s","bottom":"var:preset|spacing|s","left":"var:preset|spacing|s"}},"elements":{"link":{"color":{"text":"var:preset|color|background"}}}},"backgroundColor":"primary","textColor":"background","layout":{"type":"default"}} -->
-<footer class="wp-block-group alignfull has-background-color has-primary-background-color has-text-color has-background has-link-color" style="padding-top:var(--wp--preset--spacing--l);padding-right:var(--wp--preset--spacing--s);padding-bottom:var(--wp--preset--spacing--s);padding-left:var(--wp--preset--spacing--s)"><!-- wp:columns {"align":"wide","style":{"spacing":{"blockGap":{"left":"100px"}}}} -->
+<!-- wp:group {"tagName":"div","align":"full","style":{"spacing":{"padding":{"top":"var:preset|spacing|l","right":"var:preset|spacing|s","bottom":"var:preset|spacing|s","left":"var:preset|spacing|s"}},"elements":{"link":{"color":{"text":"var:preset|color|background"}}}},"backgroundColor":"primary","textColor":"background","className":"site-footer _primary","layout":{"type":"default"}} -->
+<div class="wp-block-group alignfull has-background-color has-primary-background-color has-text-color has-background has-link-color" style="padding-top:var(--wp--preset--spacing--l);padding-right:var(--wp--preset--spacing--s);padding-bottom:var(--wp--preset--spacing--s);padding-left:var(--wp--preset--spacing--s)"><!-- wp:columns {"align":"wide","style":{"spacing":{"blockGap":{"left":"100px"}}}} -->
 	<div class="wp-block-columns alignwide"><!-- wp:column {"width":"50%"} -->
 		<div class="wp-block-column" style="flex-basis:50%"><!-- wp:heading {"level":4,"fontSize":"xl"} -->
 			<h4 class="has-xl-font-size"><strong>Footer title</strong></h4>
@@ -115,5 +115,5 @@
 
 			<!-- wp:site-title {"level":0,"isLink":false,"fontSize":"xs"} /--></div>
 		<!-- /wp:group --></div>
-	<!-- /wp:group --></footer>
+	<!-- /wp:group --></div>
 <!-- /wp:group -->
