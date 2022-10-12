@@ -73,7 +73,17 @@ if ( ! function_exists( 'cormorant_no_feature_image_replace' ) ) {
 					$default_image_url = $default_images[ $random_image_key ];
 				}
 
-				return '<figure class="wp-block-post-featured-image"><img src="' . esc_url( $default_image_url ) . '" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="Default featured image" decoding="async" loading="lazy"></figure>';
+				$featured_image_markup = '<figure class="wp-block-post-featured-image"><img src="' . esc_url( $default_image_url ) . '" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="Default featured image" decoding="async" loading="lazy"></figure>';
+
+				if ( $block['attrs']['isLink'] ) {
+					return sprintf(
+						'<a href="%1$s">%2$s</a>',
+						get_the_permalink(),
+						$featured_image_markup
+					);
+				} else {
+					return $featured_image_markup;
+				}
 			}
 		}
 
