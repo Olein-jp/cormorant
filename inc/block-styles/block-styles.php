@@ -308,6 +308,31 @@ if ( ! function_exists( 'cormorant_register_block_styles' ) ) {
 				'label'  => esc_html__( 'Block - Quaternary', 'cormorant' ),
 			],
 			[
+				'target' => 'core/query-pagination',
+				'name'   => 'cormorant-circle-pagination-foreground',
+				'label'  => esc_html__( 'Circle - Foreground', 'cormorant' ),
+			],
+			[
+				'target' => 'core/query-pagination',
+				'name'   => 'cormorant-circle-pagination-primary',
+				'label'  => esc_html__( 'Circle - Primary', 'cormorant' ),
+			],
+			[
+				'target' => 'core/query-pagination',
+				'name'   => 'cormorant-circle-pagination-secondary',
+				'label'  => esc_html__( 'Circle - Secondary', 'cormorant' ),
+			],
+			[
+				'target' => 'core/query-pagination',
+				'name'   => 'cormorant-circle-pagination-tertiary',
+				'label'  => esc_html__( 'Circle - Tertiary', 'cormorant' ),
+			],
+			[
+				'target' => 'core/query-pagination',
+				'name'   => 'cormorant-circle-pagination-quaternary',
+				'label'  => esc_html__( 'Circle - Quaternary', 'cormorant' ),
+			],
+			[
 				'target' => 'core/code',
 				'name'   => 'cormorant-foreground-code',
 				'label'  => esc_html__( 'Foreground Code', 'cormorant' ),

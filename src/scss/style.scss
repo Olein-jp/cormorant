@@ -225,15 +225,6 @@ $colors: foreground, background, primary, secondary, tertiary, quaternary;
 
 /* core/query-pagination
 ------------------------------*/
-/* Default */
-.wp-block-query-pagination {
-  .wp-block-query-pagination-numbers {
-    .page-numbers {
-      display: inline-block;
-      padding: .5em 1em;
-    }
-  }
-}
 
 /* Style block */
 @each $color in $colors {
@@ -286,6 +277,80 @@ $colors: foreground, background, primary, secondary, tertiary, quaternary;
           }
         }
       }
+    }
+  }
+}
+
+/* Style circle */
+@each $color in $colors {
+  @if $color != background {
+    .wp-block-query-pagination.is-style-cormorant-circle-pagination-#{$color} {
+      flex-wrap: nowrap;
+      flex-direction: column;
+      width: 100%;
+      @media (min-width: 782px) {
+        flex-wrap: wrap;
+        flex-direction: inherit;
+      }
+
+      .wp-block-query-pagination-previous,
+      .wp-block-query-pagination-next,
+      .post-navigation-link-previous,
+      .post-navigation-link-next {
+        &:empty {
+          display: none;
+        }
+
+        display: inline-block;
+        margin: 0;
+        width: 100%;
+        padding: 1em 1.5em;
+        line-height: 1;
+        background-color: var(--wp--preset--color--#{$color});
+        border-radius: 1.5em;
+        color: var(--wp--preset--color--background);
+        @media (min-width: 782px) {
+          width: auto;
+        }
+      }
+
+      .wp-block-query-pagination-next:has(.is-arrow-arrow) {
+        text-align: right;
+      }
+
+      .wp-block-query-pagination-numbers {
+        margin: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: .5rem;
+
+        .page-numbers {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          width: 3rem;
+          height: 3rem;
+          border: 2px solid var(--wp--preset--color--#{$color});
+          border-radius: 1.5rem;
+          background-color: var(--wp--preset--color--background);
+          color: var(--wp--preset--color--#{$color});
+
+          &.current {
+            background-color: var(--wp--preset--color--#{$color});
+            color: var(--wp--preset--color--background);
+          }
+        }
+      }
+    }
+  }
+}
+
+/* Default */
+.wp-block-query-pagination {
+  .wp-block-query-pagination-numbers {
+    .page-numbers {
+      display: inline-block;
     }
   }
 }
