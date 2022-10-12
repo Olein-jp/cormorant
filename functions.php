@@ -61,7 +61,7 @@ if ( ! function_exists( 'cormorant_no_feature_image_replace' ) ) {
 		if ( ! is_single() ) {
 			if ( 'core/post-featured-image' === $block['blockName'] && ! $block_content ) {
 				$default_images = array(
-					get_template_directory_uri() . '/assets/images/default-featured-image.png',
+					get_template_directory_uri() . '/assets/images/cormorant-shape-background.png',
 				);
 
 				$default_images = apply_filters( 'cormorant_add_featured_image', $default_images );
