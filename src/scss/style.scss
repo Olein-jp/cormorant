@@ -188,7 +188,7 @@ $colors: foreground, background, primary, secondary, tertiary, quaternary;
 /* core/group
 ------------------------------*/
 @each $color in $colors {
-  .is-style-cormorant-solid-shadow-#{$color} {
+  .is-style-cormorant-solid-shadow-group-#{$color} {
     border: 1px solid var(--wp--preset--color--#{$color});
     padding: var( --wp--preset--spacing--s );
     box-shadow: 5px 5px var(--wp--preset--color--#{$color});
@@ -196,7 +196,7 @@ $colors: foreground, background, primary, secondary, tertiary, quaternary;
 }
 
 @each $color in $colors {
-  .is-style-cormorant-blur-shadow-#{$color} {
+  .is-style-cormorant-blur-shadow-group-#{$color} {
     padding: var( --wp--preset--spacing--s );
     box-shadow: 0 0 20px var(--wp--preset--color--#{$color});
   }
@@ -281,7 +281,7 @@ $colors: foreground, background, primary, secondary, tertiary, quaternary;
 
       .wp-block-query-pagination-numbers {
         margin: 0;
-
+        max-width: 100%;
         .page-numbers {
           display: inline-block;
           padding: .5em 1em;
@@ -350,6 +350,7 @@ $colors: foreground, background, primary, secondary, tertiary, quaternary;
         justify-content: center;
         align-items: center;
         gap: .5rem;
+        max-width: 100%;
 
         .page-numbers {
           display: flex;
@@ -379,7 +380,7 @@ $colors: foreground, background, primary, secondary, tertiary, quaternary;
 /* core/code
 ------------------------------*/
 @each $color in $colors {
-  .is-style-cormorant-#{$color}-code {
+  .is-style-cormorant-code-#{$color} {
     @if $color == background or $color == secondary {
       color: var( --wp--preset--color--foreground );
     } @else {
@@ -395,7 +396,7 @@ $colors: foreground, background, primary, secondary, tertiary, quaternary;
 /* core/button
 ------------------------------*/
 @each $color in $colors {
-  .is-style-cormorant-#{$color}-filled-square-button {
+  .is-style-cormorant-filled-square-button-#{$color} {
     .wp-block-button__link {
       background: var(--wp--preset--color--#{$color});
       border: 2px solid var(--wp--preset--color--#{$color});
@@ -413,7 +414,7 @@ $colors: foreground, background, primary, secondary, tertiary, quaternary;
       }
     }
   }
-  .is-style-cormorant-#{$color}-outline-square-button {
+  .is-style-cormorant-outline-square-button-#{$color} {
     .wp-block-button__link {
       background: transparent;
       border: 2px solid var(--wp--preset--color--#{$color});
@@ -436,12 +437,92 @@ $colors: foreground, background, primary, secondary, tertiary, quaternary;
 
 /* core/column
 ------------------------------*/
-.is-style-cormorant-foreground-shadow-column {
+.is-style-cormorant-shadow-column-foreground {
   box-shadow: 0 0 10px var( --wp--preset--color--foreground );
 }
 
-.is-style-cormorant-background-shadow-column {
+.is-style-cormorant-shadow-column-background {
   box-shadow: 0 0 10px var( --wp--preset--color--background );
+}
+
+/* core/query
+------------------------------*/
+.is-style-cormorant-blur-shadow-query {
+  .wp-block-post-template {
+    .wp-block-post {
+      background: var( --wp--preset--color--white );
+      padding: var( --wp--preset--spacing--s );
+      margin-bottom: var( --wp--preset--spacing--m );
+      box-shadow: 0 0 10px #8e8e8e;
+    }
+  }
+}
+
+.is-style-cormorant-solid-shadow-query {
+  .wp-block-post-template {
+    .wp-block-post {
+      background: var( --wp--preset--color--white );
+      padding: var( --wp--preset--spacing--s );
+      margin-bottom: var( --wp--preset--spacing--m );
+      border: 1px solid #8e8e8e;
+      box-shadow: .3rem .3rem 0 #8e8e8e;
+    }
+  }
+}
+
+@each $color in $colors {
+  @if $color != foregrond or $color != background {
+    .is-style-cormorant-blur-shadow-query-#{$color} {
+      .wp-block-post-template {
+        .wp-block-post {
+          background: var( --wp--preset--color--white );
+          padding: var( --wp--preset--spacing--s );
+          margin-bottom: var( --wp--preset--spacing--m );
+          box-shadow: 0 0 10px var( --wp--preset--color--#{$color} );
+          color: var( --wp--preset--color--#{$color} );
+          a {
+            color: var( --wp--preset--color--#{$color} );
+          }
+        }
+      }
+    }
+
+    .is-style-cormorant-solid-shadow-query-#{$color} {
+      .wp-block-post-template {
+        .wp-block-post {
+          background: var( --wp--preset--color--white );
+          padding: var( --wp--preset--spacing--s );
+          margin-bottom: var( --wp--preset--spacing--m );
+          border: 1px solid var( --wp--preset--color--#{$color} );
+          box-shadow: .3rem .3rem 0 var( --wp--preset--color--#{$color} );
+          color: var( --wp--preset--color--#{$color} );
+          a {
+            color: var( --wp--preset--color--#{$color} );
+          }
+        }
+      }
+    }
+  }
+}
+
+@each $color in $colors {
+  @if $color != background {
+    .is-style-cormorant-solid-line-query-#{$color} {
+      .wp-block-post-template {
+        .wp-block-post {
+          background: var(--wp--preset--color--white);
+          padding: var(--wp--preset--spacing--s);
+          margin-bottom: var(--wp--preset--spacing--m);
+          color: var(--wp--preset--color--#{$color});
+          border: 2px solid var(--wp--preset--color--#{$color});
+
+          a {
+            color: var(--wp--preset--color--#{$color});
+          }
+        }
+      }
+    }
+  }
 }
 
 /*--------------------------------------------------------------

@@ -19,14 +19,12 @@ if ( ! function_exists( 'cormorant_register_block_categories' ) ) {
 			'cormorant-team'        => array( 'label' => __( 'Cormorant Team', 'cormorant' ) ),
 			'cormorant-testimonial' => array( 'label' => __( 'Cormorant Testimonial', 'cormorant' ) ),
 			'cormorant-banner'      => array( 'label' => __( 'Cormorant Banner', 'cormorant' ) ),
-			'faq'                   => array( 'label' => __( 'Cormorant FAQ', 'cormorant' ) ),
-			'query'                 => array( 'label' => __( 'Query', 'cormorant' ) ),
+			'cormorant-faq'         => array( 'label' => __( 'Cormorant FAQ', 'cormorant' ) ),
+			'cormorant-query'       => array( 'label' => __( 'Cormorant Query', 'cormorant' ) ),
 			'page'                  => array( 'label' => __( 'Page', 'cormorant' ) ),
 			'cormorant-header'      => array( 'label' => __( 'Cormorant Header', 'cormorant' ) ),
 			'cormorant-footer'      => array( 'label' => __( 'Cormorant Footer', 'cormorant' ) ),
-			'paragraph'             => array( 'label' => __( 'Paragraph', 'cormorant' ) ),
 			'gallery'               => array( 'label' => __( 'Gallery', 'cormorant' ) ),
-			'button'                => array( 'label' => __( 'Button', 'cormorant' ) ),
 		);
 		/**
 		 * Filter to add block pattern categories

@@ -1,9 +1,9 @@
 <?php
 /**
- * Title: One column
- * Slug: cormorant/query-1-col
+ * Title: Two Columns
+ * Slug: cormorant/query-2-col
  * Categories: cormorant-query
- * Description: One column
+ * Description: Two columns
  * Keywords: cormorant
  * Block Types:
  *
@@ -13,7 +13,7 @@
  */
 ?>
 <!-- wp:group {"align":"wide","layout":{"inherit":true,"type":"constrained"}} -->
-<div class="wp-block-group alignwide"><!-- wp:query {"queryId":1,"query":{"perPage":"10","pages":0,"offset":0,"postType":"post","order":"desc","orderBy":"date","author":"","search":"","exclude":[],"sticky":"exclude","inherit":false},"displayLayout":{"type":"list","columns":2},"layout":{"type":"default"}} -->
+<div class="wp-block-group alignwide"><!-- wp:query {"queryId":1,"query":{"perPage":"10","pages":0,"offset":0,"postType":"post","order":"desc","orderBy":"date","author":"","search":"","exclude":[],"sticky":"exclude","inherit":false},"displayLayout":{"type":"flex","columns":2},"layout":{"type":"default"}} -->
 	<div class="wp-block-query"><!-- wp:group {"tagName":"header","style":{"spacing":{"padding":{"top":"var:preset|spacing|l","right":"var:preset|spacing|l","bottom":"var:preset|spacing|l","left":"var:preset|spacing|l"},"blockGap":"var:preset|spacing|s"}},"layout":{"type":"flex","orientation":"vertical","justifyContent":"center"}} -->
 		<header class="wp-block-group" style="padding-top:var(--wp--preset--spacing--l);padding-right:var(--wp--preset--spacing--l);padding-bottom:var(--wp--preset--spacing--l);padding-left:var(--wp--preset--spacing--l)"><!-- wp:query-title {"type":"archive","textAlign":"center","fontSize":"4-xl"} /-->
 
