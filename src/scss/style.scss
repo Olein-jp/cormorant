@@ -225,6 +225,17 @@ $colors: foreground, background, primary, secondary, tertiary, quaternary;
 
 /* core/query-pagination
 ------------------------------*/
+/* Default */
+.wp-block-query-pagination {
+  .wp-block-query-pagination-numbers {
+    .page-numbers {
+      display: inline-block;
+      padding: .5em 1em;
+    }
+  }
+}
+
+/* Style block */
 @each $color in $colors {
   @if $color != background {
     .wp-block-query-pagination.is-style-cormorant-block-pagination-#{$color} {
@@ -236,8 +247,8 @@ $colors: foreground, background, primary, secondary, tertiary, quaternary;
         flex-direction: inherit;
       }
 
-      .wp-block-query-pagination-previous:has(.is-arrow-arrow),
-      .wp-block-query-pagination-next:has(.is-arrow-arrow),
+      .wp-block-query-pagination-previous,
+      .wp-block-query-pagination-next,
       .post-navigation-link-previous,
       .post-navigation-link-next {
         &:empty {
