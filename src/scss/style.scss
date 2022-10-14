@@ -211,7 +211,7 @@ $colors: foreground, background, primary, secondary, tertiary, quaternary;
       border: 2px solid var( --wp--preset--color--#{$color} );
     }
 
-    padding: calc( var( --wp--preset--spacing--s ) / 2 );
+    padding: calc( var( --wp--preset--spacing--s ) * 0.75 );
     & > figcaption {
       margin: calc( var( --wp--preset--spacing--s ) / 2 ) 0 0 0;
       padding: .2em;
@@ -225,7 +225,7 @@ $colors: foreground, background, primary, secondary, tertiary, quaternary;
 @each $color in $colors {
   .is-style-cormorant-striped-background-gallery-#{$color} {
     background-image: repeating-linear-gradient(135deg, transparent, transparent 10px, var(--wp--preset--color--#{$color}) 10px, var(--wp--preset--color--#{$color}) 20px);
-    padding: calc(var(--wp--preset--spacing--s) / 2);
+    padding: calc(var(--wp--preset--spacing--s) * 0.75);
 
     .wp-block-image {
       box-shadow: 0 0 0 2px var(--wp--preset--color--#{$color});
