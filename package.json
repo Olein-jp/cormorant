@@ -16,6 +16,7 @@
     "clean-zip-directory": "rimraf cormonrant",
     "clean-zip": "rimraf cormorant.zip",
     "copy:images": "cpy 'src/images/**' assets/images",
+    "copy:fonts": "cpy 'src/fonts/**' assets/fonts",
     "copy": "npm-run-all -s copy:*",
     "compile:css": "sass src/scss:assets/css/ --no-source-map --style expanded && npx postcss assets/css/*.css --use autoprefixer -d assets/css/",
     "compile": "npm run clean && npm-run-all -s compile:* && npm run copy",
