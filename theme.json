@@ -485,7 +485,7 @@
           "slug": "l",
           "size": "1.1429rem",
           "fluid": {
-            "min": "1.1429rem",
+            "min": "1.05rem",
             "max": "1.4286rem"
           }
         },
@@ -494,7 +494,7 @@
           "slug": "xl",
           "size": "1.3333rem",
           "fluid": {
-            "min": "1.3333rem",
+            "min": "1.25rem",
             "max": "1.6667rem"
           }
         },
@@ -503,7 +503,7 @@
           "slug": "2-xl",
           "size": "1.6rem",
           "fluid": {
-            "min": "1.6rem",
+            "min": "1.45rem",
             "max": "2rem"
           }
         },
@@ -512,7 +512,7 @@
           "slug": "3-xl",
           "size": "2rem",
           "fluid": {
-            "min": "2rem",
+            "min": "1.58rem",
             "max": "2.5rem"
           }
         },
@@ -521,7 +521,7 @@
           "slug": "4-xl",
           "size": "2.6667rem",
           "fluid": {
-            "min": "2.6667rem",
+            "min": "1.75rem",
             "max": "3.3333rem"
           }
         },
@@ -530,7 +530,7 @@
           "slug": "5-xl",
           "size": "4rem",
           "fluid": {
-            "min": "4rem",
+            "min": "2.25rem",
             "max": "5rem"
           }
         },
@@ -539,7 +539,7 @@
           "slug": "6-xl",
           "size": "8rem",
           "fluid": {
-            "min": "8rem",
+            "min": "3rem",
             "max": "10rem"
           }
         }
