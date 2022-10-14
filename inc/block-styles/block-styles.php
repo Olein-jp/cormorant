@@ -507,6 +507,36 @@ if ( ! function_exists( 'cormorant_register_block_styles' ) ) {
 				'name'   => 'cormorant-solid-line-query-quaternary',
 				'label'  => esc_html__( 'Solid Line Quaternary', 'cormorant' ),
 			],
+			[
+				'target' => 'core/gallery',
+				'name'   => 'cormorant-striped-background-gallery-foreground',
+				'label'  => esc_html__( 'Striped Foreground', 'cormorant' ),
+			],
+			[
+				'target' => 'core/gallery',
+				'name'   => 'cormorant-striped-background-gallery-background',
+				'label'  => esc_html__( 'Striped Background', 'cormorant' ),
+			],
+			[
+				'target' => 'core/gallery',
+				'name'   => 'cormorant-striped-background-gallery-primary',
+				'label'  => esc_html__( 'Striped Primary', 'cormorant' ),
+			],
+			[
+				'target' => 'core/gallery',
+				'name'   => 'cormorant-striped-background-gallery-secondary',
+				'label'  => esc_html__( 'Striped Secondary', 'cormorant' ),
+			],
+			[
+				'target' => 'core/gallery',
+				'name'   => 'cormorant-striped-background-gallery-tertiary',
+				'label'  => esc_html__( 'Striped Tertiary', 'cormorant' ),
+			],
+			[
+				'target' => 'core/gallery',
+				'name'   => 'cormorant-striped-background-gallery-quaternary',
+				'label'  => esc_html__( 'Striped Quaternary', 'cormorant' ),
+			],
 		];
 
 		/**

@@ -208,16 +208,27 @@ $colors: foreground, background, primary, secondary, tertiary, quaternary;
   .is-style-cormorant-striped-background-image-#{$color} {
     background-image: repeating-linear-gradient(135deg, transparent, transparent 10px, var( --wp--preset--color--#{$color} ) 10px, var( --wp--preset--color--#{$color} ) 20px);
     & > img {
-      border-color: var( --wp--preset--color--#{$color} );
+      border: 2px solid var( --wp--preset--color--#{$color} );
     }
 
-    padding: clamp( 10px, 1vw, 2vw );
-    & > img {
-      border: 2px solid;
-    }
+    padding: calc( var( --wp--preset--spacing--s ) / 2 );
     & > figcaption {
-      margin: 0;
+      margin: calc( var( --wp--preset--spacing--s ) / 2 ) 0 0 0;
       padding: .2em;
+      background-color: var( --wp--preset--color--background );
+    }
+  }
+}
+
+/* core/gallery
+------------------------------*/
+@each $color in $colors {
+  .is-style-cormorant-striped-background-gallery-#{$color} {
+    background-image: repeating-linear-gradient(135deg, transparent, transparent 10px, var(--wp--preset--color--#{$color}) 10px, var(--wp--preset--color--#{$color}) 20px);
+    padding: calc(var(--wp--preset--spacing--s) / 2);
+
+    .wp-block-image {
+      box-shadow: 0 0 0 2px var(--wp--preset--color--#{$color});
       background-color: var( --wp--preset--color--background );
     }
   }
