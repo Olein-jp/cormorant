@@ -621,33 +621,8 @@ $colors: foreground, background, primary, secondary, tertiary, quaternary;
     Custom style for DEMO
 --------------------------------------------------------------*/
 @media ( max-width: 781px ) {
-  .demo-first-view {
-    min-height: 100vh;
-    .wp-block-columns {
-      .wp-block-column {
-        padding-left: calc(0.5 * var(--wp--preset--spacing--m));
-        padding-right: calc(0.5 * var(--wp--preset--spacing--m));
-      }
-    }
-  }
-  .demo-feature-points {
 
-    padding: calc(0.5 * var(--wp--preset--spacing--m)) !important;
-
-    .wp-block-columns {
-      gap: 1em;
-    }
-  }
 }
 @media (min-width: 782px) {
-  .demo-first-view {
-    padding-bottom: 140px;
-    min-height: 780px;
-  }
-  .demo-feature-points {
-    padding: inherit;
-    margin-top: -140px !important;
-    position: relative;
-    z-index: 10;
-  }
+
 }
