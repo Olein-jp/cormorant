@@ -567,6 +567,56 @@ if ( ! function_exists( 'cormorant_register_block_styles' ) ) {
 				'name'   => 'cormorant-solid-background-gallery-quaternary',
 				'label'  => esc_html__( 'Solid Quaternary', 'cormorant' ),
 			],
+			[
+				'target' => 'core/post-navigation-link',
+				'name'   => 'cormorant-block-post-navigation-foreground',
+				'label'  => esc_html__( 'Block Foreground', 'cormorant' ),
+			],
+			[
+				'target' => 'core/post-navigation-link',
+				'name'   => 'cormorant-block-post-navigation-primary',
+				'label'  => esc_html__( 'Block Primary', 'cormorant' ),
+			],
+			[
+				'target' => 'core/post-navigation-link',
+				'name'   => 'cormorant-block-post-navigation-secondary',
+				'label'  => esc_html__( 'Block Secondary', 'cormorant' ),
+			],
+			[
+				'target' => 'core/post-navigation-link',
+				'name'   => 'cormorant-block-post-navigation-tertiary',
+				'label'  => esc_html__( 'Block Tertiary', 'cormorant' ),
+			],
+			[
+				'target' => 'core/post-navigation-link',
+				'name'   => 'cormorant-block-post-navigation-quaternary',
+				'label'  => esc_html__( 'Block Quaternary', 'cormorant' ),
+			],
+			[
+				'target' => 'core/post-navigation-link',
+				'name'   => 'cormorant-circle-post-navigation-foreground',
+				'label'  => esc_html__( 'Circle Foreground', 'cormorant' ),
+			],
+			[
+				'target' => 'core/post-navigation-link',
+				'name'   => 'cormorant-circle-post-navigation-primary',
+				'label'  => esc_html__( 'Circle Primary', 'cormorant' ),
+			],
+			[
+				'target' => 'core/post-navigation-link',
+				'name'   => 'cormorant-circle-post-navigation-secondary',
+				'label'  => esc_html__( 'Circle Secondary', 'cormorant' ),
+			],
+			[
+				'target' => 'core/post-navigation-link',
+				'name'   => 'cormorant-circle-post-navigation-tertiary',
+				'label'  => esc_html__( 'Circle Tertiary', 'cormorant' ),
+			],
+			[
+				'target' => 'core/post-navigation-link',
+				'name'   => 'cormorant-circle-post-navigation-quaternary',
+				'label'  => esc_html__( 'Circle Quaternary', 'cormorant' ),
+			],
 		];
 
 		/**
