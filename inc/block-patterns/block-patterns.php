@@ -21,7 +21,7 @@ if ( ! function_exists( 'cormorant_register_block_categories' ) ) {
 			'cormorant-banner'      => array( 'label' => __( 'Cormorant Banner', 'cormorant' ) ),
 			'cormorant-faq'         => array( 'label' => __( 'Cormorant FAQ', 'cormorant' ) ),
 			'cormorant-query'       => array( 'label' => __( 'Cormorant Query', 'cormorant' ) ),
-			'page'                  => array( 'label' => __( 'Page', 'cormorant' ) ),
+			'cormorant-page'        => array( 'label' => __( 'Cormorant Page', 'cormorant' ) ),
 			'cormorant-header'      => array( 'label' => __( 'Cormorant Header', 'cormorant' ) ),
 			'cormorant-footer'      => array( 'label' => __( 'Cormorant Footer', 'cormorant' ) ),
 			'cormorant-gallery'     => array( 'label' => __( 'Cormorant Gallery', 'cormorant' ) ),
