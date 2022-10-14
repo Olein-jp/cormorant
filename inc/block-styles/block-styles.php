@@ -104,32 +104,32 @@ if ( ! function_exists( 'cormorant_register_block_styles' ) ) {
 			],
 			[
 				'target' => 'core/image',
-				'name'   => 'cormorant-striped-image-background-foreground',
+				'name'   => 'cormorant-striped-background-image-foreground',
 				'label'  => esc_html__( 'Striped Foreground', 'cormorant' ),
 			],
 			[
 				'target' => 'core/image',
-				'name'   => 'cormorant-striped-image-background-background',
+				'name'   => 'cormorant-striped-background-image-background',
 				'label'  => esc_html__( 'Striped Background', 'cormorant' ),
 			],
 			[
 				'target' => 'core/image',
-				'name'   => 'cormorant-striped-image-background-primary',
+				'name'   => 'cormorant-striped-background-image-primary',
 				'label'  => esc_html__( 'Striped Primary', 'cormorant' ),
 			],
 			[
 				'target' => 'core/image',
-				'name'   => 'cormorant-striped-image-background-secondary',
+				'name'   => 'cormorant-striped-background-image-secondary',
 				'label'  => esc_html__( 'Striped Secondary', 'cormorant' ),
 			],
 			[
 				'target' => 'core/image',
-				'name'   => 'cormorant-striped-image-background-tertiary',
+				'name'   => 'cormorant-striped-background-image-tertiary',
 				'label'  => esc_html__( 'Striped Tertiary', 'cormorant' ),
 			],
 			[
 				'target' => 'core/image',
-				'name'   => 'cormorant-striped-image-background-quaternary',
+				'name'   => 'cormorant-striped-background-image-quaternary',
 				'label'  => esc_html__( 'Striped Quaternary', 'cormorant' ),
 			],
 			[

@@ -205,7 +205,7 @@ $colors: foreground, background, primary, secondary, tertiary, quaternary;
 /* core/image
 ------------------------------*/
 @each $color in $colors {
-  .is-style-cormorant-striped-image-background-#{$color} {
+  .is-style-cormorant-striped-background-image-#{$color} {
     background-image: repeating-linear-gradient(135deg, transparent, transparent 10px, var( --wp--preset--color--#{$color} ) 10px, var( --wp--preset--color--#{$color} ) 20px);
     & > img {
       border-color: var( --wp--preset--color--#{$color} );
