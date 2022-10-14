@@ -228,7 +228,19 @@ $colors: foreground, background, primary, secondary, tertiary, quaternary;
     padding: calc(var(--wp--preset--spacing--s) * 0.75);
 
     .wp-block-image {
-      box-shadow: 0 0 0 2px var(--wp--preset--color--#{$color});
+      box-shadow: 0 0 0 4px var(--wp--preset--color--#{$color});
+      background-color: var( --wp--preset--color--background );
+    }
+  }
+}
+
+@each $color in $colors {
+  .is-style-cormorant-solid-background-gallery-#{$color} {
+    background: var(--wp--preset--color--#{$color});
+    padding: calc(var(--wp--preset--spacing--s) * 0.75);
+
+    .wp-block-image {
+      box-shadow: 0 0 0 4px var(--wp--preset--color--#{$color});
       background-color: var( --wp--preset--color--background );
     }
   }
