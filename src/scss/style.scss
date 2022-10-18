@@ -626,3 +626,17 @@ $colors: foreground, background, primary, secondary, tertiary, quaternary;
 @media (min-width: 782px) {
 
 }
+
+/*--------------------------------------------------------------
+    Utilities
+--------------------------------------------------------------*/
+$spaces : s, m, l, xl, 2-xl, 3-xl, 4-xl;
+
+@each $space in $spaces {
+  .negative-margin-left-#{$space} {
+    margin-left: calc(-1 * var(--wp--preset--spacing--#{$space})) !important;
+  }
+  .negative-margin-right-#{$space} {
+    margin-right: calc(-1 * var(--wp--preset--spacing--#{$space})) !important;
+  }
+}
