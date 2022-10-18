@@ -24,8 +24,8 @@
 			<!-- /wp:paragraph -->
 
 			<!-- wp:buttons {"layout":{"type":"flex","justifyContent":"right"}} -->
-			<div class="wp-block-buttons"><!-- wp:button {"className":"is-style-cormorant-foreground-outline-square-button"} -->
-				<div class="wp-block-button is-style-cormorant-foreground-outline-square-button"><a class="wp-block-button__link wp-element-button">Learn More</a></div>
+			<div class="wp-block-buttons"><!-- wp:button {"backgroundColor":"foreground","className":"is-style-cormorant-foreground-outline-square-button"} -->
+				<div class="wp-block-button is-style-cormorant-foreground-outline-square-button"><a class="wp-block-button__link has-foreground-background-color has-background wp-element-button">Learn More</a></div>
 				<!-- /wp:button --></div>
 			<!-- /wp:buttons --></div>
 		<!-- /wp:column -->
@@ -40,8 +40,8 @@
 			<!-- /wp:paragraph -->
 
 			<!-- wp:buttons {"layout":{"type":"flex","justifyContent":"right"}} -->
-			<div class="wp-block-buttons"><!-- wp:button {"className":"is-style-cormorant-foreground-outline-square-button"} -->
-				<div class="wp-block-button is-style-cormorant-foreground-outline-square-button"><a class="wp-block-button__link wp-element-button">Learn More</a></div>
+			<div class="wp-block-buttons"><!-- wp:button {"backgroundColor":"foreground","className":"is-style-cormorant-foreground-outline-square-button"} -->
+				<div class="wp-block-button is-style-cormorant-foreground-outline-square-button"><a class="wp-block-button__link has-foreground-background-color has-background wp-element-button">Learn More</a></div>
 				<!-- /wp:button --></div>
 			<!-- /wp:buttons --></div>
 		<!-- /wp:column --></div>

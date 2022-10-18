@@ -73,8 +73,8 @@
 				<!-- /wp:group -->
 
 				<!-- wp:buttons {"layout":{"type":"flex","justifyContent":"center"}} -->
-				<div class="wp-block-buttons"><!-- wp:button {"width":100,"className":"is-style-cormorant-foreground-filled-square-button"} -->
-					<div class="wp-block-button has-custom-width wp-block-button__width-100 is-style-cormorant-foreground-filled-square-button"><a class="wp-block-button__link wp-element-button">More Detail</a></div>
+				<div class="wp-block-buttons"><!-- wp:button {"backgroundColor":"foreground","width":100,"className":"is-style-cormorant-foreground-filled-square-button"} -->
+					<div class="wp-block-button has-custom-width wp-block-button__width-100 is-style-cormorant-foreground-filled-square-button"><a class="wp-block-button__link has-foreground-background-color has-background wp-element-button">More Detail</a></div>
 					<!-- /wp:button --></div>
 				<!-- /wp:buttons --></div>
 			<!-- /wp:group --></div>
@@ -131,8 +131,8 @@
 				<!-- /wp:group -->
 
 				<!-- wp:buttons {"layout":{"type":"flex","justifyContent":"center"}} -->
-				<div class="wp-block-buttons"><!-- wp:button {"width":100,"className":"is-style-cormorant-foreground-filled-square-button"} -->
-					<div class="wp-block-button has-custom-width wp-block-button__width-100 is-style-cormorant-foreground-filled-square-button"><a class="wp-block-button__link wp-element-button">More Detail</a></div>
+				<div class="wp-block-buttons"><!-- wp:button {"backgroundColor":"foreground","width":100,"className":"is-style-cormorant-foreground-filled-square-button"} -->
+					<div class="wp-block-button has-custom-width wp-block-button__width-100 is-style-cormorant-foreground-filled-square-button"><a class="wp-block-button__link has-foreground-background-color has-background wp-element-button">More Detail</a></div>
 					<!-- /wp:button --></div>
 				<!-- /wp:buttons --></div>
 			<!-- /wp:group --></div>
@@ -189,8 +189,8 @@
 				<!-- /wp:group -->
 
 				<!-- wp:buttons {"layout":{"type":"flex","justifyContent":"center"}} -->
-				<div class="wp-block-buttons"><!-- wp:button {"width":100,"className":"is-style-cormorant-foreground-filled-square-button"} -->
-					<div class="wp-block-button has-custom-width wp-block-button__width-100 is-style-cormorant-foreground-filled-square-button"><a class="wp-block-button__link wp-element-button">More Detail</a></div>
+				<div class="wp-block-buttons"><!-- wp:button {"backgroundColor":"foreground","width":100,"className":"is-style-cormorant-foreground-filled-square-button"} -->
+					<div class="wp-block-button has-custom-width wp-block-button__width-100 is-style-cormorant-foreground-filled-square-button"><a class="wp-block-button__link has-foreground-background-color has-background wp-element-button">More Detail</a></div>
 					<!-- /wp:button --></div>
 				<!-- /wp:buttons --></div>
 			<!-- /wp:group --></div>

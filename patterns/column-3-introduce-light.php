@@ -39,8 +39,8 @@
 				<!-- /wp:paragraph -->
 
 				<!-- wp:buttons -->
-				<div class="wp-block-buttons"><!-- wp:button {"className":"is-style-cormorant-foreground-outline-square-button"} -->
-					<div class="wp-block-button is-style-cormorant-foreground-outline-square-button"><a class="wp-block-button__link wp-element-button">Details here</a></div>
+				<div class="wp-block-buttons"><!-- wp:button {"backgroundColor":"foreground"} -->
+					<div class="wp-block-button"><a class="wp-block-button__link has-foreground-background-color has-background wp-element-button">Details here</a></div>
 					<!-- /wp:button --></div>
 				<!-- /wp:buttons --></div>
 			<!-- /wp:group --></div>
@@ -61,8 +61,8 @@
 				<!-- /wp:paragraph -->
 
 				<!-- wp:buttons -->
-				<div class="wp-block-buttons"><!-- wp:button {"className":"is-style-cormorant-foreground-outline-square-button"} -->
-					<div class="wp-block-button is-style-cormorant-foreground-outline-square-button"><a class="wp-block-button__link wp-element-button">Details here</a></div>
+				<div class="wp-block-buttons"><!-- wp:button {"backgroundColor":"foreground"} -->
+					<div class="wp-block-button"><a class="wp-block-button__link has-foreground-background-color has-background wp-element-button">Details here</a></div>
 					<!-- /wp:button --></div>
 				<!-- /wp:buttons --></div>
 			<!-- /wp:group --></div>
@@ -83,8 +83,8 @@
 				<!-- /wp:paragraph -->
 
 				<!-- wp:buttons -->
-				<div class="wp-block-buttons"><!-- wp:button {"className":"is-style-cormorant-foreground-outline-square-button"} -->
-					<div class="wp-block-button is-style-cormorant-foreground-outline-square-button"><a class="wp-block-button__link wp-element-button">Details here</a></div>
+				<div class="wp-block-buttons"><!-- wp:button {"backgroundColor":"foreground"} -->
+					<div class="wp-block-button"><a class="wp-block-button__link has-foreground-background-color has-background wp-element-button">Details here</a></div>
 					<!-- /wp:button --></div>
 				<!-- /wp:buttons --></div>
 			<!-- /wp:group --></div>

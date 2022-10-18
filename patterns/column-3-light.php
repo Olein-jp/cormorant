@@ -24,8 +24,8 @@
 			<!-- /wp:paragraph -->
 
 			<!-- wp:buttons {"layout":{"type":"flex","justifyContent":"right"}} -->
-			<div class="wp-block-buttons"><!-- wp:button {"className":"is-style-cormorant-background-filled-square-button"} -->
-				<div class="wp-block-button is-style-cormorant-background-filled-square-button"><a class="wp-block-button__link wp-element-button">Learn More</a></div>
+			<div class="wp-block-buttons"><!-- wp:button {"backgroundColor":"background","textColor":"foreground","className":"is-style-cormorant-background-filled-square-button"} -->
+				<div class="wp-block-button is-style-cormorant-background-filled-square-button"><a class="wp-block-button__link has-foreground-color has-background-background-color has-text-color has-background wp-element-button">Learn More</a></div>
 				<!-- /wp:button --></div>
 			<!-- /wp:buttons --></div>
 		<!-- /wp:column -->
@@ -40,8 +40,8 @@
 			<!-- /wp:paragraph -->
 
 			<!-- wp:buttons {"layout":{"type":"flex","justifyContent":"right"}} -->
-			<div class="wp-block-buttons"><!-- wp:button {"className":"is-style-cormorant-background-filled-square-button"} -->
-				<div class="wp-block-button is-style-cormorant-background-filled-square-button"><a class="wp-block-button__link wp-element-button">Learn More</a></div>
+			<div class="wp-block-buttons"><!-- wp:button {"backgroundColor":"background","textColor":"foreground","className":"is-style-cormorant-background-filled-square-button"} -->
+				<div class="wp-block-button is-style-cormorant-background-filled-square-button"><a class="wp-block-button__link has-foreground-color has-background-background-color has-text-color has-background wp-element-button">Learn More</a></div>
 				<!-- /wp:button --></div>
 			<!-- /wp:buttons --></div>
 		<!-- /wp:column -->
@@ -56,8 +56,8 @@
 			<!-- /wp:paragraph -->
 
 			<!-- wp:buttons {"layout":{"type":"flex","justifyContent":"right"}} -->
-			<div class="wp-block-buttons"><!-- wp:button {"className":"is-style-cormorant-background-filled-square-button"} -->
-				<div class="wp-block-button is-style-cormorant-background-filled-square-button"><a class="wp-block-button__link wp-element-button">Learn More</a></div>
+			<div class="wp-block-buttons"><!-- wp:button {"backgroundColor":"background","textColor":"foreground","className":"is-style-cormorant-background-filled-square-button"} -->
+				<div class="wp-block-button is-style-cormorant-background-filled-square-button"><a class="wp-block-button__link has-foreground-color has-background-background-color has-text-color has-background wp-element-button">Learn More</a></div>
 				<!-- /wp:button --></div>
 			<!-- /wp:buttons --></div>
 		<!-- /wp:column --></div>

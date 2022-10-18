@@ -23,8 +23,8 @@
 		<!-- /wp:paragraph -->
 
 		<!-- wp:buttons {"layout":{"type":"flex","justifyContent":"center"},"style":{"spacing":{"blockGap":"0"}},"fontSize":"medium"} -->
-		<div class="wp-block-buttons has-custom-font-size has-medium-font-size"><!-- wp:button {"className":"is-style-cormorant-foreground-outline-square-button","fontSize":"s"} -->
-			<div class="wp-block-button has-custom-font-size is-style-cormorant-foreground-outline-square-button has-s-font-size"><a class="wp-block-button__link wp-element-button">Contact Us</a></div>
+		<div class="wp-block-buttons has-custom-font-size has-medium-font-size"><!-- wp:button {"backgroundColor":"foreground","className":"is-style-cormorant-foreground-outline-square-button","fontSize":"s"} -->
+			<div class="wp-block-button has-custom-font-size is-style-cormorant-foreground-outline-square-button has-s-font-size"><a class="wp-block-button__link has-foreground-background-color has-background wp-element-button">Contact Us</a></div>
 			<!-- /wp:button --></div>
 		<!-- /wp:buttons --></div>
 	<!-- /wp:group --></div>
