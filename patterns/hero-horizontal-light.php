@@ -24,12 +24,12 @@
 			<!-- /wp:paragraph -->
 
 			<!-- wp:buttons {"layout":{"type":"flex","justifyContent":"left"}} -->
-			<div class="wp-block-buttons"><!-- wp:button {"className":"is-style-cormorant-foreground-filled-square-button"} -->
-				<div class="wp-block-button is-style-cormorant-foreground-filled-square-button"><a class="wp-block-button__link wp-element-button">Click Left Button</a></div>
+			<div class="wp-block-buttons"><!-- wp:button {"backgroundColor":"foreground","className":"is-style-cormorant-foreground-filled-square-button"} -->
+				<div class="wp-block-button is-style-cormorant-foreground-filled-square-button"><a class="wp-block-button__link has-foreground-background-color has-background wp-element-button">Click Left Button</a></div>
 				<!-- /wp:button -->
 
-				<!-- wp:button {"className":"is-style-cormorant-foreground-outline-square-button"} -->
-				<div class="wp-block-button is-style-cormorant-foreground-outline-square-button"><a class="wp-block-button__link wp-element-button">Click Right Button</a></div>
+				<!-- wp:button {"backgroundColor":"foreground","className":"is-style-cormorant-foreground-outline-square-button"} -->
+				<div class="wp-block-button is-style-cormorant-foreground-outline-square-button"><a class="wp-block-button__link has-foreground-background-color has-background wp-element-button">Click Right Button</a></div>
 				<!-- /wp:button --></div>
 			<!-- /wp:buttons --></div>
 		<!-- /wp:column -->

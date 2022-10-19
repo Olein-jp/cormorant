@@ -27,12 +27,12 @@
 			<!-- /wp:paragraph -->
 
 			<!-- wp:buttons {"layout":{"type":"flex","justifyContent":"center"}} -->
-			<div class="wp-block-buttons"><!-- wp:button {"style":{"spacing":{"padding":{"top":"10px","bottom":"10px"}}},"className":"is-style-cormorant-tertiary-filled-square-button"} -->
-				<div class="wp-block-button is-style-cormorant-tertiary-filled-square-button"><a class="wp-block-button__link wp-element-button" style="padding-top:10px;padding-bottom:10px">Button Here</a></div>
+			<div class="wp-block-buttons"><!-- wp:button {"backgroundColor":"background","textColor":"primary","style":{"spacing":{"padding":{"top":"10px","bottom":"10px"}},"border":{"radius":"0px"}}} -->
+				<div class="wp-block-button"><a class="wp-block-button__link has-primary-color has-background-background-color has-text-color has-background wp-element-button" style="border-radius:0px;padding-top:10px;padding-bottom:10px">Button Here</a></div>
 				<!-- /wp:button -->
 
-				<!-- wp:button {"style":{"border":{"radius":"0px"},"spacing":{"padding":{"top":"10px","bottom":"10px"}}},"className":"is-style-cormorant-background-outline-square-button"} -->
-				<div class="wp-block-button is-style-cormorant-background-outline-square-button"><a class="wp-block-button__link wp-element-button" style="border-radius:0px;padding-top:10px;padding-bottom:10px">Button Here</a></div>
+				<!-- wp:button {"style":{"border":{"radius":"0px"},"spacing":{"padding":{"top":"10px","bottom":"10px"}}}} -->
+				<div class="wp-block-button"><a class="wp-block-button__link wp-element-button" style="border-radius:0px;padding-top:10px;padding-bottom:10px">Button Here</a></div>
 				<!-- /wp:button --></div>
 			<!-- /wp:buttons --></div>
 		<!-- /wp:group --></div></div>

@@ -12,8 +12,8 @@
  * @since 1.0.0
  */
 ?>
-<!-- wp:group {"tagName":"div","align":"full","style":{"spacing":{"padding":{"top":"var:preset|spacing|medium","right":"var:preset|spacing|x-small","bottom":"var:preset|spacing|small","left":"var:preset|spacing|x-small"}}},"backgroundColor":"primary","textColor":"background","className":"site-footer _primary","layout":{"type":"default"},"fontSize":"tiny"} -->
-<div class="wp-block-group alignfull has-background-color has-primary-background-color has-text-color has-background has-tiny-font-size" style="padding-top:var(--wp--preset--spacing--medium);padding-right:var(--wp--preset--spacing--x-small);padding-bottom:var(--wp--preset--spacing--small);padding-left:var(--wp--preset--spacing--x-small)"><!-- wp:group {"style":{"spacing":{"padding":{"top":"var:preset|spacing|l","right":"0","bottom":"var:preset|spacing|s","left":"0"}}},"layout":{"type":"constrained"}} -->
+<!-- wp:group {"tagName":"footer","align":"full","style":{"spacing":{"padding":{"top":"var:preset|spacing|medium","right":"var:preset|spacing|x-small","bottom":"var:preset|spacing|small","left":"var:preset|spacing|x-small"}}},"backgroundColor":"primary","textColor":"background","layout":{"type":"default"},"fontSize":"tiny"} -->
+<footer class="wp-block-group alignfull has-background-color has-primary-background-color has-text-color has-background has-tiny-font-size" style="padding-top:var(--wp--preset--spacing--medium);padding-right:var(--wp--preset--spacing--x-small);padding-bottom:var(--wp--preset--spacing--small);padding-left:var(--wp--preset--spacing--x-small)"><!-- wp:group {"style":{"spacing":{"padding":{"top":"var:preset|spacing|l","right":"0","bottom":"var:preset|spacing|s","left":"0"}}},"layout":{"type":"constrained"}} -->
 	<div class="wp-block-group" style="padding-top:var(--wp--preset--spacing--l);padding-right:0;padding-bottom:var(--wp--preset--spacing--s);padding-left:0"><!-- wp:heading {"textAlign":"center"} -->
 		<h2 class="has-text-align-center">Contact Us</h2>
 		<!-- /wp:heading -->
@@ -23,8 +23,8 @@
 		<!-- /wp:paragraph -->
 
 		<!-- wp:buttons {"layout":{"type":"flex","justifyContent":"center"}} -->
-		<div class="wp-block-buttons"><!-- wp:button {"className":"is-style-cormorant-background-outline-square-button"} -->
-			<div class="wp-block-button is-style-cormorant-background-outline-square-button"><a class="wp-block-button__link wp-element-button">Get in Touch</a></div>
+		<div class="wp-block-buttons"><!-- wp:button {"backgroundColor":"background","textColor":"primary","className":"is-style-cormorant-background-outline-square-button"} -->
+			<div class="wp-block-button is-style-cormorant-background-outline-square-button"><a class="wp-block-button__link has-primary-color has-background-background-color has-text-color has-background wp-element-button"><strong>Get in Touch</strong></a></div>
 			<!-- /wp:button --></div>
 		<!-- /wp:buttons --></div>
 	<!-- /wp:group -->
@@ -39,5 +39,5 @@
 		<!-- wp:paragraph -->
 		<p>/ <a href="https://cormorant.kunokoji.com" target="_blank" rel="noreferrer noopener">Contact Us</a></p>
 		<!-- /wp:paragraph --></div>
-	<!-- /wp:group --></div>
+	<!-- /wp:group --></footer>
 <!-- /wp:group -->

@@ -12,8 +12,8 @@
  * @since 1.0.0
  */
 ?>
-<!-- wp:group {"tagName":"div","align":"full","style":{"spacing":{"padding":{"top":"var:preset|spacing|l","right":"var:preset|spacing|s","bottom":"var:preset|spacing|s","left":"var:preset|spacing|s"}},"elements":{"link":{"color":{"text":"var:preset|color|foreground"}}}},"backgroundColor":"background","textColor":"foreground","className":"site-footer _light","layout":{"type":"default"}} -->
-<div class="wp-block-group alignfull has-foreground-color has-background-background-color has-text-color has-background has-link-color" style="padding-top:var(--wp--preset--spacing--l);padding-right:var(--wp--preset--spacing--s);padding-bottom:var(--wp--preset--spacing--s);padding-left:var(--wp--preset--spacing--s)"><!-- wp:columns {"align":"wide","style":{"spacing":{"blockGap":{"left":"100px"}}}} -->
+<!-- wp:group {"tagName":"footer","align":"full","style":{"spacing":{"padding":{"top":"var:preset|spacing|l","right":"var:preset|spacing|s","bottom":"var:preset|spacing|s","left":"var:preset|spacing|s"}},"elements":{"link":{"color":{"text":"var:preset|color|foreground"}}}},"backgroundColor":"background","textColor":"foreground","layout":{"type":"default"}} -->
+<footer class="wp-block-group alignfull has-foreground-color has-background-background-color has-text-color has-background has-link-color" style="padding-top:var(--wp--preset--spacing--l);padding-right:var(--wp--preset--spacing--s);padding-bottom:var(--wp--preset--spacing--s);padding-left:var(--wp--preset--spacing--s)"><!-- wp:columns {"align":"wide","style":{"spacing":{"blockGap":{"left":"100px"}}}} -->
 	<div class="wp-block-columns alignwide"><!-- wp:column {"width":"50%"} -->
 		<div class="wp-block-column" style="flex-basis:50%"><!-- wp:heading {"level":4,"fontSize":"xl"} -->
 			<h4 class="has-xl-font-size"><strong>Footer title</strong></h4>
@@ -24,8 +24,8 @@
 			<!-- /wp:paragraph -->
 
 			<!-- wp:buttons -->
-			<div class="wp-block-buttons"><!-- wp:button {"style":{"border":{"radius":"0px"}},"className":"is-style-cormorant-foreground-outline-square-button","fontSize":"s"} -->
-				<div class="wp-block-button has-custom-font-size is-style-cormorant-foreground-outline-square-button has-s-font-size"><a class="wp-block-button__link wp-element-button" style="border-radius:0px">More Details</a></div>
+			<div class="wp-block-buttons"><!-- wp:button {"backgroundColor":"foreground","style":{"border":{"radius":"0px"}},"className":"is-style-cormorant-foreground-outline-square-button","fontSize":"s"} -->
+				<div class="wp-block-button has-custom-font-size is-style-cormorant-foreground-outline-square-button has-s-font-size"><a class="wp-block-button__link has-foreground-background-color has-background wp-element-button" style="border-radius:0px">More Details</a></div>
 				<!-- /wp:button --></div>
 			<!-- /wp:buttons --></div>
 		<!-- /wp:column -->
@@ -115,5 +115,5 @@
 
 			<!-- wp:site-title {"level":0,"isLink":false,"fontSize":"xs"} /--></div>
 		<!-- /wp:group --></div>
-	<!-- /wp:group --></div>
+	<!-- /wp:group --></footer>
 <!-- /wp:group -->

@@ -27,12 +27,12 @@
 			<!-- /wp:paragraph -->
 
 			<!-- wp:buttons {"layout":{"type":"flex","justifyContent":"center"}} -->
-			<div class="wp-block-buttons"><!-- wp:button {"className":"is-style-cormorant-background-filled-square-button","fontSize":"tiny"} -->
-				<div class="wp-block-button has-custom-font-size is-style-cormorant-background-filled-square-button has-tiny-font-size"><a class="wp-block-button__link wp-element-button">Button is here</a></div>
+			<div class="wp-block-buttons"><!-- wp:button {"backgroundColor":"background","textColor":"foreground","className":"is-style-cormorant-background-filled-square-button","fontSize":"tiny"} -->
+				<div class="wp-block-button has-custom-font-size is-style-cormorant-background-filled-square-button has-tiny-font-size"><a class="wp-block-button__link has-foreground-color has-background-background-color has-text-color has-background wp-element-button"><strong>Button is here</strong></a></div>
 				<!-- /wp:button -->
 
-				<!-- wp:button {"className":"is-style-cormorant-background-outline-square-button","fontSize":"tiny"} -->
-				<div class="wp-block-button has-custom-font-size is-style-cormorant-background-outline-square-button has-tiny-font-size"><a class="wp-block-button__link wp-element-button">Button is here</a></div>
+				<!-- wp:button {"backgroundColor":"background","textColor":"foreground","className":"is-style-cormorant-background-outline-square-button","fontSize":"tiny"} -->
+				<div class="wp-block-button has-custom-font-size is-style-cormorant-background-outline-square-button has-tiny-font-size"><a class="wp-block-button__link has-foreground-color has-background-background-color has-text-color has-background wp-element-button"><strong>Button is here</strong></a></div>
 				<!-- /wp:button --></div>
 			<!-- /wp:buttons --></div>
 		<!-- /wp:group --></div></div>
