@@ -111,20 +111,27 @@ label {
 //  padding: var( --wp--preset--spacing--m );
 //}
 
-/* core/pullquote
+/* core/pullquote & core/quote
 ------------------------------*/
+@mixin blockquote-style() {
+  p {
+    font-weight: 400;
+  }
+  cite {
+    display: inline-block;
+    margin-top: var( --wp--preset--spacing--m );
+    font-size: var( --wp--preset--font-size--xs );
+    font-style: italic;
+    font-weight: bold;
+  }
+}
 .wp-block-pullquote {
   blockquote {
-    p {
-      font-weight: 400;
-    }
-    cite {
-      display: inline-block;
-      margin-top: var( --wp--preset--spacing--m );
-      font-size: var( --wp--preset--font-size--xs );
-      font-style: italic;
-    }
+    @include blockquote-style;
   }
+}
+.wp-block-quote {
+  @include blockquote-style;
 }
 
 /* ALL BLOCKS
