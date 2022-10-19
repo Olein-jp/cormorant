@@ -617,6 +617,16 @@ if ( ! function_exists( 'cormorant_register_block_styles' ) ) {
 				'name'   => 'cormorant-circle-post-navigation-quaternary',
 				'label'  => esc_html__( 'Circle Quaternary', 'cormorant' ),
 			],
+			[
+				'target' => 'core/pullquote',
+				'name'   => 'cormorant-big-quote-mark-pullquote',
+				'label'  => esc_html__( 'Big Quote Mark', 'cormorant' ),
+			],
+			[
+				'target' => 'core/pullquote',
+				'name'   => 'cormorant-small-quote-mark-pullquote',
+				'label'  => esc_html__( 'Small Quote Mark', 'cormorant' ),
+			],
 		];
 
 		/**

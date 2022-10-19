@@ -15,5 +15,5 @@
 <!-- wp:pattern {"slug":"cormorant/hero-covered-image"} /-->
 <!-- wp:pattern {"slug":"cormorant/column-3-introduce-light"} /-->
 <!-- wp:pattern {"slug":"cormorant/column-3-price-table-light"} /-->
-<!-- wp:pattern {"slug":"cormorant/testimonial-vertical-light"} /-->
+<!-- wp:pattern {"slug":"cormorant/testimonial-horizontal-light"} /-->
 <!-- wp:pattern {"slug":"cormorant/cta-vertical-light"} /-->

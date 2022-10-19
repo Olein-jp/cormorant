@@ -44,12 +44,12 @@ label {
 /* core/post-content
 ------------------------------*/
 .site-content {
-  padding-left: var( --wp--custom--spacing--unit );
-  padding-right: var( --wp--custom--spacing--unit );
-  @media ( min-width: 782px ) {
-    padding-left: 0;
-    padding-right: 0;
-  }
+  //padding-left: var( --wp--custom--spacing--unit );
+  //padding-right: var( --wp--custom--spacing--unit );
+  //@media ( min-width: 782px ) {
+  //  padding-left: 0;
+  //  padding-right: 0;
+  //}
   .page-template-template-blank & {
     padding-left: 0;
     padding-right: 0;
@@ -107,9 +107,32 @@ label {
 
 /* core/group
 ------------------------------*/
-:where(.wp-block-group.has-background) {
-  padding: var( --wp--preset--spacing--m );
+//:where(.wp-block-group.has-background) {
+//  padding: var( --wp--preset--spacing--m );
+//}
+
+/* core/pullquote
+------------------------------*/
+.wp-block-pullquote {
+  blockquote {
+    p {
+      font-weight: 400;
+    }
+    cite {
+      display: inline-block;
+      margin-top: var( --wp--preset--spacing--m );
+      font-size: var( --wp--preset--font-size--xs );
+      font-style: italic;
+    }
+  }
 }
+
+/* ALL BLOCKS
+------------------------------*/
+//.entry-content > .has-background-color {
+//    margin-left: calc(-1 * var(--wp--preset--spacing--s ));
+//    margin-right: calc(-1 * var(--wp--preset--spacing--s ));
+//}
 
 /*--------------------------------------------------------------
     Block Styles
@@ -617,6 +640,43 @@ $colors: foreground, background, primary, secondary, tertiary, quaternary;
   }
 }
 
+/* core/pullquote
+------------------------------*/
+.is-style-cormorant-big-quote-mark-pullquote,
+.is-style-cormorant-small-quote-mark-pullquote {
+  position: relative;
+  border-top: none !important;
+  border-bottom: none !important;
+  &:before {
+    position: absolute;
+    content: '"';
+    left: 0;
+    display: inline-block;
+    opacity: .25;
+    color: currentColor;
+  }
+}
+.is-style-cormorant-big-quote-mark-pullquote {
+  @media ( max-width: 781px ) {
+    padding: calc( 0.3 * var( --wp--preset--font-size--6-xl ) ) 0 0 0 !important;
+  }
+  padding: calc( 0.3 * var( --wp--preset--font-size--6-xl ) ) var( --wp--preset--spacing--m ) var( --wp--preset--spacing--m ) var( --wp--preset--spacing--m ) !important;
+  &:before {
+    top: calc( -0.3333 * var( --wp--preset--font-size--6-xl ) );
+    font-size: var( --wp--preset--font-size--6-xl);
+  }
+}
+.is-style-cormorant-small-quote-mark-pullquote {
+  @media ( max-width: 781px ) {
+    padding: calc( 0.3 * var( --wp--preset--font-size--4-xl ) ) 0 0 0 !important;
+  }
+  padding: calc( 0.3 * var( --wp--preset--font-size--4-xl ) ) var( --wp--preset--spacing--s ) var( --wp--preset--spacing--s ) var( --wp--preset--spacing--s ) !important;
+  &:before {
+    top: calc( -0.3333 * var( --wp--preset--font-size--4-xl ) );
+    font-size: var( --wp--preset--font-size--4-xl);
+  }
+}
+
 /*--------------------------------------------------------------
     Custom style for DEMO
 --------------------------------------------------------------*/
@@ -631,12 +691,3 @@ $colors: foreground, background, primary, secondary, tertiary, quaternary;
     Utilities
 --------------------------------------------------------------*/
 $spaces : s, m, l, xl, 2-xl, 3-xl, 4-xl;
-
-@each $space in $spaces {
-  .negative-margin-left-#{$space} {
-    margin-left: calc(-1 * var(--wp--preset--spacing--#{$space})) !important;
-  }
-  .negative-margin-right-#{$space} {
-    margin-right: calc(-1 * var(--wp--preset--spacing--#{$space})) !important;
-  }
-}

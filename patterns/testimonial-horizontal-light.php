@@ -12,54 +12,24 @@
  * @since 1.0.0
  */
 ?>
-<!-- wp:group {"align":"full","style":{"spacing":{"padding":{"top":"var:preset|spacing|2-xl","bottom":"var:preset|spacing|2-xl"}}},"backgroundColor":"background","textColor":"foreground","layout":{"type":"constrained"}} -->
-<div class="wp-block-group alignfull has-foreground-color has-background-background-color has-text-color has-background" style="padding-top:var(--wp--preset--spacing--2-xl);padding-bottom:var(--wp--preset--spacing--2-xl)"><!-- wp:columns {"align":"wide"} -->
-	<div class="wp-block-columns alignwide"><!-- wp:column {"style":{"spacing":{"padding":{"top":"var:preset|spacing|l","right":"var:preset|spacing|l","bottom":"var:preset|spacing|l","left":"var:preset|spacing|l"}}},"backgroundColor":"foreground","textColor":"background"} -->
-		<div class="wp-block-column has-background-color has-foreground-background-color has-text-color has-background" style="padding-top:var(--wp--preset--spacing--l);padding-right:var(--wp--preset--spacing--l);padding-bottom:var(--wp--preset--spacing--l);padding-left:var(--wp--preset--spacing--l)"><!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|m"}},"layout":{"type":"flex","orientation":"vertical","justifyContent":"center"}} -->
-			<div class="wp-block-group"><!-- wp:paragraph {"style":{"typography":{"lineHeight":"0"}},"fontSize":"5-xl"} -->
-				<p class="has-5-xl-font-size" style="line-height:0">“</p>
-				<!-- /wp:paragraph -->
-
-				<!-- wp:paragraph {"align":"center"} -->
-				<p class="has-text-align-center">Consequat duis facilisi rutrum ultricies montes habitant vel sagittis, himenaeos conubia tempor ligula efficitur potenti etiam felis vehicula, tristique aenean maximus facilisis dictum scelerisque commodo. Hendrerit aenean venenatis pellentesque blandit laoreet ipsum inceptos diam curae pulvinar, dolor ultricies rhoncus penatibus in commodo cursus nunc</p>
-				<!-- /wp:paragraph -->
-
-				<!-- wp:paragraph -->
-				<p><strong><em>-- Koji Kuno, Developer --</em></strong></p>
-				<!-- /wp:paragraph --></div>
-			<!-- /wp:group --></div>
+<!-- wp:group {"align":"full","style":{"spacing":{"padding":{"top":"var:preset|spacing|2-xl","bottom":"var:preset|spacing|2-xl"}}},"backgroundColor":"background","textColor":"foreground","className":"negative-margin-left-s negative-margin-right-s","layout":{"type":"constrained"}} -->
+<div class="wp-block-group alignfull negative-margin-left-s negative-margin-right-s has-foreground-color has-background-background-color has-text-color has-background" style="padding-top:var(--wp--preset--spacing--2-xl);padding-bottom:var(--wp--preset--spacing--2-xl)"><!-- wp:columns {"align":"wide"} -->
+	<div class="wp-block-columns alignwide"><!-- wp:column {"style":{"spacing":{"padding":{"top":"var:preset|spacing|m","right":"var:preset|spacing|m","bottom":"var:preset|spacing|m","left":"var:preset|spacing|m"}}},"backgroundColor":"foreground","textColor":"background"} -->
+		<div class="wp-block-column has-background-color has-foreground-background-color has-text-color has-background" style="padding-top:var(--wp--preset--spacing--m);padding-right:var(--wp--preset--spacing--m);padding-bottom:var(--wp--preset--spacing--m);padding-left:var(--wp--preset--spacing--m)"><!-- wp:pullquote {"className":"is-style-cormorant-quote-mark-foreground is-style-cormorant-quote-mark-pullquote is-style-cormorant-big-quote-mark-pullquote"} -->
+			<figure class="wp-block-pullquote is-style-cormorant-quote-mark-foreground is-style-cormorant-quote-mark-pullquote is-style-cormorant-big-quote-mark-pullquote"><blockquote><p>Nascetur dis aptent egestas nam maecenas maximus tincidunt imperdiet mi porta, interdum diam rutrum elementum vivamus</p><cite>Koji Kuno, Developer</cite></blockquote></figure>
+			<!-- /wp:pullquote --></div>
 		<!-- /wp:column -->
 
-		<!-- wp:column {"style":{"spacing":{"padding":{"top":"var:preset|spacing|l","right":"var:preset|spacing|l","bottom":"var:preset|spacing|l","left":"var:preset|spacing|l"}}},"backgroundColor":"foreground","textColor":"background"} -->
-		<div class="wp-block-column has-background-color has-foreground-background-color has-text-color has-background" style="padding-top:var(--wp--preset--spacing--l);padding-right:var(--wp--preset--spacing--l);padding-bottom:var(--wp--preset--spacing--l);padding-left:var(--wp--preset--spacing--l)"><!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|m"}},"layout":{"type":"flex","orientation":"vertical","justifyContent":"center"}} -->
-			<div class="wp-block-group"><!-- wp:paragraph {"style":{"typography":{"lineHeight":"0"}},"fontSize":"5-xl"} -->
-				<p class="has-5-xl-font-size" style="line-height:0">“</p>
-				<!-- /wp:paragraph -->
-
-				<!-- wp:paragraph {"align":"center"} -->
-				<p class="has-text-align-center">Consequat duis facilisi rutrum ultricies montes habitant vel sagittis, himenaeos conubia tempor ligula efficitur potenti etiam felis vehicula, tristique aenean maximus facilisis dictum scelerisque commodo. Hendrerit aenean venenatis pellentesque blandit laoreet ipsum inceptos diam curae pulvinar, dolor ultricies rhoncus penatibus in commodo cursus nunc</p>
-				<!-- /wp:paragraph -->
-
-				<!-- wp:paragraph -->
-				<p><strong><em>-- Koji Kuno, Developer --</em></strong></p>
-				<!-- /wp:paragraph --></div>
-			<!-- /wp:group --></div>
+		<!-- wp:column {"style":{"spacing":{"padding":{"top":"var:preset|spacing|m","right":"var:preset|spacing|m","bottom":"var:preset|spacing|m","left":"var:preset|spacing|m"}}},"backgroundColor":"foreground","textColor":"background"} -->
+		<div class="wp-block-column has-background-color has-foreground-background-color has-text-color has-background" style="padding-top:var(--wp--preset--spacing--m);padding-right:var(--wp--preset--spacing--m);padding-bottom:var(--wp--preset--spacing--m);padding-left:var(--wp--preset--spacing--m)"><!-- wp:pullquote {"className":"is-style-cormorant-quote-mark-foreground is-style-cormorant-quote-mark-pullquote is-style-cormorant-big-quote-mark-pullquote"} -->
+			<figure class="wp-block-pullquote is-style-cormorant-quote-mark-foreground is-style-cormorant-quote-mark-pullquote is-style-cormorant-big-quote-mark-pullquote"><blockquote><p>Nascetur dis aptent egestas nam maecenas maximus tincidunt imperdiet mi porta, interdum diam rutrum elementum vivamus</p><cite>Koji Kuno, Developer</cite></blockquote></figure>
+			<!-- /wp:pullquote --></div>
 		<!-- /wp:column -->
 
-		<!-- wp:column {"style":{"spacing":{"padding":{"top":"var:preset|spacing|l","right":"var:preset|spacing|l","bottom":"var:preset|spacing|l","left":"var:preset|spacing|l"}}},"backgroundColor":"foreground","textColor":"background"} -->
-		<div class="wp-block-column has-background-color has-foreground-background-color has-text-color has-background" style="padding-top:var(--wp--preset--spacing--l);padding-right:var(--wp--preset--spacing--l);padding-bottom:var(--wp--preset--spacing--l);padding-left:var(--wp--preset--spacing--l)"><!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|m"}},"layout":{"type":"flex","orientation":"vertical","justifyContent":"center"}} -->
-			<div class="wp-block-group"><!-- wp:paragraph {"style":{"typography":{"lineHeight":"0"}},"fontSize":"5-xl"} -->
-				<p class="has-5-xl-font-size" style="line-height:0">“</p>
-				<!-- /wp:paragraph -->
-
-				<!-- wp:paragraph {"align":"center"} -->
-				<p class="has-text-align-center">Consequat duis facilisi rutrum ultricies montes habitant vel sagittis, himenaeos conubia tempor ligula efficitur potenti etiam felis vehicula, tristique aenean maximus facilisis dictum scelerisque commodo. Hendrerit aenean venenatis pellentesque blandit laoreet ipsum inceptos diam curae pulvinar, dolor ultricies rhoncus penatibus in commodo cursus nunc</p>
-				<!-- /wp:paragraph -->
-
-				<!-- wp:paragraph -->
-				<p><strong><em>-- Koji Kuno, Developer --</em></strong></p>
-				<!-- /wp:paragraph --></div>
-			<!-- /wp:group --></div>
+		<!-- wp:column {"style":{"spacing":{"padding":{"top":"var:preset|spacing|m","right":"var:preset|spacing|m","bottom":"var:preset|spacing|m","left":"var:preset|spacing|m"}}},"backgroundColor":"foreground","textColor":"background"} -->
+		<div class="wp-block-column has-background-color has-foreground-background-color has-text-color has-background" style="padding-top:var(--wp--preset--spacing--m);padding-right:var(--wp--preset--spacing--m);padding-bottom:var(--wp--preset--spacing--m);padding-left:var(--wp--preset--spacing--m)"><!-- wp:pullquote {"className":"is-style-cormorant-quote-mark-foreground is-style-cormorant-quote-mark-pullquote is-style-cormorant-big-quote-mark-pullquote"} -->
+			<figure class="wp-block-pullquote is-style-cormorant-quote-mark-foreground is-style-cormorant-quote-mark-pullquote is-style-cormorant-big-quote-mark-pullquote"><blockquote><p>Nascetur dis aptent egestas nam maecenas maximus tincidunt imperdiet mi porta, interdum diam rutrum elementum vivamus</p><cite>Koji Kuno, Developer</cite></blockquote></figure>
+			<!-- /wp:pullquote --></div>
 		<!-- /wp:column --></div>
 	<!-- /wp:columns --></div>
 <!-- /wp:group -->
