@@ -1,0 +1,41 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/theme.json",
+  "version": 2,
+  "title": "ENERGY",
+  "settings": {
+    "color": {
+      "palette": [
+        {
+          "slug": "foreground",
+          "color": "#ffffff",
+          "name": "Foreground"
+        },
+        {
+          "slug": "background",
+          "color": "#F23054",
+          "name": "Background"
+        },
+        {
+          "slug": "primary",
+          "color": "#027373",
+          "name": "Primary"
+        },
+        {
+          "slug": "secondary",
+          "color": "#04BFAD",
+          "name": "Secondary"
+        },
+        {
+          "slug": "tertiary",
+          "color": "#04D9B2",
+          "name": "Tertiary"
+        },
+        {
+          "slug": "quaternary",
+          "color": "#F26A4B",
+          "name": "Quaternary"
+        }
+      ]
+    }
+  }
+}

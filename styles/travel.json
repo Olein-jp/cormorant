@@ -1,0 +1,41 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/theme.json",
+  "version": 2,
+  "title": "Travel",
+  "settings": {
+    "color": {
+      "palette": [
+        {
+          "slug": "foreground",
+          "color": "#4b4b4b",
+          "name": "Foreground"
+        },
+        {
+          "slug": "background",
+          "color": "#EDF4F7",
+          "name": "Background"
+        },
+        {
+          "slug": "primary",
+          "color": "#2D4B73",
+          "name": "Primary"
+        },
+        {
+          "slug": "secondary",
+          "color": "#95B3BF",
+          "name": "Secondary"
+        },
+        {
+          "slug": "tertiary",
+          "color": "#D9B70D",
+          "name": "Tertiary"
+        },
+        {
+          "slug": "quaternary",
+          "color": "#BF8D30",
+          "name": "Quaternary"
+        }
+      ]
+    }
+  }
+}

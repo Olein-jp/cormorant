@@ -1,0 +1,41 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/theme.json",
+  "version": 2,
+  "title": "Basil",
+  "settings": {
+    "color": {
+      "palette": [
+        {
+          "slug": "foreground",
+          "color": "#4b4b4b",
+          "name": "Foreground"
+        },
+        {
+          "slug": "background",
+          "color": "#f2f2f2",
+          "name": "Background"
+        },
+        {
+          "slug": "primary",
+          "color": "#73A605",
+          "name": "Primary"
+        },
+        {
+          "slug": "secondary",
+          "color": "#6E8C03",
+          "name": "Secondary"
+        },
+        {
+          "slug": "tertiary",
+          "color": "#4F5902",
+          "name": "Tertiary"
+        },
+        {
+          "slug": "quaternary",
+          "color": "#593B02",
+          "name": "Quaternary"
+        }
+      ]
+    }
+  }
+}

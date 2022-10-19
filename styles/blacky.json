@@ -1,0 +1,41 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/theme.json",
+  "version": 2,
+  "title": "Blacky",
+  "settings": {
+    "color": {
+      "palette": [
+        {
+          "slug": "foreground",
+          "color": "#0D0D0D",
+          "name": "Foreground"
+        },
+        {
+          "slug": "background",
+          "color": "#F2F2F0",
+          "name": "Background"
+        },
+        {
+          "slug": "primary",
+          "color": "#A6A6A6",
+          "name": "Primary"
+        },
+        {
+          "slug": "secondary",
+          "color": "#737373",
+          "name": "Secondary"
+        },
+        {
+          "slug": "tertiary",
+          "color": "#404040",
+          "name": "Tertiary"
+        },
+        {
+          "slug": "quaternary",
+          "color": "#1A1A1A",
+          "name": "Quaternary"
+        }
+      ]
+    }
+  }
+}
