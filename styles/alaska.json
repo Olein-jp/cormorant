@@ -1,0 +1,41 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/theme.json",
+  "version": 2,
+  "title": "Alaska",
+  "settings": {
+    "color": {
+      "palette": [
+        {
+          "slug": "foreground",
+          "color": "#2E210A",
+          "name": "Foreground"
+        },
+        {
+          "slug": "background",
+          "color": "#FFF8EB",
+          "name": "Background"
+        },
+        {
+          "slug": "primary",
+          "color": "#3F8EBF",
+          "name": "Primary"
+        },
+        {
+          "slug": "secondary",
+          "color": "#A0DBF2",
+          "name": "Secondary"
+        },
+        {
+          "slug": "tertiary",
+          "color": "#F2E205",
+          "name": "Tertiary"
+        },
+        {
+          "slug": "quaternary",
+          "color": "#D9B504",
+          "name": "Quaternary"
+        }
+      ]
+    }
+  }
+}

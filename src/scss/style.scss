@@ -44,12 +44,12 @@ label {
 /* core/post-content
 ------------------------------*/
 .site-content {
-  //padding-left: var( --wp--custom--spacing--unit );
-  //padding-right: var( --wp--custom--spacing--unit );
-  //@media ( min-width: 782px ) {
-  //  padding-left: 0;
-  //  padding-right: 0;
-  //}
+  padding-left: var( --wp--custom--spacing--unit );
+  padding-right: var( --wp--custom--spacing--unit );
+  @media ( min-width: 782px ) {
+    padding-left: 0;
+    padding-right: 0;
+  }
   .page-template-template-blank & {
     padding-left: 0;
     padding-right: 0;
@@ -547,7 +547,7 @@ $colors: foreground, background, primary, secondary, tertiary, quaternary;
       &:hover {
         background: var(--wp--preset--color--#{$color});
         color: var(--wp--preset--color--background);
-        @if $color == foreground or $color == secondary {
+        @if $color != background {
           color: var(--wp--preset--color--background);
         } @else {
           color: var(--wp--preset--color--foreground);

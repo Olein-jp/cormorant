@@ -1,0 +1,41 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/theme.json",
+  "version": 2,
+  "title": "Catalunia",
+  "settings": {
+    "color": {
+      "palette": [
+        {
+          "slug": "foreground",
+          "color": "#2B1C01",
+          "name": "Foreground"
+        },
+        {
+          "slug": "background",
+          "color": "#FFF8EB",
+          "name": "Background"
+        },
+        {
+          "slug": "primary",
+          "color": "#023E73",
+          "name": "Primary"
+        },
+        {
+          "slug": "secondary",
+          "color": "#D9A404",
+          "name": "Secondary"
+        },
+        {
+          "slug": "tertiary",
+          "color": "#A62145",
+          "name": "Tertiary"
+        },
+        {
+          "slug": "quaternary",
+          "color": "#590212",
+          "name": "Quaternary"
+        }
+      ]
+    }
+  }
+}

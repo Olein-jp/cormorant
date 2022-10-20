@@ -1,38 +1,38 @@
 {
   "$schema": "https://schemas.wp.org/trunk/theme.json",
   "version": 2,
-  "title": "ENERGY",
+  "title": "Sunrise",
   "settings": {
     "color": {
       "palette": [
         {
           "slug": "foreground",
-          "color": "#ffffff",
+          "color": "#192E40",
           "name": "Foreground"
         },
         {
           "slug": "background",
-          "color": "#F23054",
+          "color": "#F0F8FF",
           "name": "Background"
         },
         {
           "slug": "primary",
-          "color": "#027373",
+          "color": "#F2B56B",
           "name": "Primary"
         },
         {
           "slug": "secondary",
-          "color": "#04BFAD",
+          "color": "#F2E0C9",
           "name": "Secondary"
         },
         {
           "slug": "tertiary",
-          "color": "#04D9B2",
+          "color": "#F2BC8D",
           "name": "Tertiary"
         },
         {
           "slug": "quaternary",
-          "color": "#F26A4B",
+          "color": "#D9896C",
           "name": "Quaternary"
         }
       ]
