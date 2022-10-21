@@ -417,7 +417,7 @@
       "customFontSize": true,
       "fontFamilies": [
         {
-          "fontFamily": "\"Zen Maru Gothic\", ui-sans-serif, -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, \"Helvetica Neue\", sans-serif",
+          "fontFamily": "\"BIZ UDPGothic\", ui-sans-serif, -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, \"Helvetica Neue\", sans-serif",
           "slug": "default",
           "name": "BIZ UDPGothic",
           "fontFace": [
@@ -426,14 +426,14 @@
               "fontWeight": "400",
               "fontStyle": "normal",
               "fontStretch": "normal",
-              "src": [ "file:./assets/fonts/BIZUDPGothic-Regular.ttf"]
+              "src": [ "file:./assets/fonts/BIZUDPGothic-Regular.woff2"]
             },
             {
               "fontFamily": "BIZ UDPGothic",
               "fontWeight": "700",
               "fontStyle": "Bold",
               "fontStretch": "normal",
-              "src": [ "file:./assets/fonts/BIZUDPGothic-Bold.ttf"]
+              "src": [ "file:./assets/fonts/BIZUDPGothic-Bold.woff2"]
             }
           ]
         },
