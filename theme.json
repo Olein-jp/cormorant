@@ -553,10 +553,6 @@
     },
     "blocks": {
       "core/button": {
-        "color": {
-          "background": "var( --wp--preset--color--primary )",
-          "text": "var( --wp--preset--color--background )"
-        },
         "spacing": {
           "padding": {
             "left": "1.7em",
