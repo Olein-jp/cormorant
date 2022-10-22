@@ -422,16 +422,16 @@
           "name": "BIZ UDPGothic",
           "fontFace": [
             {
-              "fontFamily": "BIZ UDPGothic",
+              "fontFamily": "BIZ UDPGothic Regular",
               "fontWeight": "400",
               "fontStyle": "normal",
               "fontStretch": "normal",
               "src": [ "file:./assets/fonts/BIZUDPGothic-Regular.woff2"]
             },
             {
-              "fontFamily": "BIZ UDPGothic",
+              "fontFamily": "BIZ UDPGothic Bold",
               "fontWeight": "700",
-              "fontStyle": "Bold",
+              "fontStyle": "normal",
               "fontStretch": "normal",
               "src": [ "file:./assets/fonts/BIZUDPGothic-Bold.woff2"]
             }
@@ -741,6 +741,7 @@
     "typography": {
       "fontFamily": "var( --wp--preset--font-family--default )",
       "fontSize": "var( --wp--preset--font-size--m )",
+      "fontWeight": "400",
       "letterSpacing": "var( --wp--custom--typography--letter-spacing--body )",
       "lineHeight": "var( --wp--custom--typography--line-height--normal )"
     }
