@@ -699,3 +699,21 @@ $colors: foreground, background, primary, secondary, tertiary, quaternary;
     Utilities
 --------------------------------------------------------------*/
 $spaces : s, m, l, xl, 2-xl, 3-xl, 4-xl;
+
+@media ( min-width: 600px ) {
+  .u-hidden-min-600 {
+    display: none !important;
+  }
+  .u-display-min-600 {
+    display: block !important;
+  }
+}
+
+@media ( min-width: 782px ) {
+  .u-hidden-min-782 {
+    display: none !important;
+  }
+  .u-display-min-782 {
+    display: block !important;
+  }
+}
