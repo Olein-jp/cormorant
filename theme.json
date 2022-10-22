@@ -360,7 +360,7 @@
       }
     },
     "layout": {
-      "contentSize": "40rem",
+      "contentSize": "50rem",
       "wideSize": "70rem"
     },
     "spacing": {
@@ -549,7 +549,7 @@
   },
   "styles": {
     "spacing": {
-      "blockGap": "1.25em"
+      "blockGap": "clamp(2vw, 2rem, 4vw)"
     },
     "blocks": {
       "core/button": {
@@ -752,8 +752,8 @@
       "title": "Blank Template"
     },
     {
-      "name": "page-full-width-feature-image",
-      "title": "Full Width Feature Image",
+      "name": "page-header-image",
+      "title": "Full Width Header Image",
       "postTypes": [
         "page"
       ]
