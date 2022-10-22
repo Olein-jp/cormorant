@@ -700,6 +700,13 @@ $colors: foreground, background, primary, secondary, tertiary, quaternary;
 --------------------------------------------------------------*/
 $spaces : s, m, l, xl, 2-xl, 3-xl, 4-xl;
 
+.u-hidden {
+  display: none !important;
+}
+.u-display {
+  display: block !important;
+}
+
 @media ( min-width: 600px ) {
   .u-hidden-min-600 {
     display: none !important;
