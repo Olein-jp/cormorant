@@ -153,9 +153,10 @@ $colors: foreground, background, primary, secondary, tertiary, quaternary;
 ------------------------------*/
 @each $color in $colors {
   .is-style-cormorant-striped-separator-#{$color} {
-    background-image: repeating-linear-gradient(135deg, transparent, transparent 5px, var( --wp--preset--color--#{$color} ) 5px, var( --wp--preset--color--#{$color} ) 10px);
+    //background-image: repeating-linear-gradient(135deg, transparent, transparent 5px, var( --wp--preset--color--#{$color} ) 5px, var( --wp--preset--color--#{$color} ) 10px);
+    background-image: repeating-linear-gradient(135deg, transparent, transparent 5px, var( --wp--preset--color--#{$color} ) 5px, var( --wp--preset--color--#{$color} ) 8px);
     background-color: transparent;
-    height: 5px;
+    height: 10px;
     border-bottom: none;
     &:not(.is-style-wide):not(.is-style-dots) {
       width: 100%;
@@ -186,7 +187,8 @@ $colors: foreground, background, primary, secondary, tertiary, quaternary;
     position: relative;
     padding-left: .2em;
     &:after {
-      background-image: repeating-linear-gradient(135deg, transparent, transparent 5px, var(--wp--preset--color--#{$color}) 5px, var(--wp--preset--color--#{$color}) 10px);
+      //background-image: repeating-linear-gradient(135deg, transparent, transparent 5px, var(--wp--preset--color--#{$color}) 5px, var(--wp--preset--color--#{$color}) 10px);
+      background-image: linear-gradient( -45deg,var(--wp--preset--color--#{$color}) 25%,transparent 25%,transparent 50%,var(--wp--preset--color--#{$color}) 50%,var(--wp--preset--color--#{$color}) 75%,transparent 75%,transparent );
       position: absolute;
       top: inherit !important;
       right: inherit !important;
@@ -195,6 +197,7 @@ $colors: foreground, background, primary, secondary, tertiary, quaternary;
       display: block;
       content: '';
       width: 100%;
+      background-size: 5px 5px;
       background-color: transparent;
       height: 5px;
     }
@@ -236,7 +239,7 @@ $colors: foreground, background, primary, secondary, tertiary, quaternary;
 ------------------------------*/
 @each $color in $colors {
   .is-style-cormorant-striped-background-image-#{$color} {
-    background-image: repeating-linear-gradient(135deg, transparent, transparent 10px, var( --wp--preset--color--#{$color} ) 10px, var( --wp--preset--color--#{$color} ) 20px);
+    background-image: repeating-linear-gradient(135deg, transparent, transparent 5px, var( --wp--preset--color--#{$color} ) 5px, var( --wp--preset--color--#{$color} ) 6px);
     & > img {
       border: 2px solid var( --wp--preset--color--#{$color} );
     }
@@ -254,7 +257,7 @@ $colors: foreground, background, primary, secondary, tertiary, quaternary;
 ------------------------------*/
 @each $color in $colors {
   .is-style-cormorant-striped-background-gallery-#{$color} {
-    background-image: repeating-linear-gradient(135deg, transparent, transparent 10px, var(--wp--preset--color--#{$color}) 10px, var(--wp--preset--color--#{$color}) 20px);
+    background-image: repeating-linear-gradient(135deg, transparent, transparent 5px, var( --wp--preset--color--#{$color} ) 5px, var( --wp--preset--color--#{$color} ) 7px);
     padding: calc(var(--wp--preset--spacing--s) * 0.75);
 
     .wp-block-image {
