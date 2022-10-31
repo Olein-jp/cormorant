@@ -25,6 +25,13 @@ label {
   font-weight: 700;
 }
 
+code {
+  background-color: #e6e6e6;
+  display: inline-block;
+  padding: 0.1em 0.5em;
+  border-radius: 4px;
+}
+
 /*--------------------------------------------------------------
     Core Blocks
 --------------------------------------------------------------*/
@@ -44,12 +51,6 @@ label {
 /* core/post-content
 ------------------------------*/
 .site-content {
-  //padding-left: var( --wp--custom--spacing--unit );
-  //padding-right: var( --wp--custom--spacing--unit );
-  //@media ( min-width: 782px ) {
-  //  padding-left: 0;
-  //  padding-right: 0;
-  //}
   .page-template-template-blank & {
     padding-left: 0;
     padding-right: 0;
@@ -135,13 +136,6 @@ label {
   @include blockquote-style;
 }
 
-/* ALL BLOCKS
-------------------------------*/
-//.entry-content > .has-background-color {
-//    margin-left: calc(-1 * var(--wp--preset--spacing--s ));
-//    margin-right: calc(-1 * var(--wp--preset--spacing--s ));
-//}
-
 /*--------------------------------------------------------------
     Block Styles
 --------------------------------------------------------------*/
@@ -187,7 +181,6 @@ $colors: foreground, background, primary, secondary, tertiary, quaternary;
     position: relative;
     padding-left: .2em;
     &:after {
-      //background-image: repeating-linear-gradient(135deg, transparent, transparent 5px, var(--wp--preset--color--#{$color}) 5px, var(--wp--preset--color--#{$color}) 10px);
       background-image: linear-gradient( -45deg,var(--wp--preset--color--#{$color}) 25%,transparent 25%,transparent 50%,var(--wp--preset--color--#{$color}) 50%,var(--wp--preset--color--#{$color}) 75%,transparent 75%,transparent );
       position: absolute;
       top: inherit !important;

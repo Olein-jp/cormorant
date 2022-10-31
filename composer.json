@@ -4,7 +4,6 @@
   "authors": [
     {
       "name": "Koji Kuno",
-      "email": "info@olein-design.com",
       "homepage": "https://olein-design.com"
     }
   ],
@@ -17,7 +16,7 @@
     "wp-phpunit/wp-phpunit": "^5.6"
   },
   "require": {
-    "php": ">=7.4"
+    "php": ">=5.6"
   },
   "scripts": {
     "format": "phpcbf --standard=./.phpcs.xml.dist --report-summary --report-source",
