@@ -750,44 +750,17 @@
     {
       "name": "template-blank",
       "title": "Blank Template"
-    },
-    {
-      "name": "page-header-image",
-      "title": "Full Width Header Image",
-      "postTypes": [
-        "page"
-      ]
     }
   ],
   "templateParts": [
     {
-      "title": "Header - First",
-      "name": "header-1",
+      "title": "Header",
+      "name": "header",
       "area": "header"
     },
     {
-      "title": "Header - Second",
-      "name": "header-2",
-      "area": "header"
-    },
-    {
-      "title": "Header - Third",
-      "name": "header-3",
-      "area": "header"
-    },
-    {
-      "title": "Footer - First",
-      "name": "footer-1",
-      "area": "footer"
-    },
-    {
-      "title": "Footer - Second",
-      "name": "footer-2",
-      "area": "footer"
-    },
-    {
-      "title": "Footer - Third",
-      "name": "footer-3",
+      "title": "Footer",
+      "name": "footer",
       "area": "footer"
     }
   ]

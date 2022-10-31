@@ -101,25 +101,25 @@ code is poetry.
 
 				<!-- wp:group {"className":"is-style-cormorant-solid-shadow-group-primary","layout":{"type":"constrained"}} -->
 				<div class="wp-block-group is-style-cormorant-solid-shadow-group-primary"><!-- wp:paragraph {"align":"center"} -->
-					<p class="has-text-align-center">Group Styles</p>
+					<p class="has-text-align-center">Ligula orci condimentum duis urna porttitor sed</p>
 					<!-- /wp:paragraph --></div>
 				<!-- /wp:group -->
 
 				<!-- wp:group {"className":"is-style-cormorant-solid-shadow-group-tertiary","layout":{"type":"constrained"}} -->
 				<div class="wp-block-group is-style-cormorant-solid-shadow-group-tertiary"><!-- wp:paragraph {"align":"center"} -->
-					<p class="has-text-align-center">Group Styles</p>
+					<p class="has-text-align-center">Ligula orci condimentum duis urna porttitor sed</p>
 					<!-- /wp:paragraph --></div>
 				<!-- /wp:group -->
 
 				<!-- wp:group {"className":"is-style-cormorant-blur-shadow-group-secondary","layout":{"type":"constrained"}} -->
 				<div class="wp-block-group is-style-cormorant-blur-shadow-group-secondary"><!-- wp:paragraph {"align":"center"} -->
-					<p class="has-text-align-center">Group Styles</p>
+					<p class="has-text-align-center">Ligula orci condimentum duis urna porttitor sed</p>
 					<!-- /wp:paragraph --></div>
 				<!-- /wp:group -->
 
 				<!-- wp:group {"className":"is-style-cormorant-blur-shadow-group-quaternary","layout":{"type":"constrained"}} -->
 				<div class="wp-block-group is-style-cormorant-blur-shadow-group-quaternary"><!-- wp:paragraph {"align":"center"} -->
-					<p class="has-text-align-center">Group Styles</p>
+					<p class="has-text-align-center">Ligula orci condimentum duis urna porttitor sed</p>
 					<!-- /wp:paragraph --></div>
 				<!-- /wp:group --></div>
 			<!-- /wp:column --></div>
