@@ -2,7 +2,7 @@
 Contributors: Koji Kuno
 Donate link: https://www.amazon.co.jp/hz/wishlist/ls/WH93ZBVDA08I
 Requires at least: 6.1
-Requires PHP: 7.4
+Requires PHP: 5.6
 Tested up to: 6.1
 Stable tag: trunk
 License: GPLv2 or later
@@ -44,7 +44,7 @@ Version 1.0.0
 --------------------
 - Changed almost styles via theme.json
 - Renewal color palette
-- Added gradients
+- Added gradients and duotones
 
 Version 0.0.12(2021-10-19)
 --------------------
