@@ -37,7 +37,7 @@
 		<!-- wp:site-title {"level":0,"isLink":false,"fontSize":"xs"} /-->
 
 		<!-- wp:paragraph -->
-		<p>/ <a href="https://cormorant.kunokoji.com" target="_blank" rel="noreferrer noopener">Contact Us</a></p>
+		<p>/ <a href="<?php echo esc_url( 'https://cormorant.kunokoji.com' ); ?>" target="_blank" rel="noreferrer noopener">Contact Us</a></p>
 		<!-- /wp:paragraph --></div>
 	<!-- /wp:group --></footer>
 <!-- /wp:group -->

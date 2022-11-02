@@ -23,7 +23,7 @@
 		<!-- /wp:group -->
 
 		<!-- wp:paragraph {"fontSize":"xs"} -->
-		<p class="has-xs-font-size"><a href="https://www.facebook.com/" target="_blank" rel="noreferrer noopener">Facebook</a>&nbsp;·&nbsp;<a href="https://twitter.com/" target="_blank" rel="noreferrer noopener">Twitter</a>&nbsp;·&nbsp;<a href="https://instagram.com/" target="_blank" rel="noreferrer noopener">Instagram</a></p>
+		<p class="has-xs-font-size"><a href="<?php echo esc_url( 'https://www.facebook.com/' ); ?>" target="_blank" rel="noreferrer noopener">Facebook</a>&nbsp;·&nbsp;<a href="<?php echo esc_url( 'https://twitter.com/' ); ?>" target="_blank" rel="noreferrer noopener">Twitter</a>&nbsp;·&nbsp;<a href="<?php echo esc_url( 'https://instagram.com/' ); ?>" target="_blank" rel="noreferrer noopener">Instagram</a></p>
 		<!-- /wp:paragraph --></div>
 	<!-- /wp:group --></div>
 <!-- /wp:group -->
