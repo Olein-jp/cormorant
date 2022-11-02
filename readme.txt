@@ -40,7 +40,11 @@ License: CC0 https://creativecommons.org/publicdomain/zero/1.0/
 Source: https://stocksnap.io/photo/bird-flying-3NQ5V9WW0G
 
 == Changelog ==
-Version 1.0.0
+Version 1.0.1(2022-11-02)
+--------------------
+- Changed for fixing error by theme check plugin
+
+Version 1.0.0(2022-11-02)
 --------------------
 - Changed almost styles via theme.json
 - Renewal color palette
