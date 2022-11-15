@@ -40,6 +40,10 @@ License: CC0 https://creativecommons.org/publicdomain/zero/1.0/
 Source: https://stocksnap.io/photo/bird-flying-3NQ5V9WW0G
 
 == Changelog ==
+Version 1.0.3(2022-11-15)
+--------------------
+- Changed default set header and footer for some templates
+
 Version 1.0.2(2022-11-04)
 --------------------
 - Fixed image file path in `demo.php`
