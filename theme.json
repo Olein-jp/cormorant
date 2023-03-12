@@ -347,6 +347,32 @@
         "unit": "1rem"
       },
       "typography": {
+        "harmonic-sequence-base": {
+          "min": "8",
+          "standard": "9",
+          "max": "10"
+        },
+        "size-level": {
+          "xs": "-2",
+          "s": "-1",
+          "m": "0",
+          "l": "1",
+          "xl": "2",
+          "2-xl": "3",
+          "3-xl": "4",
+          "4-xl": "5",
+          "5-xl": "6",
+          "6:xl": "7"
+        },
+        "calculated": {
+          "font-size": {
+            "xs": {
+              "min": "calc(1rem * var(--wp--custom--typography--harmonic-sequence-base--min) / (var(--wp--custom--typography--harmonic-sequence-base--min) - var(--wp--custom--typography--size-level--xs)) )",
+              "standard": "calc(1rem * var(--wp--custom--typography--harmonic-sequence-base--standard) / (var(--wp--custom--typography--harmonic-sequence-base--standard) - var(--wp--custom--typography--size-level--xs)) )",
+              "max": "calc(1rem * var(--wp--custom--typography--harmonic-sequence-base--max) / (var(--wp--custom--typography--harmonic-sequence-base--max) - var(--wp--custom--typography--size-level--xs)) )"
+            }
+          }
+        },
         "letter-spacing": {
           "body": "0em",
           "heading": "0em"
@@ -457,10 +483,10 @@
         {
           "name": "XS",
           "slug": "xs",
-          "size": "0.8rem",
+          "size": "var(--wp--custom--typography--calculated--font-size--xs--standard)",
           "fluid": {
-            "min": "0.8rem",
-            "max": "1rem"
+            "min": "var(--wp--custom--typography--calculated--font-size--xs--min)",
+            "max": "var(--wp--custom--typography--calculated--font-size--xs--max)"
           }
         },
         {
@@ -680,7 +706,6 @@
       }
     },
     "color": {
-      "contrast": "var( --wp--preset--color--contrast )",
       "text": "var( --wp--preset--color--base )"
     },
     "elements": {
