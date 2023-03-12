@@ -6,14 +6,14 @@
     "color": {
       "palette": [
         {
-          "slug": "foreground",
+          "slug": "base",
           "color": "#333333",
-          "name": "Foreground"
+          "name": "Base"
         },
         {
-          "slug": "background",
+          "slug": "contrast",
           "color": "#ffffff",
-          "name": "Background"
+          "name": "Contrast"
         },
         {
           "slug": "primary",
@@ -38,64 +38,64 @@
       ],
       "gradients": [
         {
-          "slug": "foreground-to-background",
-          "gradient": "linear-gradient(160deg, var(--wp--preset--color--foreground), var(--wp--preset--color--background))",
-          "name": "Foreground to Background"
+          "slug": "base-to-contrast",
+          "gradient": "linear-gradient(160deg, var(--wp--preset--color--base), var(--wp--preset--color--contrast))",
+          "name": "Base to Contrast"
         },
         {
-          "slug": "foreground-to-primary",
-          "gradient": "linear-gradient(160deg, var(--wp--preset--color--foreground), var(--wp--preset--color--primary))",
-          "name": "Foreground to Primary"
+          "slug": "base-to-primary",
+          "gradient": "linear-gradient(160deg, var(--wp--preset--color--base), var(--wp--preset--color--primary))",
+          "name": "Base to Primary"
         },
         {
-          "slug": "foreground-to-secondary",
-          "gradient": "linear-gradient(160deg, var(--wp--preset--color--foreground), var(--wp--preset--color--secondary))",
-          "name": "Foreground to Secondary"
+          "slug": "base-to-secondary",
+          "gradient": "linear-gradient(160deg, var(--wp--preset--color--base), var(--wp--preset--color--secondary))",
+          "name": "Base to Secondary"
         },
         {
-          "slug": "foreground-to-tertiary",
-          "gradient": "linear-gradient(160deg, var(--wp--preset--color--foreground), var(--wp--preset--color--tertiary))",
-          "name": "Foreground to Tertiary"
+          "slug": "base-to-tertiary",
+          "gradient": "linear-gradient(160deg, var(--wp--preset--color--base), var(--wp--preset--color--tertiary))",
+          "name": "Base to Tertiary"
         },
         {
-          "slug": "foreground-to-quaternary",
-          "gradient": "linear-gradient(160deg, var(--wp--preset--color--foreground), var(--wp--preset--color--quaternary))",
-          "name": "Foreground to Quaternary"
+          "slug": "base-to-quaternary",
+          "gradient": "linear-gradient(160deg, var(--wp--preset--color--base), var(--wp--preset--color--quaternary))",
+          "name": "Base to Quaternary"
         },
         {
-          "slug": "background-to-foreground",
-          "gradient": "linear-gradient(160deg, var(--wp--preset--color--background), var(--wp--preset--color--foreground))",
-          "name": "Background to Foreground"
+          "slug": "contrast-to-base",
+          "gradient": "linear-gradient(160deg, var(--wp--preset--color--contrast), var(--wp--preset--color--base))",
+          "name": "Contrast to Base"
         },
         {
-          "slug": "background-to-primary",
-          "gradient": "linear-gradient(160deg, var(--wp--preset--color--background), var(--wp--preset--color--primary))",
-          "name": "Background to Primary"
+          "slug": "contrast-to-primary",
+          "gradient": "linear-gradient(160deg, var(--wp--preset--color--contrast), var(--wp--preset--color--primary))",
+          "name": "Contrast to Primary"
         },
         {
-          "slug": "background-to-secondary",
-          "gradient": "linear-gradient(160deg, var(--wp--preset--color--background), var(--wp--preset--color--secondary))",
-          "name": "Background to Secondary"
+          "slug": "contrast-to-secondary",
+          "gradient": "linear-gradient(160deg, var(--wp--preset--color--contrast), var(--wp--preset--color--secondary))",
+          "name": "Contrast to Secondary"
         },
         {
-          "slug": "background-to-tertiary",
-          "gradient": "linear-gradient(160deg, var(--wp--preset--color--background), var(--wp--preset--color--tertiary))",
-          "name": "Background to Tertiary"
+          "slug": "contrast-to-tertiary",
+          "gradient": "linear-gradient(160deg, var(--wp--preset--color--contrast), var(--wp--preset--color--tertiary))",
+          "name": "Contrast to Tertiary"
         },
         {
-          "slug": "background-to-quaternary",
-          "gradient": "linear-gradient(160deg, var(--wp--preset--color--background), var(--wp--preset--color--quaternary))",
-          "name": "Background to Quaternary"
+          "slug": "contrast-to-quaternary",
+          "gradient": "linear-gradient(160deg, var(--wp--preset--color--contrast), var(--wp--preset--color--quaternary))",
+          "name": "Contrast to Quaternary"
         },
         {
-          "slug": "primary-to-foreground",
-          "gradient": "linear-gradient(160deg, var(--wp--preset--color--primary), var(--wp--preset--color--foreground))",
-          "name": "Primary to Foreground"
+          "slug": "primary-to-base",
+          "gradient": "linear-gradient(160deg, var(--wp--preset--color--primary), var(--wp--preset--color--base))",
+          "name": "Primary to Base"
         },
         {
-          "slug": "primary-to-background",
-          "gradient": "linear-gradient(160deg, var(--wp--preset--color--primary), var(--wp--preset--color--background))",
-          "name": "Primary to Background"
+          "slug": "primary-to-contrast",
+          "gradient": "linear-gradient(160deg, var(--wp--preset--color--primary), var(--wp--preset--color--contrast))",
+          "name": "Primary to Contrast"
         },
         {
           "slug": "primary-to-secondary",
@@ -113,14 +113,14 @@
           "name": "Primary to Quaternary"
         },
         {
-          "slug": "secondary-to-foreground",
-          "gradient": "linear-gradient(160deg, var(--wp--preset--color--secondary), var(--wp--preset--color--foreground))",
-          "name": "Secondary to Foreground"
+          "slug": "secondary-to-base",
+          "gradient": "linear-gradient(160deg, var(--wp--preset--color--secondary), var(--wp--preset--color--base))",
+          "name": "Secondary to Base"
         },
         {
-          "slug": "secondary-to-background",
-          "gradient": "linear-gradient(160deg, var(--wp--preset--color--secondary), var(--wp--preset--color--background))",
-          "name": "Secondary to Background"
+          "slug": "secondary-to-contrast",
+          "gradient": "linear-gradient(160deg, var(--wp--preset--color--secondary), var(--wp--preset--color--contrast))",
+          "name": "Secondary to Contrast"
         },
         {
           "slug": "secondary-to-primary",
@@ -138,14 +138,14 @@
           "name": "Secondary to Quaternary"
         },
         {
-          "slug": "tertiary-to-foreground",
-          "gradient": "linear-gradient(160deg, var(--wp--preset--color--tertiary), var(--wp--preset--color--foreground))",
-          "name": "Tertiary to Foreground"
+          "slug": "tertiary-to-base",
+          "gradient": "linear-gradient(160deg, var(--wp--preset--color--tertiary), var(--wp--preset--color--base))",
+          "name": "Tertiary to Base"
         },
         {
-          "slug": "tertiary-to-background",
-          "gradient": "linear-gradient(160deg, var(--wp--preset--color--tertiary), var(--wp--preset--color--background))",
-          "name": "Tertiary to Background"
+          "slug": "tertiary-to-contrast",
+          "gradient": "linear-gradient(160deg, var(--wp--preset--color--tertiary), var(--wp--preset--color--contrast))",
+          "name": "Tertiary to Contrast"
         },
         {
           "slug": "tertiary-to-primary",
@@ -163,14 +163,14 @@
           "name": "Tertiary to Quaternary"
         },
         {
-          "slug": "quaternary-to-foreground",
-          "gradient": "linear-gradient(160deg, var(--wp--preset--color--quaternary), var(--wp--preset--color--foreground))",
-          "name": "Quaternary to Foreground"
+          "slug": "quaternary-to-base",
+          "gradient": "linear-gradient(160deg, var(--wp--preset--color--quaternary), var(--wp--preset--color--base))",
+          "name": "Quaternary to Base"
         },
         {
-          "slug": "quaternary-to-background",
-          "gradient": "linear-gradient(160deg, var(--wp--preset--color--quaternary), var(--wp--preset--color--background))",
-          "name": "Quaternary to Background"
+          "slug": "quaternary-to-contrast",
+          "gradient": "linear-gradient(160deg, var(--wp--preset--color--quaternary), var(--wp--preset--color--contrast))",
+          "name": "Quaternary to Contrast"
         },
         {
           "slug": "quaternary-to-primary",
@@ -191,63 +191,63 @@
       "duotone": [
         {
           "colors": [ "#333333", "#ffffff"],
-          "slug": "foreground-and-background",
-          "name": "Foreground and Background"
+          "slug": "base-and-contrast",
+          "name": "Base and Contrast"
         },
         {
           "colors": [ "#333333", "#024059"],
-          "slug": "foreground-and-primary",
-          "name": "Foreground and Primary"
+          "slug": "base-and-primary",
+          "name": "Base and Primary"
         },
         {
           "colors": [ "#333333", "#F2CB05"],
-          "slug": "foreground-and-secondary",
-          "name": "Foreground and Secondary"
+          "slug": "base-and-secondary",
+          "name": "Base and Secondary"
         },
         {
           "colors": [ "#333333", "#048ABF"],
-          "slug": "foreground-and-tertiary",
-          "name": "Foreground and Tertiary"
+          "slug": "base-and-tertiary",
+          "name": "Base and Tertiary"
         },
         {
           "colors": [ "#333333", "#F29057"],
-          "slug": "foreground-and-quaternary",
-          "name": "Foreground and Quaternary"
+          "slug": "base-and-quaternary",
+          "name": "Base and Quaternary"
         },
         {
           "colors": [ "#ffffff", "#333333"],
-          "slug": "background-and-foreground",
-          "name": "Background and Foreground"
+          "slug": "contrast-and-base",
+          "name": "Contrast and Base"
         },
         {
           "colors": [ "#ffffff", "#024059"],
-          "slug": "background-and-primary",
-          "name": "Background and Primary"
+          "slug": "contrast-and-primary",
+          "name": "Contrast and Primary"
         },
         {
           "colors": [ "#ffffff", "#F2CB05"],
-          "slug": "background-and-secondary",
-          "name": "Background and Secondary"
+          "slug": "contrast-and-secondary",
+          "name": "Contrast and Secondary"
         },
         {
           "colors": [ "#ffffff", "#048ABF"],
-          "slug": "background-and-tertiary",
-          "name": "Background and Tertiary"
+          "slug": "contrast-and-tertiary",
+          "name": "Contrast and Tertiary"
         },
         {
           "colors": [ "#ffffff", "#F29057"],
-          "slug": "background-and-quaternary",
-          "name": "Background and Quaternary"
+          "slug": "contrast-and-quaternary",
+          "name": "Contrast and Quaternary"
         },
         {
           "colors": [ "#024059", "#333333"],
-          "slug": "primary-and-foreground",
-          "name": "Primary and Foreground"
+          "slug": "primary-and-base",
+          "name": "Primary and Base"
         },
         {
           "colors": [ "#024059", "#ffffff"],
-          "slug": "primary-and-background",
-          "name": "Primary and Background"
+          "slug": "primary-and-contrast",
+          "name": "Primary and Contrast"
         },
         {
           "colors": [ "#024059", "#F2CB05"],
@@ -266,13 +266,13 @@
         },
         {
           "colors": [ "#F2CB05", "#333333"],
-          "slug": "secondary-and-foreground",
-          "name": "Secondary and Foreground"
+          "slug": "secondary-and-base",
+          "name": "Secondary and Base"
         },
         {
           "colors": [ "#F2CB05", "#ffffff"],
-          "slug": "secondary-and-background",
-          "name": "Secondary and Background"
+          "slug": "secondary-and-contrast",
+          "name": "Secondary and Contrast"
         },
         {
           "colors": [ "#F2CB05", "#024059"],
@@ -291,13 +291,13 @@
         },
         {
           "colors": [ "#048ABF", "#333333"],
-          "slug": "tertiary-and-foreground",
-          "name": "Tertiary and Foreground"
+          "slug": "tertiary-and-base",
+          "name": "Tertiary and Base"
         },
         {
           "colors": [ "#048ABF", "#ffffff"],
-          "slug": "tertiary-and-background",
-          "name": "Tertiary and Background"
+          "slug": "tertiary-and-contrast",
+          "name": "Tertiary and Contrast"
         },
         {
           "colors": [ "#048ABF", "#024059"],
@@ -316,13 +316,13 @@
         },
         {
           "colors": [ "#F29057", "#333333"],
-          "slug": "quaternary-and-foreground",
-          "name": "Quaternary and Foreground"
+          "slug": "quaternary-and-base",
+          "name": "Quaternary and Base"
         },
         {
           "colors": [ "#F29057", "#ffffff"],
-          "slug": "quaternary-and-background",
-          "name": "Quaternary and Background"
+          "slug": "quaternary-and-contrast",
+          "name": "Quaternary and Contrast"
         },
         {
           "colors": [ "#F29057", "#024059"],
@@ -567,7 +567,7 @@
       },
       "core/calendar": {
         "color": {
-          "text": "var( --wp--preset--color--foreground )"
+          "text": "var( --wp--preset--color--base )"
         },
         "typography": {
           "fontSize": "var( --wp--preset--font-size--s )"
@@ -680,8 +680,8 @@
       }
     },
     "color": {
-      "background": "var( --wp--preset--color--background )",
-      "text": "var( --wp--preset--color--foreground )"
+      "contrast": "var( --wp--preset--color--contrast )",
+      "text": "var( --wp--preset--color--base )"
     },
     "elements": {
       "h1": {
@@ -734,7 +734,7 @@
       },
       "link": {
         "color": {
-          "text": "var( --wp--preset--color--foreground )"
+          "text": "var( --wp--preset--color--base )"
         }
       }
     },
