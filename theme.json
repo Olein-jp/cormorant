@@ -342,6 +342,15 @@
       ],
       "link": true
     },
+    "shadow": {
+      "presets": [
+        {
+          "name": "Blur Shadow",
+          "slug": "blur-shadow",
+          "shadow": "0px 0px 10px var( --wp--preset--color--base )"
+        }
+      ]
+    },
     "custom": {
       "spacing": {
         "unit": "1rem"
