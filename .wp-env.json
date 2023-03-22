@@ -1,5 +1,5 @@
 {
-  "core": "https://wordpress.org/wordpress-6.2-RC1.zip",
+  "core": "https://wordpress.org/wordpress-6.2-RC3.zip",
   "themes": ["."],
   "plugins": [],
   "config": {
