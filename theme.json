@@ -452,30 +452,30 @@
       "customFontSize": true,
       "fontFamilies": [
         {
-          "fontFamily": "\"Noto Sans JP\", ui-sans-serif, -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, \"Helvetica Neue\", sans-serif",
-          "slug": "default",
+          "fontFamily": "\"Helvetica Neue\", \"Helvetica\", \"Hiragino Sans\", \"Hiragino Kaku Gothic ProN\", \"Arial\", \"Yu Gothic\", \"Meiryo\", sans-serif",
+          "slug": "system-sans-serif",
+          "name": "Default - System Sans Serif"
+        },
+        {
+          "fontFamily": "\"Noto Sans JP\", sans-serif",
+          "slug": "noto-sans-jp",
           "name": "Noto Sans JP",
           "fontFace": [
             {
-              "fontFamily": "Noto Sans JP Regular",
+              "fontFamily": "Noto Sans JP",
               "fontWeight": "400",
               "fontStyle": "normal",
               "fontStretch": "normal",
               "src": [ "file:./assets/fonts/NotoSansJP-Regular.woff2"]
             },
             {
-              "fontFamily": "Noto Sans JP Bold",
+              "fontFamily": "Noto Sans JP",
               "fontWeight": "700",
               "fontStyle": "normal",
               "fontStretch": "normal",
               "src": [ "file:./assets/fonts/NotoSansJP-Bold.woff2"]
             }
           ]
-        },
-        {
-          "fontFamily": "\"Helvetica Neue\", \"Helvetica\", \"Hiragino Sans\", \"Hiragino Kaku Gothic ProN\", \"Arial\", \"Yu Gothic\", \"Meiryo\", sans-serif",
-          "slug": "system-sans-serif",
-          "name": "System Sans Serif"
         },
         {
           "fontFamily": "\"Times New Roman\", \"YuMincho\", \"Hiragino Mincho ProN\", \"Yu Mincho\", \"MS PMincho\", serif",
