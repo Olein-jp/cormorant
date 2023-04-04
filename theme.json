@@ -452,23 +452,23 @@
       "customFontSize": true,
       "fontFamilies": [
         {
-          "fontFamily": "\"BIZ UDPGothic\", ui-sans-serif, -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, \"Helvetica Neue\", sans-serif",
+          "fontFamily": "\"Noto Sans JP\", ui-sans-serif, -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, \"Helvetica Neue\", sans-serif",
           "slug": "default",
-          "name": "BIZ UDPGothic",
+          "name": "Noto Sans JP",
           "fontFace": [
             {
-              "fontFamily": "BIZ UDPGothic Regular",
+              "fontFamily": "Noto Sans JP Regular",
               "fontWeight": "400",
               "fontStyle": "normal",
               "fontStretch": "normal",
-              "src": [ "file:./assets/fonts/BIZUDPGothic-Regular.woff2"]
+              "src": [ "file:./assets/fonts/NotoSansJP-Regular.woff2"]
             },
             {
-              "fontFamily": "BIZ UDPGothic Bold",
+              "fontFamily": "Noto Sans JP Bold",
               "fontWeight": "700",
               "fontStyle": "normal",
               "fontStretch": "normal",
-              "src": [ "file:./assets/fonts/BIZUDPGothic-Bold.woff2"]
+              "src": [ "file:./assets/fonts/NotoSansJP-Bold.woff2"]
             }
           ]
         },
