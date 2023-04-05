@@ -356,32 +356,6 @@
         "unit": "1rem"
       },
       "typography": {
-        "harmonic-sequence-base": {
-          "min": "8",
-          "standard": "9",
-          "max": "10"
-        },
-        "size-level": {
-          "xs": "-2",
-          "s": "-1",
-          "m": "0",
-          "l": "1",
-          "xl": "2",
-          "2-xl": "3",
-          "3-xl": "4",
-          "4-xl": "5",
-          "5-xl": "6",
-          "6:xl": "7"
-        },
-        "calculated": {
-          "font-size": {
-            "xs": {
-              "min": "calc(1rem * var(--wp--custom--typography--harmonic-sequence-base--min) / (var(--wp--custom--typography--harmonic-sequence-base--min) - var(--wp--custom--typography--size-level--xs)) )",
-              "standard": "calc(1rem * var(--wp--custom--typography--harmonic-sequence-base--standard) / (var(--wp--custom--typography--harmonic-sequence-base--standard) - var(--wp--custom--typography--size-level--xs)) )",
-              "max": "calc(1rem * var(--wp--custom--typography--harmonic-sequence-base--max) / (var(--wp--custom--typography--harmonic-sequence-base--max) - var(--wp--custom--typography--size-level--xs)) )"
-            }
-          }
-        },
         "letter-spacing": {
           "body": "0em",
           "heading": "0em"
@@ -492,19 +466,19 @@
         {
           "name": "XS",
           "slug": "xs",
-          "size": "var(--wp--custom--typography--calculated--font-size--xs--standard)",
+          "size": "0.8182rem",
           "fluid": {
-            "min": "var(--wp--custom--typography--calculated--font-size--xs--min)",
-            "max": "var(--wp--custom--typography--calculated--font-size--xs--max)"
+            "min": "0.8000rem",
+            "max": "0.8333rem"
           }
         },
         {
           "name": "S",
           "slug": "s",
-          "size": "0.8889rem",
+          "size": "0.9000rem",
           "fluid": {
             "min": "0.8889rem",
-            "max": "1.1111rem"
+            "max": "0.9091rem"
           }
         },
         {
@@ -513,70 +487,70 @@
           "size": "1rem",
           "fluid": {
             "min": "1rem",
-            "max": "1.25rem"
+            "max": "1rem"
           }
         },
         {
           "name": "L",
           "slug": "l",
-          "size": "1.1429rem",
+          "size": "1.1250rem",
           "fluid": {
-            "min": "1.05rem",
-            "max": "1.4286rem"
+            "min": "1.1111rem",
+            "max": "1.1429rem"
           }
         },
         {
           "name": "XL",
           "slug": "xl",
-          "size": "1.3333rem",
+          "size": "1.2857rem",
           "fluid": {
-            "min": "1.25rem",
-            "max": "1.6667rem"
+            "min": "1.2500rem",
+            "max": "1.3333rem"
           }
         },
         {
           "name": "2XL",
           "slug": "2-xl",
-          "size": "1.6rem",
+          "size": "1.5rem",
           "fluid": {
-            "min": "1.45rem",
-            "max": "2rem"
+            "min": "1.4286rem",
+            "max": "1.6000rem"
           }
         },
         {
           "name": "3XL",
           "slug": "3-xl",
-          "size": "2rem",
+          "size": "1.8000rem",
           "fluid": {
-            "min": "1.58rem",
-            "max": "2.5rem"
+            "min": "1.6667rem",
+            "max": "2.0000rem"
           }
         },
         {
           "name": "4XL",
           "slug": "4-xl",
-          "size": "2.6667rem",
+          "size": "2.2500rem",
           "fluid": {
-            "min": "1.75rem",
-            "max": "3.3333rem"
+            "min": "2.0000rem",
+            "max": "2.6667rem"
           }
         },
         {
           "name": "5XL",
           "slug": "5-xl",
-          "size": "4rem",
+          "size": "3.0000rem",
           "fluid": {
-            "min": "2.25rem",
-            "max": "5rem"
+            "min": "2.5000rem",
+            "max": "4.0000rem"
           }
         },
         {
           "name": "6XL",
           "slug": "6-xl",
-          "size": "8rem",
+          "size": "4.5000rem",
           "fluid": {
-            "min": "3rem",
-            "max": "10rem"
+            "min": "3.3333rem",
+            "max": "8.0000rem"
           }
         }
       ]
