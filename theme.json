@@ -376,37 +376,37 @@
       "blockGap": true,
       "spacingSizes": [
         {
-          "size": "1.25rem",
+          "size": "clamp(0.94rem, calc(0.80rem + 0.61vw), 1.25rem)",
           "slug": "s",
           "name": "S"
         },
         {
-          "size": "2.5rem",
+          "size": "clamp(1.88rem, calc(1.59rem + 1.21vw), 2.50rem)",
           "slug": "m",
           "name": "M"
         },
         {
-          "size": "3.75rem",
+          "size": "clamp(2.81rem, calc(2.39rem + 1.82vw), 3.75rem)",
           "slug": "l",
           "name": "L"
         },
         {
-          "size": "5rem",
+          "size": "clamp(3.75rem, calc(3.18rem + 2.42vw), 5.00rem)",
           "slug": "xl",
           "name": "XL"
         },
         {
-          "size": "6.25rem",
+          "size": "clamp(4.69rem, calc(3.98rem + 3.03vw), 6.25rem)",
           "slug": "2-xl",
           "name": "2XL"
         },
         {
-          "size": "7.5rem",
+          "size": "clamp(5.63rem, calc(4.77rem + 3.64vw), 7.50rem)",
           "slug": "3-xl",
           "name": "3XL"
         },
         {
-          "size": "8.75rem",
+          "size": "clamp(6.56rem, calc(5.57rem + 4.24vw), 8.75rem)",
           "slug": "4-xl",
           "name": "4XL"
         }
