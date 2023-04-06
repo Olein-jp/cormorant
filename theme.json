@@ -376,37 +376,37 @@
       "blockGap": true,
       "spacingSizes": [
         {
-          "size": "clamp(0.94rem, calc(0.80rem + 0.61vw), 1.25rem)",
+          "size": "clamp(0.63rem, calc(0.48rem + 0.61vw), 0.94rem)",
           "slug": "s",
           "name": "S"
         },
         {
-          "size": "clamp(1.88rem, calc(1.59rem + 1.21vw), 2.50rem)",
+          "size": "clamp(1.25rem, calc(0.97rem + 1.21vw), 1.88rem)",
           "slug": "m",
           "name": "M"
         },
         {
-          "size": "clamp(2.81rem, calc(2.39rem + 1.82vw), 3.75rem)",
+          "size": "clamp(1.88rem, calc(1.45rem + 1.82vw), 2.81rem)",
           "slug": "l",
           "name": "L"
         },
         {
-          "size": "clamp(3.75rem, calc(3.18rem + 2.42vw), 5.00rem)",
+          "size": "clamp(2.50rem, calc(1.93rem + 2.42vw), 3.75rem)",
           "slug": "xl",
           "name": "XL"
         },
         {
-          "size": "clamp(4.69rem, calc(3.98rem + 3.03vw), 6.25rem)",
+          "size": "clamp(3.13rem, calc(2.41rem + 3.03vw), 4.69rem)",
           "slug": "2-xl",
           "name": "2XL"
         },
         {
-          "size": "clamp(5.63rem, calc(4.77rem + 3.64vw), 7.50rem)",
+          "size": "clamp(3.75rem, calc(2.90rem + 3.64vw), 5.63rem)",
           "slug": "3-xl",
           "name": "3XL"
         },
         {
-          "size": "clamp(6.56rem, calc(5.57rem + 4.24vw), 8.75rem)",
+          "size": "clamp(4.38rem, calc(3.38rem + 4.24vw), 6.56rem)",
           "slug": "4-xl",
           "name": "4XL"
         }
@@ -540,20 +540,20 @@
   },
   "styles": {
     "spacing": {
-      "blockGap": "var( --wp--preset--spacing--l )"
+      "blockGap": "var( --wp--preset--spacing--m )"
     },
     "blocks": {
       "core/button": {
         "spacing": {
           "padding": {
-            "left": "var( --wp--preset--spacing--s )",
+            "left": "var( --wp--preset--spacing--m )",
             "top": "var( --wp--preset--spacing--s )",
-            "right": "var( --wp--preset--spacing--s )",
+            "right": "var( --wp--preset--spacing--m )",
             "bottom": "var( --wp--preset--spacing--s )"
           }
         },
         "typography": {
-          "fontSize": "var( --wp--preset--font-size--m )"
+          "fontSize": "var( --wp--preset--font-size--s )"
         }
       },
       "core/calendar": {
