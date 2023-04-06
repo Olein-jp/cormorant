@@ -1,9 +1,9 @@
 == cormorant ==
 Contributors: Koji Kuno
 Donate link: https://www.amazon.co.jp/hz/wishlist/ls/WH93ZBVDA08I
-Requires at least: 6.1
+Requires at least: 6.2
 Requires PHP: 5.6
-Tested up to: 6.1
+Tested up to: 6.2
 Stable tag: trunk
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
@@ -18,9 +18,9 @@ Cormorant which is WordPress theme is licensed by GPLv2 or later.
 
 Cormorant bundles the following third-party resources:
 
-BIZ UDPGothic
+Noto Sans JP subset
 License: SIL Open Font License, 1.1, https://opensource.org/licenses/OFL-1.1
-Source: https://fonts.google.com/specimen/BIZ+UDPGothic
+Source: https://github.com/ixkaito/NotoSansJP-subset
 
 PHOTO
 World Wildlife
