@@ -45,6 +45,17 @@ if ( ! function_exists( 'cormorant_editor_styles' ) ) {
 	add_action( 'admin_init', 'cormorant_editor_styles' );
 }
 
+if ( ! function_exists( 'cormorant_add_block_editor_styles' ) ) {
+	/**
+	 * Enqueue Block Editor Styles
+	 * @return void
+	 */
+	function cormorant_add_block_editor_styles() {
+		wp_enqueue_style( 'block-editor-style', get_stylesheet_directory_uri() . '/assets/css/editor-style.css' );
+	}
+	add_action( 'enqueue_block_editor_assets', 'cormorant_add_block_editor_styles' );
+}
+
 /**
  * Include Registration of Block Styles
  */
