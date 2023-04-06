@@ -14,12 +14,12 @@ if ( ! function_exists( 'cormorant_register_block_styles' ) ) {
 		$block_styles = [
 			[
 				'target' => 'core/separator',
-				'name'   => 'cormorant-striped-separator-foreground',
-				'label'  => esc_html__( 'Striped Foreground', 'cormorant' ),
+				'name'   => 'cormorant-striped-separator-base',
+				'label'  => esc_html__( 'Striped Base', 'cormorant' ),
 			],
 			[
 				'target' => 'core/separator',
-				'name'   => 'cormorant-striped-separator-background',
+				'name'   => 'cormorant-striped-separator-contrast',
 				'label'  => esc_html__( 'Striped Background', 'cormorant' ),
 			],
 			[
@@ -44,12 +44,12 @@ if ( ! function_exists( 'cormorant_register_block_styles' ) ) {
 			],
 			[
 				'target' => 'core/separator',
-				'name'   => 'cormorant-dotted-separator-foreground',
-				'label'  => esc_html__( 'Dotted Foreground', 'cormorant' ),
+				'name'   => 'cormorant-dotted-separator-base',
+				'label'  => esc_html__( 'Dotted Base', 'cormorant' ),
 			],
 			[
 				'target' => 'core/separator',
-				'name'   => 'cormorant-dotted-separator-background',
+				'name'   => 'cormorant-dotted-separator-contrast',
 				'label'  => esc_html__( 'Dotted Background', 'cormorant' ),
 			],
 			[
@@ -74,12 +74,12 @@ if ( ! function_exists( 'cormorant_register_block_styles' ) ) {
 			],
 			[
 				'target' => 'core/separator',
-				'name'   => 'cormorant-dashed-separator-foreground',
-				'label'  => esc_html__( 'Dashed Foreground', 'cormorant' ),
+				'name'   => 'cormorant-dashed-separator-base',
+				'label'  => esc_html__( 'Dashed Base', 'cormorant' ),
 			],
 			[
 				'target' => 'core/separator',
-				'name'   => 'cormorant-dashed-separator-background',
+				'name'   => 'cormorant-dashed-separator-contrast',
 				'label'  => esc_html__( 'Dashed Background', 'cormorant' ),
 			],
 			[
@@ -104,12 +104,12 @@ if ( ! function_exists( 'cormorant_register_block_styles' ) ) {
 			],
 			[
 				'target' => 'core/image',
-				'name'   => 'cormorant-striped-background-image-foreground',
-				'label'  => esc_html__( 'Striped Foreground', 'cormorant' ),
+				'name'   => 'cormorant-striped-contrast-image-base',
+				'label'  => esc_html__( 'Striped Base', 'cormorant' ),
 			],
 			[
 				'target' => 'core/image',
-				'name'   => 'cormorant-striped-background-image-background',
+				'name'   => 'cormorant-striped-background-image-contrast',
 				'label'  => esc_html__( 'Striped Background', 'cormorant' ),
 			],
 			[
@@ -134,12 +134,12 @@ if ( ! function_exists( 'cormorant_register_block_styles' ) ) {
 			],
 			[
 				'target' => 'core/heading',
-				'name'   => 'cormorant-striped-heading-foreground',
-				'label'  => esc_html__( 'Striped Foreground', 'cormorant' ),
+				'name'   => 'cormorant-striped-heading-base',
+				'label'  => esc_html__( 'Striped Base', 'cormorant' ),
 			],
 			[
 				'target' => 'core/heading',
-				'name'   => 'cormorant-striped-heading-background',
+				'name'   => 'cormorant-striped-heading-contrast',
 				'label'  => esc_html__( 'Striped Background', 'cormorant' ),
 			],
 			[
@@ -164,12 +164,12 @@ if ( ! function_exists( 'cormorant_register_block_styles' ) ) {
 			],
 			[
 				'target' => 'core/heading',
-				'name'   => 'cormorant-dotted-heading-foreground',
-				'label'  => esc_html__( 'Dotted Foreground', 'cormorant' ),
+				'name'   => 'cormorant-dotted-heading-base',
+				'label'  => esc_html__( 'Dotted Base', 'cormorant' ),
 			],
 			[
 				'target' => 'core/heading',
-				'name'   => 'cormorant-dotted-heading-background',
+				'name'   => 'cormorant-dotted-heading-contrast',
 				'label'  => esc_html__( 'Dotted Background', 'cormorant' ),
 			],
 			[
@@ -194,12 +194,12 @@ if ( ! function_exists( 'cormorant_register_block_styles' ) ) {
 			],
 			[
 				'target' => 'core/heading',
-				'name'   => 'cormorant-dashed-heading-foreground',
-				'label'  => esc_html__( 'Dashed Foreground', 'cormorant' ),
+				'name'   => 'cormorant-dashed-heading-base',
+				'label'  => esc_html__( 'Dashed Base', 'cormorant' ),
 			],
 			[
 				'target' => 'core/heading',
-				'name'   => 'cormorant-dashed-heading-background',
+				'name'   => 'cormorant-dashed-heading-contrast',
 				'label'  => esc_html__( 'Dashed Background', 'cormorant' ),
 			],
 			[
@@ -224,12 +224,12 @@ if ( ! function_exists( 'cormorant_register_block_styles' ) ) {
 			],
 			[
 				'target' => 'core/group',
-				'name'   => 'cormorant-solid-shadow-group-foreground',
-				'label'  => esc_html__( 'Foreground Solid Shadow', 'cormorant' ),
+				'name'   => 'cormorant-solid-shadow-group-base',
+				'label'  => esc_html__( 'Base Solid Shadow', 'cormorant' ),
 			],
 			[
 				'target' => 'core/group',
-				'name'   => 'cormorant-solid-shadow-group-background',
+				'name'   => 'cormorant-solid-shadow-group-contrast',
 				'label'  => esc_html__( 'Background Solid Shadow', 'cormorant' ),
 			],
 			[
@@ -254,12 +254,12 @@ if ( ! function_exists( 'cormorant_register_block_styles' ) ) {
 			],
 			[
 				'target' => 'core/group',
-				'name'   => 'cormorant-blur-shadow-group-foreground',
-				'label'  => esc_html__( 'Foreground Blur Shadow', 'cormorant' ),
+				'name'   => 'cormorant-blur-shadow-group-base',
+				'label'  => esc_html__( 'Base Blur Shadow', 'cormorant' ),
 			],
 			[
 				'target' => 'core/group',
-				'name'   => 'cormorant-blur-shadow-group-background',
+				'name'   => 'cormorant-blur-shadow-group-contrast',
 				'label'  => esc_html__( 'Background Blur Shadow', 'cormorant' ),
 			],
 			[
@@ -284,8 +284,8 @@ if ( ! function_exists( 'cormorant_register_block_styles' ) ) {
 			],
 			[
 				'target' => 'core/query-pagination',
-				'name'   => 'cormorant-block-pagination-foreground',
-				'label'  => esc_html__( 'Block - Foreground', 'cormorant' ),
+				'name'   => 'cormorant-block-pagination-base',
+				'label'  => esc_html__( 'Block - Base', 'cormorant' ),
 			],
 			[
 				'target' => 'core/query-pagination',
@@ -309,8 +309,8 @@ if ( ! function_exists( 'cormorant_register_block_styles' ) ) {
 			],
 			[
 				'target' => 'core/query-pagination',
-				'name'   => 'cormorant-circle-pagination-foreground',
-				'label'  => esc_html__( 'Circle - Foreground', 'cormorant' ),
+				'name'   => 'cormorant-circle-pagination-base',
+				'label'  => esc_html__( 'Circle - Base', 'cormorant' ),
 			],
 			[
 				'target' => 'core/query-pagination',
@@ -334,12 +334,12 @@ if ( ! function_exists( 'cormorant_register_block_styles' ) ) {
 			],
 			[
 				'target' => 'core/code',
-				'name'   => 'cormorant-code-foreground',
-				'label'  => esc_html__( 'Foreground Code', 'cormorant' ),
+				'name'   => 'cormorant-code-base',
+				'label'  => esc_html__( 'Base Code', 'cormorant' ),
 			],
 			[
 				'target' => 'core/code',
-				'name'   => 'cormorant-code-background',
+				'name'   => 'cormorant-code-contrast',
 				'label'  => esc_html__( 'Background Code', 'cormorant' ),
 			],
 			[
@@ -364,12 +364,12 @@ if ( ! function_exists( 'cormorant_register_block_styles' ) ) {
 			],
 			[
 				'target' => 'core/button',
-				'name'   => 'cormorant-filled-square-button-foreground',
-				'label'  => esc_html__( 'Foreground Filled Square', 'cormorant' ),
+				'name'   => 'cormorant-filled-square-button-base',
+				'label'  => esc_html__( 'Base Filled Square', 'cormorant' ),
 			],
 			[
 				'target' => 'core/button',
-				'name'   => 'cormorant-filled-square-button-background',
+				'name'   => 'cormorant-filled-square-button-contrast',
 				'label'  => esc_html__( 'Background Filled Square', 'cormorant' ),
 			],
 			[
@@ -394,12 +394,12 @@ if ( ! function_exists( 'cormorant_register_block_styles' ) ) {
 			],
 			[
 				'target' => 'core/button',
-				'name'   => 'cormorant-outline-square-button-foreground',
-				'label'  => esc_html__( 'Foreground Outline Square', 'cormorant' ),
+				'name'   => 'cormorant-outline-square-button-base',
+				'label'  => esc_html__( 'Base Outline Square', 'cormorant' ),
 			],
 			[
 				'target' => 'core/button',
-				'name'   => 'cormorant-outline-square-button-background',
+				'name'   => 'cormorant-outline-square-button-contrast',
 				'label'  => esc_html__( 'Background Outline Square', 'cormorant' ),
 			],
 			[
@@ -424,12 +424,12 @@ if ( ! function_exists( 'cormorant_register_block_styles' ) ) {
 			],
 			[
 				'target' => 'core/column',
-				'name'   => 'cormorant-shadow-column-foreground',
-				'label'  => esc_html__( 'Foreground Shadow', 'cormorant' ),
+				'name'   => 'cormorant-shadow-column-base',
+				'label'  => esc_html__( 'Base Shadow', 'cormorant' ),
 			],
 			[
 				'target' => 'core/column',
-				'name'   => 'cormorant-shadow-column-background',
+				'name'   => 'cormorant-shadow-column-contrast',
 				'label'  => esc_html__( 'Background Shadow', 'cormorant' ),
 			],
 			[
@@ -484,8 +484,8 @@ if ( ! function_exists( 'cormorant_register_block_styles' ) ) {
 			],
 			[
 				'target' => 'core/query',
-				'name'   => 'cormorant-solid-line-query-foreground',
-				'label'  => esc_html__( 'Solid Line Foreground', 'cormorant' ),
+				'name'   => 'cormorant-solid-line-query-base',
+				'label'  => esc_html__( 'Solid Line Base', 'cormorant' ),
 			],
 			[
 				'target' => 'core/query',
@@ -509,12 +509,12 @@ if ( ! function_exists( 'cormorant_register_block_styles' ) ) {
 			],
 			[
 				'target' => 'core/gallery',
-				'name'   => 'cormorant-striped-background-gallery-foreground',
-				'label'  => esc_html__( 'Striped Foreground', 'cormorant' ),
+				'name'   => 'cormorant-striped-background-gallery-base',
+				'label'  => esc_html__( 'Striped Base', 'cormorant' ),
 			],
 			[
 				'target' => 'core/gallery',
-				'name'   => 'cormorant-striped-background-gallery-background',
+				'name'   => 'cormorant-striped-background-gallery-contrast',
 				'label'  => esc_html__( 'Striped Background', 'cormorant' ),
 			],
 			[
@@ -539,12 +539,12 @@ if ( ! function_exists( 'cormorant_register_block_styles' ) ) {
 			],
 			[
 				'target' => 'core/gallery',
-				'name'   => 'cormorant-solid-background-gallery-foreground',
-				'label'  => esc_html__( 'Solid Foreground', 'cormorant' ),
+				'name'   => 'cormorant-solid-background-gallery-base',
+				'label'  => esc_html__( 'Solid Base', 'cormorant' ),
 			],
 			[
 				'target' => 'core/gallery',
-				'name'   => 'cormorant-solid-background-gallery-background',
+				'name'   => 'cormorant-solid-background-gallery-contrast',
 				'label'  => esc_html__( 'Solid Background', 'cormorant' ),
 			],
 			[
@@ -569,8 +569,8 @@ if ( ! function_exists( 'cormorant_register_block_styles' ) ) {
 			],
 			[
 				'target' => 'core/post-navigation-link',
-				'name'   => 'cormorant-block-post-navigation-foreground',
-				'label'  => esc_html__( 'Block Foreground', 'cormorant' ),
+				'name'   => 'cormorant-block-post-navigation-base',
+				'label'  => esc_html__( 'Block Base', 'cormorant' ),
 			],
 			[
 				'target' => 'core/post-navigation-link',
@@ -594,8 +594,8 @@ if ( ! function_exists( 'cormorant_register_block_styles' ) ) {
 			],
 			[
 				'target' => 'core/post-navigation-link',
-				'name'   => 'cormorant-circle-post-navigation-foreground',
-				'label'  => esc_html__( 'Circle Foreground', 'cormorant' ),
+				'name'   => 'cormorant-circle-post-navigation-base',
+				'label'  => esc_html__( 'Circle Base', 'cormorant' ),
 			],
 			[
 				'target' => 'core/post-navigation-link',
