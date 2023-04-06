@@ -12,10 +12,10 @@
 input,
 textarea,
 select {
-  background-color: var( --wp--preset--color--background );
+  background-color: var( --wp--preset--color--contrast );
   border: 1px solid var( --wp--preset--color--primary );
   border-radius: 5px;
-  color: var( --wp--preset--color--foreground );
+  color: var( --wp--preset--color--base );
   max-width: 100%;
   padding: .5em;
 }
@@ -108,7 +108,7 @@ code {
 
 /* core/group
 ------------------------------*/
-//:where(.wp-block-group.has-background) {
+//:where(.wp-block-group.has-contrast) {
 //  padding: var( --wp--preset--spacing--m );
 //}
 
@@ -141,7 +141,7 @@ code {
 --------------------------------------------------------------*/
 /* Color Palette
 ------------------------------*/
-$colors: foreground, background, primary, secondary, tertiary, quaternary;
+$colors: base, contrast, primary, secondary, tertiary, quaternary;
 
 /* core/separator
 ------------------------------*/
@@ -241,7 +241,7 @@ $colors: foreground, background, primary, secondary, tertiary, quaternary;
     & > figcaption {
       margin: calc( var( --wp--preset--spacing--s ) / 2 ) 0 0 0;
       padding: .2em;
-      background-color: var( --wp--preset--color--background );
+      background-color: var( --wp--preset--color--contrast );
     }
   }
 }
@@ -249,25 +249,25 @@ $colors: foreground, background, primary, secondary, tertiary, quaternary;
 /* core/gallery
 ------------------------------*/
 @each $color in $colors {
-  .is-style-cormorant-striped-background-gallery-#{$color} {
+  .is-style-cormorant-striped-contrast-gallery-#{$color} {
     background-image: repeating-linear-gradient(135deg, transparent, transparent 5px, var( --wp--preset--color--#{$color} ) 5px, var( --wp--preset--color--#{$color} ) 7px);
     padding: calc(var(--wp--preset--spacing--s) * 0.75);
 
     .wp-block-image {
       box-shadow: 0 0 0 4px var(--wp--preset--color--#{$color});
-      background-color: var( --wp--preset--color--background );
+      background-color: var( --wp--preset--color--contrast );
     }
   }
 }
 
 @each $color in $colors {
-  .is-style-cormorant-solid-background-gallery-#{$color} {
+  .is-style-cormorant-solid-contrast-gallery-#{$color} {
     background: var(--wp--preset--color--#{$color});
     padding: calc(var(--wp--preset--spacing--s) * 0.75);
 
     .wp-block-image {
       box-shadow: 0 0 0 4px var(--wp--preset--color--#{$color});
-      background-color: var( --wp--preset--color--background );
+      background-color: var( --wp--preset--color--contrast );
     }
   }
 }
@@ -294,7 +294,7 @@ $colors: foreground, background, primary, secondary, tertiary, quaternary;
 
 /* Style block */
 @each $color in $colors {
-  @if $color != background {
+  @if $color != contrast {
     .wp-block-query-pagination.is-style-cormorant-block-pagination-#{$color} {
       flex-wrap: nowrap;
       flex-direction: column;
@@ -317,7 +317,7 @@ $colors: foreground, background, primary, secondary, tertiary, quaternary;
         padding: 1em 1.5em;
         line-height: 1;
         background-color: var(--wp--preset--color--#{$color});
-        color: var(--wp--preset--color--background);
+        color: var(--wp--preset--color--contrast);
         transition: all .5s ease;
         &:hover {
           opacity: 0.75;
@@ -338,7 +338,7 @@ $colors: foreground, background, primary, secondary, tertiary, quaternary;
           display: inline-block;
           padding: .5em 1em;
           border: 2px solid var(--wp--preset--color--#{$color});
-          background-color: var(--wp--preset--color--background);
+          background-color: var(--wp--preset--color--contrast);
           color: var(--wp--preset--color--#{$color});
           text-decoration: none;
           transition: all .5s ease;
@@ -347,7 +347,7 @@ $colors: foreground, background, primary, secondary, tertiary, quaternary;
           }
           &.current {
             background-color: var(--wp--preset--color--#{$color});
-            color: var(--wp--preset--color--background);
+            color: var(--wp--preset--color--contrast);
           }
         }
       }
@@ -357,7 +357,7 @@ $colors: foreground, background, primary, secondary, tertiary, quaternary;
 
 /* Style circle */
 @each $color in $colors {
-  @if $color != background {
+  @if $color != contrast {
     .wp-block-query-pagination.is-style-cormorant-circle-pagination-#{$color} {
       flex-wrap: nowrap;
       flex-direction: column;
@@ -382,7 +382,7 @@ $colors: foreground, background, primary, secondary, tertiary, quaternary;
         line-height: 1;
         background-color: var(--wp--preset--color--#{$color});
         border-radius: 1.5em;
-        color: var(--wp--preset--color--background);
+        color: var(--wp--preset--color--contrast);
         transition: all .5s ease;
         &:hover {
           opacity: 0.75;
@@ -412,7 +412,7 @@ $colors: foreground, background, primary, secondary, tertiary, quaternary;
           height: 3rem;
           border: 2px solid var(--wp--preset--color--#{$color});
           border-radius: 1.5rem;
-          background-color: var(--wp--preset--color--background);
+          background-color: var(--wp--preset--color--contrast);
           color: var(--wp--preset--color--#{$color});
           text-decoration: none;
           transition: all .5s ease;
@@ -421,7 +421,7 @@ $colors: foreground, background, primary, secondary, tertiary, quaternary;
           }
           &.current {
             background-color: var(--wp--preset--color--#{$color});
-            color: var(--wp--preset--color--background);
+            color: var(--wp--preset--color--contrast);
           }
         }
       }
@@ -432,7 +432,7 @@ $colors: foreground, background, primary, secondary, tertiary, quaternary;
 /* core/post-navigation-link
 ------------------------------*/
 @each $color in $colors {
-  @if $color != background {
+  @if $color != contrast {
     .is-style-cormorant-block-post-navigation-#{$color} {
       & > a:empty {
         display: none;
@@ -443,10 +443,10 @@ $colors: foreground, background, primary, secondary, tertiary, quaternary;
       width: 100%;
       line-height: 1;
       background-color: var(--wp--preset--color--#{$color});
-      color: var(--wp--preset--color--background);
+      color: var(--wp--preset--color--contrast);
       transition: all .5s ease;
       & > a {
-        color: var(--wp--preset--color--background);
+        color: var(--wp--preset--color--contrast);
         line-height: 1;
       }
       &:hover {
@@ -467,7 +467,7 @@ $colors: foreground, background, primary, secondary, tertiary, quaternary;
 }
 
 @each $color in $colors {
-  @if $color != background {
+  @if $color != contrast {
     .is-style-cormorant-circle-post-navigation-#{$color} {
       & > a:empty {
         display: none;
@@ -479,7 +479,7 @@ $colors: foreground, background, primary, secondary, tertiary, quaternary;
       border-radius: 2em !important;
       transition: all .5s ease;
       & > a {
-        color: var(--wp--preset--color--background);
+        color: var(--wp--preset--color--contrast);
         line-height: 1;
       }
       &:hover {
@@ -503,10 +503,10 @@ $colors: foreground, background, primary, secondary, tertiary, quaternary;
 ------------------------------*/
 @each $color in $colors {
   .is-style-cormorant-code-#{$color} {
-    @if $color == background or $color == secondary {
-      color: var( --wp--preset--color--foreground );
+    @if $color == contrast or $color == secondary {
+      color: var( --wp--preset--color--base );
     } @else {
-      color: var( --wp--preset--color--background );
+      color: var( --wp--preset--color--contrast );
     }
     background-color: var( --wp--preset--color--#{$color});
     padding: var( --wp--preset--spacing--m );
@@ -524,10 +524,10 @@ $colors: foreground, background, primary, secondary, tertiary, quaternary;
       border: 2px solid var(--wp--preset--color--#{$color});
       border-radius: 0 !important;
       transition: all .5s ease;
-      @if $color == background {
-        color: var(--wp--preset--color--foreground);
+      @if $color == contrast {
+        color: var(--wp--preset--color--base);
       } @else {
-        color: var(--wp--preset--color--background);
+        color: var(--wp--preset--color--contrast);
       }
 
       &:hover {
@@ -546,11 +546,11 @@ $colors: foreground, background, primary, secondary, tertiary, quaternary;
 
       &:hover {
         background: var(--wp--preset--color--#{$color});
-        color: var(--wp--preset--color--background);
-        @if $color != background {
-          color: var(--wp--preset--color--background);
+        color: var(--wp--preset--color--contrast);
+        @if $color != contrast {
+          color: var(--wp--preset--color--contrast);
         } @else {
-          color: var(--wp--preset--color--foreground);
+          color: var(--wp--preset--color--base);
         }
       }
     }
@@ -559,12 +559,12 @@ $colors: foreground, background, primary, secondary, tertiary, quaternary;
 
 /* core/column
 ------------------------------*/
-.is-style-cormorant-shadow-column-foreground {
-  box-shadow: 0 0 10px var( --wp--preset--color--foreground );
+.is-style-cormorant-shadow-column-base {
+  box-shadow: 0 0 10px var( --wp--preset--color--base );
 }
 
-.is-style-cormorant-shadow-column-background {
-  box-shadow: 0 0 10px var( --wp--preset--color--background );
+.is-style-cormorant-shadow-column-contrast {
+  box-shadow: 0 0 10px var( --wp--preset--color--contrast );
 }
 
 /* core/query
@@ -593,7 +593,7 @@ $colors: foreground, background, primary, secondary, tertiary, quaternary;
 }
 
 @each $color in $colors {
-  @if $color != foregrond or $color != background {
+  @if $color != base or $color != contrast {
     .is-style-cormorant-blur-shadow-query-#{$color} {
       .wp-block-post-template {
         .wp-block-post {
@@ -628,7 +628,7 @@ $colors: foreground, background, primary, secondary, tertiary, quaternary;
 }
 
 @each $color in $colors {
-  @if $color != background {
+  @if $color != contrast {
     .is-style-cormorant-solid-line-query-#{$color} {
       .wp-block-post-template {
         .wp-block-post {
