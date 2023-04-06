@@ -466,91 +466,73 @@
         {
           "name": "XS",
           "slug": "xs",
-          "size": "0.8182rem",
+          "size": "calc(0.66rem + 0.36vw)",
           "fluid": {
-            "min": "0.8000rem",
-            "max": "0.8333rem"
+            "min": "0.75rem",
+            "max": "0.94rem"
           }
         },
         {
           "name": "S",
           "slug": "s",
-          "size": "0.9000rem",
+          "size": "calc(0.89rem + 0.48vw)",
           "fluid": {
-            "min": "0.8889rem",
-            "max": "0.9091rem"
+            "min": "1.00rem",
+            "max": "1.25rem"
           }
         },
         {
           "name": "M",
           "slug": "m",
-          "size": "1rem",
+          "size": "calc(1.11rem + 0.61vw)",
           "fluid": {
-            "min": "1rem",
-            "max": "1rem"
+            "min": "1.25rem",
+            "max": "1.56rem"
           }
         },
         {
           "name": "L",
           "slug": "l",
-          "size": "1.1250rem",
+          "size": "calc(1.33rem + 0.73vw)",
           "fluid": {
-            "min": "1.1111rem",
-            "max": "1.1429rem"
+            "min": "1.50rem",
+            "max": "1.88rem"
           }
         },
         {
           "name": "XL",
           "slug": "xl",
-          "size": "1.2857rem",
+          "size": "calc(1.65rem + 0.97vw)",
           "fluid": {
-            "min": "1.2500rem",
-            "max": "1.3333rem"
+            "min": "1.88rem",
+            "max": "2.38rem"
           }
         },
         {
           "name": "2XL",
           "slug": "2-xl",
-          "size": "1.5rem",
+          "size": "calc(1.99rem + 1.09vw)",
           "fluid": {
-            "min": "1.4286rem",
-            "max": "1.6000rem"
+            "min": "2.25rem",
+            "max": "2.81rem"
           }
         },
         {
           "name": "3XL",
           "slug": "3-xl",
-          "size": "1.8000rem",
+          "size": "calc(2.34rem + 1.21vw)",
           "fluid": {
-            "min": "1.6667rem",
-            "max": "2.0000rem"
+            "min": "2.63rem",
+            "max": "3.25rem"
           }
         },
         {
           "name": "4XL",
           "slug": "4-xl",
-          "size": "2.2500rem",
+          "size": "calc(2.66rem + 1.45vw)",
           "fluid": {
-            "min": "2.0000rem",
-            "max": "2.6667rem"
-          }
-        },
-        {
-          "name": "5XL",
-          "slug": "5-xl",
-          "size": "3.0000rem",
-          "fluid": {
-            "min": "2.5000rem",
-            "max": "4.0000rem"
-          }
-        },
-        {
-          "name": "6XL",
-          "slug": "6-xl",
-          "size": "4.5000rem",
-          "fluid": {
-            "min": "3.3333rem",
-            "max": "8.0000rem"
+            "min": "3.00rem",
+            "max": "3.75rem"
           }
         }
       ]
@@ -558,20 +540,20 @@
   },
   "styles": {
     "spacing": {
-      "blockGap": "clamp(2vw, 2rem, 4vw)"
+      "blockGap": "var( --wp--preset--spacing--l )"
     },
     "blocks": {
       "core/button": {
         "spacing": {
           "padding": {
-            "left": "1.7em",
-            "top": ".5em",
-            "right": "1.7em",
-            "bottom": ".5em"
+            "left": "var( --wp--preset--spacing--s )",
+            "top": "var( --wp--preset--spacing--s )",
+            "right": "var( --wp--preset--spacing--s )",
+            "bottom": "var( --wp--preset--spacing--s )"
           }
         },
         "typography": {
-          "fontSize": "var( --wp--preset--font-size--s )"
+          "fontSize": "var( --wp--preset--font-size--m )"
         }
       },
       "core/calendar": {
@@ -608,21 +590,21 @@
       "core/pullquote": {
         "border": {
           "top": {
-            "color": "var( --wp--preset--color--primary )",
+            "color": "var( --wp--preset--color--cyan-bluish-gray )",
             "style": "solid",
-            "width": "2px"
+            "width": "6px"
           },
           "bottom": {
-            "color": "var( --wp--preset--color--primary )",
+            "color": "var( --wp--preset--color--cyan-bluish-gray )",
             "style": "solid",
-            "width": "2px"
+            "width": "6px"
           }
         },
         "spacing": {
           "padding": {
-            "left": "var( --wp--preset--spacing--s )",
+            "left": "var( --wp--preset--spacing--m )",
             "top": "var( --wp--preset--spacing--m )",
-            "right": "var( --wp--preset--spacing--s )",
+            "right": "var( --wp--preset--spacing--m )",
             "bottom": "var( --wp--preset--spacing--m )"
           }
         },
@@ -634,16 +616,18 @@
       },
       "core/quote": {
         "border": {
-          "width": "4px",
-          "style": "solid",
-          "color": "var( --wp--preset--color--primary )"
+          "left": {
+            "width": "10px",
+            "style": "solid",
+            "color": "var( --wp--preset--color--cyan-bluish-gray )"
+          }
         },
         "spacing": {
           "padding": {
-            "left": "2em",
-            "top": "2em",
-            "right": "2em",
-            "bottom": "2em"
+            "left": "var( --wp--preset--spacing--m )",
+            "top": "var( --wp--preset--spacing--m )",
+            "right": "var( --wp--preset--spacing--m )",
+            "bottom": "var( --wp--preset--spacing--m )"
           }
         }
       },
@@ -685,6 +669,23 @@
         "typography": {
           "fontSize": "var( --wp--preset--font-size--s )",
           "lineHeight": "var( --wp--custom--line-height--normal )"
+        }
+      },
+      "core/code": {
+        "spacing": {
+          "padding": {
+            "top": "var( --wp--preset--spacing--m )",
+            "right": "var( --wp--preset--spacing--m )",
+            "bottom": "var( --wp--preset--spacing--m )",
+            "left": "var( --wp--preset--spacing--m )"
+          }
+        },
+        "color": {
+          "background": "var( --wp--preset--color--base)",
+          "text": "var( --wp--preset--color--contrast )"
+        },
+        "border": {
+          "radius": "0"
         }
       }
     },
