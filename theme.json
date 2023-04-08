@@ -379,32 +379,32 @@
           "name": "S"
         },
         {
-          "size": "clamp(1.25rem, calc(0.97rem + 1.21vw), 1.88rem)",
+          "size": "clamp(0.94rem, calc(0.71rem + 0.97vw), 1.44rem)",
           "slug": "m",
           "name": "M"
         },
         {
-          "size": "clamp(1.88rem, calc(1.45rem + 1.82vw), 2.81rem)",
+          "size": "clamp(1.25rem, calc(0.97rem + 1.21vw), 1.88rem)",
           "slug": "l",
           "name": "L"
         },
         {
-          "size": "clamp(2.50rem, calc(1.93rem + 2.42vw), 3.75rem)",
+          "size": "clamp(1.88rem, calc(1.45rem + 1.82vw), 2.81rem)",
           "slug": "xl",
           "name": "XL"
         },
         {
-          "size": "clamp(3.13rem, calc(2.41rem + 3.03vw), 4.69rem)",
+          "size": "clamp(2.50rem, calc(1.93rem + 2.42vw), 3.75rem)",
           "slug": "2-xl",
           "name": "2XL"
         },
         {
-          "size": "clamp(3.75rem, calc(2.90rem + 3.64vw), 5.63rem)",
+          "size": "clamp(3.13rem, calc(2.41rem + 3.03vw), 4.69rem)",
           "slug": "3-xl",
           "name": "3XL"
         },
         {
-          "size": "clamp(4.38rem, calc(3.38rem + 4.24vw), 6.56rem)",
+          "size": "clamp(3.75rem, calc(2.90rem + 3.64vw), 5.63rem)",
           "slug": "4-xl",
           "name": "4XL"
         }
@@ -464,10 +464,10 @@
         {
           "name": "XS",
           "slug": "xs",
-          "size": "12px",
+          "size": "13.33px",
           "fluid": {
-            "min": "12px",
-            "max": "14px"
+            "min": "13.33px",
+            "max": "15px"
           }
         },
         {
@@ -482,64 +482,64 @@
         {
           "name": "M",
           "slug": "m",
-          "size": "calc(1.11rem + 0.61vw)",
+          "size": "19.2px",
           "fluid": {
-            "min": "1.25rem",
-            "max": "1.56rem"
+            "min": "19.2px",
+            "max": "21.6px"
           }
         },
         {
           "name": "L",
           "slug": "l",
-          "size": "calc(1.33rem + 0.73vw)",
+          "size": "23.04px",
           "fluid": {
-            "min": "1.50rem",
-            "max": "1.88rem"
+            "min": "23.04px",
+            "max": "25.92px"
           }
         },
         {
           "name": "XL",
           "slug": "xl",
-          "size": "calc(1.65rem + 0.97vw)",
+          "size": "27.65px",
           "fluid": {
-            "min": "1.88rem",
-            "max": "2.38rem"
+            "min": "27.65px",
+            "max": "31.10px"
           }
         },
         {
           "name": "2XL",
           "slug": "2-xl",
-          "size": "calc(1.99rem + 1.09vw)",
+          "size": "33.18px",
           "fluid": {
-            "min": "2.25rem",
-            "max": "2.81rem"
+            "min": "33.18px",
+            "max": "37.32px"
           }
         },
         {
           "name": "3XL",
           "slug": "3-xl",
-          "size": "calc(2.34rem + 1.21vw)",
+          "size": "39.81px",
           "fluid": {
-            "min": "2.63rem",
-            "max": "3.25rem"
+            "min": "39.81px",
+            "max": "44.79px"
           }
         },
         {
           "name": "4XL",
           "slug": "4-xl",
-          "size": "calc(2.66rem + 1.45vw)",
+          "size": "47.78px",
           "fluid": {
-            "min": "3.00rem",
-            "max": "3.75rem"
+            "min": "47.78px",
+            "max": "53.75px"
           }
         },
         {
           "name": "Heading 1",
           "slug": "heading-1",
-          "size": "36px",
+          "size": "38px",
           "fluid": {
-            "min": "36px",
-            "max": "42px"
+            "min": "38px",
+            "max": "47.5px"
           }
         },
         {
@@ -547,8 +547,8 @@
           "slug": "heading-2",
           "size": "32px",
           "fluid": {
-            "min": "28.8px",
-            "max": "38px"
+            "min": "32px",
+            "max": "40px"
           }
         },{
           "name": "Heading 3",
@@ -573,7 +573,7 @@
   },
   "styles": {
     "spacing": {
-      "blockGap": "var( --wp--preset--spacing--l )"
+      "blockGap": "var( --wp--preset--spacing--m )"
     },
     "blocks": {
       "core/button": {
