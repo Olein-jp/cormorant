@@ -18,6 +18,17 @@ if ( ! function_exists( 'cormorant_setup' ) ) {
 }
 add_action( 'after_setup_theme', 'cormorant_setup' );
 
+if ( ! function_exists( 'cormorant_disable_default_block_patterns' ) ) {
+	/**
+	 * Disabled default block patterns
+	 */
+	function cormorant_disable_default_block_patterns() {
+		remove_theme_support( 'core-block-patterns' );
+	}
+
+	add_action( 'init', 'cormorant_disable_default_block_patterns' );
+}
+
 if ( ! function_exists( 'cormorant_styles' ) ) {
 	/**
 	 * Enqueue styles
