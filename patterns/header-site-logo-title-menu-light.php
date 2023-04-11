@@ -5,7 +5,7 @@
  * Categories: cormorant-header
  * Description: Header with Site logo and title with navigation
  * Keywords: cormorant
- * Block Types: core/group, core/site-title, core/navigation, core/site-logo
+ * Block Types: core/template-part/header
  *
  * @author Koji Kuno
  * @package cormorant

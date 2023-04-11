@@ -5,7 +5,7 @@
  * Categories: cormorant-header
  * Description: Default header template parts
  * Keywords: cormorant
- * Block Types: core/group, core/site-title,, core/site-logo
+ * Block Types: core/template-part/header
  *
  * @author Koji Kuno
  * @package cormorant

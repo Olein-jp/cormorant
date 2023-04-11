@@ -5,7 +5,7 @@
  * Categories: cormorant-footer
  * Description: CTA and Copyright colored light
  * Keywords: cormorant
- * Block Types: core/group, core/paragraph, core/site-title, core/header, core/button
+ * Block Types: core/template-part/footer
  *
  * @author Koji Kuno
  * @package cormorant

@@ -5,7 +5,7 @@
  * Categories: cormorant-footer
  * Description: Information and Copyright colored primary
  * Keywords: cormorant
- * Block Types: core/group, core/paragraph, core/site-title, core/header, core/list
+ * Block Types: core/template-part/footer
  *
  * @author Koji Kuno
  * @package cormorant

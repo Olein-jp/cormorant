@@ -5,7 +5,7 @@
  * Categories: cormorant-footer
  * Description: Copyright and SNS icon link colored light
  * Keywords: cormorant
- * Block Types: core/group, core/paragraph, core/site-title, core/social-links
+ * Block Types: core/template-part/footer
  *
  * @author Koji Kuno
  * @package cormorant

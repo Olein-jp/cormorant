@@ -5,7 +5,7 @@
  * Categories: cormorant-footer
  * Description: Default footer template parts
  * Keywords: cormorant
- * Block Types: core/group, core/paragraph, core/site-title
+ * Block Types: core/template-part/footer
  *
  * @author Koji Kuno
  * @package cormorant

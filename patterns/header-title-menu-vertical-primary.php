@@ -5,7 +5,7 @@
  * Categories: cormorant-header
  * Description: Header with Title and Menu layout vertical colored primary
  * Keywords: cormorant
- * Block Types: core/group, core/site-title, core/navigation
+ * Block Types: core/template-part/header
  *
  * @author Koji Kuno
  * @package cormorant

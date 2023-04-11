@@ -5,7 +5,7 @@
  * Categories: cormorant-footer
  * Description: Copyright and SNS text link colored primary
  * Keywords: cormorant
- * Block Types: core/group, core/paragraph, core/site-title
+ * Block Types: core/template-part/footer
  *
  * @author Koji Kuno
  * @package cormorant
