@@ -59,6 +59,7 @@ if ( ! function_exists( 'cormorant_editor_styles' ) ) {
 if ( ! function_exists( 'cormorant_add_block_editor_styles' ) ) {
 	/**
 	 * Enqueue Block Editor Styles
+	 *
 	 * @return void
 	 */
 	function cormorant_add_block_editor_styles() {
