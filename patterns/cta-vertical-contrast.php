@@ -3,7 +3,7 @@
  * Title: CTA Vertical Contrast
  * Slug: cormorant/cta-vertical-contrast
  * Categories: cormorant-cta
- * Description: Call To Action layout Vertical colored contrast
+ * Description: Call To Action layout Vertical colored contrast color
  * Keywords: cormorant
  * Block Types: core/group, core/paragraph, core/buttons,
  *

@@ -3,7 +3,7 @@
  * Title: Hero Vertical Contrast
  * Slug: cormorant/hero-vertical-contrast
  * Categories: cormorant-hero
- * Description: Hero layout Vertical colored contrast
+ * Description: Hero layout Vertical colored contrast color
  * Keywords: cormorant
  * Block Types: core/group, core/image, core/paragraph, core/buttons, core/header
  *

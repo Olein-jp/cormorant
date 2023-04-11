@@ -3,7 +3,7 @@
  * Title: CTA Horizontal Contrast
  * Slug: cormorant/cta-horizontal-contrast
  * Categories: cormorant-cta
- * Description: Call To Action layout Horizontal colored contrast
+ * Description: Call To Action layout Horizontal colored contrast color
  * Keywords: cormorant
  * Block Types: core/group, core/columns, core/paragraph, core/buttons,
  *

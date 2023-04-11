@@ -3,7 +3,7 @@
  * Title: CTA Horizontal Base
  * Slug: cormorant/cta-horizontal-base
  * Categories: cormorant-cta
- * Description: Call To Action layout Horizontal colored base
+ * Description: Call To Action layout Horizontal colored base color
  * Keywords: cormorant
  * Block Types: core/group, core/columns, core/paragraph, core/buttons,
  *

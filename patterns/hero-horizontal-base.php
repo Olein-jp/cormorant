@@ -3,7 +3,7 @@
  * Title: Hero Horizontal Base
  * Slug: cormorant/hero-horizontal-base
  * Categories: cormorant-hero
- * Description: Hero layout Horizontal colored base
+ * Description: Hero layout Horizontal colored base color
  * Keywords: cormorant
  * Block Types: core/group, core/image, core/paragraph, core/buttons, core/header
  *

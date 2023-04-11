@@ -3,7 +3,7 @@
  * Title: Hero Horizontal Contrast
  * Slug: cormorant/hero-horizontal-contrast
  * Categories: cormorant-hero
- * Description: Hero layout Horizontal colored contrast
+ * Description: Hero layout Horizontal colored contrast color
  * Keywords: cormorant
  * Block Types: core/group, core/image, core/paragraph, core/buttons, core/header
  *

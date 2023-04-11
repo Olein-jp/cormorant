@@ -3,7 +3,7 @@
  * Title: CTA Vertical Base
  * Slug: cormorant/cta-vertical-base
  * Categories: cormorant-cta
- * Description: Call To Action layout Vertical colored base
+ * Description: Call To Action layout Vertical colored base color
  * Keywords: cormorant
  * Block Types: core/group, core/paragraph, core/buttons,
  *
