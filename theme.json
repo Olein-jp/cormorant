@@ -579,9 +579,9 @@
       "core/button": {
         "spacing": {
           "padding": {
-            "left": "var( --wp--preset--spacing--m )",
+            "left": "var( --wp--preset--spacing--l )",
             "top": "var( --wp--preset--spacing--s )",
-            "right": "var( --wp--preset--spacing--m )",
+            "right": "var( --wp--preset--spacing--l )",
             "bottom": "var( --wp--preset--spacing--s )"
           }
         },
