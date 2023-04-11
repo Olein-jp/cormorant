@@ -573,7 +573,11 @@
   },
   "styles": {
     "spacing": {
-      "blockGap": "var( --wp--preset--spacing--m )"
+      "blockGap": "var( --wp--preset--spacing--m )",
+      "padding": {
+        "right": "var( --wp--preset--spacing--s)",
+        "left": "var( --wp--preset--spacing--s)"
+      }
     },
     "blocks": {
       "core/button": {
