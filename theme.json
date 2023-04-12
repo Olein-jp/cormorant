@@ -35,6 +35,11 @@
           "slug": "quaternary",
           "color": "#F29057",
           "name": "Quaternary"
+        },
+        {
+          "slug": "transparent",
+          "color": "transparent",
+          "name": "Transparent"
         }
       ],
       "gradients": [
