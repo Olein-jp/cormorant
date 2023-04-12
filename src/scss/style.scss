@@ -402,9 +402,9 @@ $colors: base, contrast, primary, secondary, tertiary, quaternary;
   position: relative;
   border-top: none !important;
   border-bottom: none !important;
-  padding: calc( 0.3 * var( --wp--preset--font-size--6-xl ) ) var( --wp--preset--spacing--m ) var( --wp--preset--spacing--m ) var( --wp--preset--spacing--m ) !important;
+  padding: calc( 0.3 * var( --wp--preset--font-size--4-xl ) ) var( --wp--preset--spacing--m ) var( --wp--preset--spacing--m ) var( --wp--preset--spacing--m ) !important;
   @media ( max-width: 781px ) {
-    padding: calc( 0.3 * var( --wp--preset--font-size--6-xl ) ) 0 0 0 !important;
+    padding: calc( 0.3 * var( --wp--preset--font-size--4-xl ) ) 0 0 0 !important;
   }
   &:before {
     position: absolute;
@@ -413,8 +413,8 @@ $colors: base, contrast, primary, secondary, tertiary, quaternary;
     display: inline-block;
     opacity: .25;
     color: currentColor;
-    top: calc( 0 * var( --wp--preset--font-size--6-xl ) );
-    font-size: var( --wp--preset--font-size--6-xl);
+    top: -0.5em;
+    font-size: var( --wp--preset--font-size--4-xl);
   }
 }
 

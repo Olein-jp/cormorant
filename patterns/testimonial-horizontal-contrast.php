@@ -1,9 +1,9 @@
 <?php
 /**
- * Title: Horizontal Light
- * Slug: cormorant/testimonial-horizontal-light
+ * Title: Horizontal Contrast
+ * Slug: cormorant/testimonial-horizontal-contrast
  * Categories: cormorant-testimonial
- * Description: Testimonial layout Horizontal colored light
+ * Description: Testimonial layout Horizontal colored contrast color
  * Keywords: cormorant
  * Block Types: core/group, core/columns, core/paragraph, core/paragraph
  *
@@ -12,8 +12,8 @@
  * @since 1.0.0
  */
 ?>
-<!-- wp:group {"align":"full","style":{"spacing":{"padding":{"top":"var:preset|spacing|2-xl","bottom":"var:preset|spacing|2-xl"}}},"backgroundColor":"background","textColor":"foreground","className":"negative-margin-left-s negative-margin-right-s","layout":{"type":"constrained"}} -->
-<div class="wp-block-group alignfull negative-margin-left-s negative-margin-right-s has-foreground-color has-background-background-color has-text-color has-background" style="padding-top:var(--wp--preset--spacing--2-xl);padding-bottom:var(--wp--preset--spacing--2-xl)"><!-- wp:columns {"align":"wide"} -->
+<!-- wp:group {"align":"full","style":{"spacing":{"padding":{"top":"var:preset|spacing|4-xl","bottom":"var:preset|spacing|4-xl"}},"elements":{"link":{"color":{"text":"var:preset|color|contrast"}}}},"backgroundColor":"base","textColor":"contrast","className":"negative-margin-left-s negative-margin-right-s","layout":{"type":"constrained"}} -->
+<div class="wp-block-group alignfull negative-margin-left-s negative-margin-right-s has-contrast-color has-base-background-color has-text-color has-background has-link-color" style="padding-top:var(--wp--preset--spacing--4-xl);padding-bottom:var(--wp--preset--spacing--4-xl)"><!-- wp:columns {"align":"wide"} -->
 	<div class="wp-block-columns alignwide"><!-- wp:column {"style":{"spacing":{"padding":{"top":"var:preset|spacing|m","right":"var:preset|spacing|m","bottom":"var:preset|spacing|m","left":"var:preset|spacing|m"}}},"backgroundColor":"foreground","textColor":"background"} -->
 		<div class="wp-block-column has-background-color has-foreground-background-color has-text-color has-background" style="padding-top:var(--wp--preset--spacing--m);padding-right:var(--wp--preset--spacing--m);padding-bottom:var(--wp--preset--spacing--m);padding-left:var(--wp--preset--spacing--m)"><!-- wp:pullquote {"className":"is-style-cormorant-quote-mark-foreground is-style-cormorant-quote-mark-pullquote is-style-cormorant-big-quote-mark-pullquote"} -->
 			<figure class="wp-block-pullquote is-style-cormorant-quote-mark-foreground is-style-cormorant-quote-mark-pullquote is-style-cormorant-big-quote-mark-pullquote"><blockquote><p>Nascetur dis aptent egestas nam maecenas maximus tincidunt imperdiet mi porta, interdum diam rutrum elementum vivamus</p><cite>Koji Kuno, Developer</cite></blockquote></figure>
