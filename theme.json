@@ -35,11 +35,6 @@
           "slug": "quaternary",
           "color": "#F29057",
           "name": "Quaternary"
-        },
-        {
-          "slug": "transparent",
-          "color": "transparent",
-          "name": "Transparent"
         }
       ],
       "gradients": [
@@ -580,8 +575,8 @@
     "spacing": {
       "blockGap": "var( --wp--preset--spacing--m )",
       "padding": {
-        "right": "var( --wp--preset--spacing--s)",
-        "left": "var( --wp--preset--spacing--s)"
+        "right": "var( --wp--preset--spacing--m)",
+        "left": "var( --wp--preset--spacing--m)"
       }
     },
     "blocks": {
