@@ -127,6 +127,11 @@ if ( ! function_exists( 'cormorant_register_block_styles' ) ) {
 				'name'   => 'cormorant-quote-left-bar-quote',
 				'label'  => esc_html__( 'Left Bar', 'cormorant' ),
 			],
+			[
+				'target' => 'core/post-terms',
+				'name'   => 'cormorant-post-terms-square',
+				'label'  => esc_html__( 'Square Label', 'cormorant' ),
+			]
 		];
 
 		/**

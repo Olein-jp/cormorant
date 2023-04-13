@@ -12,6 +12,11 @@
           "name": "Base"
         },
         {
+          "slug": "neutral",
+          "color": "#b8b8b8",
+          "name": "Neutral"
+        },
+        {
           "slug": "contrast",
           "color": "#ffffff",
           "name": "Contrast"
@@ -724,6 +729,20 @@
         },
         "border": {
           "radius": "0"
+        }
+      },
+      "core/post-title": {
+        "elements": {
+          "link": {
+            "typography": {
+              "textDecoration": "none"
+            },
+            ":hover": {
+              "typography": {
+                "textDecoration": "underline"
+              }
+            }
+          }
         }
       }
     },
