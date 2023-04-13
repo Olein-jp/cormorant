@@ -12,105 +12,105 @@
  * @since 1.0.0
  */
 ?>
-<!-- wp:group {"align":"full","style":{"color":{"background":"#02405914"},"spacing":{"padding":{"top":"var:preset|spacing|2-xl","bottom":"var:preset|spacing|2-xl"}}},"layout":{"type":"constrained"}} -->
-<div class="wp-block-group alignfull has-background" style="background-color:#02405914;padding-top:var(--wp--preset--spacing--2-xl);padding-bottom:var(--wp--preset--spacing--2-xl)"><!-- wp:heading {"textAlign":"center"} -->
-	<h2 class="has-text-align-center">FAQ</h2>
+<!-- wp:group {"align":"full","style":{"spacing":{"padding":{"top":"var:preset|spacing|4-xl","bottom":"var:preset|spacing|4-xl"}}},"backgroundColor":"base","textColor":"contrast","layout":{"type":"constrained"}} -->
+<div class="wp-block-group alignfull has-contrast-color has-base-background-color has-text-color has-background" style="padding-top:var(--wp--preset--spacing--4-xl);padding-bottom:var(--wp--preset--spacing--4-xl)"><!-- wp:heading {"textAlign":"center","style":{"spacing":{"margin":{"bottom":"var:preset|spacing|l"}}}} -->
+	<h2 class="wp-block-heading has-text-align-center" style="margin-bottom:var(--wp--preset--spacing--l)">FAQ</h2>
 	<!-- /wp:heading -->
 
-	<!-- wp:group {"align":"full","style":{"spacing":{"blockGap":"0"}},"layout":{"type":"flex","orientation":"vertical","justifyContent":"center"}} -->
-	<div class="wp-block-group alignfull"><!-- wp:group {"style":{"color":{"background":"#02405926"}},"layout":{"type":"constrained"}} -->
-		<div class="wp-block-group has-background" style="background-color:#02405926"><!-- wp:group {"layout":{"type":"constrained"}} -->
-			<div class="wp-block-group"><!-- wp:group {"style":{"spacing":{"blockGap":"0"}},"layout":{"type":"flex","flexWrap":"nowrap"}} -->
-				<div class="wp-block-group"><!-- wp:paragraph {"textColor":"primary","fontSize":"m"} -->
-					<p class="has-primary-color has-text-color has-m-font-size"><strong>Q</strong>.</p>
-					<!-- /wp:paragraph -->
+	<!-- wp:group {"align":"full","style":{"spacing":{"blockGap":"var:preset|spacing|l"}},"layout":{"type":"flex","orientation":"vertical","justifyContent":"center"}} -->
+	<div class="wp-block-group alignfull"><!-- wp:group {"style":{"spacing":{"padding":{"top":"var:preset|spacing|m","right":"var:preset|spacing|m","bottom":"var:preset|spacing|m","left":"var:preset|spacing|m"}}},"backgroundColor":"contrast","textColor":"base","layout":{"type":"constrained"}} -->
+		<div class="wp-block-group has-base-color has-contrast-background-color has-text-color has-background" style="padding-top:var(--wp--preset--spacing--m);padding-right:var(--wp--preset--spacing--m);padding-bottom:var(--wp--preset--spacing--m);padding-left:var(--wp--preset--spacing--m)"><!-- wp:group {"style":{"spacing":{"padding":{"top":"var:preset|spacing|m","right":"var:preset|spacing|m","bottom":"var:preset|spacing|m","left":"var:preset|spacing|m"}}},"layout":{"type":"flex","orientation":"vertical"}} -->
+			<div class="wp-block-group" style="padding-top:var(--wp--preset--spacing--m);padding-right:var(--wp--preset--spacing--m);padding-bottom:var(--wp--preset--spacing--m);padding-left:var(--wp--preset--spacing--m)"><!-- wp:columns -->
+				<div class="wp-block-columns"><!-- wp:column {"width":"5%"} -->
+					<div class="wp-block-column" style="flex-basis:5%"><!-- wp:paragraph {"fontSize":"l"} -->
+						<p class="has-l-font-size">Q.</p>
+						<!-- /wp:paragraph --></div>
+					<!-- /wp:column -->
 
-					<!-- wp:paragraph {"textColor":"primary"} -->
-					<p class="has-primary-color has-text-color"><strong>Facilisis dapibus tempus fames imperdiet torquent viverra</strong></p>
-					<!-- /wp:paragraph --></div>
-				<!-- /wp:group -->
+					<!-- wp:column {"width":"95%"} -->
+					<div class="wp-block-column" style="flex-basis:95%"><!-- wp:paragraph {"fontSize":"l"} -->
+						<p class="has-l-font-size">Nisi penatibus inceptos placerat mus dolor tristique aliquet metus nulla erat orci magnis, maecenas pretium dis laoreet eu dictumst at elementum ipsum lobortis.</p>
+						<!-- /wp:paragraph --></div>
+					<!-- /wp:column --></div>
+				<!-- /wp:columns -->
 
-				<!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|s"}},"layout":{"type":"flex","flexWrap":"nowrap","verticalAlignment":"top"}} -->
-				<div class="wp-block-group"><!-- wp:paragraph {"fontSize":"m"} -->
-					<p class="has-m-font-size"><strong>A</strong></p>
-					<!-- /wp:paragraph -->
+				<!-- wp:columns -->
+				<div class="wp-block-columns"><!-- wp:column {"width":"5%"} -->
+					<div class="wp-block-column" style="flex-basis:5%"><!-- wp:paragraph -->
+						<p>A.</p>
+						<!-- /wp:paragraph --></div>
+					<!-- /wp:column -->
 
-					<!-- wp:paragraph -->
-					<p>Dis amet velit scelerisque urna dictumst ex molestie interdum vulputate laoreet aenean magnis mauris, mollis lacinia pharetra non aliquet senectus nascetur venenatis finibus adipiscing auctor. Quisque tincidunt dui luctus condimentum penatibus eu senectus laoreet gravida, tempor suspendisse egestas suscipit fermentum magnis morbi hendrerit finibus, elementum lacus vel torquent </p>
-					<!-- /wp:paragraph --></div>
-				<!-- /wp:group --></div>
+					<!-- wp:column {"width":"95%"} -->
+					<div class="wp-block-column" style="flex-basis:95%"><!-- wp:paragraph -->
+						<p>Dictumst sit natoque amet platea quisque nulla hendrerit parturient vestibulum, morbi ut diam venenatis egestas dapibus iaculis faucibus laoreet, interdum lacinia fringilla pretium elit rutrum etiam curabitur. Torquent proin aptent blandit parturient erat odio interdum augue praesent, justo finibus euismod sodales lectus a scelerisque efficitur.</p>
+						<!-- /wp:paragraph --></div>
+					<!-- /wp:column --></div>
+				<!-- /wp:columns --></div>
 			<!-- /wp:group --></div>
 		<!-- /wp:group -->
 
-		<!-- wp:group {"style":{"color":{"background":"#0240590d"}},"layout":{"type":"constrained"}} -->
-		<div class="wp-block-group has-background" style="background-color:#0240590d"><!-- wp:group {"layout":{"type":"constrained"}} -->
-			<div class="wp-block-group"><!-- wp:group {"style":{"spacing":{"blockGap":"0"}},"layout":{"type":"flex","flexWrap":"nowrap"}} -->
-				<div class="wp-block-group"><!-- wp:paragraph {"textColor":"primary","fontSize":"m"} -->
-					<p class="has-primary-color has-text-color has-m-font-size"><strong>Q</strong>.</p>
-					<!-- /wp:paragraph -->
+		<!-- wp:group {"style":{"spacing":{"padding":{"top":"var:preset|spacing|m","right":"var:preset|spacing|m","bottom":"var:preset|spacing|m","left":"var:preset|spacing|m"}}},"backgroundColor":"contrast","textColor":"base","layout":{"type":"constrained"}} -->
+		<div class="wp-block-group has-base-color has-contrast-background-color has-text-color has-background" style="padding-top:var(--wp--preset--spacing--m);padding-right:var(--wp--preset--spacing--m);padding-bottom:var(--wp--preset--spacing--m);padding-left:var(--wp--preset--spacing--m)"><!-- wp:group {"style":{"spacing":{"padding":{"top":"var:preset|spacing|m","right":"var:preset|spacing|m","bottom":"var:preset|spacing|m","left":"var:preset|spacing|m"}}},"layout":{"type":"flex","orientation":"vertical"}} -->
+			<div class="wp-block-group" style="padding-top:var(--wp--preset--spacing--m);padding-right:var(--wp--preset--spacing--m);padding-bottom:var(--wp--preset--spacing--m);padding-left:var(--wp--preset--spacing--m)"><!-- wp:columns -->
+				<div class="wp-block-columns"><!-- wp:column {"width":"5%"} -->
+					<div class="wp-block-column" style="flex-basis:5%"><!-- wp:paragraph {"fontSize":"l"} -->
+						<p class="has-l-font-size">Q.</p>
+						<!-- /wp:paragraph --></div>
+					<!-- /wp:column -->
 
-					<!-- wp:paragraph {"textColor":"primary"} -->
-					<p class="has-primary-color has-text-color"><strong>Facilisis dapibus tempus fames imperdiet torquent viverra</strong></p>
-					<!-- /wp:paragraph --></div>
-				<!-- /wp:group -->
+					<!-- wp:column {"width":"95%"} -->
+					<div class="wp-block-column" style="flex-basis:95%"><!-- wp:paragraph {"fontSize":"l"} -->
+						<p class="has-l-font-size">Nisi penatibus inceptos placerat mus dolor tristique aliquet metus nulla erat orci magnis, maecenas pretium dis laoreet eu dictumst at elementum ipsum lobortis.</p>
+						<!-- /wp:paragraph --></div>
+					<!-- /wp:column --></div>
+				<!-- /wp:columns -->
 
-				<!-- wp:group {"layout":{"type":"flex","flexWrap":"nowrap","verticalAlignment":"top"}} -->
-				<div class="wp-block-group"><!-- wp:paragraph {"fontSize":"extra-large"} -->
-					<p class="has-extra-large-font-size"><strong>A</strong></p>
-					<!-- /wp:paragraph -->
+				<!-- wp:columns -->
+				<div class="wp-block-columns"><!-- wp:column {"width":"5%"} -->
+					<div class="wp-block-column" style="flex-basis:5%"><!-- wp:paragraph -->
+						<p>A.</p>
+						<!-- /wp:paragraph --></div>
+					<!-- /wp:column -->
 
-					<!-- wp:paragraph -->
-					<p>Dis amet velit scelerisque urna dictumst ex molestie interdum vulputate laoreet aenean magnis mauris, mollis lacinia pharetra non aliquet senectus nascetur venenatis finibus adipiscing auctor. Quisque tincidunt dui luctus condimentum penatibus eu senectus laoreet gravida, tempor suspendisse egestas suscipit fermentum magnis morbi hendrerit finibus, elementum lacus vel torquent </p>
-					<!-- /wp:paragraph --></div>
-				<!-- /wp:group --></div>
+					<!-- wp:column {"width":"95%"} -->
+					<div class="wp-block-column" style="flex-basis:95%"><!-- wp:paragraph -->
+						<p>Dictumst sit natoque amet platea quisque nulla hendrerit parturient vestibulum, morbi ut diam venenatis egestas dapibus iaculis faucibus laoreet, interdum lacinia fringilla pretium elit rutrum etiam curabitur. Torquent proin aptent blandit parturient erat odio interdum augue praesent, justo finibus euismod sodales lectus a scelerisque efficitur.</p>
+						<!-- /wp:paragraph --></div>
+					<!-- /wp:column --></div>
+				<!-- /wp:columns --></div>
 			<!-- /wp:group --></div>
 		<!-- /wp:group -->
 
-		<!-- wp:group {"style":{"color":{"background":"#02405926"}},"layout":{"type":"constrained"}} -->
-		<div class="wp-block-group has-background" style="background-color:#02405926"><!-- wp:group {"layout":{"type":"constrained"}} -->
-			<div class="wp-block-group"><!-- wp:group {"style":{"spacing":{"blockGap":"0"}},"layout":{"type":"flex","flexWrap":"nowrap"}} -->
-				<div class="wp-block-group"><!-- wp:paragraph {"textColor":"primary","fontSize":"m"} -->
-					<p class="has-primary-color has-text-color has-m-font-size"><strong>Q</strong>.</p>
-					<!-- /wp:paragraph -->
+		<!-- wp:group {"style":{"spacing":{"padding":{"top":"var:preset|spacing|m","right":"var:preset|spacing|m","bottom":"var:preset|spacing|m","left":"var:preset|spacing|m"}}},"backgroundColor":"contrast","textColor":"base","layout":{"type":"constrained"}} -->
+		<div class="wp-block-group has-base-color has-contrast-background-color has-text-color has-background" style="padding-top:var(--wp--preset--spacing--m);padding-right:var(--wp--preset--spacing--m);padding-bottom:var(--wp--preset--spacing--m);padding-left:var(--wp--preset--spacing--m)"><!-- wp:group {"style":{"spacing":{"padding":{"top":"var:preset|spacing|m","right":"var:preset|spacing|m","bottom":"var:preset|spacing|m","left":"var:preset|spacing|m"}}},"layout":{"type":"flex","orientation":"vertical"}} -->
+			<div class="wp-block-group" style="padding-top:var(--wp--preset--spacing--m);padding-right:var(--wp--preset--spacing--m);padding-bottom:var(--wp--preset--spacing--m);padding-left:var(--wp--preset--spacing--m)"><!-- wp:columns -->
+				<div class="wp-block-columns"><!-- wp:column {"width":"5%"} -->
+					<div class="wp-block-column" style="flex-basis:5%"><!-- wp:paragraph {"fontSize":"l"} -->
+						<p class="has-l-font-size">Q.</p>
+						<!-- /wp:paragraph --></div>
+					<!-- /wp:column -->
 
-					<!-- wp:paragraph {"textColor":"primary"} -->
-					<p class="has-primary-color has-text-color"><strong>Facilisis dapibus tempus fames imperdiet torquent viverra</strong></p>
-					<!-- /wp:paragraph --></div>
-				<!-- /wp:group -->
+					<!-- wp:column {"width":"95%"} -->
+					<div class="wp-block-column" style="flex-basis:95%"><!-- wp:paragraph {"fontSize":"l"} -->
+						<p class="has-l-font-size">Nisi penatibus inceptos placerat mus dolor tristique aliquet metus nulla erat orci magnis, maecenas pretium dis laoreet eu dictumst at elementum ipsum lobortis.</p>
+						<!-- /wp:paragraph --></div>
+					<!-- /wp:column --></div>
+				<!-- /wp:columns -->
 
-				<!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|s"}},"layout":{"type":"flex","flexWrap":"nowrap","verticalAlignment":"top"}} -->
-				<div class="wp-block-group"><!-- wp:paragraph {"fontSize":"m"} -->
-					<p class="has-m-font-size"><strong>A</strong></p>
-					<!-- /wp:paragraph -->
+				<!-- wp:columns -->
+				<div class="wp-block-columns"><!-- wp:column {"width":"5%"} -->
+					<div class="wp-block-column" style="flex-basis:5%"><!-- wp:paragraph -->
+						<p>A.</p>
+						<!-- /wp:paragraph --></div>
+					<!-- /wp:column -->
 
-					<!-- wp:paragraph -->
-					<p>Dis amet velit scelerisque urna dictumst ex molestie interdum vulputate laoreet aenean magnis mauris, mollis lacinia pharetra non aliquet senectus nascetur venenatis finibus adipiscing auctor. Quisque tincidunt dui luctus condimentum penatibus eu senectus laoreet gravida, tempor suspendisse egestas suscipit fermentum magnis morbi hendrerit finibus, elementum lacus vel torquent </p>
-					<!-- /wp:paragraph --></div>
-				<!-- /wp:group --></div>
-			<!-- /wp:group --></div>
-		<!-- /wp:group -->
-
-		<!-- wp:group {"style":{"color":{"background":"#0240590d"}},"layout":{"type":"constrained"}} -->
-		<div class="wp-block-group has-background" style="background-color:#0240590d"><!-- wp:group {"layout":{"type":"constrained"}} -->
-			<div class="wp-block-group"><!-- wp:group {"style":{"spacing":{"blockGap":"0"}},"layout":{"type":"flex","flexWrap":"nowrap"}} -->
-				<div class="wp-block-group"><!-- wp:paragraph {"textColor":"primary","fontSize":"m"} -->
-					<p class="has-primary-color has-text-color has-m-font-size"><strong>Q</strong>.</p>
-					<!-- /wp:paragraph -->
-
-					<!-- wp:paragraph {"textColor":"primary"} -->
-					<p class="has-primary-color has-text-color"><strong>Facilisis dapibus tempus fames imperdiet torquent viverra</strong></p>
-					<!-- /wp:paragraph --></div>
-				<!-- /wp:group -->
-
-				<!-- wp:group {"layout":{"type":"flex","flexWrap":"nowrap","verticalAlignment":"top"}} -->
-				<div class="wp-block-group"><!-- wp:paragraph {"fontSize":"extra-large"} -->
-					<p class="has-extra-large-font-size"><strong>A</strong></p>
-					<!-- /wp:paragraph -->
-
-					<!-- wp:paragraph -->
-					<p>Dis amet velit scelerisque urna dictumst ex molestie interdum vulputate laoreet aenean magnis mauris, mollis lacinia pharetra non aliquet senectus nascetur venenatis finibus adipiscing auctor. Quisque tincidunt dui luctus condimentum penatibus eu senectus laoreet gravida, tempor suspendisse egestas suscipit fermentum magnis morbi hendrerit finibus, elementum lacus vel torquent </p>
-					<!-- /wp:paragraph --></div>
-				<!-- /wp:group --></div>
+					<!-- wp:column {"width":"95%"} -->
+					<div class="wp-block-column" style="flex-basis:95%"><!-- wp:paragraph -->
+						<p>Dictumst sit natoque amet platea quisque nulla hendrerit parturient vestibulum, morbi ut diam venenatis egestas dapibus iaculis faucibus laoreet, interdum lacinia fringilla pretium elit rutrum etiam curabitur. Torquent proin aptent blandit parturient erat odio interdum augue praesent, justo finibus euismod sodales lectus a scelerisque efficitur.</p>
+						<!-- /wp:paragraph --></div>
+					<!-- /wp:column --></div>
+				<!-- /wp:columns --></div>
 			<!-- /wp:group --></div>
 		<!-- /wp:group --></div>
 	<!-- /wp:group --></div>
