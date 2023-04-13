@@ -12,11 +12,6 @@
           "name": "Base"
         },
         {
-          "slug": "neutral",
-          "color": "#b8b8b8",
-          "name": "Neutral"
-        },
-        {
           "slug": "contrast",
           "color": "#ffffff",
           "name": "Contrast"
@@ -40,6 +35,31 @@
           "slug": "quaternary",
           "color": "#F29057",
           "name": "Quaternary"
+        },
+        {
+          "slug": "wild-sand",
+          "color": "#f4f4f4",
+          "name": "Wild Sand"
+        },
+        {
+          "slug": "darker-gray",
+          "color": "#333333",
+          "name": "Darker Gray"
+        },
+        {
+          "slug": "dark-gray",
+          "color": "#666666",
+          "name": "Dark Gray"
+        },
+        {
+          "slug": "light-gray",
+          "color": "#999999",
+          "name": "Light Gray"
+        },
+        {
+          "slug": "lighter-gray",
+          "color": "#cccccc",
+          "name": "Lighter Gray"
         }
       ],
       "gradients": [
