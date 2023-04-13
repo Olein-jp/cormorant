@@ -743,6 +743,9 @@
             "left": "var( --wp--preset--spacing--m )"
           }
         },
+        "typography": {
+          "fontFamily": "var( --wp--preset--font-family--system-monospace )"
+        },
         "color": {
           "background": "var( --wp--preset--color--base)",
           "text": "var( --wp--preset--color--contrast )"
