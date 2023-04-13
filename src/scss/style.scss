@@ -408,7 +408,6 @@ $colors: base, contrast, primary, secondary, tertiary, quaternary;
 
       &:hover {
         background: var(--wp--preset--color--#{$color}) !important;
-        color: var(--wp--preset--color--contrast) !important;
         @if $color != contrast {
           color: var(--wp--preset--color--contrast);
         } @else {
