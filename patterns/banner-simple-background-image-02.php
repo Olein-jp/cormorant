@@ -12,22 +12,22 @@
  * @since 1.0.0
  */
 ?>
-<!-- wp:cover {"url":"<?php echo esc_url( get_template_directory_uri() ) . '/assets/images/StockSnap_FOKZ3FZEKE.jpg'; ?>","id":2179,"dimRatio":90,"overlayColor":"foreground","contentPosition":"center center","style":{"spacing":{"padding":{"top":"var:preset|spacing|m","right":"var:preset|spacing|m","bottom":"var:preset|spacing|m","left":"var:preset|spacing|m"}}}} -->
-<div class="wp-block-cover" style="padding-top:var(--wp--preset--spacing--m);padding-right:var(--wp--preset--spacing--m);padding-bottom:var(--wp--preset--spacing--m);padding-left:var(--wp--preset--spacing--m)"><span aria-hidden="true" class="wp-block-cover__background has-foreground-background-color has-background-dim-90 has-background-dim"></span><img class="wp-block-cover__image-background wp-image-2179" alt="<?php echo esc_attr__( 'Sample Image', 'cormorant' ); ?>" src="<?php echo esc_url( get_template_directory_uri() ) . '/assets/images/StockSnap_FOKZ3FZEKE.jpg'; ?>" data-object-fit="cover"/><div class="wp-block-cover__inner-container"><!-- wp:heading {"textAlign":"center","level":3,"fontSize":"3-xl"} -->
-		<h3 class="has-text-align-center has-3-xl-font-size">Banner Heading</h3>
+<!-- wp:cover {"url":"<?php echo esc_url( get_template_directory_uri() ) . '/assets/images/StockSnap_FOKZ3FZEKE.jpg'; ?>","id":2179,"dimRatio":90,"overlayColor":"base","contentPosition":"center center","style":{"spacing":{"padding":{"top":"var:preset|spacing|xl","right":"var:preset|spacing|xl","bottom":"var:preset|spacing|xl","left":"var:preset|spacing|xl"}}}} -->
+<div class="wp-block-cover" style="padding-top:var(--wp--preset--spacing--xl);padding-right:var(--wp--preset--spacing--xl);padding-bottom:var(--wp--preset--spacing--xl);padding-left:var(--wp--preset--spacing--xl)"><span aria-hidden="true" class="wp-block-cover__background has-base-background-color has-background-dim-90 has-background-dim"></span><img class="wp-block-cover__image-background wp-image-2179" alt="<?php echo esc_attr__( 'Sample Image', 'cormorant' ); ?>" src="<?php echo esc_url( get_template_directory_uri() ) . '/assets/images/StockSnap_FOKZ3FZEKE.jpg'; ?>" data-object-fit="cover"/><div class="wp-block-cover__inner-container"><!-- wp:heading {"textAlign":"center","level":3,"style":{"spacing":{"margin":{"bottom":"var:preset|spacing|m"}}},"fontSize":"3-xl"} -->
+		<h3 class="wp-block-heading has-text-align-center has-3-xl-font-size" style="margin-bottom:var(--wp--preset--spacing--m)">Banner Heading</h3>
 		<!-- /wp:heading -->
 
-		<!-- wp:paragraph {"fontSize":"s"} -->
-		<p class="has-s-font-size">Dis congue dolor aliquam nulla maximus luctus consequat lacus, massa maecenas ligula ultricies id rutrum sociosqu, cursus sed hendrerit duis</p>
+		<!-- wp:paragraph {"align":"center","style":{"spacing":{"margin":{"bottom":"var:preset|spacing|m"}}},"fontSize":"s"} -->
+		<p class="has-text-align-center has-s-font-size" style="margin-bottom:var(--wp--preset--spacing--m)">Dis congue dolor aliquam nulla maximus luctus consequat lacus, massa maecenas ligula ultricies id rutrum sociosqu, cursus sed hendrerit duis</p>
 		<!-- /wp:paragraph -->
 
 		<!-- wp:buttons {"layout":{"type":"flex","justifyContent":"center"},"style":{"spacing":{"margin":{"top":"var:preset|spacing|s"}}}} -->
-		<div class="wp-block-buttons" style="margin-top:var(--wp--preset--spacing--s)"><!-- wp:button {"backgroundColor":"background","textColor":"foreground","className":"is-style-cormorant-background-filled-square-button","fontSize":"tiny"} -->
-			<div class="wp-block-button has-custom-font-size is-style-cormorant-background-filled-square-button has-tiny-font-size"><a class="wp-block-button__link has-foreground-color has-background-background-color has-text-color has-background wp-element-button"><strong>Button is here</strong></a></div>
+		<div class="wp-block-buttons" style="margin-top:var(--wp--preset--spacing--s)"><!-- wp:button {"textColor":"foreground","style":{"border":{"radius":"0px"}},"className":"is-style-cormorant-background-filled-square-button is-style-outline","fontSize":"tiny"} -->
+			<div class="wp-block-button has-custom-font-size is-style-cormorant-background-filled-square-button is-style-outline has-tiny-font-size"><a class="wp-block-button__link has-foreground-color has-text-color wp-element-button" style="border-radius:0px"><strong>Button is here</strong></a></div>
 			<!-- /wp:button -->
 
-			<!-- wp:button {"backgroundColor":"background","textColor":"foreground","className":"is-style-cormorant-background-outline-square-button","fontSize":"tiny"} -->
-			<div class="wp-block-button has-custom-font-size is-style-cormorant-background-outline-square-button has-tiny-font-size"><a class="wp-block-button__link has-foreground-color has-background-background-color has-text-color has-background wp-element-button"><strong>Button is here</strong></a></div>
+			<!-- wp:button {"textColor":"foreground","style":{"border":{"radius":"0px"}},"className":"is-style-cormorant-background-filled-square-button is-style-outline","fontSize":"tiny"} -->
+			<div class="wp-block-button has-custom-font-size is-style-cormorant-background-filled-square-button is-style-outline has-tiny-font-size"><a class="wp-block-button__link has-foreground-color has-text-color wp-element-button" style="border-radius:0px"><strong>Button is here</strong></a></div>
 			<!-- /wp:button --></div>
 		<!-- /wp:buttons --></div></div>
 <!-- /wp:cover -->

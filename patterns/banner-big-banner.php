@@ -19,7 +19,7 @@
 			<!-- /wp:paragraph -->
 
 			<!-- wp:heading {"textAlign":"center","style":{"spacing":{"margin":{"top":"0","right":"0","bottom":"0","left":"0"}}}} -->
-			<h2 class="has-text-align-center" style="margin-top:0;margin-right:0;margin-bottom:0;margin-left:0">Malesuada platea morbi</h2>
+			<h2 class="wp-block-heading has-text-align-center" style="margin-top:0;margin-right:0;margin-bottom:0;margin-left:0">Malesuada platea morbi</h2>
 			<!-- /wp:heading -->
 
 			<!-- wp:paragraph {"align":"center","fontSize":"s"} -->
@@ -27,12 +27,12 @@
 			<!-- /wp:paragraph -->
 
 			<!-- wp:buttons {"layout":{"type":"flex","justifyContent":"center"}} -->
-			<div class="wp-block-buttons"><!-- wp:button {"backgroundColor":"background","textColor":"primary","style":{"spacing":{"padding":{"top":"10px","bottom":"10px"}},"border":{"radius":"0px"}}} -->
-				<div class="wp-block-button"><a class="wp-block-button__link has-primary-color has-background-background-color has-text-color has-background wp-element-button" style="border-radius:0px;padding-top:10px;padding-bottom:10px">Button Here</a></div>
+			<div class="wp-block-buttons"><!-- wp:button {"backgroundColor":"background","style":{"spacing":{"padding":{"top":"10px","bottom":"10px"}},"border":{"radius":"0px"}},"className":"is-style-cormorant-filled-square-button-contrast"} -->
+				<div class="wp-block-button is-style-cormorant-filled-square-button-contrast"><a class="wp-block-button__link has-background-background-color has-background wp-element-button" style="border-radius:0px;padding-top:10px;padding-bottom:10px">Button Here</a></div>
 				<!-- /wp:button -->
 
-				<!-- wp:button {"style":{"border":{"radius":"0px"},"spacing":{"padding":{"top":"10px","bottom":"10px"}}}} -->
-				<div class="wp-block-button"><a class="wp-block-button__link wp-element-button" style="border-radius:0px;padding-top:10px;padding-bottom:10px">Button Here</a></div>
+				<!-- wp:button {"style":{"border":{"radius":"0px"},"spacing":{"padding":{"top":"10px","bottom":"10px"}}},"className":"is-style-cormorant-filled-square-button-contrast"} -->
+				<div class="wp-block-button is-style-cormorant-filled-square-button-contrast"><a class="wp-block-button__link wp-element-button" style="border-radius:0px;padding-top:10px;padding-bottom:10px">Button Here</a></div>
 				<!-- /wp:button --></div>
 			<!-- /wp:buttons --></div>
 		<!-- /wp:group --></div></div>
