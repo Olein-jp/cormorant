@@ -1,33 +1,27 @@
 <!-- wp:template-part {"slug":"header","theme":"cormorant","tagName":"header","className":"site-header"} /-->
 
-<!-- wp:group {"tagName":"main","style":{"spacing":{"margin":{"top":"0","bottom":"0"}}},"className":"site-content"} -->
-<main class="wp-block-group site-content" style="margin-top:0;margin-bottom:0">
-	<!-- wp:group {"layout":{"inherit":true}} -->
-	<div class="wp-block-group">
-		<!-- wp:paragraph {"style":{"typography":{"fontStyle":"normal","fontWeight":"700"}},"fontSize":"large"} -->
-		<p class="has-large-font-size" style="font-style:normal;font-weight:700">It seems like we couldn’t find the page you’re looking for. You can search for it in the form below.</p>
-		<!-- /wp:paragraph -->
+<!-- wp:group {"tagName":"main","style":{"spacing":{"margin":{"top":"0","bottom":"0"},"padding":{"top":"var:preset|spacing|4-xl","bottom":"var:preset|spacing|4-xl"}}},"className":"site-content","layout":{"type":"constrained"}} -->
+<main class="wp-block-group site-content" style="margin-top:0;margin-bottom:0;padding-top:var(--wp--preset--spacing--4-xl);padding-bottom:var(--wp--preset--spacing--4-xl)"><!-- wp:paragraph {"align":"center","style":{"typography":{"fontSize":"10rem"}}} -->
+	<p class="has-text-align-center" style="font-size:10rem"><strong>404</strong></p>
+	<!-- /wp:paragraph -->
 
-		<!-- wp:heading -->
-		<h2>Search</h2>
-		<!-- /wp:heading -->
+	<!-- wp:paragraph {"style":{"typography":{"fontStyle":"normal","fontWeight":"700"}},"fontSize":"s"} -->
+	<p class="has-s-font-size" style="font-style:normal;font-weight:700">It seems like we couldn’t find the page you’re looking for. You can search for it in the form below.</p>
+	<!-- /wp:paragraph -->
 
-		<!-- wp:search {"label":"","buttonText":"Search"} /-->
+	<!-- wp:search {"label":"","showLabel":false,"buttonText":"Search","buttonPosition":"button-inside"} /-->
 
-		<!-- wp:heading -->
-		<h2>Category</h2>
-		<!-- /wp:heading -->
+	<!-- wp:heading -->
+	<h2 class="wp-block-heading">Category</h2>
+	<!-- /wp:heading -->
 
-		<!-- wp:tag-cloud {"numberOfTags":40,"taxonomy":"category","showTagCounts":true,"smallestFontSize":"14pt","largestFontSize":"14pt"} /-->
+	<!-- wp:tag-cloud {"numberOfTags":40,"taxonomy":"category","showTagCounts":true,"smallestFontSize":"1rem","largestFontSize":"1rem","className":"is-style-default"} /-->
 
-		<!-- wp:heading -->
-		<h2>Tags</h2>
-		<!-- /wp:heading -->
+	<!-- wp:heading -->
+	<h2 class="wp-block-heading">Tags</h2>
+	<!-- /wp:heading -->
 
-		<!-- wp:tag-cloud {"numberOfTags":40,"showTagCounts":true,"smallestFontSize":"14pt","largestFontSize":"14pt"} /-->
-	</div>
-	<!-- /wp:group -->
-</main>
+	<!-- wp:tag-cloud {"numberOfTags":40,"showTagCounts":true,"smallestFontSize":"1rem","largestFontSize":"1rem"} /--></main>
 <!-- /wp:group -->
 
 <!-- wp:template-part {"slug":"footer","theme":"cormorant","tagName":"footer","className":"site-footer"} /-->
