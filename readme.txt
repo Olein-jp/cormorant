@@ -40,6 +40,12 @@ License: CC0 https://creativecommons.org/publicdomain/zero/1.0/
 Source: https://stocksnap.io/photo/bird-flying-3NQ5V9WW0G
 
 == Changelog ==
+Version 2.0.0(2023-04-15)
+--------------------
+- Updated to fix for WordPress 6.2
+- Created some block patterns
+- Deleted some block patterns and styles
+
 Version 1.0.3(2022-11-15)
 --------------------
 - Changed default set header and footer for some templates
