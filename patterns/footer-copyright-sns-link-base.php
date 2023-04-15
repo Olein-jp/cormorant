@@ -23,7 +23,7 @@
 		<!-- /wp:group -->
 
 		<!-- wp:paragraph {"align":"right","style":{"typography":{"fontSize":"12px"}}} -->
-		<p class="has-text-align-right" style="font-size:12px"><a href="https://www.facebook.com/" target="_blank" rel="noreferrer noopener">Facebook</a>&nbsp;·&nbsp;<a href="https://twitter.com/" target="_blank" rel="noreferrer noopener">Twitter</a>&nbsp;·&nbsp;<a href="https://instagram.com/" target="_blank" rel="noreferrer noopener">Instagram</a></p>
+		<p class="has-text-align-right" style="font-size:12px"><a href="#" target="_blank" rel="noreferrer noopener">Facebook</a>&nbsp;·&nbsp;<a href="#" target="_blank" rel="noreferrer noopener">Twitter</a>&nbsp;·&nbsp;<a href="#" target="_blank" rel="noreferrer noopener">Instagram</a></p>
 		<!-- /wp:paragraph --></div>
 	<!-- /wp:group --></footer>
 <!-- /wp:group -->

@@ -23,7 +23,7 @@
 		<!-- /wp:group -->
 
 		<!-- wp:paragraph {"align":"center","style":{"typography":{"fontSize":"12px"}}} -->
-		<p class="has-text-align-center" style="font-size:12px"><a href="https://cormorant.kunokoji.com" target="_blank" rel="noreferrer noopener">Privacy Policy</a> / <a href="https://cormorant.kunokoji.com" target="_blank" rel="noreferrer noopener">Terms of Service</a> / <a href="https://cormorant.kunokoji.com" target="_blank" rel="noreferrer noopener">Contact Us</a></p>
+		<p class="has-text-align-center" style="font-size:12px"><a href="#" target="_blank" rel="noreferrer noopener">Privacy Policy</a> / <a href="#" target="_blank" rel="noreferrer noopener">Terms of Service</a> / <a href="#" target="_blank" rel="noreferrer noopener">Contact Us</a></p>
 		<!-- /wp:paragraph -->
 
 		<!-- wp:social-links {"iconColor":"base","iconColorValue":"#333333","iconBackgroundColor":"contrast","iconBackgroundColorValue":"#ffffff","openInNewTab":true,"style":{"spacing":{"blockGap":{"left":"var:preset|spacing|s"}}},"layout":{"type":"flex","justifyContent":"right","orientation":"horizontal"}} -->
