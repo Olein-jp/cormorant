@@ -439,8 +439,16 @@ $colors: base, contrast, primary, secondary, tertiary, quaternary;
   }
 }
 
-/* core/post-title
+/* core/columns
 ------------------------------*/
+.is-style-cormorant-columns-side-border {
+  .wp-block-column {
+    border-left: 1px solid currentColor;
+    &:last-child {
+      border-right: 1px solid currentColor;
+    }
+  }
+}
 
 /*--------------------------------------------------------------
     Custom style for DEMO

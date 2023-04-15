@@ -13,6 +13,7 @@ if ( ! function_exists( 'cormorant_register_block_categories' ) ) {
 	function cormorant_register_block_pattern_categories() {
 		$cormorant_block_pattern_categories = array(
 			'cormorant-cta'         => array( 'label' => __( 'Cormorant CTA', 'cormorant' ) ),
+			'cormorant-columns'     => array( 'label' => __( 'Cormorant Columns', 'cormorant' ) ),
 			'cormorant-hero'        => array( 'label' => __( 'Cormorant Hero', 'cormorant' ) ),
 			'cormorant-profile'     => array( 'label' => __( 'Cormorant Profile', 'cormorant' ) ),
 			'cormorant-team'        => array( 'label' => __( 'Cormorant Team', 'cormorant' ) ),
@@ -38,5 +39,6 @@ if ( ! function_exists( 'cormorant_register_block_categories' ) ) {
 			}
 		}
 	}
+
 	add_action( 'init', 'cormorant_register_block_pattern_categories' );
 }
