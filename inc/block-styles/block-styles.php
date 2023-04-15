@@ -136,7 +136,7 @@ if ( ! function_exists( 'cormorant_register_block_styles' ) ) {
 				'target' => 'core/columns',
 				'name'   => 'cormorant-columns-side-border',
 				'label'  => esc_html__( 'Side Border', 'cormorant' ),
-			]
+			],
 		];
 
 		/**
