@@ -6,14 +6,14 @@
     "color": {
       "palette": [
         {
-          "slug": "foreground",
+          "slug": "base",
           "color": "#0D0D0D",
-          "name": "Foreground"
+          "name": "Base"
         },
         {
-          "slug": "background",
+          "slug": "contrast",
           "color": "#F2F2F0",
-          "name": "Background"
+          "name": "Contrast"
         },
         {
           "slug": "primary",
@@ -34,6 +34,31 @@
           "slug": "quaternary",
           "color": "#1A1A1A",
           "name": "Quaternary"
+        },
+        {
+          "slug": "wild-sand",
+          "color": "#f4f4f4",
+          "name": "Wild Sand"
+        },
+        {
+          "slug": "darker-gray",
+          "color": "#333333",
+          "name": "Darker Gray"
+        },
+        {
+          "slug": "dark-gray",
+          "color": "#666666",
+          "name": "Dark Gray"
+        },
+        {
+          "slug": "light-gray",
+          "color": "#999999",
+          "name": "Light Gray"
+        },
+        {
+          "slug": "lighter-gray",
+          "color": "#cccccc",
+          "name": "Lighter Gray"
         }
       ]
     }
