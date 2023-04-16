@@ -40,6 +40,10 @@ License: CC0 https://creativecommons.org/publicdomain/zero/1.0/
 Source: https://stocksnap.io/photo/bird-flying-3NQ5V9WW0G
 
 == Changelog ==
+Version 2.0.4(2023-04-16)
+--------------------
+- Fixed bug
+
 Version 2.0.3(2023-04-16)
 --------------------
 - Updated color preset name for global styles
