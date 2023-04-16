@@ -156,7 +156,7 @@ label {
   .wp-block-navigation__responsive-container {
     &.is-menu-open {
       padding: var( --wp--preset--spacing--m );
-      animation-duration: 1000ms;
+      animation-duration: 500ms;
     }
   }
 }
