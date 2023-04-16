@@ -148,114 +148,78 @@
 <!-- /wp:group -->
 
 <!-- wp:heading {"textAlign":"left"} -->
-<h2 class="wp-block-heading has-text-align-left">Post Navigation Links</h2>
-<!-- /wp:heading -->
-
-<!-- wp:group {"align":"wide","layout":{"inherit":true,"type":"constrained"}} -->
-<div class="wp-block-group alignwide"><!-- wp:query {"queryId":1,"query":{"perPage":"10","pages":0,"offset":0,"postType":"post","order":"desc","orderBy":"date","author":"","search":"","exclude":[],"sticky":"exclude","inherit":false},"displayLayout":{"type":"flex","columns":2},"className":"is-style-cormorant-blur-shadow-query","layout":{"type":"default"}} -->
-	<div class="wp-block-query is-style-cormorant-blur-shadow-query"><!-- wp:heading {"level":3} -->
-		<h3 class="wp-block-heading">Square</h3>
-		<!-- /wp:heading -->
-
-		<!-- wp:query-pagination {"paginationArrow":"arrow","align":"wide","className":"is-style-cormorant-block-pagination-foreground is-style-cormorant-block-pagination","layout":{"type":"flex","justifyContent":"center","flexWrap":"wrap"},"fontSize":"xs"} -->
-		<!-- wp:query-pagination-previous /-->
-
-		<!-- wp:query-pagination-numbers /-->
-
-		<!-- wp:query-pagination-next /-->
-		<!-- /wp:query-pagination -->
-
-		<!-- wp:spacer {"height":"40px"} -->
-		<div style="height:40px" aria-hidden="true" class="wp-block-spacer"></div>
-		<!-- /wp:spacer -->
-
-		<!-- wp:heading {"level":3} -->
-		<h3 class="wp-block-heading">Circle</h3>
-		<!-- /wp:heading -->
-
-		<!-- wp:query-pagination {"paginationArrow":"arrow","align":"wide","className":"is-style-cormorant-block-pagination-primary is-style-cormorant-circle-pagination","layout":{"type":"flex","justifyContent":"center","flexWrap":"wrap"},"fontSize":"xs"} -->
-		<!-- wp:query-pagination-previous /-->
-
-		<!-- wp:query-pagination-numbers /-->
-
-		<!-- wp:query-pagination-next /-->
-		<!-- /wp:query-pagination --></div>
-	<!-- /wp:query --></div>
-<!-- /wp:group -->
-
-<!-- wp:heading {"textAlign":"left"} -->
 <h2 class="wp-block-heading has-text-align-left">Gradients</h2>
 <!-- /wp:heading -->
 
 <!-- wp:group {"textColor":"contrast","gradient":"base-to-contrast","layout":{"type":"default"}} -->
 <div class="wp-block-group has-contrast-color has-base-to-contrast-gradient-background has-text-color has-background"><!-- wp:paragraph -->
-	<p>Foreground to Background</p>
+	<p>Base to Contrast</p>
 	<!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
 <!-- wp:group {"textColor":"contrast","gradient":"base-to-primary","layout":{"type":"default"}} -->
 <div class="wp-block-group has-contrast-color has-base-to-primary-gradient-background has-text-color has-background"><!-- wp:paragraph -->
-	<p>Foreground to Primary</p>
+	<p>Base to Primary</p>
 	<!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
 <!-- wp:group {"textColor":"contrast","gradient":"base-to-secondary","layout":{"type":"default"}} -->
 <div class="wp-block-group has-contrast-color has-base-to-secondary-gradient-background has-text-color has-background"><!-- wp:paragraph -->
-	<p>Foreground to Secondary</p>
+	<p>Base to Secondary</p>
 	<!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
 <!-- wp:group {"textColor":"contrast","gradient":"base-to-tertiary","layout":{"type":"default"}} -->
 <div class="wp-block-group has-contrast-color has-base-to-tertiary-gradient-background has-text-color has-background"><!-- wp:paragraph -->
-	<p>Foreground to Tertiary</p>
+	<p>Base to Tertiary</p>
 	<!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
 <!-- wp:group {"textColor":"contrast","gradient":"base-to-quaternary","layout":{"type":"default"}} -->
 <div class="wp-block-group has-contrast-color has-base-to-quaternary-gradient-background has-text-color has-background"><!-- wp:paragraph -->
-	<p>Foreground to Quaternary</p>
+	<p>Base to Quaternary</p>
 	<!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
 <!-- wp:group {"textColor":"background","gradient":"contrast-to-base","layout":{"type":"default"}} -->
-<div class="wp-block-group has-background-color has-contrast-to-base-gradient-background has-text-color has-background"><!-- wp:paragraph {"textColor":"foreground"} -->
-	<p class="has-foreground-color has-text-color">Background to Foreground</p>
+<div class="wp-block-group has-background-color has-contrast-to-base-gradient-background has-text-color has-background"><!-- wp:paragraph {"textColor":"base"} -->
+	<p class="has-base-color has-text-color">Contrast to Base</p>
 	<!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
 <!-- wp:group {"textColor":"background","gradient":"contrast-to-primary","layout":{"type":"default"}} -->
-<div class="wp-block-group has-background-color has-contrast-to-primary-gradient-background has-text-color has-background"><!-- wp:paragraph {"textColor":"foreground"} -->
-	<p class="has-foreground-color has-text-color">Background to Primary</p>
+<div class="wp-block-group has-background-color has-contrast-to-primary-gradient-background has-text-color has-background"><!-- wp:paragraph {"textColor":"base"} -->
+	<p class="has-base-color has-text-color">Contrast to Primary</p>
 	<!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
 <!-- wp:group {"textColor":"background","gradient":"contrast-to-secondary","layout":{"type":"default"}} -->
-<div class="wp-block-group has-background-color has-contrast-to-secondary-gradient-background has-text-color has-background"><!-- wp:paragraph {"textColor":"foreground"} -->
-	<p class="has-foreground-color has-text-color">Background to Secondary</p>
+<div class="wp-block-group has-background-color has-contrast-to-secondary-gradient-background has-text-color has-background"><!-- wp:paragraph {"textColor":"base"} -->
+	<p class="has-base-color has-text-color">Contrast to Secondary</p>
 	<!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
 <!-- wp:group {"textColor":"background","gradient":"contrast-to-tertiary","layout":{"type":"default"}} -->
-<div class="wp-block-group has-background-color has-contrast-to-tertiary-gradient-background has-text-color has-background"><!-- wp:paragraph {"textColor":"foreground"} -->
-	<p class="has-foreground-color has-text-color">Background to Tertiary</p>
+<div class="wp-block-group has-background-color has-contrast-to-tertiary-gradient-background has-text-color has-background"><!-- wp:paragraph {"textColor":"base"} -->
+	<p class="has-base-color has-text-color">Contrast to Tertiary</p>
 	<!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
 <!-- wp:group {"textColor":"background","gradient":"contrast-to-quaternary","layout":{"type":"default"}} -->
-<div class="wp-block-group has-background-color has-contrast-to-quaternary-gradient-background has-text-color has-background"><!-- wp:paragraph {"textColor":"foreground"} -->
-	<p class="has-foreground-color has-text-color">Background to Quatenary</p>
+<div class="wp-block-group has-background-color has-contrast-to-quaternary-gradient-background has-text-color has-background"><!-- wp:paragraph {"textColor":"base"} -->
+	<p class="has-base-color has-text-color">Contrast to Quatenary</p>
 	<!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
 <!-- wp:group {"textColor":"contrast","gradient":"primary-to-base","layout":{"type":"default"}} -->
 <div class="wp-block-group has-contrast-color has-primary-to-base-gradient-background has-text-color has-background"><!-- wp:paragraph -->
-	<p>Primary to Foreground</p>
+	<p>Primary to Base</p>
 	<!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
 <!-- wp:group {"textColor":"contrast","gradient":"primary-to-contrast","layout":{"type":"default"}} -->
 <div class="wp-block-group has-contrast-color has-primary-to-contrast-gradient-background has-text-color has-background"><!-- wp:paragraph -->
-	<p>Primary to Background</p>
+	<p>Primary to Contrast</p>
 	<!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
@@ -267,7 +231,7 @@
 
 <!-- wp:group {"textColor":"contrast","gradient":"primary-to-tertiary","layout":{"type":"default"}} -->
 <div class="wp-block-group has-contrast-color has-primary-to-tertiary-gradient-background has-text-color has-background"><!-- wp:paragraph -->
-	<p>Primary to Tertinary</p>
+	<p>Primary to Tertiary</p>
 	<!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
@@ -279,13 +243,13 @@
 
 <!-- wp:group {"textColor":"background","gradient":"secondary-to-base","layout":{"type":"default"}} -->
 <div class="wp-block-group has-background-color has-secondary-to-base-gradient-background has-text-color has-background"><!-- wp:paragraph -->
-	<p>Secondary to Foreground</p>
+	<p>Secondary to Base</p>
 	<!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
 <!-- wp:group {"textColor":"background","gradient":"secondary-to-contrast","layout":{"type":"default"}} -->
 <div class="wp-block-group has-background-color has-secondary-to-contrast-gradient-background has-text-color has-background"><!-- wp:paragraph -->
-	<p>Secondary to Background</p>
+	<p>Secondary to Contrast</p>
 	<!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
@@ -297,7 +261,7 @@
 
 <!-- wp:group {"textColor":"background","gradient":"secondary-to-tertiary","layout":{"type":"default"}} -->
 <div class="wp-block-group has-background-color has-secondary-to-tertiary-gradient-background has-text-color has-background"><!-- wp:paragraph -->
-	<p>Secondary to Tertinary</p>
+	<p>Secondary to Tertiary</p>
 	<!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
@@ -309,13 +273,13 @@
 
 <!-- wp:group {"textColor":"contrast","gradient":"tertiary-to-base","layout":{"type":"default"}} -->
 <div class="wp-block-group has-contrast-color has-tertiary-to-base-gradient-background has-text-color has-background"><!-- wp:paragraph -->
-	<p>Tertiary to Foreground</p>
+	<p>Tertiary to Base</p>
 	<!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
 <!-- wp:group {"textColor":"contrast","gradient":"tertiary-to-contrast","layout":{"type":"default"}} -->
 <div class="wp-block-group has-contrast-color has-tertiary-to-contrast-gradient-background has-text-color has-background"><!-- wp:paragraph -->
-	<p>Tertiary to Background</p>
+	<p>Tertiary to Contrast</p>
 	<!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
@@ -339,13 +303,13 @@
 
 <!-- wp:group {"textColor":"contrast","gradient":"quaternary-to-base","layout":{"type":"default"}} -->
 <div class="wp-block-group has-contrast-color has-quaternary-to-base-gradient-background has-text-color has-background"><!-- wp:paragraph -->
-	<p>Quaternary to Foreground</p>
+	<p>Quaternary to Base</p>
 	<!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
 <!-- wp:group {"textColor":"background","gradient":"quaternary-to-contrast","layout":{"type":"default"}} -->
 <div class="wp-block-group has-background-color has-quaternary-to-contrast-gradient-background has-text-color has-background"><!-- wp:paragraph -->
-	<p>Quaternary to Background</p>
+	<p>Quaternary to Contrast</p>
 	<!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
@@ -377,73 +341,73 @@
 
 <!-- wp:cover {"url":"<?php echo esc_url( get_template_directory_uri() ) . '/assets/images/StockSnap_3NQ5V9WW0G.jpg'; ?>","id":2178,"dimRatio":0,"minHeight":200,"isDark":false,"style":{"color":{"duotone":["#333333","#ffffff"]}}} -->
 <div class="wp-block-cover is-light" style="min-height:200px"><span aria-hidden="true" class="wp-block-cover__background has-background-dim-0 has-background-dim"></span><img class="wp-block-cover__image-background wp-image-2178" alt="Sample Image" src="<?php echo esc_url( get_template_directory_uri() ) . '/assets/images/StockSnap_3NQ5V9WW0G.jpg'; ?>" data-object-fit="cover"/><div class="wp-block-cover__inner-container"><!-- wp:paragraph {"align":"center","placeholder":"Write title…","fontSize":"2-xl"} -->
-		<p class="has-text-align-center has-2-xl-font-size">Foreground to Background</p>
+		<p class="has-text-align-center has-2-xl-font-size">Base to Contrast</p>
 		<!-- /wp:paragraph --></div></div>
 <!-- /wp:cover -->
 
 <!-- wp:cover {"url":"<?php echo esc_url( get_template_directory_uri() ) . '/assets/images/StockSnap_3NQ5V9WW0G.jpg'; ?>","id":2178,"dimRatio":0,"minHeight":200,"isDark":false,"style":{"color":{"duotone":["#333333","#024059"]}}} -->
 <div class="wp-block-cover is-light" style="min-height:200px"><span aria-hidden="true" class="wp-block-cover__background has-background-dim-0 has-background-dim"></span><img class="wp-block-cover__image-background wp-image-2178" alt="Sample Image" src="<?php echo esc_url( get_template_directory_uri() ) . '/assets/images/StockSnap_3NQ5V9WW0G.jpg'; ?>" data-object-fit="cover"/><div class="wp-block-cover__inner-container"><!-- wp:paragraph {"align":"center","placeholder":"Write title…","textColor":"background","fontSize":"2-xl"} -->
-		<p class="has-text-align-center has-background-color has-text-color has-2-xl-font-size">Foreground and Primary</p>
+		<p class="has-text-align-center has-background-color has-text-color has-2-xl-font-size">Base and Primary</p>
 		<!-- /wp:paragraph --></div></div>
 <!-- /wp:cover -->
 
 <!-- wp:cover {"url":"<?php echo esc_url( get_template_directory_uri() ) . '/assets/images/StockSnap_3NQ5V9WW0G.jpg'; ?>","id":2178,"dimRatio":0,"minHeight":200,"isDark":false,"style":{"color":{"duotone":["#333333","#F2CB05"]}}} -->
 <div class="wp-block-cover is-light" style="min-height:200px"><span aria-hidden="true" class="wp-block-cover__background has-background-dim-0 has-background-dim"></span><img class="wp-block-cover__image-background wp-image-2178" alt="Sample Image" src="<?php echo esc_url( get_template_directory_uri() ) . '/assets/images/StockSnap_3NQ5V9WW0G.jpg'; ?>" data-object-fit="cover"/><div class="wp-block-cover__inner-container"><!-- wp:paragraph {"align":"center","placeholder":"Write title…","fontSize":"2-xl"} -->
-		<p class="has-text-align-center has-2-xl-font-size">Foreground and Secondary</p>
+		<p class="has-text-align-center has-2-xl-font-size">Base and Secondary</p>
 		<!-- /wp:paragraph --></div></div>
 <!-- /wp:cover -->
 
 <!-- wp:cover {"url":"<?php echo esc_url( get_template_directory_uri() ) . '/assets/images/StockSnap_3NQ5V9WW0G.jpg'; ?>","id":2178,"dimRatio":0,"minHeight":200,"isDark":false,"style":{"color":{"duotone":["#333333","#048ABF"]}}} -->
 <div class="wp-block-cover is-light" style="min-height:200px"><span aria-hidden="true" class="wp-block-cover__background has-background-dim-0 has-background-dim"></span><img class="wp-block-cover__image-background wp-image-2178" alt="Sample Image" src="<?php echo esc_url( get_template_directory_uri() ) . '/assets/images/StockSnap_3NQ5V9WW0G.jpg'; ?>" data-object-fit="cover"/><div class="wp-block-cover__inner-container"><!-- wp:paragraph {"align":"center","placeholder":"Write title…","textColor":"background","fontSize":"2-xl"} -->
-		<p class="has-text-align-center has-background-color has-text-color has-2-xl-font-size">Foreground and Tertiary</p>
+		<p class="has-text-align-center has-background-color has-text-color has-2-xl-font-size">Base and Tertiary</p>
 		<!-- /wp:paragraph --></div></div>
 <!-- /wp:cover -->
 
 <!-- wp:cover {"url":"<?php echo esc_url( get_template_directory_uri() ) . '/assets/images/StockSnap_3NQ5V9WW0G.jpg'; ?>","id":2178,"dimRatio":0,"minHeight":200,"isDark":false,"style":{"color":{"duotone":["#333333","#F29057"]}}} -->
 <div class="wp-block-cover is-light" style="min-height:200px"><span aria-hidden="true" class="wp-block-cover__background has-background-dim-0 has-background-dim"></span><img class="wp-block-cover__image-background wp-image-2178" alt="Sample Image" src="<?php echo esc_url( get_template_directory_uri() ) . '/assets/images/StockSnap_3NQ5V9WW0G.jpg'; ?>" data-object-fit="cover"/><div class="wp-block-cover__inner-container"><!-- wp:paragraph {"align":"center","placeholder":"Write title…","textColor":"background","fontSize":"2-xl"} -->
-		<p class="has-text-align-center has-background-color has-text-color has-2-xl-font-size">Foreground and Quaternary</p>
+		<p class="has-text-align-center has-background-color has-text-color has-2-xl-font-size">Base and Quaternary</p>
 		<!-- /wp:paragraph --></div></div>
 <!-- /wp:cover -->
 
 <!-- wp:cover {"url":"<?php echo esc_url( get_template_directory_uri() ) . '/assets/images/StockSnap_3NQ5V9WW0G.jpg'; ?>","id":2178,"dimRatio":0,"minHeight":200,"isDark":false,"style":{"color":{}}} -->
 <div class="wp-block-cover is-light" style="min-height:200px"><span aria-hidden="true" class="wp-block-cover__background has-background-dim-0 has-background-dim"></span><img class="wp-block-cover__image-background wp-image-2178" alt="Sample Image" src="<?php echo esc_url( get_template_directory_uri() ) . '/assets/images/StockSnap_3NQ5V9WW0G.jpg'; ?>" data-object-fit="cover"/><div class="wp-block-cover__inner-container"><!-- wp:paragraph {"align":"center","placeholder":"Write title…","textColor":"background","fontSize":"2-xl"} -->
-		<p class="has-text-align-center has-background-color has-text-color has-2-xl-font-size">Background and Foreground</p>
+		<p class="has-text-align-center has-background-color has-text-color has-2-xl-font-size">Contrast and Base</p>
 		<!-- /wp:paragraph --></div></div>
 <!-- /wp:cover -->
 
 <!-- wp:cover {"url":"<?php echo esc_url( get_template_directory_uri() ) . '/assets/images/StockSnap_3NQ5V9WW0G.jpg'; ?>","id":2178,"dimRatio":0,"minHeight":200,"isDark":false,"style":{"color":{"duotone":["#ffffff","#024059"]}}} -->
 <div class="wp-block-cover is-light" style="min-height:200px"><span aria-hidden="true" class="wp-block-cover__background has-background-dim-0 has-background-dim"></span><img class="wp-block-cover__image-background wp-image-2178" alt="Sample Image" src="<?php echo esc_url( get_template_directory_uri() ) . '/assets/images/StockSnap_3NQ5V9WW0G.jpg'; ?>" data-object-fit="cover"/><div class="wp-block-cover__inner-container"><!-- wp:paragraph {"align":"center","placeholder":"Write title…","textColor":"background","fontSize":"2-xl"} -->
-		<p class="has-text-align-center has-background-color has-text-color has-2-xl-font-size">Background and Primary</p>
+		<p class="has-text-align-center has-background-color has-text-color has-2-xl-font-size">Contrast and Primary</p>
 		<!-- /wp:paragraph --></div></div>
 <!-- /wp:cover -->
 
 <!-- wp:cover {"url":"<?php echo esc_url( get_template_directory_uri() ) . '/assets/images/StockSnap_3NQ5V9WW0G.jpg'; ?>","id":2178,"dimRatio":0,"minHeight":200,"isDark":false,"style":{"color":{"duotone":["#ffffff","#F2CB05"]}}} -->
 <div class="wp-block-cover is-light" style="min-height:200px"><span aria-hidden="true" class="wp-block-cover__background has-background-dim-0 has-background-dim"></span><img class="wp-block-cover__image-background wp-image-2178" alt="Sample Image" src="<?php echo esc_url( get_template_directory_uri() ) . '/assets/images/StockSnap_3NQ5V9WW0G.jpg'; ?>" data-object-fit="cover"/><div class="wp-block-cover__inner-container"><!-- wp:paragraph {"align":"center","placeholder":"Write title…","fontSize":"2-xl"} -->
-		<p class="has-text-align-center has-2-xl-font-size">Background and Secondary</p>
+		<p class="has-text-align-center has-2-xl-font-size">Contrast and Secondary</p>
 		<!-- /wp:paragraph --></div></div>
 <!-- /wp:cover -->
 
 <!-- wp:cover {"url":"<?php echo esc_url( get_template_directory_uri() ) . '/assets/images/StockSnap_3NQ5V9WW0G.jpg'; ?>","id":2178,"dimRatio":0,"minHeight":200,"isDark":false,"style":{"color":{"duotone":["#ffffff","#048ABF"]}}} -->
 <div class="wp-block-cover is-light" style="min-height:200px"><span aria-hidden="true" class="wp-block-cover__background has-background-dim-0 has-background-dim"></span><img class="wp-block-cover__image-background wp-image-2178" alt="Sample Image" src="<?php echo esc_url( get_template_directory_uri() ) . '/assets/images/StockSnap_3NQ5V9WW0G.jpg'; ?>" data-object-fit="cover"/><div class="wp-block-cover__inner-container"><!-- wp:paragraph {"align":"center","placeholder":"Write title…","fontSize":"2-xl"} -->
-		<p class="has-text-align-center has-2-xl-font-size">Background and Tertiary</p>
+		<p class="has-text-align-center has-2-xl-font-size">Contrast and Tertiary</p>
 		<!-- /wp:paragraph --></div></div>
 <!-- /wp:cover -->
 
 <!-- wp:cover {"url":"<?php echo esc_url( get_template_directory_uri() ) . '/assets/images/StockSnap_3NQ5V9WW0G.jpg'; ?>","id":2178,"dimRatio":0,"minHeight":200,"isDark":false,"style":{"color":{"duotone":["#ffffff","#F29057"]}}} -->
 <div class="wp-block-cover is-light" style="min-height:200px"><span aria-hidden="true" class="wp-block-cover__background has-background-dim-0 has-background-dim"></span><img class="wp-block-cover__image-background wp-image-2178" alt="Sample Image" src="<?php echo esc_url( get_template_directory_uri() ) . '/assets/images/StockSnap_3NQ5V9WW0G.jpg'; ?>" data-object-fit="cover"/><div class="wp-block-cover__inner-container"><!-- wp:paragraph {"align":"center","placeholder":"Write title…","fontSize":"2-xl"} -->
-		<p class="has-text-align-center has-2-xl-font-size">Background and Quaternary</p>
+		<p class="has-text-align-center has-2-xl-font-size">Contrast and Quaternary</p>
 		<!-- /wp:paragraph --></div></div>
 <!-- /wp:cover -->
 
 <!-- wp:cover {"url":"<?php echo esc_url( get_template_directory_uri() ) . '/assets/images/StockSnap_3NQ5V9WW0G.jpg'; ?>","id":2178,"dimRatio":0,"minHeight":200,"isDark":false,"style":{"color":{"duotone":["#024059","#333333"]}}} -->
 <div class="wp-block-cover is-light" style="min-height:200px"><span aria-hidden="true" class="wp-block-cover__background has-background-dim-0 has-background-dim"></span><img class="wp-block-cover__image-background wp-image-2178" alt="Sample Image" src="<?php echo esc_url( get_template_directory_uri() ) . '/assets/images/StockSnap_3NQ5V9WW0G.jpg'; ?>" data-object-fit="cover"/><div class="wp-block-cover__inner-container"><!-- wp:paragraph {"align":"center","placeholder":"Write title…","textColor":"background","fontSize":"2-xl"} -->
-		<p class="has-text-align-center has-background-color has-text-color has-2-xl-font-size">Primary and Foreground</p>
+		<p class="has-text-align-center has-background-color has-text-color has-2-xl-font-size">Primary and Base</p>
 		<!-- /wp:paragraph --></div></div>
 <!-- /wp:cover -->
 
 <!-- wp:cover {"url":"<?php echo esc_url( get_template_directory_uri() ) . '/assets/images/StockSnap_3NQ5V9WW0G.jpg'; ?>","id":2178,"dimRatio":0,"minHeight":200,"isDark":false,"style":{"color":{"duotone":["#024059","#ffffff"]}}} -->
 <div class="wp-block-cover is-light" style="min-height:200px"><span aria-hidden="true" class="wp-block-cover__background has-background-dim-0 has-background-dim"></span><img class="wp-block-cover__image-background wp-image-2178" alt="Sample Image" src="<?php echo esc_url( get_template_directory_uri() ) . '/assets/images/StockSnap_3NQ5V9WW0G.jpg'; ?>" data-object-fit="cover"/><div class="wp-block-cover__inner-container"><!-- wp:paragraph {"align":"center","placeholder":"Write title…","fontSize":"2-xl"} -->
-		<p class="has-text-align-center has-2-xl-font-size">Primary and Background</p>
+		<p class="has-text-align-center has-2-xl-font-size">Primary and Contrast</p>
 		<!-- /wp:paragraph --></div></div>
 <!-- /wp:cover -->
 
@@ -467,13 +431,13 @@
 
 <!-- wp:cover {"url":"<?php echo esc_url( get_template_directory_uri() ) . '/assets/images/StockSnap_3NQ5V9WW0G.jpg'; ?>","id":2178,"dimRatio":0,"minHeight":200,"isDark":false,"style":{"color":{"duotone":["#F2CB05","#333333"]}}} -->
 <div class="wp-block-cover is-light" style="min-height:200px"><span aria-hidden="true" class="wp-block-cover__background has-background-dim-0 has-background-dim"></span><img class="wp-block-cover__image-background wp-image-2178" alt="Sample Image" src="<?php echo esc_url( get_template_directory_uri() ) . '/assets/images/StockSnap_3NQ5V9WW0G.jpg'; ?>" data-object-fit="cover"/><div class="wp-block-cover__inner-container"><!-- wp:paragraph {"align":"center","placeholder":"Write title…","textColor":"background","fontSize":"2-xl"} -->
-		<p class="has-text-align-center has-background-color has-text-color has-2-xl-font-size">Secondary and Foreground</p>
+		<p class="has-text-align-center has-background-color has-text-color has-2-xl-font-size">Secondary and Base</p>
 		<!-- /wp:paragraph --></div></div>
 <!-- /wp:cover -->
 
 <!-- wp:cover {"url":"<?php echo esc_url( get_template_directory_uri() ) . '/assets/images/StockSnap_3NQ5V9WW0G.jpg'; ?>","id":2178,"dimRatio":0,"minHeight":200,"isDark":false,"style":{"color":{"duotone":["#F2CB05","#ffffff"]}}} -->
 <div class="wp-block-cover is-light" style="min-height:200px"><span aria-hidden="true" class="wp-block-cover__background has-background-dim-0 has-background-dim"></span><img class="wp-block-cover__image-background wp-image-2178" alt="Sample Image" src="<?php echo esc_url( get_template_directory_uri() ) . '/assets/images/StockSnap_3NQ5V9WW0G.jpg'; ?>" data-object-fit="cover"/><div class="wp-block-cover__inner-container"><!-- wp:paragraph {"align":"center","placeholder":"Write title…","fontSize":"2-xl"} -->
-		<p class="has-text-align-center has-2-xl-font-size">Secondary and Background</p>
+		<p class="has-text-align-center has-2-xl-font-size">Secondary and Contrast</p>
 		<!-- /wp:paragraph --></div></div>
 <!-- /wp:cover -->
 
@@ -497,13 +461,13 @@
 
 <!-- wp:cover {"url":"<?php echo esc_url( get_template_directory_uri() ) . '/assets/images/StockSnap_3NQ5V9WW0G.jpg'; ?>","id":2178,"dimRatio":0,"minHeight":200,"isDark":false,"style":{"color":{"duotone":["#048ABF","#333333"]}}} -->
 <div class="wp-block-cover is-light" style="min-height:200px"><span aria-hidden="true" class="wp-block-cover__background has-background-dim-0 has-background-dim"></span><img class="wp-block-cover__image-background wp-image-2178" alt="Sample Image" src="<?php echo esc_url( get_template_directory_uri() ) . '/assets/images/StockSnap_3NQ5V9WW0G.jpg'; ?>" data-object-fit="cover"/><div class="wp-block-cover__inner-container"><!-- wp:paragraph {"align":"center","placeholder":"Write title…","textColor":"background","fontSize":"2-xl"} -->
-		<p class="has-text-align-center has-background-color has-text-color has-2-xl-font-size">Tertiary and Foreground</p>
+		<p class="has-text-align-center has-background-color has-text-color has-2-xl-font-size">Tertiary and Base</p>
 		<!-- /wp:paragraph --></div></div>
 <!-- /wp:cover -->
 
 <!-- wp:cover {"url":"<?php echo esc_url( get_template_directory_uri() ) . '/assets/images/StockSnap_3NQ5V9WW0G.jpg'; ?>","id":2178,"dimRatio":0,"minHeight":200,"isDark":false,"style":{"color":{"duotone":["#048ABF","#ffffff"]}}} -->
 <div class="wp-block-cover is-light" style="min-height:200px"><span aria-hidden="true" class="wp-block-cover__background has-background-dim-0 has-background-dim"></span><img class="wp-block-cover__image-background wp-image-2178" alt="Sample Image" src="<?php echo esc_url( get_template_directory_uri() ) . '/assets/images/StockSnap_3NQ5V9WW0G.jpg'; ?>" data-object-fit="cover"/><div class="wp-block-cover__inner-container"><!-- wp:paragraph {"align":"center","placeholder":"Write title…","fontSize":"2-xl"} -->
-		<p class="has-text-align-center has-2-xl-font-size">Tertiary and Background</p>
+		<p class="has-text-align-center has-2-xl-font-size">Tertiary and Contrast</p>
 		<!-- /wp:paragraph --></div></div>
 <!-- /wp:cover -->
 
@@ -527,13 +491,13 @@
 
 <!-- wp:cover {"url":"<?php echo esc_url( get_template_directory_uri() ) . '/assets/images/StockSnap_3NQ5V9WW0G.jpg'; ?>","id":2178,"dimRatio":0,"minHeight":200,"isDark":false,"style":{"color":{"duotone":["#F29057","#333333"]}}} -->
 <div class="wp-block-cover is-light" style="min-height:200px"><span aria-hidden="true" class="wp-block-cover__background has-background-dim-0 has-background-dim"></span><img class="wp-block-cover__image-background wp-image-2178" alt="Sample Image" src="<?php echo esc_url( get_template_directory_uri() ) . '/assets/images/StockSnap_3NQ5V9WW0G.jpg'; ?>" data-object-fit="cover"/><div class="wp-block-cover__inner-container"><!-- wp:paragraph {"align":"center","placeholder":"Write title…","textColor":"background","fontSize":"2-xl"} -->
-		<p class="has-text-align-center has-background-color has-text-color has-2-xl-font-size">Quaternary and Foreground</p>
+		<p class="has-text-align-center has-background-color has-text-color has-2-xl-font-size">Quaternary and Base</p>
 		<!-- /wp:paragraph --></div></div>
 <!-- /wp:cover -->
 
 <!-- wp:cover {"url":"<?php echo esc_url( get_template_directory_uri() ) . '/assets/images/StockSnap_3NQ5V9WW0G.jpg'; ?>","id":2178,"dimRatio":0,"minHeight":200,"isDark":false,"style":{"color":{"duotone":["#F29057","#ffffff"]}}} -->
 <div class="wp-block-cover is-light" style="min-height:200px"><span aria-hidden="true" class="wp-block-cover__background has-background-dim-0 has-background-dim"></span><img class="wp-block-cover__image-background wp-image-2178" alt="Sample Image" src="<?php echo esc_url( get_template_directory_uri() ) . '/assets/images/StockSnap_3NQ5V9WW0G.jpg'; ?>" data-object-fit="cover"/><div class="wp-block-cover__inner-container"><!-- wp:paragraph {"align":"center","placeholder":"Write title…","fontSize":"2-xl"} -->
-		<p class="has-text-align-center has-2-xl-font-size">Quaternary and Background</p>
+		<p class="has-text-align-center has-2-xl-font-size">Quaternary and Contrast</p>
 		<!-- /wp:paragraph --></div></div>
 <!-- /wp:cover -->
 
