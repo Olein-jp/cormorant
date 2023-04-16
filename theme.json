@@ -770,7 +770,8 @@
       }
     },
     "color": {
-      "text": "var( --wp--preset--color--base )"
+      "text": "var( --wp--preset--color--base )",
+      "background": "var( --wp--preset--color--contrast )"
     },
     "elements": {
       "h1": {
@@ -828,7 +829,7 @@
       }
     },
     "typography": {
-      "fontFamily": "var( --wp--preset--font-family--default )",
+      "fontFamily": "var( --wp--preset--font-family--noto-sans-jp )",
       "fontSize": "var( --wp--preset--font-size--m )",
       "fontWeight": "400",
       "letterSpacing": "var( --wp--custom--typography--letter-spacing--body )",
