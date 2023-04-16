@@ -40,6 +40,12 @@ License: CC0 https://creativecommons.org/publicdomain/zero/1.0/
 Source: https://stocksnap.io/photo/bird-flying-3NQ5V9WW0G
 
 == Changelog ==
+Version 2.0.5(2023-04-17)
+--------------------
+- Fixed doesn't work left and right padding on page template
+- Added padding on opened mobile menu
+- Changed animation delay timing when mobile menu opened
+
 Version 2.0.4(2023-04-16)
 --------------------
 - Fixed bug
