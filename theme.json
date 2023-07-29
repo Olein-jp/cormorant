@@ -384,10 +384,12 @@
           "heading": "0em"
         },
         "line-height": {
-          "xs": 1.1,
-          "s": 1.4,
-          "m": 1.8,
-          "l": 2
+          "none": 1,
+          "tight": 1.1,
+          "tighter": 1.2,
+          "normal": 1.4,
+          "comfortable": 1.625,
+          "loose": 2
         }
       }
     },
@@ -615,7 +617,8 @@
           }
         },
         "typography": {
-          "fontSize": "var( --wp--preset--font-size--s )"
+          "fontSize": "var( --wp--preset--font-size--s )",
+          "lineHeight": "var( --wp--custom--typography--line-height--tighter )"
         }
       },
       "core/calendar": {
@@ -634,7 +637,7 @@
       "core/paragraph": {
         "typography": {
           "fontSize": "var( --wp--preset--font-size--s )",
-          "lineHeight": "var( --wp--custom--typography--line-height--m )"
+          "lineHeight": "var( --wp--custom--typography--line-height--comfortable )"
         }
       },
       "core/preformatted": {
@@ -674,7 +677,7 @@
         "typography": {
           "fontSize": "var( --wp--preset--font-size--l )",
           "fontWeight": "700",
-          "lineHeight": "var( --wp--custom--typography--line-height--m )"
+          "lineHeight": "var( --wp--custom--typography--line-height--comfortable )"
         }
       },
       "core/quote": {
@@ -731,7 +734,7 @@
       "core/table": {
         "typography": {
           "fontSize": "var( --wp--preset--font-size--s )",
-          "lineHeight": "var( --wp--custom--line-height--m )"
+          "lineHeight": "var( --wp--custom--line-height--comfortable )"
         }
       },
       "core/code": {
@@ -779,7 +782,7 @@
           "fontSize": "var( --wp--preset--font-size--heading-1 )",
           "fontWeight": "700",
           "letterSpacing": "var( --wp--custom--typography--letter-spacing--heading )",
-          "lineHeight": "var( --wp--custom--typography--line-height--s )"
+          "lineHeight": "var( --wp--custom--typography--line-height--tighter )"
         }
       },
       "h2": {
@@ -787,7 +790,7 @@
           "fontSize": "var( --wp--preset--font-size--heading-2 )",
           "fontWeight": "700",
           "letterSpacing": "var( --wp--custom--typography--letter-spacing--heading )",
-          "lineHeight": "var( --wp--custom--typography--line-height--s )"
+          "lineHeight": "var( --wp--custom--typography--line-height--tighter )"
         }
       },
       "h3": {
@@ -795,7 +798,7 @@
           "fontSize": "var( --wp--preset--font-size--heading-3 )",
           "fontWeight": "700",
           "letterSpacing": "var( --wp--custom--typography--letter-spacing--heading )",
-          "lineHeight": "var( --wp--custom--typography--line-height--s )"
+          "lineHeight": "var( --wp--custom--typography--line-height--tighter )"
         }
       },
       "h4": {
@@ -803,7 +806,7 @@
           "fontSize": "var( --wp--preset--font-size--heading-4 )",
           "fontWeight": "700",
           "letterSpacing": "var( --wp--custom--typography--letter-spacing--heading )",
-          "lineHeight": "var( --wp--custom--typography--line-height--s )"
+          "lineHeight": "var( --wp--custom--typography--line-height--tighter )"
         }
       },
       "h5": {
@@ -811,7 +814,7 @@
           "fontSize": "var( --wp--preset--font-size--s )",
           "fontWeight": "700",
           "letterSpacing": "var( --wp--custom--typography--letter-spacing--heading )",
-          "lineHeight": "var( --wp--custom--typography--line-height--s )"
+          "lineHeight": "var( --wp--custom--typography--line-height--tighter )"
         }
       },
       "h6": {
@@ -819,7 +822,7 @@
           "fontSize": "var( --wp--preset--font-size--s )",
           "fontWeight": "700",
           "letterSpacing": "var( --wp--custom--typography--letter-spacing--heading )",
-          "lineHeight": "var( --wp--custom--typography--line-height--s )"
+          "lineHeight": "var( --wp--custom--typography--line-height--tighter )"
         }
       },
       "link": {
@@ -833,7 +836,7 @@
       "fontSize": "var( --wp--preset--font-size--m )",
       "fontWeight": "400",
       "letterSpacing": "var( --wp--custom--typography--letter-spacing--body )",
-      "lineHeight": "var( --wp--custom--typography--line-height--m )"
+      "lineHeight": "var( --wp--custom--typography--line-height--comfortable )"
     }
   },
   "customTemplates": [
