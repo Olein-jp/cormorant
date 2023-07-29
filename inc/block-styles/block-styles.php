@@ -11,147 +11,67 @@ if ( ! function_exists( 'cormorant_register_block_styles' ) ) {
 	 * @since 1.0.0
 	 */
 	function cormorant_register_block_styles() {
-		$block_styles = [
-			[
-				'target' => 'core/image',
-				'name'   => 'cormorant-solid-shadow-image',
-				'label'  => esc_html__( 'Solid Shadow', 'cormorant' ),
-			],
-			[
-				'target' => 'core/image',
-				'name'   => 'cormorant-blur-shadow-image',
-				'label'  => esc_html__( 'Blur Shadow', 'cormorant' ),
-			],
-			[
-				'target' => 'core/heading',
-				'name'   => 'cormorant-striped-heading',
-				'label'  => esc_html__( 'Striped', 'cormorant' ),
-			],
-			[
-				'target' => 'core/heading',
-				'name'   => 'cormorant-dotted-heading',
-				'label'  => esc_html__( 'Dotted', 'cormorant' ),
-			],
-			[
-				'target' => 'core/heading',
-				'name'   => 'cormorant-dashed-heading',
-				'label'  => esc_html__( 'Dashed', 'cormorant' ),
-			],
-			[
-				'target' => 'core/group',
-				'name'   => 'cormorant-solid-shadow-group',
-				'label'  => esc_html__( 'Solid Shadow', 'cormorant' ),
-			],
-			[
-				'target' => 'core/group',
-				'name'   => 'cormorant-blur-shadow-group',
-				'label'  => esc_html__( 'Blur Shadow', 'cormorant' ),
-			],
-			[
-				'target' => 'core/query-pagination',
-				'name'   => 'cormorant-block-pagination',
-				'label'  => esc_html__( 'Block', 'cormorant' ),
-			],
-			[
-				'target' => 'core/query-pagination',
-				'name'   => 'cormorant-circle-pagination',
-				'label'  => esc_html__( 'Circle', 'cormorant' ),
-			],
-			[
-				'target' => 'core/button',
-				'name'   => 'cormorant-filled-square-button-base',
-				'label'  => esc_html__( 'Base Filled', 'cormorant' ),
-			],
-			[
-				'target' => 'core/button',
-				'name'   => 'cormorant-filled-square-button-contrast',
-				'label'  => esc_html__( 'Contrast Filled', 'cormorant' ),
-			],
-			[
-				'target' => 'core/button',
-				'name'   => 'cormorant-filled-square-button-primary',
-				'label'  => esc_html__( 'Primary Filled', 'cormorant' ),
-			],
-			[
-				'target' => 'core/button',
-				'name'   => 'cormorant-filled-square-button-secondary',
-				'label'  => esc_html__( 'Secondary Filled', 'cormorant' ),
-			],
-			[
-				'target' => 'core/button',
-				'name'   => 'cormorant-filled-square-button-tertiary',
-				'label'  => esc_html__( 'Tertiary Filled', 'cormorant' ),
-			],
-			[
-				'target' => 'core/button',
-				'name'   => 'cormorant-filled-square-button-quaternary',
-				'label'  => esc_html__( 'Quaternary Filled', 'cormorant' ),
-			],
-			[
-				'target' => 'core/button',
-				'name'   => 'cormorant-outline-square-button-base',
-				'label'  => esc_html__( 'Base Outline', 'cormorant' ),
-			],
-			[
-				'target' => 'core/button',
-				'name'   => 'cormorant-outline-square-button-contrast',
-				'label'  => esc_html__( 'Contrast Outline', 'cormorant' ),
-			],
-			[
-				'target' => 'core/button',
-				'name'   => 'cormorant-outline-square-button-primary',
-				'label'  => esc_html__( 'Primary Outline', 'cormorant' ),
-			],
-			[
-				'target' => 'core/button',
-				'name'   => 'cormorant-outline-square-button-secondary',
-				'label'  => esc_html__( 'Secondary Outline', 'cormorant' ),
-			],
-			[
-				'target' => 'core/button',
-				'name'   => 'cormorant-outline-square-button-tertiary',
-				'label'  => esc_html__( 'Tertiary Outline', 'cormorant' ),
-			],
-			[
-				'target' => 'core/button',
-				'name'   => 'cormorant-outline-square-button-quaternary',
-				'label'  => esc_html__( 'Quaternary Outline', 'cormorant' ),
-			],
-			[
-				'target' => 'core/pullquote',
-				'name'   => 'cormorant-quote-mark-pullquote',
-				'label'  => esc_html__( 'Quote Mark', 'cormorant' ),
-			],
-			[
-				'target' => 'core/quote',
-				'name'   => 'cormorant-quote-left-bar-quote',
-				'label'  => esc_html__( 'Left Bar', 'cormorant' ),
-			],
-			[
-				'target' => 'core/post-terms',
-				'name'   => 'cormorant-post-terms-square',
-				'label'  => esc_html__( 'Square Label', 'cormorant' ),
-			],
-			[
-				'target' => 'core/columns',
-				'name'   => 'cormorant-columns-side-border',
-				'label'  => esc_html__( 'Side Border', 'cormorant' ),
-			],
-		];
+		$block_styles = array (
+			'core/image' => array(
+				'cormorant-solid-shadow-image' => __( 'Solid Shadow', 'cormorant' ),
+				'cormorant-blur-shadow-image'  => __( 'Blur Shadow', 'cormorant' ),
+			),
+			'core/heading' => array(
+				'cormorant-striped-heading' => __( 'Striped', 'cormorant' ),
+				'cormorant-dotted-heading'  => __( 'Dotted', 'cormorant' ),
+				'cormorant-dashed-heading'  => __( 'Dashed', 'cormorant' ),
+			),
+			'core/group' => array(
+				'cormorant-solid-shadow-group' => __( 'Solid Shadow', 'cormorant' ),
+				'cormorant-blur-shadow-group'  => __( 'Blur Shadow', 'cormorant' ),
+			),
+			'core/query-pagination' => array(
+				'cormorant-block-pagination'  => __( 'Block', 'cormorant' ),
+				'cormorant-circle-pagination' => __( 'Circle', 'cormorant' ),
+			),
+			'core/button' => array(
+				'cormorant-filled-square-button-base'         => __( 'Base Filled', 'cormorant' ),
+				'cormorant-filled-square-button-contrast'     => __( 'Contrast Filled', 'cormorant' ),
+				'cormorant-filled-square-button-primary'      => __( 'Primary Filled', 'cormorant' ),
+				'cormorant-filled-square-button-secondary'    => __( 'Secondary Filled', 'cormorant' ),
+				'cormorant-filled-square-button-tertiary'     => __( 'Tertiary Filled', 'cormorant' ),
+				'cormorant-filled-square-button-quaternary'   => __( 'Quaternary Filled', 'cormorant' ),
+				'cormorant-outlined-square-button-base'       => __( 'Base Outlined', 'cormorant' ),
+				'cormorant-outlined-square-button-contrast'   => __( 'Contrast Outlined', 'cormorant' ),
+				'cormorant-outlined-square-button-primary'    => __( 'Primary Outlined', 'cormorant' ),
+				'cormorant-outlined-square-button-secondary'  => __( 'Secondary Outlined', 'cormorant' ),
+				'cormorant-outlined-square-button-tertiary'   => __( 'Tertiary Outlined', 'cormorant' ),
+				'cormorant-outlined-square-button-quaternary' => __( 'Quaternary Outlined', 'cormorant' ),
+			),
+			'core/pullquote' => array(
+				'cormorant-quote-mark-pullquote' => __( 'Quote Mark', 'cormorant' ),
+			),
+			'core/quote' => array(
+				'cormorant-quote-left-bar-quote' => __( 'Left Bar', 'cormorant' ),
+			),
+			'core/post-terms' => array(
+				'cormorant-post-terms-square' => __( 'Square Label', 'cormorant' ),
+			),
+			'core/columns' => array(
+				'cormorant-columns-side-border' => __( 'Side Border', 'cormorant' ),
+			),
+		);
 
 		/**
 		 * Filter hook for adding block style
 		 */
 		$block_styles = apply_filters( 'cormorant_register_block_styles', $block_styles );
 
-		foreach ( $block_styles as $block_style ) {
-			register_block_style(
-				$block_style['target'],
-				array(
-					'name'  => $block_style['name'],
-					'label' => $block_style['label'],
-				)
-			);
+		foreach ( $block_styles as $block => $styles ) {
+			foreach ( $styles as $style_name => $style_label ) {
+				register_block_style(
+					$block,
+					array(
+						'name'  => $style_name,
+						'label' => $style_label,
+					)
+				);
+			}
 		}
 	}
 
