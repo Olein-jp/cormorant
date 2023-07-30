@@ -605,13 +605,18 @@
   },
   "styles": {
     "spacing": {
-      "blockGap": "var( --wp--preset--spacing--m )",
+      "blockGap": "var( --wp--preset--spacing--l )",
       "padding": {
         "right": "var( --wp--preset--spacing--m)",
         "left": "var( --wp--preset--spacing--m)"
       }
     },
     "blocks": {
+      "core/list": {
+        "typography": {
+          "fontSize": "var( --wp--preset--font-size--s )"
+        }
+      },
       "core/button": {
         "spacing": {
           "padding": {
@@ -642,7 +647,8 @@
       "core/paragraph": {
         "typography": {
           "fontSize": "var( --wp--preset--font-size--s )",
-          "lineHeight": "var( --wp--custom--typography--line-height--comfortable )"
+          "lineHeight": "var( --wp--custom--typography--line-height--comfortable )",
+          "letterSpacing": "var( --wp--custom--typography--letter-spacing--body )"
         }
       },
       "core/preformatted": {
@@ -686,13 +692,6 @@
         }
       },
       "core/quote": {
-        "border": {
-          "left": {
-            "width": "10px",
-            "style": "solid",
-            "color": "var( --wp--preset--color--cyan-bluish-gray )"
-          }
-        },
         "spacing": {
           "padding": {
             "left": "var( --wp--preset--spacing--m )",
@@ -752,7 +751,8 @@
           }
         },
         "typography": {
-          "fontFamily": "var( --wp--preset--font-family--system-monospace )"
+          "fontFamily": "var( --wp--preset--font-family--system-monospace )",
+          "fontSize": "var( --wp--preset--font-size--xs )"
         },
         "color": {
           "background": "var( --wp--preset--color--base)",
@@ -837,7 +837,7 @@
       }
     },
     "typography": {
-      "fontFamily": "var( --wp--preset--font-family--noto-sans-jp )",
+      "fontFamily": "var( --wp--preset--font-family--system-sans-serif )",
       "fontSize": "var( --wp--preset--font-size--m )",
       "fontWeight": "400",
       "letterSpacing": "var( --wp--custom--typography--letter-spacing--body )",
