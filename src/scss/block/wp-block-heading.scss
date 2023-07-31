@@ -1,0 +1,6 @@
+.wp-block-heading {
+  margin-block-start: calc( var( --wp--preset--spacing--m ) * 2 );
+  & + .wp-block-heading {
+    margin-block-start: var( --wp--preset--spacing--m );
+  }
+}

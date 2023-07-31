@@ -60,6 +60,33 @@ if ( ! function_exists( 'cormorant_add_block_editor_styles' ) ) {
 	add_action( 'enqueue_block_editor_assets', 'cormorant_add_block_editor_styles' );
 }
 
+if ( ! function_exists( 'cormorant_enqueue_block_styles' ) ) {
+	/**
+	 * Enqueue Block Style CSS
+	 *
+	 * @since 3.0.0
+	 */
+	function cormorant_enqueue_block_styles() {
+		$files = glob( get_template_directory() . '/assets/css/block/*.css' );
+
+		foreach ( $files as $file ) {
+
+			$filename   = basename( $file, '.css' );
+			$block_name = str_replace( 'wp-block-', 'core/', $filename );
+
+			wp_enqueue_block_style(
+				$block_name,
+				array(
+					'handle' => "cormorant-block-{$filename}",
+					'src'    => get_theme_file_uri( "/assets/css/block/{$filename}.css" ),
+					'path'   => get_theme_file_path( "/assets/css/block/{$filename}.css" ),
+				)
+			);
+		}
+	}
+	add_action( 'init', 'cormorant_enqueue_block_styles' );
+}
+
 /**
  * Include Registration of Block Styles
  */
