@@ -452,6 +452,8 @@
     },
     "typography": {
       "customFontSize": true,
+      "fontWeight": false,
+      "fontStyle": false,
       "fontFamilies": [
         {
           "fontFamily": "\"Helvetica Neue\", \"Helvetica\", \"Hiragino Sans\", \"Hiragino Kaku Gothic ProN\", \"Arial\", \"Yu Gothic\", \"Meiryo\", sans-serif",
