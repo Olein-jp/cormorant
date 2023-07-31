@@ -1,17 +1,3 @@
-.editor-styles-wrapper .edit-post-visual-editor__post-title-wrapper {
-  /* added margin bottom for post title */
-  margin-bottom: 4rem;
-}
-.editor-styles-wrapper .block-editor-block-list__layout {
-  /* adjusted for code tag style in paragraph */
-}
-.editor-styles-wrapper .block-editor-block-list__layout p > code {
-  position: relative;
-  font-family: var(--wp--preset--font-family--system-monospace);
-  color: var(--wp--preset--color--dark-gray);
-}
-.editor-styles-wrapper .block-editor-block-list__layout p > code:before, .editor-styles-wrapper .block-editor-block-list__layout p > code:after {
-  content: "`";
-}
 
-/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImVkaXRvci1zdHlsZS5jc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7RUFDRSx1Q0FBdUM7RUFDdkMsbUJBQW1CO0FBQ3JCO0FBQ0E7RUFDRSw2Q0FBNkM7QUFDL0M7QUFDQTtFQUNFLGtCQUFrQjtFQUNsQiw2REFBNkQ7RUFDN0QsMENBQTBDO0FBQzVDO0FBQ0E7RUFDRSxZQUFZO0FBQ2QiLCJmaWxlIjoiZWRpdG9yLXN0eWxlLmNzcyIsInNvdXJjZXNDb250ZW50IjpbIi5lZGl0b3Itc3R5bGVzLXdyYXBwZXIgLmVkaXQtcG9zdC12aXN1YWwtZWRpdG9yX19wb3N0LXRpdGxlLXdyYXBwZXIge1xuICAvKiBhZGRlZCBtYXJnaW4gYm90dG9tIGZvciBwb3N0IHRpdGxlICovXG4gIG1hcmdpbi1ib3R0b206IDRyZW07XG59XG4uZWRpdG9yLXN0eWxlcy13cmFwcGVyIC5ibG9jay1lZGl0b3ItYmxvY2stbGlzdF9fbGF5b3V0IHtcbiAgLyogYWRqdXN0ZWQgZm9yIGNvZGUgdGFnIHN0eWxlIGluIHBhcmFncmFwaCAqL1xufVxuLmVkaXRvci1zdHlsZXMtd3JhcHBlciAuYmxvY2stZWRpdG9yLWJsb2NrLWxpc3RfX2xheW91dCBwID4gY29kZSB7XG4gIHBvc2l0aW9uOiByZWxhdGl2ZTtcbiAgZm9udC1mYW1pbHk6IHZhcigtLXdwLS1wcmVzZXQtLWZvbnQtZmFtaWx5LS1zeXN0ZW0tbW9ub3NwYWNlKTtcbiAgY29sb3I6IHZhcigtLXdwLS1wcmVzZXQtLWNvbG9yLS1kYXJrLWdyYXkpO1xufVxuLmVkaXRvci1zdHlsZXMtd3JhcHBlciAuYmxvY2stZWRpdG9yLWJsb2NrLWxpc3RfX2xheW91dCBwID4gY29kZTpiZWZvcmUsIC5lZGl0b3Itc3R5bGVzLXdyYXBwZXIgLmJsb2NrLWVkaXRvci1ibG9jay1saXN0X19sYXlvdXQgcCA+IGNvZGU6YWZ0ZXIge1xuICBjb250ZW50OiBcImBcIjtcbn1cbiJdfQ== */
+
+/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJlZGl0b3Itc3R5bGUuY3NzIn0= */

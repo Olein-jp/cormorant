@@ -1,7 +1,7 @@
 <?php
 /**
  * Title: Site Logo and Title with Menu - Contrast
- * Slug: cormorant/header-site-logo-title-menu-contrast
+ * Slug: cormorant/header/1row-contrast
  * Categories: cormorant-header
  * Description: Header with Site logo and title with navigation colored contrast color
  * Keywords: cormorant

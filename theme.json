@@ -605,7 +605,7 @@
   },
   "styles": {
     "spacing": {
-      "blockGap": "var( --wp--preset--spacing--l )",
+      "blockGap": "var( --wp--preset--spacing--m )",
       "padding": {
         "right": "var( --wp--preset--spacing--m)",
         "left": "var( --wp--preset--spacing--m)"
@@ -694,7 +694,7 @@
       "core/quote": {
         "spacing": {
           "padding": {
-            "left": "var( --wp--preset--spacing--m )",
+            "left": "var( --wp--preset--spacing--l )",
             "top": "var( --wp--preset--spacing--m )",
             "right": "var( --wp--preset--spacing--m )",
             "bottom": "var( --wp--preset--spacing--m )"
@@ -720,11 +720,9 @@
           }
         },
         "typography": {
-          "fontFamily": "inherit",
-          "fontSize": "clamp(2.4rem, 2.4rem, 96px)",
-          "fontStyle": "inherit",
+          "fontSize": "var( --wp--preset--font-size--2-xl)",
           "fontWeight": "700",
-          "textTransform": "inherit"
+          "textDecoration": "none"
         }
       },
       "core/spacer": {
@@ -739,6 +737,11 @@
         "typography": {
           "fontSize": "var( --wp--preset--font-size--s )",
           "lineHeight": "var( --wp--custom--line-height--comfortable )"
+        },
+        "spacing": {
+          "margin": {
+            "top": "var( --wp--preset--spacing--m )"
+          }
         }
       },
       "core/code": {
@@ -774,6 +777,43 @@
               }
             }
           }
+        }
+      },
+      "core/details": {
+        "typography": {
+          "fontSize": "var( --wp--preset--font-size--m )"
+        }
+      },
+      "core/verse": {
+        "typography": {
+          "fontSize": "var( --wp--preset--font-size--m )"
+        }
+      },
+      "core/navigation": {
+        "elements": {
+          "link": {
+            ":hover": {
+              "typography": {
+                "textDecoration": "underline"
+              }
+            },
+            ":focus": {
+              "typography": {
+                "textDecoration": "underline dashed"
+              }
+            },
+            ":active": {
+              "typography": {
+                "textDecoration": "none"
+              }
+            },
+            "typography": {
+              "textDecoration": "none"
+            }
+          }
+        },
+        "typography": {
+          "fontSize": "var( --wp--preset--font-size--xs )"
         }
       }
     },
