@@ -24,6 +24,7 @@ if ( ! function_exists( 'cormorant_register_block_categories' ) ) {
 			'cormorant-page'        => array( 'label' => __( 'Cormorant Page', 'cormorant' ) ),
 			'cormorant-header'      => array( 'label' => __( 'Cormorant Header', 'cormorant' ) ),
 			'cormorant-footer'      => array( 'label' => __( 'Cormorant Footer', 'cormorant' ) ),
+			'cormorant-demo'        => array( 'label' => __( 'Cormorant Demo', 'cormorant' ) ),
 		);
 		/**
 		 * Filter to add block pattern categories
