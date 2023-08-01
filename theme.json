@@ -603,6 +603,12 @@
           }
         }
       ]
+    },
+    "dimensions": {
+      "minHeight": true
+    },
+    "position": {
+      "sticky": true
     }
   },
   "styles": {
