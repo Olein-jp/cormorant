@@ -1,0 +1,37 @@
+.wp-block-heading {
+  margin-block-start: calc(var(--wp--preset--spacing--m) * 2);
+}
+.wp-block-heading + .wp-block-heading {
+  margin-block-start: var(--wp--preset--spacing--m);
+}
+
+.is-style-cormorant-striped-heading {
+  position: relative;
+  padding-left: 0.2em;
+}
+.is-style-cormorant-striped-heading:after {
+  background-image: linear-gradient(-45deg, currentColor 25%, transparent 25%, transparent 50%, currentColor 50%, currentColor 75%, transparent 75%, transparent);
+  position: absolute;
+  top: inherit !important;
+  right: inherit !important;
+  bottom: -0.2em !important;
+  left: 0 !important;
+  display: block;
+  content: "";
+  width: 100%;
+  background-size: 5px 5px;
+  background-color: transparent;
+  height: 5px;
+}
+
+.is-style-cormorant-dotted-heading {
+  padding-left: 0.2em;
+  padding-bottom: 0.1em;
+  border-bottom: 5px dotted currentColor;
+}
+
+.is-style-cormorant-dashed-heading {
+  padding-left: 0.2em;
+  padding-bottom: 0.1em;
+  border-bottom: 5px dashed currentColor;
+}

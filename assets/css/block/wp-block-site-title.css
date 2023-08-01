@@ -1,0 +1,9 @@
+.wp-block-site-title > a {
+  text-decoration: none;
+}
+.wp-block-site-title > a:hover {
+  text-decoration: underline;
+}
+.wp-block-site-title > a:focus {
+  text-decoration: dotted underline;
+}

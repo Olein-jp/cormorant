@@ -1,0 +1,47 @@
+@use "../mixin";
+@use "../variables";
+
+.wp-block-button {
+  &__link {
+    @include mixin.transition();
+    &:hover {
+      text-decoration: none;
+    }
+  }
+
+  @each $color in variables.$colors {
+    &.is-style-cormorant-filled-square-button-#{$color} {
+      .wp-block-button__link {
+        background-color: var(--wp--preset--color--#{$color});
+        border: 2px solid var(--wp--preset--color--#{$color});
+        border-radius: 0;
+        @if $color == contrast {
+          color: var(--wp--preset--color--base);
+        } @else {
+          color: var(--wp--preset--color--contrast);
+        }
+
+        &:hover {
+          background-color: transparent !important;
+          color: var(--wp--preset--color--#{$color});
+        }
+      }
+    }
+    &.is-style-cormorant-outlined-square-button-#{$color} {
+      .wp-block-button__link {
+        background-color: transparent;
+        border: 2px solid var(--wp--preset--color--#{$color});
+        border-radius: 0 !important;
+        color: var(--wp--preset--color--#{$color});
+        &:hover {
+          background-color: var(--wp--preset--color--#{$color}) !important;
+          @if $color != contrast {
+            color: var(--wp--preset--color--contrast);
+          } @else {
+            color: var(--wp--preset--color--base);
+          }
+        }
+      }
+    }
+  }
+}
