@@ -22,12 +22,12 @@
 	<!-- /wp:paragraph -->
 
 	<!-- wp:buttons {"layout":{"type":"flex","justifyContent":"center"}} -->
-	<div class="wp-block-buttons"><!-- wp:button {"style":{"border":{"radius":"0px"},"spacing":{"padding":{"left":"var:preset|spacing|s","right":"var:preset|spacing|s","top":"var:preset|spacing|s","bottom":"var:preset|spacing|s"}}}} -->
-		<div class="wp-block-button"><a class="wp-block-button__link wp-element-button" href="#" style="border-radius:0px;padding-top:var(--wp--preset--spacing--s);padding-right:var(--wp--preset--spacing--s);padding-bottom:var(--wp--preset--spacing--s);padding-left:var(--wp--preset--spacing--s)">Download on WP.org</a></div>
+	<div class="wp-block-buttons"><!-- wp:button {"className":"is-style-cormorant-filled-square-button-base"} -->
+		<div class="wp-block-button is-style-cormorant-filled-square-button-base"><a class="wp-block-button__link wp-element-button" href="#"><?php esc_html_e( 'Download on WP.org', 'cormorant' ); ?></a></div>
 		<!-- /wp:button -->
 
-		<!-- wp:button {"backgroundColor":"contrast","textColor":"base","style":{"border":{"radius":"0px","width":"2px"},"spacing":{"padding":{"left":"var:preset|spacing|s","right":"var:preset|spacing|s","top":"var:preset|spacing|s","bottom":"var:preset|spacing|s"}}},"borderColor":"base","className":"is-style-fill"} -->
-		<div class="wp-block-button is-style-fill"><a class="wp-block-button__link has-base-color has-contrast-background-color has-text-color has-background has-border-color has-base-border-color wp-element-button" href="#" style="border-width:2px;border-radius:0px;padding-top:var(--wp--preset--spacing--s);padding-right:var(--wp--preset--spacing--s);padding-bottom:var(--wp--preset--spacing--s);padding-left:var(--wp--preset--spacing--s)">Learn More</a></div>
+		<!-- wp:button {"className":"is-style-cormorant-outlined-square-button-base"} -->
+		<div class="wp-block-button is-style-cormorant-outlined-square-button-base"><a class="wp-block-button__link wp-element-button" href="#"><?php esc_html_e( 'Learn More', 'cormorant' ); ?></a></div>
 		<!-- /wp:button --></div>
 	<!-- /wp:buttons --></div>
 <!-- /wp:group -->

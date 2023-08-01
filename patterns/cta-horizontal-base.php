@@ -23,8 +23,8 @@
 
 			<!-- wp:column {"verticalAlignment":"center","width":"33.33%"} -->
 			<div class="wp-block-column is-vertically-aligned-center" style="flex-basis:33.33%"><!-- wp:buttons {"layout":{"type":"flex","justifyContent":"center"},"style":{"spacing":{"blockGap":"0"}},"fontSize":"medium"} -->
-				<div class="wp-block-buttons has-custom-font-size has-medium-font-size"><!-- wp:button {"backgroundColor":"background","className":"is-style-cormorant-filled-square-button-base","fontSize":"xs"} -->
-					<div class="wp-block-button has-custom-font-size is-style-cormorant-filled-square-button-base has-s-font-size"><a class="wp-block-button__link has-background-background-color has-background wp-element-button" href="#"><strong><?php esc_html_e( 'Contact us', 'cormorant' ); ?></strong></a></div>
+				<div class="wp-block-buttons has-custom-font-size has-medium-font-size"><!-- wp:button {"backgroundColor":"background","className":"is-style-cormorant-filled-square-button-base has-s-font-size","fontSize":"xs"} -->
+					<div class="wp-block-button has-custom-font-size is-style-cormorant-filled-square-button-base has-s-font-size has-xs-font-size"><a class="wp-block-button__link has-background-background-color has-background wp-element-button" href="#"><strong><?php esc_html_e( 'Contact us', 'cormorant' ); ?></strong></a></div>
 					<!-- /wp:button --></div>
 				<!-- /wp:buttons --></div>
 			<!-- /wp:column --></div>
