@@ -52,9 +52,6 @@ if ( ! function_exists( 'cormorant_register_block_styles' ) ) {
 			'core/post-terms' => array(
 				'cormorant-post-terms-square' => __( 'Square Label', 'cormorant' ),
 			),
-			'core/columns' => array(
-				'cormorant-columns-side-border' => __( 'Side Border', 'cormorant' ),
-			),
 		);
 
 		/**
