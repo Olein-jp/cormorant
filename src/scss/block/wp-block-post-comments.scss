@@ -1,3 +1,6 @@
+@use "../mixin";
+@use "../variables";
+
 .wp-block-post-comments {
   & > h3 {
     font-weight: 700;

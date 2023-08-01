@@ -1,0 +1,17 @@
+@mixin blockquote-style() {
+  p {
+    font-weight: 400;
+  }
+  cite {
+    display: inline-block;
+    margin-top: var( --wp--preset--spacing--m );
+    font-size: var( --wp--preset--font-size--xs );
+    font-style: italic;
+    font-weight: bold;
+    word-break: break-word;
+  }
+}
+
+@mixin transition() {
+  transition: all 0.5s ease;
+}

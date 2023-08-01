@@ -1,3 +1,6 @@
+@use "../mixin";
+@use "../variables";
+
 .wp-block-quote {
   & > p {
     margin-top: 0 !important;
