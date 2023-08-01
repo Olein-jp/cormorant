@@ -17,6 +17,18 @@ if ( ! function_exists( 'cormorant_setup' ) ) {
 
 		// Remove default block patterns.
 		remove_theme_support( 'core-block-patterns' );
+
+		// Add support for editor styles.
+		$files = glob( get_template_directory() . '/assets/css/block/*.css' );
+		$editor_styles = array( 'assets/css/style.css' );
+
+		foreach ( $files as $file ) {
+			$filename        = 'assets/css/block/' . basename( $file, '.css' ) . '.css';
+			$editor_styles[] = $filename;
+		}
+
+		add_editor_style( $editor_styles );
+
 	}
 }
 add_action( 'after_setup_theme', 'cormorant_setup' );
@@ -38,28 +50,6 @@ if ( ! function_exists( 'cormorant_styles' ) ) {
 	add_action( 'wp_enqueue_scripts', 'cormorant_styles' );
 }
 
-if ( ! function_exists( 'cormorant_editor_styles' ) ) {
-	/**
-	 * Enqueue editor styles
-	 */
-	function cormorant_editor_styles() {
-		add_editor_style( 'assets/css/style.css' );
-	}
-	add_action( 'admin_init', 'cormorant_editor_styles' );
-}
-
-if ( ! function_exists( 'cormorant_add_block_editor_styles' ) ) {
-	/**
-	 * Enqueue Block Editor Styles
-	 *
-	 * @return void
-	 */
-	function cormorant_add_block_editor_styles() {
-		wp_enqueue_style( 'block-editor-style', get_stylesheet_directory_uri() . '/assets/css/editor-style.css' );
-	}
-	add_action( 'enqueue_block_editor_assets', 'cormorant_add_block_editor_styles' );
-}
-
 if ( ! function_exists( 'cormorant_enqueue_block_styles' ) ) {
 	/**
 	 * Enqueue Block Style CSS
@@ -69,19 +59,23 @@ if ( ! function_exists( 'cormorant_enqueue_block_styles' ) ) {
 	function cormorant_enqueue_block_styles() {
 		$files = glob( get_template_directory() . '/assets/css/block/*.css' );
 
-		foreach ( $files as $file ) {
+		// Enqueue block styles only on frontend.
+		if ( ! is_admin() ) {
 
-			$filename   = basename( $file, '.css' );
-			$block_name = str_replace( 'wp-block-', 'core/', $filename );
+			foreach ( $files as $file ) {
 
-			wp_enqueue_block_style(
-				$block_name,
-				array(
-					'handle' => "cormorant-block-{$filename}",
-					'src'    => get_theme_file_uri( "/assets/css/block/{$filename}.css" ),
-					'path'   => get_theme_file_path( "/assets/css/block/{$filename}.css" ),
-				)
-			);
+				$filename   = basename( $file, '.css' );
+				$block_name = str_replace( 'wp-block-', 'core/', $filename );
+
+				wp_enqueue_block_style(
+					$block_name,
+					array(
+						'handle' => "cormorant-block-{$filename}",
+						'src'    => get_theme_file_uri( "/assets/css/block/{$filename}.css" ),
+						'path'   => get_theme_file_path( "/assets/css/block/{$filename}.css" ),
+					)
+				);
+			}
 		}
 	}
 	add_action( 'init', 'cormorant_enqueue_block_styles' );
