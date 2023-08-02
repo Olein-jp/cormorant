@@ -23,21 +23,6 @@ License: SIL Open Font License, 1.1, https://opensource.org/licenses/OFL-1.1
 Source: https://github.com/ixkaito/NotoSansJP-subset
 
 PHOTO
-World Wildlife
-https://stocksnap.io/author/worldwildlife
-License: CC0 https://creativecommons.org/publicdomain/zero/1.0/
-Source: https://stocksnap.io/photo/bird-wildlife-MDRPL8PT36
-Source: https://stocksnap.io/photo/woodpecker-bird-FOKZ3FZEKE
-
-Alex Wigan
-https://stocksnap.io/author/11556
-License: CC0 https://creativecommons.org/publicdomain/zero/1.0/
-Source: https://stocksnap.io/photo/bird-animals-MN7N4Q8XMH
-
-Axel Antas
-https://stocksnap.io/author/774
-License: CC0 https://creativecommons.org/publicdomain/zero/1.0/
-Source: https://stocksnap.io/photo/bird-flying-3NQ5V9WW0G
 
 HD Wallpapers
 https://stocksnap.io/author/hdwallpapers
