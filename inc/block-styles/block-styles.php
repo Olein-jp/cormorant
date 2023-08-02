@@ -46,9 +46,6 @@ if ( ! function_exists( 'cormorant_register_block_styles' ) ) {
 			'core/pullquote' => array(
 				'cormorant-quote-mark-pullquote' => __( 'Quote Mark', 'cormorant' ),
 			),
-			'core/quote' => array(
-				'cormorant-quote-left-bar-quote' => __( 'Left Bar', 'cormorant' ),
-			),
 			'core/post-terms' => array(
 				'cormorant-post-terms-square' => __( 'Square Label', 'cormorant' ),
 			),
