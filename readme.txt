@@ -39,6 +39,30 @@ https://stocksnap.io/author/774
 License: CC0 https://creativecommons.org/publicdomain/zero/1.0/
 Source: https://stocksnap.io/photo/bird-flying-3NQ5V9WW0G
 
+HD Wallpapers
+https://stocksnap.io/author/hdwallpapers
+License: CC0 https://creativecommons.org/publicdomain/zero/1.0/
+Source: https://stocksnap.io/photo/colorful-bokeh-2END49TZPS renamed to `cormorant-sample-01.jpg`
+Source: https://stocksnap.io/photo/colorful-bokeh-VN4G84GL8H renamed to `cormorant-sample-02.jpg`
+Source: https://stocksnap.io/photo/abstract-background-D16SOCLVID renamed to `cormorant-sample-03.jpg`
+Source: https://stocksnap.io/photo/blue-abstract-HRU86ZVGUI renamed to `cormorant-sample-04.jpg`
+Source: https://stocksnap.io/photo/abstract-flowing-TBGPJHSOQC renamed to `cormorant-sample-05.jpg`
+
+Mary
+https://stocksnap.io/author/marymaaret
+License: CC0 https://creativecommons.org/publicdomain/zero/1.0/
+Source: https://stocksnap.io/photo/bokeh-abstract-SGQ0OLCS3H renamed to `cormorant-sample-06.jpg`
+
+Bonnie Moreland
+https://stocksnap.io/author/icetsarina
+License: CC0 https://creativecommons.org/publicdomain/zero/1.0/
+Source: https://stocksnap.io/photo/colorful-abstract-IX4IEUYYTF renamed to `cormorant-sample-07.jpg`
+
+Vidsplay
+https://stocksnap.io/author/vidsplay
+License: CC0 https://creativecommons.org/publicdomain/zero/1.0/
+Source: https://stocksnap.io/photo/abstract-particles-X61ITHOAT6 renamed to `cormorant-sample-08.jpg`
+
 == Changelog ==
 Version 2.0.5(2023-04-17)
 --------------------
