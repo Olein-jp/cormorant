@@ -1,0 +1,19 @@
+.is-style-cormorant-quote-mark-pullquote {
+  position: relative;
+  border-top: none !important;
+  border-bottom: none !important;
+  padding: calc( 0.3 * var( --wp--preset--font-size--4-xl ) ) var( --wp--preset--spacing--m ) var( --wp--preset--spacing--m ) var( --wp--preset--spacing--m ) !important;
+  @media ( max-width: 781px ) {
+    padding: calc( 0.3 * var( --wp--preset--font-size--4-xl ) ) 0 0 0 !important;
+  }
+  &:before {
+    position: absolute;
+    content: '"';
+    left: 0;
+    display: inline-block;
+    opacity: .25;
+    color: currentColor;
+    top: -0.5em;
+    font-size: var( --wp--preset--font-size--4-xl);
+  }
+}
