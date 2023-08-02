@@ -1,39 +1,9 @@
 <!-- wp:template-part {"slug":"header","theme":"cormorant","tagName":"header","className":"site-header"} /-->
 
 <!-- wp:group {"tagName":"main","style":{"spacing":{"margin":{"top":"0","bottom":"0"},"padding":{"top":"var:preset|spacing|4-xl","bottom":"var:preset|spacing|4-xl"}}},"className":"site-content"} -->
-<main class="wp-block-group site-content" style="margin-top:0;margin-bottom:0;padding-top:var(--wp--preset--spacing--4-xl);padding-bottom:var(--wp--preset--spacing--4-xl)"><!-- wp:query {"queryId":11,"query":{"perPage":3,"pages":0,"offset":0,"postType":"post","order":"desc","orderBy":"date","author":"","search":"","exclude":[],"sticky":"","inherit":false},"layout":{"type":"default"}} -->
-	<div class="wp-block-query"><!-- wp:group {"layout":{"type":"constrained"}} -->
-		<div class="wp-block-group"><!-- wp:post-template -->
-			<!-- wp:group {"tagName":"section","style":{"spacing":{"margin":{"bottom":"var:preset|spacing|xl"},"blockGap":"var:preset|spacing|s"}},"layout":{"type":"constrained"}} -->
-			<section class="wp-block-group" style="margin-bottom:var(--wp--preset--spacing--xl)"><!-- wp:group {"tagName":"aside","style":{"spacing":{"blockGap":"var:preset|spacing|s"},"typography":{"fontSize":"12px"}},"layout":{"type":"flex","flexWrap":"nowrap"}} -->
-				<aside class="wp-block-group" style="font-size:12px"><!-- wp:post-date /-->
-
-					<!-- wp:post-terms {"term":"category","separator":"","className":"is-style-cormorant-post-terms-square"} /--></aside>
-				<!-- /wp:group -->
-
-				<!-- wp:post-title {"isLink":true,"fontSize":"m"} /--></section>
-			<!-- /wp:group -->
-			<!-- /wp:post-template --></div>
-		<!-- /wp:group -->
-
-		<!-- wp:spacer {"height":"50px"} -->
-		<div style="height:50px" aria-hidden="true" class="wp-block-spacer"></div>
-		<!-- /wp:spacer -->
-
-		<!-- wp:query-pagination {"layout":{"type":"flex","justifyContent":"center"},"fontSize":"s"} -->
-		<!-- wp:query-pagination-previous /-->
-
-		<!-- wp:query-pagination-numbers /-->
-
-		<!-- wp:query-pagination-next /-->
-		<!-- /wp:query-pagination -->
-
-		<!-- wp:query-no-results -->
-		<!-- wp:paragraph {"align":"center","placeholder":"Add text or blocks that will display when a query returns no results."} -->
-		<p class="has-text-align-center">No posted yet.</p>
-		<!-- /wp:paragraph -->
-		<!-- /wp:query-no-results --></div>
-	<!-- /wp:query --></main>
+<main class="wp-block-group site-content" style="margin-top:0;margin-bottom:0;padding-top:var(--wp--preset--spacing--4-xl);padding-bottom:var(--wp--preset--spacing--4-xl)">
+	<!-- wp:pattern {"slug":"cormorant/query/simple-text"} /-->
+</main>
 <!-- /wp:group -->
 
 <!-- wp:template-part {"slug":"footer","theme":"cormorant","tagName":"footer","className":"site-footer"} /-->
