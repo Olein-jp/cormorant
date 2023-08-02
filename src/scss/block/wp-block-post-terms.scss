@@ -1,0 +1,23 @@
+@use "../mixin";
+
+.is-style-cormorant-post-terms-square {
+  > a {
+    display: inline-block;
+    background-color: var(--wp--preset--color--contrast);
+    color: currentColor;
+    padding-left: calc( var( --wp--preset--spacing--s ) / 2 );
+    padding-right: calc( var( --wp--preset--spacing--s ) / 2 );
+    margin-top: 0 !important;
+    border: 1px solid currentColor;
+    text-decoration: none;
+    opacity: .65;
+    @include mixin.transition();
+    &:hover {
+      opacity: 0.75;
+    }
+  }
+  > .wp-block-post-terms__separator {
+    margin-left: calc( var( --wp--preset--spacing--s ) / 8 );
+    margin-right: calc( var( --wp--preset--spacing--s ) / 8 );
+  }
+}
