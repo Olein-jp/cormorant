@@ -1,0 +1,19 @@
+.is-style-cormorant-post-terms-square > a {
+  display: inline-block;
+  background-color: var(--wp--preset--color--contrast);
+  color: currentColor;
+  padding-left: calc(var(--wp--preset--spacing--s) / 2);
+  padding-right: calc(var(--wp--preset--spacing--s) / 2);
+  margin-top: 0 !important;
+  border: 1px solid currentColor;
+  text-decoration: none;
+  opacity: 0.65;
+  transition: all 0.5s ease;
+}
+.is-style-cormorant-post-terms-square > a:hover {
+  opacity: 0.75;
+}
+.is-style-cormorant-post-terms-square > .wp-block-post-terms__separator {
+  margin-left: calc(var(--wp--preset--spacing--s) / 8);
+  margin-right: calc(var(--wp--preset--spacing--s) / 8);
+}

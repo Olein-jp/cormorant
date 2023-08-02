@@ -1,0 +1,13 @@
+@media (min-width: 601px) and (max-width: 1000px) {
+  .is-style-cormorant-post-template-eyecatch-tiles {
+    grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
+  }
+}
+.is-style-cormorant-post-template-eyecatch-tiles .wp-block-post:hover .wp-block-cover__image-background {
+  transition: all 0.5s ease;
+  transform: scale(1.3);
+}
+.is-style-cormorant-post-template-eyecatch-tiles .wp-block-post .wp-block-cover__image-background {
+  transition: all 0.5s ease;
+  transform: scale(1);
+}
