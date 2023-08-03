@@ -12,10 +12,20 @@
  * @since 1.0.0
  */
 ?>
-<!-- wp:group {"align":"full","style":{"spacing":{"margin":{"top":"0","bottom":"0"}}},"layout":{"type":"constrained"}} -->
-<div class="wp-block-group alignfull" style="margin-top:0;margin-bottom:0"><!-- wp:cover {"url":"<?php echo esc_url( get_template_directory_uri() ) . '/assets/images/StockSnap_MDRPL8PT36.jpg'; ?>","id":2180,"dimRatio":0,"focalPoint":{"x":0.37,"y":0.34},"minHeight":95,"minHeightUnit":"vh","align":"full","className":"negative-margin-left-s negative-margin-right-s","style":{"spacing":{"padding":{"top":"var:preset|spacing|m","right":"var:preset|spacing|m","bottom":"var:preset|spacing|m","left":"var:preset|spacing|m"}}}} -->
-	<div class="wp-block-cover alignfull negative-margin-left-s negative-margin-right-s" style="padding-top:var(--wp--preset--spacing--m);padding-right:var(--wp--preset--spacing--m);padding-bottom:var(--wp--preset--spacing--m);padding-left:var(--wp--preset--spacing--m);min-height:95vh"><span aria-hidden="true" class="wp-block-cover__background has-background-dim-0 has-background-dim"></span><img class="wp-block-cover__image-background wp-image-2180" alt="<?php echo esc_attr__( 'Sample Image', 'cormorant' ); ?>" src="<?php echo esc_url( get_template_directory_uri() ) . '/assets/images/StockSnap_MDRPL8PT36.jpg'; ?>" style="object-position:37% 34%" data-object-fit="cover" data-object-position="37% 34%"/><div class="wp-block-cover__inner-container"><!-- wp:paragraph {"align":"center","placeholder":"Write title…","style":{"typography":{"lineHeight":"1.2"}},"fontSize":"4-xl"} -->
-			<p class="has-text-align-center has-4-xl-font-size" style="line-height:1.2"><strong>Cormorant,<br>the Block Theme.</strong></p>
-			<!-- /wp:paragraph --></div></div>
-	<!-- /wp:cover --></div>
-<!-- /wp:group -->
+<!-- wp:cover {"url":"<?php echo esc_url( get_template_directory_uri() . '/assets/images/cormorant-sample-08.jpg' ); ?>","id":3197,"dimRatio":50,"overlayColor":"base","minHeight":50,"minHeightUnit":"vh","style":{"spacing":{"padding":{"top":"var:preset|spacing|4-xl","bottom":"var:preset|spacing|4-xl","left":"var:preset|spacing|xs","right":"var:preset|spacing|xs"}}},"textColor":"contrast","layout":{"type":"constrained"}} -->
+<div class="wp-block-cover has-contrast-color has-text-color" style="padding-top:var(--wp--preset--spacing--4-xl);padding-right:var(--wp--preset--spacing--xs);padding-bottom:var(--wp--preset--spacing--4-xl);padding-left:var(--wp--preset--spacing--xs);min-height:50vh"><span aria-hidden="true" class="wp-block-cover__background has-base-background-color has-background-dim"></span><img class="wp-block-cover__image-background wp-image-3197" alt="WordPress 100%GPL Block Theme Cormorant Sample Image 08" src="<?php echo esc_url( get_template_directory_uri() . '/assets/images/cormorant-sample-08.jpg' ); ?>" data-object-fit="cover"/><div class="wp-block-cover__inner-container"><!-- wp:heading {"textAlign":"center","fontSize":"4-xl"} -->
+		<h2 class="wp-block-heading has-text-align-center has-4-xl-font-size"><strong>WordPress Block Theme<br>Cormorant</strong></h2>
+		<!-- /wp:heading -->
+
+		<!-- wp:separator {"backgroundColor":"contrast","className":"is-style-wide"} -->
+		<hr class="wp-block-separator has-text-color has-contrast-color has-alpha-channel-opacity has-contrast-background-color has-background is-style-wide"/>
+		<!-- /wp:separator -->
+
+		<!-- wp:paragraph {"align":"center","fontSize":"l"} -->
+		<p class="has-text-align-center has-l-font-size"><strong><?php echo esc_attr__( 'Simple, Customizable, Flexible, it\'s mean COMFORTABLE.', 'cormorant' ); ?></strong></p>
+		<!-- /wp:paragraph -->
+
+		<!-- wp:paragraph -->
+		<p><?php echo esc_attr__( 'WordPress Block Theme Cormorant has been thoughtfully designed to allow you to enjoy as much as possible the pleasing spacing design, fluid typographic design and other great features that WordPress Core has to offer.', 'cormorant' ); ?></p>
+		<!-- /wp:paragraph --></div></div>
+<!-- /wp:cover -->
