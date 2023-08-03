@@ -53,6 +53,8 @@ https://stocksnap.io/author/directmedia
 License: CC0 https://creativecommons.org/publicdomain/zero/1.0/
 Source: https://stocksnap.io/photo/business-man-7BQNRHB6EX renamed to `cormorant-sample-09.jpg`
 Source: https://stocksnap.io/photo/business-woman-FPQIEQBMPA renamed to `cormorant-sample-10.jpg`
+Source: https://stocksnap.io/photo/business-woman-S81ZPXJZUU renamed to `cormorant-sample-11.jpg`
+Source: https://stocksnap.io/photo/business-man-NHW7CBJDFM renamed to `cormorant-sample-12.jpg`
 
 == Changelog ==
 Version 2.0.5(2023-04-17)
