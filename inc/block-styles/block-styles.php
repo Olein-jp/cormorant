@@ -52,6 +52,9 @@ if ( ! function_exists( 'cormorant_register_block_styles' ) ) {
 			'core/post-template' => array(
 				'cormorant-post-template-eyecatch-tiles' => __( 'Eyecatch Tiles', 'cormorant' ),
 			),
+			'core/gallery' => array(
+				'cormorant-gallery-tiles' => __( 'Tiles', 'cormorant' ),
+			)
 		);
 
 		/**
