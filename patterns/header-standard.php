@@ -1,9 +1,9 @@
 <?php
 /**
- * Title: Site Logo and Title with Menu - Base
- * Slug: cormorant/header/1row-base
+ * Title: Standard Header
+ * Slug: cormorant/header/standard
  * Categories: cormorant-header
- * Description: Header with Site logo and title with navigation colored base color
+ * Description: Standard header with Site logo and title with navigation
  * Keywords: cormorant
  * Block Types: core/template-part/header
  *
@@ -16,7 +16,7 @@
 <header class="wp-block-group alignfull has-base-color has-contrast-background-color has-text-color has-background has-link-color" style="padding-top:var(--wp--preset--spacing--s);padding-right:var(--wp--preset--spacing--s);padding-bottom:var(--wp--preset--spacing--s);padding-left:var(--wp--preset--spacing--s)"><!-- wp:group {"layout":{"type":"flex","flexWrap":"nowrap"}} -->
 	<div class="wp-block-group"><!-- wp:site-logo {"shouldSyncIcon":true,"className":"is-style-rounded"} /-->
 
-		<!-- wp:site-title /--></div>
+		<!-- wp:site-title {"style":{"typography":{"lineHeight":"1"}}} /--></div>
 	<!-- /wp:group -->
 
 	<!-- wp:navigation {"layout":{"type":"flex","orientation":"horizontal"}} -->
