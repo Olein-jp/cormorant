@@ -1,7 +1,7 @@
 <?php
 /**
- * Title: CTA Horizontal Base
- * Slug: cormorant/cta/horizontal-base
+ * Title: CTA Simple Horizontal
+ * Slug: cormorant/cta/simple-horizontal
  * Categories: cormorant-cta
  * Description: Call To Action layout Horizontal colored base color
  * Keywords: cormorant

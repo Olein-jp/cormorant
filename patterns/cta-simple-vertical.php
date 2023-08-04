@@ -1,7 +1,7 @@
 <?php
 /**
- * Title: CTA Vertical Base
- * Slug: cormorant/cta/vertical-base
+ * Title: CTA Simple Vertical
+ * Slug: cormorant/cta/simple-vertical
  * Categories: cormorant-cta
  * Description: Call To Action layout Vertical colored base color
  * Keywords: cormorant
