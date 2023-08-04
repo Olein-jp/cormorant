@@ -12,8 +12,8 @@
  * @since 3.0.0
  */
 ?>
-<!-- wp:group {"tagName":"section","align":"wide","style":{"spacing":{"padding":{"top":"var:preset|spacing|4-xl","bottom":"var:preset|spacing|4-xl"}}},"backgroundColor":"contrast","textColor":"base","layout":{"type":"constrained"}} -->
-<section class="wp-block-group alignwide has-base-color has-contrast-background-color has-text-color has-background" style="padding-top:var(--wp--preset--spacing--4-xl);padding-bottom:var(--wp--preset--spacing--4-xl)"><!-- wp:group {"tagName":"header","align":"full","style":{"spacing":{"margin":{"bottom":"var:preset|spacing|xl"},"blockGap":"var:preset|spacing|xs"}},"layout":{"type":"flex","orientation":"vertical","justifyContent":"center"}} -->
+<!-- wp:group {"tagName":"section","align":"wide","style":{"spacing":{"padding":{"top":"var:preset|spacing|3-xl","bottom":"var:preset|spacing|3-xl"}}},"backgroundColor":"contrast","textColor":"base","layout":{"type":"constrained"}} -->
+<section class="wp-block-group alignwide has-base-color has-contrast-background-color has-text-color has-background" style="padding-top:var(--wp--preset--spacing--3-xl);padding-bottom:var(--wp--preset--spacing--3-xl)"><!-- wp:group {"tagName":"header","align":"full","style":{"spacing":{"margin":{"bottom":"var:preset|spacing|xl"},"blockGap":"var:preset|spacing|xs"}},"layout":{"type":"flex","orientation":"vertical","justifyContent":"center"}} -->
 	<header class="wp-block-group alignfull" style="margin-bottom:var(--wp--preset--spacing--xl)"><!-- wp:heading {"textAlign":"center","fontSize":"3-xl"} -->
 		<h2 class="wp-block-heading has-text-align-center has-3-xl-font-size">We are the Team</h2>
 		<!-- /wp:heading -->
