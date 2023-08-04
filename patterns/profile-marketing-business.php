@@ -12,8 +12,8 @@
  * @since 3.0.0
  */
 ?>
-<!-- wp:group {"style":{"color":{"gradient":"linear-gradient(86deg,rgb(82,85,247) 0%,rgb(0,84,174) 28%,rgb(255,255,255) 28%)"},"spacing":{"padding":{"top":"var:preset|spacing|4-xl","bottom":"var:preset|spacing|4-xl"}}},"layout":{"type":"constrained"}} -->
-<div class="wp-block-group has-background" style="background:linear-gradient(86deg,rgb(82,85,247) 0%,rgb(0,84,174) 28%,rgb(255,255,255) 28%);padding-top:var(--wp--preset--spacing--4-xl);padding-bottom:var(--wp--preset--spacing--4-xl)"><!-- wp:columns {"verticalAlignment":null,"align":"wide"} -->
+<!-- wp:group {"style":{"color":{"gradient":"linear-gradient(86deg,rgb(82,85,247) 0%,rgb(0,84,174) 28%,rgb(255,255,255) 28%)"},"spacing":{"padding":{"top":"var:preset|spacing|3-xl","bottom":"var:preset|spacing|3-xl"}}},"layout":{"type":"constrained"}} -->
+<div class="wp-block-group has-background" style="background:linear-gradient(86deg,rgb(82,85,247) 0%,rgb(0,84,174) 28%,rgb(255,255,255) 28%);padding-top:var(--wp--preset--spacing--3-xl);padding-bottom:var(--wp--preset--spacing--3-xl)"><!-- wp:columns {"verticalAlignment":null,"align":"wide"} -->
 	<div class="wp-block-columns alignwide"><!-- wp:column -->
 		<div class="wp-block-column"><!-- wp:image {"id":3206,"aspectRatio":"1","scale":"cover","sizeSlug":"full","linkDestination":"none"} -->
 			<figure class="wp-block-image size-full"><img src="<?php echo esc_url( get_template_directory_uri() . '/assets/images/cormorant-sample-10.jpg' ); ?>" alt="WordPress 100%GPL Block Theme Cormorant Sample Image 10" class="wp-image-3206" style="aspect-ratio:1;object-fit:cover"/></figure>
