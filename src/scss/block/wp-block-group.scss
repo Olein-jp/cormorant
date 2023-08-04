@@ -1,0 +1,10 @@
+.is-style-cormorant-solid-shadow-group {
+  border: 1px solid currentColor;
+  padding: var( --wp--preset--spacing--s );
+  box-shadow: 5px 5px currentColor;
+}
+
+.is-style-cormorant-blur-shadow-group {
+  padding: var( --wp--preset--spacing--s );
+  box-shadow: 0 0 10px var( --wp--preset--color--lighter-gray );
+}
