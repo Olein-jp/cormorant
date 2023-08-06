@@ -12,8 +12,8 @@
  * @since 3.0.0
  */
 ?>
-<!-- wp:group {"style":{"spacing":{"padding":{"top":"var:preset|spacing|4-xl","right":"var:preset|spacing|default","bottom":"var:preset|spacing|4-xl","left":"var:preset|spacing|default"}}},"layout":{"type":"constrained"}} -->
-<div class="wp-block-group" style="padding-top:var(--wp--preset--spacing--4-xl);padding-right:var(--wp--preset--spacing--default);padding-bottom:var(--wp--preset--spacing--4-xl);padding-left:var(--wp--preset--spacing--default)"><!-- wp:group {"tagName":"header","align":"wide","style":{"spacing":{"margin":{"top":"var:preset|spacing|default","bottom":"var:preset|spacing|l"}}},"layout":{"type":"constrained"}} -->
+<!-- wp:group {"style":{"spacing":{"padding":{"top":"var:preset|spacing|3-xl","right":"var:preset|spacing|default","bottom":"var:preset|spacing|3-xl","left":"var:preset|spacing|default"}}},"layout":{"type":"constrained"}} -->
+<div class="wp-block-group" style="padding-top:var(--wp--preset--spacing--3-xl);padding-right:var(--wp--preset--spacing--default);padding-bottom:var(--wp--preset--spacing--3-xl);padding-left:var(--wp--preset--spacing--default)"><!-- wp:group {"tagName":"header","align":"wide","style":{"spacing":{"margin":{"top":"var:preset|spacing|default","bottom":"var:preset|spacing|l"}}},"layout":{"type":"constrained"}} -->
 	<header class="wp-block-group alignwide" style="margin-top:var(--wp--preset--spacing--default);margin-bottom:var(--wp--preset--spacing--l)"><!-- wp:heading {"textAlign":"center","fontSize":"3-xl"} -->
 		<h2 class="wp-block-heading has-text-align-center has-3-xl-font-size">Simple Design</h2>
 		<!-- /wp:heading -->

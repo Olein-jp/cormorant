@@ -12,9 +12,9 @@
  * @since 3.0.0
  */
 ?>
-<!-- wp:group {"style":{"spacing":{"padding":{"top":"var:preset|spacing|4-xl","right":"var:preset|spacing|default","bottom":"var:preset|spacing|4-xl","left":"var:preset|spacing|default"}}},"layout":{"type":"constrained"}} -->
-<div class="wp-block-group" style="padding-top:var(--wp--preset--spacing--4-xl);padding-right:var(--wp--preset--spacing--default);padding-bottom:var(--wp--preset--spacing--4-xl);padding-left:var(--wp--preset--spacing--default)"><!-- wp:heading {"textAlign":"center","fontSize":"4-xl"} -->
-	<h2 class="wp-block-heading has-text-align-center has-4-xl-font-size"><?php esc_html_e( 'You can touch the next generation of WordPress.', 'cormorant' ); ?></h2>
+<!-- wp:group {"style":{"spacing":{"padding":{"top":"var:preset|spacing|3-xl","right":"var:preset|spacing|default","bottom":"var:preset|spacing|3-xl","left":"var:preset|spacing|default"}}},"layout":{"type":"constrained"}} -->
+<div class="wp-block-group" style="padding-top:var(--wp--preset--spacing--3-xl);padding-right:var(--wp--preset--spacing--default);padding-bottom:var(--wp--preset--spacing--3-xl);padding-left:var(--wp--preset--spacing--default)"><!-- wp:heading {"textAlign":"center","fontSize":"3-xl"} -->
+	<h2 class="wp-block-heading has-text-align-center has-3-xl-font-size"><?php esc_html_e( 'You can touch the next generation of WordPress.', 'cormorant' ); ?></h2>
 	<!-- /wp:heading -->
 
 	<!-- wp:paragraph {"align":"center"} -->
