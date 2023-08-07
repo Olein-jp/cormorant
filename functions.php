@@ -29,6 +29,9 @@ if ( ! function_exists( 'cormorant_setup' ) ) {
 
 		add_editor_style( $editor_styles );
 
+		// Add Translation
+		load_theme_textdomain( 'cormorant', get_template_directory() . '/languages' );
+
 	}
 }
 add_action( 'after_setup_theme', 'cormorant_setup' );
