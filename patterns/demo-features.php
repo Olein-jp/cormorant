@@ -15,11 +15,11 @@
 <!-- wp:group {"style":{"spacing":{"padding":{"top":"var:preset|spacing|3-xl","right":"var:preset|spacing|default","bottom":"var:preset|spacing|3-xl","left":"var:preset|spacing|default"}}},"layout":{"type":"constrained"}} -->
 <div class="wp-block-group" style="padding-top:var(--wp--preset--spacing--3-xl);padding-right:var(--wp--preset--spacing--default);padding-bottom:var(--wp--preset--spacing--3-xl);padding-left:var(--wp--preset--spacing--default)"><!-- wp:group {"tagName":"header","align":"wide","style":{"spacing":{"margin":{"top":"var:preset|spacing|default","bottom":"var:preset|spacing|l"}}},"layout":{"type":"constrained"}} -->
 	<header class="wp-block-group alignwide" style="margin-top:var(--wp--preset--spacing--default);margin-bottom:var(--wp--preset--spacing--l)"><!-- wp:heading {"textAlign":"center","fontSize":"3-xl"} -->
-		<h2 class="wp-block-heading has-text-align-center has-3-xl-font-size">Simple Design</h2>
+		<h2 class="wp-block-heading has-text-align-center has-3-xl-font-size"><?php esc_html_e( 'Simple Design', 'cormorant' ); ?></h2>
 		<!-- /wp:heading -->
 
 		<!-- wp:paragraph {"align":"center","fontSize":"m"} -->
-		<p class="has-text-align-center has-m-font-size">Cormorant is designed to be simple enough to take full advantage of the functionality of WordPress Core.</p>
+		<p class="has-text-align-center has-m-font-size"><?php esc_html_e( 'Cormorant is designed to be simple enough to take full advantage of the functionality of WordPress Core.', 'cormorant' ); ?></p>
 		<!-- /wp:paragraph --></header>
 	<!-- /wp:group -->
 
@@ -27,17 +27,17 @@
 	<div class="wp-block-group alignwide"><!-- wp:columns {"verticalAlignment":null,"align":"wide"} -->
 		<div class="wp-block-columns alignwide"><!-- wp:column -->
 			<div class="wp-block-column"><!-- wp:image {"id":3113,"sizeSlug":"large","linkDestination":"none","style":{"border":{"width":"1px"}},"borderColor":"lighter-gray"} -->
-				<figure class="wp-block-image size-large has-custom-border"><img src="<?php echo esc_url( get_template_directory_uri() ) . '/assets/images/demo-fluid-typography.png'; ?>" alt="<?php echo esc_attr__( 'Fluid Typography', 'cormorant' ); ?>" class="has-border-color has-lighter-gray-border-color wp-image-3113" style="border-width:1px"/></figure>
+				<figure class="wp-block-image size-large has-custom-border"><img src="<?php echo esc_url( get_template_directory_uri() ) . '/assets/images/demo-fluid-typography.png'; ?>" alt="<?php esc_html_e( 'Fluid Typography', 'cormorant' ); ?>" class="has-border-color has-lighter-gray-border-color wp-image-3113" style="border-width:1px"/></figure>
 				<!-- /wp:image --></div>
 			<!-- /wp:column -->
 
 			<!-- wp:column {"verticalAlignment":"center"} -->
 			<div class="wp-block-column is-vertically-aligned-center"><!-- wp:heading {"level":3} -->
-				<h3 class="wp-block-heading">Comfortable<br>Fluid Typography</h3>
+				<h3 class="wp-block-heading"><?php esc_html_e( 'Comfortable<br>Fluid Typography', 'cormorant' ); ?></h3>
 				<!-- /wp:heading -->
 
 				<!-- wp:paragraph -->
-				<p>Flexible font size depending on the device's screen width. It eliminates too small or too large fonts as much as possible.</p>
+				<p><?php esc_html_e( 'Flexible font size depending on the device\'s screen width. It eliminates too small or too large fonts as much as possible.', 'cormorant' ); ?></p>
 				<!-- /wp:paragraph --></div>
 			<!-- /wp:column --></div>
 		<!-- /wp:columns -->
@@ -45,17 +45,17 @@
 		<!-- wp:columns {"verticalAlignment":null,"align":"wide"} -->
 		<div class="wp-block-columns alignwide switch-places"><!-- wp:column {"verticalAlignment":"center"} -->
 			<div class="wp-block-column is-vertically-aligned-center"><!-- wp:heading {"level":3} -->
-				<h3 class="wp-block-heading">User-friendly Spacing</h3>
+				<h3 class="wp-block-heading"><?php esc_html_e( 'User-friendly Spacing', 'cormorant' ); ?></h3>
 				<!-- /wp:heading -->
 
 				<!-- wp:paragraph -->
-				<p>Flexibly scales the spacing unit according to the screen width. Smaller for smaller devices and 1.5 times larger for larger devices.</p>
+				<p><?php esc_html_e( 'Flexibly scales the spacing unit according to the screen width. Smaller for smaller devices and 1.5 times larger for larger devices.', 'cormorant' ); ?></p>
 				<!-- /wp:paragraph --></div>
 			<!-- /wp:column -->
 
 			<!-- wp:column -->
 			<div class="wp-block-column"><!-- wp:image {"id":3114,"sizeSlug":"large","linkDestination":"none","style":{"border":{"width":"1px"}},"borderColor":"lighter-gray"} -->
-				<figure class="wp-block-image size-large has-custom-border"><img src="<?php echo esc_url( get_template_directory_uri() ) . '/assets/images/demo-spacing.png'; ?>" alt="<?php echo esc_attr__( 'Spacing', 'cormorant' ); ?>" class="has-border-color has-lighter-gray-border-color wp-image-3114" style="border-width:1px"/></figure>
+				<figure class="wp-block-image size-large has-custom-border"><img src="<?php echo esc_url( get_template_directory_uri() ) . '/assets/images/demo-spacing.png'; ?>" alt="<?php esc_html_e( 'Spacing', 'cormorant' ); ?>" class="has-border-color has-lighter-gray-border-color wp-image-3114" style="border-width:1px"/></figure>
 				<!-- /wp:image --></div>
 			<!-- /wp:column --></div>
 		<!-- /wp:columns -->
@@ -63,21 +63,21 @@
 		<!-- wp:columns {"verticalAlignment":null,"align":"wide"} -->
 		<div class="wp-block-columns alignwide"><!-- wp:column -->
 			<div class="wp-block-column"><!-- wp:image {"id":3112,"sizeSlug":"large","linkDestination":"none","style":{"border":{"width":"1px"}},"borderColor":"lighter-gray"} -->
-				<figure class="wp-block-image size-large has-custom-border"><img src="<?php echo esc_url( get_template_directory_uri() ) . '/assets/images/demo-colors.png'; ?>" alt="<?php echo esc_attr__( 'Colors', 'cormorant' ); ?>" class="has-border-color has-lighter-gray-border-color wp-image-3112" style="border-width:1px"/></figure>
+				<figure class="wp-block-image size-large has-custom-border"><img src="<?php echo esc_url( get_template_directory_uri() ) . '/assets/images/demo-colors.png'; ?>" alt="<?php esc_html_e( 'Colors', 'cormorant' ); ?>" class="has-border-color has-lighter-gray-border-color wp-image-3112" style="border-width:1px"/></figure>
 				<!-- /wp:image --></div>
 			<!-- /wp:column -->
 
 			<!-- wp:column {"verticalAlignment":"center"} -->
 			<div class="wp-block-column is-vertically-aligned-center"><!-- wp:heading {"level":3} -->
-				<h3 class="wp-block-heading">Extensive colour palette and gradient presets available</h3>
+				<h3 class="wp-block-heading"><?php esc_html_e( 'Extensive colour palette and gradient presets available', 'cormorant' ); ?></h3>
 				<!-- /wp:heading -->
 
 				<!-- wp:paragraph -->
-				<p>For colour presets, a contrast colour is prepared for the base colour and four other colours are prepared in advance.</p>
+				<p><?php esc_html_e( 'For colour presets, a contrast colour is prepared for the base colour and four other colours are prepared in advance.', 'cormorant' ); ?></p>
 				<!-- /wp:paragraph -->
 
 				<!-- wp:paragraph -->
-				<p>There is also a gradient preset based on them.</p>
+				<p><?php esc_html_e( 'There is also a gradient preset based on them.', 'cormorant' ); ?></p>
 				<!-- /wp:paragraph --></div>
 			<!-- /wp:column --></div>
 		<!-- /wp:columns --></div>

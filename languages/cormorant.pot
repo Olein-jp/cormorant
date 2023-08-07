@@ -1,0 +1,286 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Cormorant\n"
+"POT-Creation-Date: 2023-08-07 08:41+0900\n"
+"PO-Revision-Date: 2023-08-07 08:39+0900\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"X-Generator: Poedit 3.3.2\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: style.css\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.min.js\n"
+"X-Poedit-SearchPathExcluded-1: vendor\n"
+"X-Poedit-SearchPathExcluded-2: node_modules\n"
+
+#: inc/block-patterns/block-patterns.php:15
+msgid "Cormorant CTA"
+msgstr ""
+
+#: inc/block-patterns/block-patterns.php:17
+msgid "Cormorant Hero"
+msgstr ""
+
+#: inc/block-patterns/block-patterns.php:18
+msgid "Cormorant Profile"
+msgstr ""
+
+#: inc/block-patterns/block-patterns.php:19
+msgid "Cormorant Team"
+msgstr ""
+
+#: inc/block-patterns/block-patterns.php:20
+msgid "Cormorant Testimonial"
+msgstr ""
+
+#: inc/block-patterns/block-patterns.php:22
+msgid "Cormorant FAQ"
+msgstr ""
+
+#: inc/block-patterns/block-patterns.php:23
+msgid "Cormorant Query"
+msgstr ""
+
+#: inc/block-patterns/block-patterns.php:24
+msgid "Cormorant Page"
+msgstr ""
+
+#: inc/block-patterns/block-patterns.php:25
+msgid "Cormorant Header"
+msgstr ""
+
+#: inc/block-patterns/block-patterns.php:26
+msgid "Cormorant Footer"
+msgstr ""
+
+#: inc/block-patterns/block-patterns.php:27
+msgid "Cormorant Demo"
+msgstr ""
+
+#: inc/block-styles/block-styles.php:16 inc/block-styles/block-styles.php:25
+msgid "Solid Shadow"
+msgstr ""
+
+#: inc/block-styles/block-styles.php:17 inc/block-styles/block-styles.php:26
+msgid "Blur Shadow"
+msgstr ""
+
+#: inc/block-styles/block-styles.php:20
+msgid "Striped"
+msgstr ""
+
+#: inc/block-styles/block-styles.php:21
+msgid "Dotted"
+msgstr ""
+
+#: inc/block-styles/block-styles.php:22
+msgid "Dashed"
+msgstr ""
+
+#: inc/block-styles/block-styles.php:29
+msgid "Block"
+msgstr ""
+
+#: inc/block-styles/block-styles.php:30
+msgid "Circle"
+msgstr ""
+
+#: inc/block-styles/block-styles.php:33
+msgid "Base Filled"
+msgstr ""
+
+#: inc/block-styles/block-styles.php:34
+msgid "Contrast Filled"
+msgstr ""
+
+#: inc/block-styles/block-styles.php:35
+msgid "Primary Filled"
+msgstr ""
+
+#: inc/block-styles/block-styles.php:36
+msgid "Secondary Filled"
+msgstr ""
+
+#: inc/block-styles/block-styles.php:37
+msgid "Tertiary Filled"
+msgstr ""
+
+#: inc/block-styles/block-styles.php:38
+msgid "Quaternary Filled"
+msgstr ""
+
+#: inc/block-styles/block-styles.php:39
+msgid "Base Outlined"
+msgstr ""
+
+#: inc/block-styles/block-styles.php:40
+msgid "Contrast Outlined"
+msgstr ""
+
+#: inc/block-styles/block-styles.php:41
+msgid "Primary Outlined"
+msgstr ""
+
+#: inc/block-styles/block-styles.php:42
+msgid "Secondary Outlined"
+msgstr ""
+
+#: inc/block-styles/block-styles.php:43
+msgid "Tertiary Outlined"
+msgstr ""
+
+#: inc/block-styles/block-styles.php:44
+msgid "Quaternary Outlined"
+msgstr ""
+
+#: inc/block-styles/block-styles.php:47
+msgid "Quote Mark"
+msgstr ""
+
+#: inc/block-styles/block-styles.php:50
+msgid "Square Label"
+msgstr ""
+
+#: inc/block-styles/block-styles.php:53
+msgid "Eyecatch Tiles"
+msgstr ""
+
+#: inc/block-styles/block-styles.php:56
+msgid "Tiles"
+msgstr ""
+
+#: inc/block-styles/block-styles.php:59
+msgid "Right Caret"
+msgstr ""
+
+#: patterns/columns-border-wrap.php:19 patterns/columns-border-wrap.php:35
+#: patterns/columns-side-border.php:19 patterns/columns-side-border.php:35
+msgid "How to change color"
+msgstr ""
+
+#: patterns/columns-border-wrap.php:23 patterns/columns-border-wrap.php:39
+#: patterns/columns-side-border.php:23 patterns/columns-side-border.php:39
+msgid ""
+"The border colour can be changed <strong>by changing the text colour of the "
+"column.</strong> Libero fames porttitor eget primis turpis sollicitudin orci "
+"et dis urna augue, himenaeos felis semper non tempor fusce nam sit elit "
+"rhoncus."
+msgstr ""
+
+#: patterns/columns-border-wrap.php:28 patterns/columns-border-wrap.php:44
+#: patterns/columns-side-border.php:28 patterns/columns-side-border.php:44
+#: patterns/demo-hero.php:30
+msgid "Learn More"
+msgstr ""
+
+#: patterns/demo-features.php:30
+msgid "Fluid Typography"
+msgstr ""
+
+#: patterns/demo-features.php:58
+msgid "Spacing"
+msgstr ""
+
+#: patterns/demo-features.php:66
+msgid "Colors"
+msgstr ""
+
+#: patterns/demo-hero.php:17
+msgid "You can touch the next generation of WordPress."
+msgstr ""
+
+#: patterns/demo-hero.php:21
+msgid "Cormorant is Simple WordPress Block Theme for building website."
+msgstr ""
+
+#: patterns/demo-hero.php:26
+msgid "Download on WP.org"
+msgstr ""
+
+#: patterns/header-2-row-standard.php:24 patterns/header-standard-button.php:23
+#: patterns/header-standard.php:23
+msgid "Home"
+msgstr ""
+
+#: patterns/header-2-row-standard.php:25 patterns/header-standard-button.php:24
+#: patterns/header-standard.php:24
+msgid "About"
+msgstr ""
+
+#: patterns/header-2-row-standard.php:26 patterns/header-standard-button.php:25
+#: patterns/header-standard.php:25
+msgid "Services"
+msgstr ""
+
+#: patterns/header-2-row-standard.php:27 patterns/header-standard-button.php:26
+#: patterns/header-standard.php:26
+msgid "Service A"
+msgstr ""
+
+#: patterns/header-2-row-standard.php:28 patterns/header-standard-button.php:27
+#: patterns/header-standard.php:27
+msgid "Service B"
+msgstr ""
+
+#: patterns/header-2-row-standard.php:29 patterns/header-standard-button.php:28
+#: patterns/header-standard.php:28
+msgid "Service C"
+msgstr ""
+
+#: patterns/header-2-row-standard.php:31 patterns/header-standard-button.php:30
+#: patterns/header-standard.php:30
+msgid "Blog"
+msgstr ""
+
+#: patterns/header-2-row-standard.php:32 patterns/header-standard-button.php:31
+#: patterns/header-standard.php:31
+msgid "Contact"
+msgstr ""
+
+#: patterns/hero-covered-image.php:25
+msgid "Simple, Customizable, Flexible, it's mean COMFORTABLE."
+msgstr ""
+
+#: patterns/hero-covered-image.php:29
+msgid ""
+"WordPress Block Theme Cormorant has been thoughtfully designed to allow you "
+"to enjoy as much as possible the pleasing spacing design, fluid typographic "
+"design and other great features that WordPress Core has to offer."
+msgstr ""
+
+#. Theme Name of the plugin/theme
+msgid "Cormorant"
+msgstr ""
+
+#. Theme URI of the plugin/theme
+msgid "https://cormorant.kunokoji.com"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"This theme is Block Theme supporting Full Site Editing. Gifu City in Gifu "
+"Prefecture, Japan is famous for a traditional fishing method called Ukai "
+"(cormorant fishing). That's how I came up with the name. Simple design, "
+"universal designed fonts available, many block patterns and styles. You can "
+"use for blog, single page for business, self portfolio, and more. This theme "
+"will be tested trying for new featured WordPress. So occasional disruptive "
+"changes may be made."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Koji Kuno"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://kunokoji.com"
+msgstr ""

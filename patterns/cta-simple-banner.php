@@ -21,7 +21,7 @@
 
 			<!-- wp:buttons {"layout":{"type":"flex","justifyContent":"center"}} -->
 			<div class="wp-block-buttons"><!-- wp:button {"className":"is-style-cormorant-filled-square-button-secondary"} -->
-				<div class="wp-block-button is-style-cormorant-filled-square-button-secondary"><a class="wp-block-button__link wp-element-button" href="#"><strong>Chat with us</strong></a></div>
+				<div class="wp-block-button is-style-cormorant-filled-square-button-secondary"><a class="wp-block-button__link wp-element-button" href="#"><?php esc_html_e( 'Chat with us', 'cormorant' ); ?></a></div>
 				<!-- /wp:button --></div>
 			<!-- /wp:buttons --></div>
 		<!-- /wp:group --></div>

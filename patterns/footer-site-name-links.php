@@ -35,19 +35,19 @@
 
 					<!-- wp:list {"style":{"spacing":{"padding":{"left":"var:preset|spacing|xs"}}},"fontSize":"xs"} -->
 					<ul class="has-xs-font-size" style="padding-left:var(--wp--preset--spacing--xs)"><!-- wp:list-item -->
-						<li><?php echo esc_attr( 'Menu Item', 'cormorant' ); ?></li>
+						<li><?php esc_html_e( 'Menu Item', 'cormorant' ); ?></li>
 						<!-- /wp:list-item -->
 
 						<!-- wp:list-item -->
-						<li><?php echo esc_attr( 'Menu Item', 'cormorant' ); ?></li>
+						<li><?php esc_html_e( 'Menu Item', 'cormorant' ); ?></li>
 						<!-- /wp:list-item -->
 
 						<!-- wp:list-item -->
-						<li><?php echo esc_attr( 'Menu Item', 'cormorant' ); ?></li>
+						<li><?php esc_html_e( 'Menu Item', 'cormorant' ); ?></li>
 						<!-- /wp:list-item -->
 
 						<!-- wp:list-item -->
-						<li><?php echo esc_attr( 'Menu Item', 'cormorant' ); ?></li>
+						<li><?php esc_html_e( 'Menu Item', 'cormorant' ); ?></li>
 						<!-- /wp:list-item --></ul>
 					<!-- /wp:list --></div>
 				<!-- /wp:column -->
@@ -59,19 +59,19 @@
 
 					<!-- wp:list {"style":{"spacing":{"padding":{"left":"var:preset|spacing|xs"}}},"fontSize":"xs"} -->
 					<ul class="has-xs-font-size" style="padding-left:var(--wp--preset--spacing--xs)"><!-- wp:list-item -->
-						<li><?php echo esc_attr( 'Menu Item', 'cormorant' ); ?></li>
+						<li><?php esc_html_e( 'Menu Item', 'cormorant' ); ?></li>
 						<!-- /wp:list-item -->
 
 						<!-- wp:list-item -->
-						<li><?php echo esc_attr( 'Menu Item', 'cormorant' ); ?></li>
+						<li><?php esc_html_e( 'Menu Item', 'cormorant' ); ?></li>
 						<!-- /wp:list-item -->
 
 						<!-- wp:list-item -->
-						<li><?php echo esc_attr( 'Menu Item', 'cormorant' ); ?></li>
+						<li><?php esc_html_e( 'Menu Item', 'cormorant' ); ?></li>
 						<!-- /wp:list-item -->
 
 						<!-- wp:list-item -->
-						<li><?php echo esc_attr( 'Menu Item', 'cormorant' ); ?></li>
+						<li><?php esc_html_e( 'Menu Item', 'cormorant' ); ?></li>
 						<!-- /wp:list-item --></ul>
 					<!-- /wp:list --></div>
 				<!-- /wp:column -->
@@ -83,19 +83,19 @@
 
 					<!-- wp:list {"style":{"spacing":{"padding":{"left":"var:preset|spacing|xs"}}},"fontSize":"xs"} -->
 					<ul class="has-xs-font-size" style="padding-left:var(--wp--preset--spacing--xs)"><!-- wp:list-item -->
-						<li><?php echo esc_attr( 'Menu Item', 'cormorant' ); ?></li>
+						<li><?php esc_html_e( 'Menu Item', 'cormorant' ); ?></li>
 						<!-- /wp:list-item -->
 
 						<!-- wp:list-item -->
-						<li><?php echo esc_attr( 'Menu Item', 'cormorant' ); ?></li>
+						<li><?php esc_html_e( 'Menu Item', 'cormorant' ); ?></li>
 						<!-- /wp:list-item -->
 
 						<!-- wp:list-item -->
-						<li><?php echo esc_attr( 'Menu Item', 'cormorant' ); ?></li>
+						<li><?php esc_html_e( 'Menu Item', 'cormorant' ); ?></li>
 						<!-- /wp:list-item -->
 
 						<!-- wp:list-item -->
-						<li><?php echo esc_attr( 'Menu Item', 'cormorant' ); ?></li>
+						<li><?php esc_html_e( 'Menu Item', 'cormorant' ); ?></li>
 						<!-- /wp:list-item --></ul>
 					<!-- /wp:list --></div>
 				<!-- /wp:column --></div>

@@ -23,24 +23,24 @@
 		<!-- wp:column {"verticalAlignment":"center"} -->
 		<div class="wp-block-column is-vertically-aligned-center"><!-- wp:group {"style":{"spacing":{"blockGap":"0"}},"layout":{"type":"flex","orientation":"vertical"}} -->
 			<div class="wp-block-group"><!-- wp:paragraph {"fontSize":"xs"} -->
-				<p class="has-xs-font-size">Marketing Director</p>
+				<p class="has-xs-font-size"><?php esc_html_e( 'Marketing Director', 'cormorant' ); ?></p>
 				<!-- /wp:paragraph -->
 
 				<!-- wp:heading {"level":3} -->
-				<h3 class="wp-block-heading">Fiona Van den Berg</h3>
+				<h3 class="wp-block-heading"><?php esc_html_e( 'Fiona Van den Berg', 'cormorant' ); ?></h3>
 				<!-- /wp:heading --></div>
 			<!-- /wp:group -->
 
 			<!-- wp:paragraph -->
-			<p><?php echo esc_attr( 'As Marketing Director, she is passionate about brand strategy and effective communication, with a strong focus on customer engagement.Using data-driven insights and under my leadership through an omni-channel approach, I am focused on increasing brand awareness and loyalty.', 'cormorant' ); ?></p>
+			<p><?php esc_html_e( 'As Marketing Director, she is passionate about brand strategy and effective communication, with a strong focus on customer engagement.Using data-driven insights and under my leadership through an omni-channel approach, I am focused on increasing brand awareness and loyalty.', 'cormorant' ); ?></p>
 			<!-- /wp:paragraph -->
 
 			<!-- wp:paragraph -->
-			<p><?php echo esc_attr( 'I am also passionate about team leadership and collaboration, keeping up with the changing marketing industry and spreading the importance of female leadership.', 'cormorant' ); ?></p>
+			<p><?php esc_html_e( 'I am also passionate about team leadership and collaboration, keeping up with the changing marketing industry and spreading the importance of female leadership.', 'cormorant' ); ?></p>
 			<!-- /wp:paragraph -->
 
 			<!-- wp:paragraph -->
-			<p><?php echo esc_attr( 'I am committed to using my successful experience and skills to help the company realise its vision and goals.', 'cormorant' ); ?></p>
+			<p><?php esc_html_e( 'I am committed to using my successful experience and skills to help the company realise its vision and goals.', 'cormorant' ); ?></p>
 			<!-- /wp:paragraph --></div>
 		<!-- /wp:column --></div>
 	<!-- /wp:columns --></div>

@@ -15,11 +15,11 @@
 <!-- wp:group {"tagName":"section","align":"wide","style":{"spacing":{"padding":{"top":"var:preset|spacing|3-xl","bottom":"var:preset|spacing|3-xl"}}},"backgroundColor":"contrast","textColor":"base","layout":{"type":"constrained"}} -->
 <section class="wp-block-group alignwide has-base-color has-contrast-background-color has-text-color has-background" style="padding-top:var(--wp--preset--spacing--3-xl);padding-bottom:var(--wp--preset--spacing--3-xl)"><!-- wp:group {"tagName":"header","align":"full","style":{"spacing":{"margin":{"bottom":"var:preset|spacing|xl"},"blockGap":"var:preset|spacing|xs"}},"layout":{"type":"flex","orientation":"vertical","justifyContent":"center"}} -->
 	<header class="wp-block-group alignfull" style="margin-bottom:var(--wp--preset--spacing--xl)"><!-- wp:heading {"textAlign":"center","fontSize":"3-xl"} -->
-		<h2 class="wp-block-heading has-text-align-center has-3-xl-font-size">We are the Team</h2>
+		<h2 class="wp-block-heading has-text-align-center has-3-xl-font-size"><?php esc_html_e( 'We are the Team', 'cormorant' ); ?></h2>
 		<!-- /wp:heading -->
 
 		<!-- wp:paragraph {"align":"center","fontSize":"xs"} -->
-		<p class="has-text-align-center has-xs-font-size">Potenti netus aptent tempor ornare penatibus purus</p>
+		<p class="has-text-align-center has-xs-font-size"><?php esc_html_e( 'Our team will support your company to the best of its ability.', 'cormorant' ); ?></p>
 		<!-- /wp:paragraph --></header>
 	<!-- /wp:group -->
 
@@ -31,16 +31,16 @@
 				<!-- /wp:image -->
 
 				<!-- wp:heading {"textAlign":"center","level":3,"fontSize":"l"} -->
-				<h3 class="wp-block-heading has-text-align-center has-l-font-size">Edward Smith</h3>
+				<h3 class="wp-block-heading has-text-align-center has-l-font-size"><?php esc_html_e( 'Edward Smith', 'cormorant' ); ?></h3>
 				<!-- /wp:heading -->
 
 				<!-- wp:paragraph {"fontSize":"xs"} -->
-				<p class="has-xs-font-size"><?php echo esc_attr( 'I am a professional with a passion for design and creativity. My career has been built on a wealth of experience and success, but I am always looking for new challenges and growth.', 'cormorant' ); ?></p>
+				<p class="has-xs-font-size"><?php esc_html_e( 'I am a professional with a passion for design and creativity. My career has been built on a wealth of experience and success, but I am always looking for new challenges and growth.', 'cormorant' ); ?></p>
 				<!-- /wp:paragraph -->
 
 				<!-- wp:buttons {"layout":{"type":"flex","justifyContent":"center"}} -->
 				<div class="wp-block-buttons"><!-- wp:button {"textAlign":"center","width":100,"className":"is-style-cormorant-filled-square-button-base"} -->
-					<div class="wp-block-button has-custom-width wp-block-button__width-100 is-style-cormorant-filled-square-button-base"><a class="wp-block-button__link has-text-align-center wp-element-button" href="#"><?php echo esc_attr( 'View Profile', 'cormorant' ); ?></a></div>
+					<div class="wp-block-button has-custom-width wp-block-button__width-100 is-style-cormorant-filled-square-button-base"><a class="wp-block-button__link has-text-align-center wp-element-button" href="#"><?php esc_html_e( 'View Profile', 'cormorant' ); ?></a></div>
 					<!-- /wp:button --></div>
 				<!-- /wp:buttons --></div>
 			<!-- /wp:group --></div>
@@ -53,16 +53,16 @@
 				<!-- /wp:image -->
 
 				<!-- wp:heading {"textAlign":"center","level":3,"fontSize":"l"} -->
-				<h3 class="wp-block-heading has-text-align-center has-l-font-size">Fiona Van den Berg</h3>
+				<h3 class="wp-block-heading has-text-align-center has-l-font-size"><?php esc_html_e( 'Fiona Van den Berg', 'cormorant' ); ?></h3>
 				<!-- /wp:heading -->
 
 				<!-- wp:paragraph {"fontSize":"xs"} -->
-				<p class="has-xs-font-size"><?php echo esc_attr( 'I am focused on increasing brand awareness and loyalty. I am also passionate about team leadership and collaboration, keeping up with the changing marketing industry and spreading the importance of female leadership.', 'cormorant' ); ?></p>
+				<p class="has-xs-font-size"><?php esc_html_e( 'I am focused on increasing brand awareness and loyalty. I am also passionate about team leadership and collaboration, keeping up with the changing marketing industry and spreading the importance of female leadership.', 'cormorant' ); ?></p>
 				<!-- /wp:paragraph -->
 
 				<!-- wp:buttons -->
 				<div class="wp-block-buttons"><!-- wp:button {"width":100,"className":"is-style-cormorant-filled-square-button-base"} -->
-					<div class="wp-block-button has-custom-width wp-block-button__width-100 is-style-cormorant-filled-square-button-base"><a class="wp-block-button__link wp-element-button" href="#"><?php echo esc_attr( 'View Profile', 'cormorant' ); ?></a></div>
+					<div class="wp-block-button has-custom-width wp-block-button__width-100 is-style-cormorant-filled-square-button-base"><a class="wp-block-button__link wp-element-button" href="#"><?php esc_html_e( 'View Profile', 'cormorant' ); ?></a></div>
 					<!-- /wp:button --></div>
 				<!-- /wp:buttons --></div>
 			<!-- /wp:group --></div>
@@ -75,16 +75,16 @@
 				<!-- /wp:image -->
 
 				<!-- wp:heading {"textAlign":"center","level":3,"fontSize":"l"} -->
-				<h3 class="wp-block-heading has-text-align-center has-l-font-size">Hugo Martin</h3>
+				<h3 class="wp-block-heading has-text-align-center has-l-font-size"><?php esc_html_e( 'Hugo Martin', 'cormorant' ); ?></h3>
 				<!-- /wp:heading -->
 
 				<!-- wp:paragraph {"fontSize":"xs"} -->
-				<p class="has-xs-font-size"><?php echo esc_attr( 'I am a designer with a passion for design and a creative approach. With a focus on the user\'s point of view, he pursues designs that give brands and products appeal and identity.', 'cormorant' ); ?></p>
+				<p class="has-xs-font-size"><?php esc_html_e( 'I am a designer with a passion for design and a creative approach. With a focus on the user\'s point of view, he pursues designs that give brands and products appeal and identity.', 'cormorant' ); ?></p>
 				<!-- /wp:paragraph -->
 
 				<!-- wp:buttons {"layout":{"type":"flex","justifyContent":"center"}} -->
 				<div class="wp-block-buttons"><!-- wp:button {"textAlign":"center","width":100,"className":"is-style-cormorant-filled-square-button-base"} -->
-					<div class="wp-block-button has-custom-width wp-block-button__width-100 is-style-cormorant-filled-square-button-base"><a class="wp-block-button__link has-text-align-center wp-element-button" href="#"><?php echo esc_attr( 'View Profile', 'cormorant' ); ?></a></div>
+					<div class="wp-block-button has-custom-width wp-block-button__width-100 is-style-cormorant-filled-square-button-base"><a class="wp-block-button__link has-text-align-center wp-element-button" href="#"><?php esc_html_e( 'View Profile', 'cormorant' ); ?></a></div>
 					<!-- /wp:button --></div>
 				<!-- /wp:buttons --></div>
 			<!-- /wp:group --></div>

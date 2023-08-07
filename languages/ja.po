@@ -1,0 +1,748 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Cormorant\n"
+"POT-Creation-Date: 2023-08-07 13:18+0900\n"
+"PO-Revision-Date: 2023-08-07 13:19+0900\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: ja\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.3.2\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: style.css\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.min.js\n"
+"X-Poedit-SearchPathExcluded-1: vendor\n"
+"X-Poedit-SearchPathExcluded-2: node_modules\n"
+
+#: inc/block-patterns/block-patterns.php:15
+msgid "Cormorant CTA"
+msgstr "Cormorant CTA"
+
+#: inc/block-patterns/block-patterns.php:17
+msgid "Cormorant Hero"
+msgstr "Cormorant ヒーロー"
+
+#: inc/block-patterns/block-patterns.php:18
+msgid "Cormorant Profile"
+msgstr "Cormorant プロフィール"
+
+#: inc/block-patterns/block-patterns.php:19
+msgid "Cormorant Team"
+msgstr "Cormorant チーム"
+
+#: inc/block-patterns/block-patterns.php:20
+msgid "Cormorant Testimonial"
+msgstr "Cormorant お客様の声"
+
+#: inc/block-patterns/block-patterns.php:22
+msgid "Cormorant FAQ"
+msgstr "Cormorant FAQ"
+
+#: inc/block-patterns/block-patterns.php:23
+msgid "Cormorant Query"
+msgstr "Cormorant クエリーループ"
+
+#: inc/block-patterns/block-patterns.php:24
+msgid "Cormorant Page"
+msgstr "Cormorant ページ"
+
+#: inc/block-patterns/block-patterns.php:25
+msgid "Cormorant Header"
+msgstr "Cormorant ヘッダー"
+
+#: inc/block-patterns/block-patterns.php:26
+msgid "Cormorant Footer"
+msgstr "Cormorant フッター"
+
+#: inc/block-patterns/block-patterns.php:27
+msgid "Cormorant Demo"
+msgstr "Cormorant デモ"
+
+#: inc/block-styles/block-styles.php:16 inc/block-styles/block-styles.php:25
+msgid "Solid Shadow"
+msgstr "はっきりした影"
+
+#: inc/block-styles/block-styles.php:17 inc/block-styles/block-styles.php:26
+msgid "Blur Shadow"
+msgstr "ぼやけた影"
+
+#: inc/block-styles/block-styles.php:20
+msgid "Striped"
+msgstr "縞模様"
+
+#: inc/block-styles/block-styles.php:21
+msgid "Dotted"
+msgstr "点点"
+
+#: inc/block-styles/block-styles.php:22
+msgid "Dashed"
+msgstr "破線"
+
+#: inc/block-styles/block-styles.php:29
+msgid "Block"
+msgstr "四角"
+
+#: inc/block-styles/block-styles.php:30
+msgid "Circle"
+msgstr "円"
+
+#: inc/block-styles/block-styles.php:33
+msgid "Base Filled"
+msgstr ""
+
+#: inc/block-styles/block-styles.php:34
+msgid "Contrast Filled"
+msgstr ""
+
+#: inc/block-styles/block-styles.php:35
+msgid "Primary Filled"
+msgstr ""
+
+#: inc/block-styles/block-styles.php:36
+msgid "Secondary Filled"
+msgstr ""
+
+#: inc/block-styles/block-styles.php:37
+msgid "Tertiary Filled"
+msgstr ""
+
+#: inc/block-styles/block-styles.php:38
+msgid "Quaternary Filled"
+msgstr ""
+
+#: inc/block-styles/block-styles.php:39
+msgid "Base Outlined"
+msgstr ""
+
+#: inc/block-styles/block-styles.php:40
+msgid "Contrast Outlined"
+msgstr ""
+
+#: inc/block-styles/block-styles.php:41
+msgid "Primary Outlined"
+msgstr ""
+
+#: inc/block-styles/block-styles.php:42
+msgid "Secondary Outlined"
+msgstr ""
+
+#: inc/block-styles/block-styles.php:43
+msgid "Tertiary Outlined"
+msgstr ""
+
+#: inc/block-styles/block-styles.php:44
+msgid "Quaternary Outlined"
+msgstr ""
+
+#: inc/block-styles/block-styles.php:47
+msgid "Quote Mark"
+msgstr "引用マーク"
+
+#: inc/block-styles/block-styles.php:50
+msgid "Square Label"
+msgstr "四角ラベル"
+
+#: inc/block-styles/block-styles.php:53
+msgid "Eyecatch Tiles"
+msgstr "タイル状アイキャッチ"
+
+#: inc/block-styles/block-styles.php:56
+msgid "Tiles"
+msgstr "タイル"
+
+#: inc/block-styles/block-styles.php:59
+msgid "Right Caret"
+msgstr "右矢印"
+
+#: patterns/cta-image-banner.php:18
+msgid "Let's join our service"
+msgstr ""
+
+#: patterns/cta-image-banner.php:22
+msgid "We look forward to exchanging ideas and feedback with you."
+msgstr "私たちは、皆さんとアイデアや意見を交換できることを楽しみにしています。"
+
+#: patterns/cta-image-banner.php:27 patterns/cta-simple-banner.php:24
+msgid "Chat with us"
+msgstr ""
+
+#: patterns/demo-features.php:18
+msgid "Simple Design"
+msgstr "シンプル デザイン"
+
+#: patterns/demo-features.php:22
+msgid ""
+"Cormorant is designed to be simple enough to take full advantage of the "
+"functionality of WordPress Core."
+msgstr ""
+"Cormorantは WordPress Core の機能を最大限に活用できるようシンプルに設計されて"
+"います。"
+
+#: patterns/demo-features.php:30
+msgid "Fluid Typography"
+msgstr "流体タイポグラフィ"
+
+#: patterns/demo-features.php:36
+msgid "Comfortable<br>Fluid Typography"
+msgstr ""
+"心地よく快適な\n"
+"流体タイポグラフィ"
+
+#: patterns/demo-features.php:40
+msgid ""
+"Flexible font size depending on the device's screen width. It eliminates too "
+"small or too large fonts as much as possible."
+msgstr ""
+"デバイスの画面幅に応じて、フォントサイズをフレキシブルに対応。可能な限り小さ"
+"すぎたり大きすぎたりするフォントサイズにならないようにしています。"
+
+#: patterns/demo-features.php:48
+msgid "User-friendly Spacing"
+msgstr "ユーザーフレンドリー・スペーシング"
+
+#: patterns/demo-features.php:52
+msgid ""
+"Flexibly scales the spacing unit according to the screen width. Smaller for "
+"smaller devices and 1.5 times larger for larger devices."
+msgstr ""
+"スペーシングの単位を画面幅に応じてフレキシブルに拡大縮小します。小さなデバイ"
+"スには小さく、大きなデバイスには1.5倍に拡大します。"
+
+#: patterns/demo-features.php:58
+msgid "Spacing"
+msgstr "スペーシング"
+
+#: patterns/demo-features.php:66
+msgid "Colors"
+msgstr "カラー"
+
+#: patterns/demo-features.php:72
+msgid "Extensive colour palette and gradient presets available"
+msgstr "豊富なカラーパレットとグラデーションプリセットを用意しています"
+
+#: patterns/demo-features.php:76
+msgid ""
+"For colour presets, a contrast colour is prepared for the base colour and "
+"four other colours are prepared in advance."
+msgstr ""
+"カラー・プリセットでは、ベース・カラーとコントラスト・カラーが用意され、それ"
+"以外の4色があらかじめ用意されています。"
+
+#: patterns/demo-features.php:80
+msgid "There is also a gradient preset based on them."
+msgstr "それらに基づいたグラデーションのプリセットも用意しています。"
+
+#: patterns/demo-hero.php:17
+msgid "You can touch the next generation of WordPress."
+msgstr "次世代の WordPress に触れることができます。"
+
+#: patterns/demo-hero.php:21
+msgid "Cormorant is Simple WordPress Block Theme for building website."
+msgstr ""
+"Cormorant はウェブサイトを構築するためのシンプルな WordPress ブロックテーマで"
+"す。"
+
+#: patterns/demo-hero.php:26
+msgid "Download on WP.org"
+msgstr "WP.org でダウンロード"
+
+#: patterns/demo-hero.php:30
+msgid "Learn More"
+msgstr "もっと学ぶ"
+
+#: patterns/faq-big-header.php:18
+msgid "FAQs"
+msgstr ""
+
+#: patterns/faq-big-header.php:22
+msgid ""
+"The following is a list of questions and answers that are frequently asked "
+"by actual customers.<br>If you have any further questions, please contact us "
+"at any time."
+msgstr ""
+"実際のお客様からよく寄せられるご質問と回答をまとめました。<br>ご不明な点がご"
+"ざいましたら、いつでもお問い合わせください。"
+
+#: patterns/faq-big-header.php:27 patterns/faq-big-header.php:28
+msgid "How can I make a purchase?"
+msgstr "購入するにはどうすればよいですか？"
+
+#: patterns/faq-big-header.php:29
+msgid ""
+"Our products can be easily purchased on our website. Simply visit the "
+"product page and add the product to your cart. Then proceed to checkout and "
+"enter your payment details. Once your order is confirmed, you will receive "
+"an order confirmation and tracking number via email."
+msgstr ""
+"当社の製品は、当社のウェブサイトで簡単にご購入いただけます。商品ページにアク"
+"セスし、商品をカートに入れるだけです。その後、チェックアウトに進み、お支払い"
+"の詳細を入力してください。注文が確認されると、注文確認と追跡番号がEメールで送"
+"信されます。"
+
+#: patterns/faq-big-header.php:33 patterns/faq-big-header.php:34
+msgid "Can I return or exchange the goods?"
+msgstr "返品や交換はできますか？"
+
+#: patterns/faq-big-header.php:35
+msgid ""
+"Yes, we accept returns and exchanges of unused and unopened products within "
+"14 days of receipt. Please refer to our returns policy for detailed "
+"procedures."
+msgstr ""
+"はい、未使用・未開封の商品であれば、商品到着後14日以内であれば返品・交換を承"
+"ります。詳しい手続きは返品規定をご覧ください。"
+
+#: patterns/faq-big-header.php:39 patterns/faq-big-header.php:40
+msgid "How can I get support?"
+msgstr "どうすればサポートを受けられますか？"
+
+#: patterns/faq-big-header.php:41
+msgid ""
+"You can contact us by phone or email with any support queries or issues. You "
+"can also find frequently asked questions and answers on our website. Please "
+"check the FAQs and feel free to contact us if you cannot find a solution."
+msgstr ""
+"サポートに関するご質問や問題は、電話またはEメールでお問い合わせください。ま"
+"た、よくあるご質問とその回答は弊社ウェブサイトでもご覧いただけます。FAQをご確"
+"認いただき、解決策が見つからない場合はお気軽にお問い合わせください。"
+
+#: patterns/faq-big-header.php:45 patterns/faq-big-header.php:46
+msgid "How long does it take for delivery?"
+msgstr "納期はどれくらいかかりますか？"
+
+#: patterns/faq-big-header.php:47
+msgid ""
+"Normally, orders are dispatched within 2-5 working days after confirmation "
+"of the order. This may vary depending on the delivery area and product "
+"availability, but we will provide you with a tracking number so that you can "
+"track the status of your delivery."
+msgstr ""
+"通常、ご注文確認後2～5営業日以内に発送いたします。配送地域や商品の在庫状況に"
+"より異なる場合がありますが、配送状況を追跡できるよう追跡番号をお知らせしま"
+"す。"
+
+#: patterns/faq-big-header.php:51 patterns/faq-big-header.php:52
+msgid "What payment methods are available?"
+msgstr "どのような支払い方法がありますか？"
+
+#: patterns/faq-big-header.php:53
+msgid ""
+"Several payment methods are available, including credit card, debit card and "
+"PayPal. You can select your preferred payment method on the online checkout "
+"page. Security measures are in place to guarantee secure payments."
+msgstr ""
+"クレジットカード、デビットカード、PayPalなど、複数のお支払い方法がご利用いた"
+"だけます。オンラインチェックアウトのページでご希望のお支払い方法をお選びいた"
+"だけます。安全なお支払いを保証するためのセキュリティ対策が施されています。"
+
+#: patterns/footer-site-name-links.php:38
+#: patterns/footer-site-name-links.php:42
+#: patterns/footer-site-name-links.php:46
+#: patterns/footer-site-name-links.php:50
+#: patterns/footer-site-name-links.php:62
+#: patterns/footer-site-name-links.php:66
+#: patterns/footer-site-name-links.php:70
+#: patterns/footer-site-name-links.php:74
+#: patterns/footer-site-name-links.php:86
+#: patterns/footer-site-name-links.php:90
+#: patterns/footer-site-name-links.php:94
+#: patterns/footer-site-name-links.php:98
+msgid "Menu Item"
+msgstr ""
+
+#: patterns/header-2-row-standard.php:24 patterns/header-standard-button.php:23
+#: patterns/header-standard.php:23
+msgid "Home"
+msgstr ""
+
+#: patterns/header-2-row-standard.php:25 patterns/header-standard-button.php:24
+#: patterns/header-standard.php:24
+msgid "About"
+msgstr ""
+
+#: patterns/header-2-row-standard.php:26 patterns/header-standard-button.php:25
+#: patterns/header-standard.php:25
+msgid "Services"
+msgstr ""
+
+#: patterns/header-2-row-standard.php:27 patterns/header-standard-button.php:26
+#: patterns/header-standard.php:26
+msgid "Service A"
+msgstr ""
+
+#: patterns/header-2-row-standard.php:28 patterns/header-standard-button.php:27
+#: patterns/header-standard.php:27
+msgid "Service B"
+msgstr ""
+
+#: patterns/header-2-row-standard.php:29 patterns/header-standard-button.php:28
+#: patterns/header-standard.php:28
+msgid "Service C"
+msgstr ""
+
+#: patterns/header-2-row-standard.php:31 patterns/header-standard-button.php:30
+#: patterns/header-standard.php:30
+msgid "Blog"
+msgstr ""
+
+#: patterns/header-2-row-standard.php:32 patterns/header-standard-button.php:31
+#: patterns/header-standard.php:31
+msgid "Contact"
+msgstr ""
+
+#: patterns/hero-covered-image.php:17
+msgid "WordPress Block Theme<br>Cormorant"
+msgstr ""
+"WordPress ブロックテーマ\n"
+"Cormorant"
+
+#: patterns/hero-covered-image.php:25
+msgid "Simple, Customizable, Flexible, it's mean COMFORTABLE."
+msgstr "シンプル、カスタマイズ可能性、柔軟性、それは便利ということ。"
+
+#: patterns/hero-covered-image.php:29
+msgid ""
+"WordPress Block Theme Cormorant has been thoughtfully designed to allow you "
+"to enjoy as much as possible the pleasing spacing design, fluid typographic "
+"design and other great features that WordPress Core has to offer."
+msgstr ""
+"WordPress Block Theme Cormorant は、心地よいスペーシング設計、流体タイポグラ"
+"フィ設計、その他 WordPress Core が提供する素晴らしい機能を出来るだけ楽しめる"
+"ように考え抜かれた設計が施されています。"
+
+#: patterns/profile-2-col.php:21 patterns/team-horizontal-3-menbers.php:34
+msgid "Edward Smith"
+msgstr "エドワード・スミス"
+
+#: patterns/profile-2-col.php:25
+msgid "Chief Director"
+msgstr "チーフ・ディレクター"
+
+#: patterns/profile-2-col.php:44
+msgid "Hi, I'm Edward."
+msgstr "やあ、僕はエドワードです。"
+
+#: patterns/profile-2-col.php:48 patterns/team-horizontal-3-menbers.php:38
+msgid ""
+"I am a professional with a passion for design and creativity. My career has "
+"been built on a wealth of experience and success, but I am always looking "
+"for new challenges and growth."
+msgstr ""
+"私はデザインと創造性に情熱を注ぐプロフェッショナルです。私のキャリアは豊富な"
+"経験と成功の上に築かれてきましたが、常に新しい挑戦と成長を求めています。"
+
+#: patterns/profile-2-col.php:52
+msgid ""
+"My design philosophy is to combine user experience with aesthetics. With a "
+"deep understanding of user needs and objectives, I seek designs that they "
+"find inspiring and delightful. By working with the team under my direction, "
+"I aim to ensure that design is integrated with business strategy and "
+"delivers a powerful brand experience."
+msgstr ""
+"私のデザイン哲学は、ユーザーエクスペリエンスと美学の融合です。ユーザーのニー"
+"ズと目的を深く理解し、彼らが感動し、喜びを感じるデザインを追求しています。私"
+"の指揮下にあるチームと協力することで、デザインがビジネス戦略と統合され、強力"
+"なブランド体験を提供することを目指します。"
+
+#: patterns/profile-2-col.php:56
+msgid ""
+"I have exceptional leadership skills and am adept at leading teams to shape "
+"creative ideas. I also place great importance on maximising individual "
+"talents through collaboration and communication. I always strive to provide "
+"a positive environment and create opportunities for team members to grow and "
+"express themselves."
+msgstr ""
+"私には卓越したリーダーシップ・スキルがあり、チームを率いて創造的なアイデアを"
+"形にすることに長けています。また、コラボレーションとコミュニケーションを通じ"
+"て、個人の才能を最大限に引き出すことを大切にしています。私は常に前向きな環境"
+"を提供し、チームメンバーが成長し、自己表現できる機会を作るよう努めています。"
+
+#: patterns/profile-2-col.php:60
+msgid ""
+"My background includes experience working on a diverse range of projects. I "
+"have worked as a design lead in a wide range of industries, from global "
+"companies to start-ups. These experiences have given me the knowledge of how "
+"to work with teams to realise their vision and deliver results."
+msgstr ""
+"私の経歴には、さまざまなプロジェクトに携わった経験があります。グローバル企業"
+"から新興企業まで、幅広い業界でデザイン・リーダーとして働いてきました。これら"
+"の経験から、チームと協力してビジョンを実現し、結果を出す方法についての知識を"
+"得ました。"
+
+#: patterns/profile-2-col.php:64
+msgid ""
+"I would be delighted to be part of your design department to help you "
+"continue to deliver great results. Please do not hesitate to contact me."
+msgstr ""
+"御社のデザイン部門の一員として、素晴らしい結果を出し続けるお手伝いができれば"
+"幸いです。ご遠慮なくご連絡ください。"
+
+#: patterns/profile-marketing-business.php:26
+#: patterns/testimonial-big-image.php:30
+#: patterns/testimonial-picture-on-card.php:42
+msgid "Marketing Director"
+msgstr "マーケティング・ディレクター"
+
+#: patterns/profile-marketing-business.php:30
+#: patterns/team-horizontal-3-menbers.php:56
+msgid "Fiona Van den Berg"
+msgstr "フィオナ・ファン・デン・ベーグ"
+
+#: patterns/profile-marketing-business.php:35
+msgid ""
+"As Marketing Director, she is passionate about brand strategy and effective "
+"communication, with a strong focus on customer engagement.Using data-driven "
+"insights and under my leadership through an omni-channel approach, I am "
+"focused on increasing brand awareness and loyalty."
+msgstr ""
+"マーケティング・ディレクターとして、顧客エンゲージメントを重視したブランド戦"
+"略と効果的なコミュニケーションに情熱を注いでいる。データ主導のインサイトを活"
+"用し、オムニチャネル・アプローチを通じた私のリーダーシップの下、ブランドの認"
+"知度とロイヤルティの向上に注力している。"
+
+#: patterns/profile-marketing-business.php:39
+msgid ""
+"I am also passionate about team leadership and collaboration, keeping up "
+"with the changing marketing industry and spreading the importance of female "
+"leadership."
+msgstr ""
+"私はまた、チームのリーダーシップとコラボレーション、変化するマーケティング業"
+"界への対応、女性リーダーシップの重要性の普及にも情熱を注いでいます。"
+
+#: patterns/profile-marketing-business.php:43
+msgid ""
+"I am committed to using my successful experience and skills to help the "
+"company realise its vision and goals."
+msgstr ""
+"私は自分の成功体験とスキルを活かして、会社のビジョンと目標の実現に貢献するこ"
+"とを約束します。"
+
+#: patterns/team-horizontal-3-menbers.php:18
+msgid "We are the Team"
+msgstr "私たちのチームです"
+
+#: patterns/team-horizontal-3-menbers.php:22
+msgid "Our team will support your company to the best of its ability."
+msgstr "私たちのチームは御社を全力でサポートします。"
+
+#: patterns/team-horizontal-3-menbers.php:43
+#: patterns/team-horizontal-3-menbers.php:65
+#: patterns/team-horizontal-3-menbers.php:87
+msgid "View Profile"
+msgstr "プロフィールを見る"
+
+#: patterns/team-horizontal-3-menbers.php:60
+msgid ""
+"I am focused on increasing brand awareness and loyalty. I am also passionate "
+"about team leadership and collaboration, keeping up with the changing "
+"marketing industry and spreading the importance of female leadership."
+msgstr ""
+"私はブランドの認知度とロイヤリティを高めることに注力しています。また、チーム"
+"のリーダーシップとコラボレーション、変化するマーケティング業界への対応、女性"
+"リーダーシップの重要性を広めることにも情熱を注いでいます。"
+
+#: patterns/team-horizontal-3-menbers.php:78
+msgid "Hugo Martin"
+msgstr "ヒューゴ・マーティン"
+
+#: patterns/team-horizontal-3-menbers.php:82
+msgid ""
+"I am a designer with a passion for design and a creative approach. With a "
+"focus on the user's point of view, he pursues designs that give brands and "
+"products appeal and identity."
+msgstr ""
+"デザインへの情熱とクリエイティブなアプローチを持つデザイナーです。ユーザーの"
+"視点を重視し、ブランドや製品に魅力とアイデンティティを与えるデザインを追求し"
+"ている。"
+
+#: patterns/team-member-gallery.php:19
+msgid "Our Team"
+msgstr "我々のチーム"
+
+#: patterns/team-member-gallery.php:23
+msgid ""
+"As a web production company, we combine creative design with effective "
+"technology to deliver value to our clients businesses."
+msgstr ""
+"ウェブ制作会社として、クリエイティブなデザインと効果的なテクノロジーを組み合"
+"わせ、クライアントのビジネスに価値を提供します。"
+
+#: patterns/team-member-gallery.php:27
+msgid ""
+"We design and develop fit-for-purpose websites and applications with a focus "
+"on user experience. During the design phase, we gain a deep understanding of "
+"user needs and requirements and create attractive, easy-to-use designs that "
+"reflect your brand identity."
+msgstr ""
+"ユーザーエクスペリエンスに重点を置き、目的に合ったウェブサイトやアプリケー"
+"ションを設計・開発します。デザイン段階では、ユーザーのニーズや要件を深く理解"
+"し、ブランド・アイデンティティを反映した魅力的で使いやすいデザインを作成しま"
+"す。"
+
+#: patterns/team-member-gallery.php:31
+msgid ""
+"Meanwhile, during the development phase, we utilise the latest technologies "
+"to deliver highly functional and high-performing websites and applications. "
+"We also pay close attention to security and performance, providing the best "
+"solutions for our clients businesses."
+msgstr ""
+"一方、開発段階では、最新のテクノロジーを駆使し、高機能でパフォーマンスの高い"
+"ウェブサイトやアプリケーションを提供します。また、セキュリティやパフォーマン"
+"スにも細心の注意を払い、お客様のビジネスに最適なソリューションを提供します。"
+
+#: patterns/team-member-gallery.php:35
+msgid ""
+"What sets us apart is the strong partnership we build with our clients by "
+"working with a team of experienced professionals.We focus on communication "
+"and responding to our clients requirements, which leads to successful "
+"projects."
+msgstr ""
+"私たちの特徴は、経験豊富なプロフェッショナル・チームと協力し、お客様との間に"
+"強いパートナーシップを築くことです。私たちは、コミュニケーションを重視し、お"
+"客様のご要望にお応えすることで、プロジェクトを成功に導きます。"
+
+#: patterns/team-member-gallery.php:40
+msgid "More Information"
+msgstr "詳細情報はこちら"
+
+#: patterns/testimonial-big-image.php:25
+msgid ""
+"Since using our product, our business results have improved dramatically! "
+"Efficient task management and real-time data analysis capabilities have "
+"supported our decision-making and helped us develop strategies to increase "
+"sales."
+msgstr ""
+"当社の製品を使用してから、業績が劇的に向上しました！効率的なタスク管理とリア"
+"ルタイムのデータ分析機能は、私たちの意思決定をサポートし、売上を伸ばすための"
+"戦略立案に役立っています。"
+
+#: patterns/testimonial-big-image.php:34
+#: patterns/testimonial-picture-on-card.php:46
+msgid "Matthias Klaus"
+msgstr "マティアス・クラウス"
+
+#: patterns/testimonial-big-image.php:43
+#: patterns/testimonial-picture-on-card.php:85
+msgid ""
+"For many years we have been using other companies products, but since we "
+"switched to yours, it has made a real difference to our business. We have "
+"been particularly surprised by the robustness and customisability of your "
+"product. We have been able to add custom functionality to suit our "
+"particular needs, which has enabled us to streamline our operations."
+msgstr ""
+"長年、他社の製品を使用してきましたが、御社の製品に切り替えてから、私たちのビ"
+"ジネスに大きな違いが生まれました。特に、御社製品の堅牢性とカスタマイズ性には"
+"驚かされました。私たちの特定のニーズに合わせてカスタム機能を追加することがで"
+"き、それによって業務を効率化することができました。"
+
+#: patterns/testimonial-big-image.php:48
+msgid "Chef Designer"
+msgstr "チーフ・デザイナー"
+
+#: patterns/testimonial-big-image.php:52
+#: patterns/testimonial-picture-on-card.php:70
+msgid "Natalia Andrea"
+msgstr "ナタリア・アンドレア"
+
+#: patterns/testimonial-picture-on-card.php:18
+msgid "Testimonial"
+msgstr "お客様の声"
+
+#: patterns/testimonial-picture-on-card.php:22
+msgid "We bring you real feedback from our customers."
+msgstr "お客様の生の声をお届けします。"
+
+#: patterns/testimonial-picture-on-card.php:37
+msgid ""
+"Since using our product, our business results have improved dramatically! "
+"Efficient task management and real-time data analysis capabilities have "
+"supported our decision-making and helped us develop strategies to increase "
+"sales. Furthermore, we are very grateful for the excellent customer support. "
+"Their professionalism and immediate response has always given us peace of "
+"mind."
+msgstr ""
+"当社の製品を使用してから、業績が劇的に向上しました！効率的なタスク管理とリア"
+"ルタイムのデータ分析機能は、私たちの意思決定をサポートし、売上増加のための戦"
+"略立案に役立ちました。さらに、優れたカスタマーサポートにも大変感謝していま"
+"す。プロフェッショナリズムと迅速な対応により、常に安心して利用することができ"
+"ます。"
+
+#: patterns/testimonial-picture-on-card.php:61
+msgid ""
+"The new products we have introduced have made a significant contribution to "
+"the efficiency of our business. In particular, the automation of tasks and "
+"real-time data visualisation were excellent features. This has streamlined "
+"our internal processes and increased the productivity of our entire staff. "
+"Furthermore, we were amazed by the ease of use. We were able to operate it "
+"straight away without the need for training."
+msgstr ""
+"導入した新製品は、業務の効率化に大きく貢献した。特に、タスクの自動化とリアル"
+"タイムのデータ可視化は優れた機能でした。これにより、社内プロセスが合理化さ"
+"れ、スタッフ全員の生産性が向上しました。さらに、使いやすさにも驚かされまし"
+"た。トレーニングの必要なく、すぐに操作することができました。"
+
+#: patterns/testimonial-picture-on-card.php:66
+msgid "Chief Designer"
+msgstr "チーフ・デザイナー"
+
+#: patterns/testimonial-picture-on-card.php:90
+msgid "Project Manager"
+msgstr "プロジェクト・マネージャー"
+
+#: patterns/testimonial-picture-on-card.php:94
+msgid "Emma Johansson"
+msgstr "エマ・ヨハンソン"
+
+#. Theme Name of the plugin/theme
+msgid "Cormorant"
+msgstr ""
+
+#. Theme URI of the plugin/theme
+msgid "https://cormorant.kunokoji.com"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"This theme is Block Theme supporting Full Site Editing. Gifu City in Gifu "
+"Prefecture, Japan is famous for a traditional fishing method called Ukai "
+"(cormorant fishing). That's how I came up with the name. Simple design, "
+"universal designed fonts available, many block patterns and styles. You can "
+"use for blog, single page for business, self portfolio, and more. This theme "
+"will be tested trying for new featured WordPress. So occasional disruptive "
+"changes may be made."
+msgstr ""
+"このテーマはフルサイト編集に対応したブロックテーマです。岐阜県岐阜市は鵜飼と"
+"いう伝統漁法で有名である。そんな思いからこの名前をつけました。シンプルなデザ"
+"イン、ユニバーサルデザインのフォント、多くのブロックパターンとスタイル。ブロ"
+"グ、ビジネス用シングルページ、セルフポートフォリオなどにご利用いただけます。"
+"このテーマは、新しいWordPressのためにテストされます。そのため、時折破壊的な変"
+"更が行われる可能性があります。"
+
+#. Author of the plugin/theme
+msgid "Koji Kuno"
+msgstr "久野 晃司"
+
+#. Author URI of the plugin/theme
+msgid "https://kunokoji.com"
+msgstr ""
+
+#~ msgid "How to change color"
+#~ msgstr "どうやって色を変えるのか"
+
+#~ msgid ""
+#~ "The border colour can be changed <strong>by changing the text colour of "
+#~ "the column.</strong> Libero fames porttitor eget primis turpis "
+#~ "sollicitudin orci et dis urna augue, himenaeos felis semper non tempor "
+#~ "fusce nam sit elit rhoncus."
+#~ msgstr ""
+#~ "ボーダーカラーは、<strong>カラムのテキストカラーを変更することによって変更"
+#~ "することができます。</strong> このカラムのテキストカラーを変更することに"
+#~ "よって、<strong>ボーダーカラーを変更することができます。"
