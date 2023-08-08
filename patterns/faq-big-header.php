@@ -44,7 +44,7 @@
 
 		<!-- wp:details {"summary":"<?php esc_html_e( 'How long does it take for delivery?', 'cormorant' ); ?>","style":{"border":{"bottom":{"width":"2px"},"right":{},"left":{}},"spacing":{"padding":{"top":"var:preset|spacing|s","bottom":"var:preset|spacing|s","left":"var:preset|spacing|s","right":"var:preset|spacing|s"}}},"fontSize":"m"} -->
 		<details class="wp-block-details has-m-font-size" style="border-bottom-width:2px;padding-top:var(--wp--preset--spacing--s);padding-right:var(--wp--preset--spacing--s);padding-bottom:var(--wp--preset--spacing--s);padding-left:var(--wp--preset--spacing--s)"><summary><?php esc_html_e( 'How long does it take for delivery?', 'cormorant' ); ?></summary><!-- wp:paragraph {"placeholder":"「/」を入力して非表示ブロックを追加する"} -->
-			<p><?php esc_html_e( 'Normally, orders are dispatched within 2-5 working days after confirmation of the order. This may vary depending on the delivery area and product availability, but we will provide you with a tracking number so that you can track the status of your delivery.', 'cormorant'); ?></p>
+			<p><?php esc_html_e( 'Normally, orders are dispatched within 2-5 working days after confirmation of the order. This may vary depending on the delivery area and product availability, but we will provide you with a tracking number so that you can track the status of your delivery.', 'cormorant' ); ?></p>
 			<!-- /wp:paragraph --></details>
 		<!-- /wp:details -->
 

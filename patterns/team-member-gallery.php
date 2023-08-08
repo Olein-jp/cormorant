@@ -32,7 +32,7 @@
 			<!-- /wp:paragraph -->
 
 			<!-- wp:paragraph -->
-			<p><?php esc_html_e( 'What sets us apart is the strong partnership we build with our clients by working with a team of experienced professionals.We focus on communication and responding to our clients requirements, which leads to successful projects.', 'cormorant' );?></p>
+			<p><?php esc_html_e( 'What sets us apart is the strong partnership we build with our clients by working with a team of experienced professionals.We focus on communication and responding to our clients requirements, which leads to successful projects.', 'cormorant' ); ?></p>
 			<!-- /wp:paragraph -->
 
 			<!-- wp:buttons {"layout":{"type":"flex","justifyContent":"center"},"style":{"spacing":{"margin":{"top":"var:preset|spacing|l"}}}} -->

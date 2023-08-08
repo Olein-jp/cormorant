@@ -31,34 +31,34 @@ if ( ! function_exists( 'cormorant_register_block_styles' ) ) {
 				'cormorant-circle-pagination' => __( 'Circle', 'cormorant' ),
 			),
 			'core/button'           => array(
-				'cormorant-filled-square-button-base'         => __( 'Base Filled', 'cormorant' ),
-				'cormorant-filled-square-button-contrast'     => __( 'Contrast Filled', 'cormorant' ),
-				'cormorant-filled-square-button-primary'      => __( 'Primary Filled', 'cormorant' ),
-				'cormorant-filled-square-button-secondary'    => __( 'Secondary Filled', 'cormorant' ),
-				'cormorant-filled-square-button-tertiary'     => __( 'Tertiary Filled', 'cormorant' ),
-				'cormorant-filled-square-button-quaternary'   => __( 'Quaternary Filled', 'cormorant' ),
-				'cormorant-outlined-square-button-base'       => __( 'Base Outlined', 'cormorant' ),
-				'cormorant-outlined-square-button-contrast'   => __( 'Contrast Outlined', 'cormorant' ),
-				'cormorant-outlined-square-button-primary'    => __( 'Primary Outlined', 'cormorant' ),
-				'cormorant-outlined-square-button-secondary'  => __( 'Secondary Outlined', 'cormorant' ),
-				'cormorant-outlined-square-button-tertiary'   => __( 'Tertiary Outlined', 'cormorant' ),
+				'cormorant-filled-square-button-base'      => __( 'Base Filled', 'cormorant' ),
+				'cormorant-filled-square-button-contrast'  => __( 'Contrast Filled', 'cormorant' ),
+				'cormorant-filled-square-button-primary'   => __( 'Primary Filled', 'cormorant' ),
+				'cormorant-filled-square-button-secondary' => __( 'Secondary Filled', 'cormorant' ),
+				'cormorant-filled-square-button-tertiary'  => __( 'Tertiary Filled', 'cormorant' ),
+				'cormorant-filled-square-button-quaternary' => __( 'Quaternary Filled', 'cormorant' ),
+				'cormorant-outlined-square-button-base'    => __( 'Base Outlined', 'cormorant' ),
+				'cormorant-outlined-square-button-contrast' => __( 'Contrast Outlined', 'cormorant' ),
+				'cormorant-outlined-square-button-primary' => __( 'Primary Outlined', 'cormorant' ),
+				'cormorant-outlined-square-button-secondary' => __( 'Secondary Outlined', 'cormorant' ),
+				'cormorant-outlined-square-button-tertiary' => __( 'Tertiary Outlined', 'cormorant' ),
 				'cormorant-outlined-square-button-quaternary' => __( 'Quaternary Outlined', 'cormorant' ),
 			),
-			'core/pullquote' => array(
+			'core/pullquote'        => array(
 				'cormorant-quote-mark-pullquote' => __( 'Quote Mark', 'cormorant' ),
 			),
-			'core/post-terms' => array(
+			'core/post-terms'       => array(
 				'cormorant-post-terms-square' => __( 'Square Label', 'cormorant' ),
 			),
-			'core/post-template' => array(
+			'core/post-template'    => array(
 				'cormorant-post-template-eyecatch-tiles' => __( 'Eyecatch Tiles', 'cormorant' ),
 			),
-			'core/gallery' => array(
+			'core/gallery'          => array(
 				'cormorant-gallery-tiles' => __( 'Tiles', 'cormorant' ),
 			),
-			'core/details' => array(
+			'core/details'          => array(
 				'cormorant-details-right-caret' => __( 'Right Caret', 'cormorant' ),
-			)
+			),
 		);
 
 		/**

@@ -19,7 +19,7 @@ if ( ! function_exists( 'cormorant_setup' ) ) {
 		remove_theme_support( 'core-block-patterns' );
 
 		// Add support for editor styles.
-		$files = glob( get_template_directory() . '/assets/css/block/*.css' );
+		$files         = glob( get_template_directory() . '/assets/css/block/*.css' );
 		$editor_styles = array( 'assets/css/style.css' );
 
 		foreach ( $files as $file ) {
