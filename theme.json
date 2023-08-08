@@ -783,6 +783,15 @@
         "typography": {
           "fontSize": "var( --wp--preset--font-size--xs )"
         }
+      },
+      "core/search": {
+        "elements": {
+          "button": {
+            "color": {
+              "background": "var( --wp--preset--color--base )"
+            }
+          }
+        }
       }
     },
     "color": {

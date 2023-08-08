@@ -38,3 +38,28 @@
   padding-bottom: .1em;
   border-bottom: 5px dashed currentColor;
 }
+
+.is-style-cormorant-brand-color-gradient {
+  background: linear-gradient(
+                  to right,
+                  var( --wp--preset--color--primary ) 20%,
+                  var( --wp--preset--color--secondary ) 30%,
+                  var( --wp--preset--color--tertiary ) 70%,
+                  var( --wp--preset--color--quaternary ) 80%
+  );
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-fill-color: transparent;
+  background-size: 500% auto;
+  animation: textShine 7.5s ease-in-out infinite alternate;
+}
+
+@keyframes textShine {
+  0% {
+    background-position: 0% 50%;
+  }
+  100% {
+    background-position: 100% 50%;
+  }
+}

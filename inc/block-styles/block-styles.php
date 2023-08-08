@@ -11,17 +11,18 @@ if ( ! function_exists( 'cormorant_register_block_styles' ) ) {
 	 * @since 1.0.0
 	 */
 	function cormorant_register_block_styles() {
-		$block_styles = array (
-			'core/image' => array(
+		$block_styles = array(
+			'core/image'            => array(
 				'cormorant-solid-shadow-image' => __( 'Solid Shadow', 'cormorant' ),
 				'cormorant-blur-shadow-image'  => __( 'Blur Shadow', 'cormorant' ),
 			),
-			'core/heading' => array(
-				'cormorant-striped-heading' => __( 'Striped', 'cormorant' ),
-				'cormorant-dotted-heading'  => __( 'Dotted', 'cormorant' ),
-				'cormorant-dashed-heading'  => __( 'Dashed', 'cormorant' ),
+			'core/heading'          => array(
+				'cormorant-striped-heading'      => __( 'Striped', 'cormorant' ),
+				'cormorant-dotted-heading'       => __( 'Dotted', 'cormorant' ),
+				'cormorant-dashed-heading'       => __( 'Dashed', 'cormorant' ),
+				'cormorant-brand-color-gradient' => __( 'Gradient', 'cormorant' ),
 			),
-			'core/group' => array(
+			'core/group'            => array(
 				'cormorant-solid-shadow-group' => __( 'Solid Shadow', 'cormorant' ),
 				'cormorant-blur-shadow-group'  => __( 'Blur Shadow', 'cormorant' ),
 			),
@@ -29,7 +30,7 @@ if ( ! function_exists( 'cormorant_register_block_styles' ) ) {
 				'cormorant-block-pagination'  => __( 'Block', 'cormorant' ),
 				'cormorant-circle-pagination' => __( 'Circle', 'cormorant' ),
 			),
-			'core/button' => array(
+			'core/button'           => array(
 				'cormorant-filled-square-button-base'         => __( 'Base Filled', 'cormorant' ),
 				'cormorant-filled-square-button-contrast'     => __( 'Contrast Filled', 'cormorant' ),
 				'cormorant-filled-square-button-primary'      => __( 'Primary Filled', 'cormorant' ),
