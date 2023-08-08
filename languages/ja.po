@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Cormorant\n"
-"POT-Creation-Date: 2023-08-08 18:36+0900\n"
-"PO-Revision-Date: 2023-08-08 18:36+0900\n"
+"POT-Creation-Date: 2023-08-08 19:55+0900\n"
+"PO-Revision-Date: 2023-08-08 19:55+0900\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: ja\n"
@@ -26,43 +26,43 @@ msgstr ""
 msgid "Cormorant CTA"
 msgstr "Cormorant CTA"
 
-#: inc/block-patterns/block-patterns.php:17
+#: inc/block-patterns/block-patterns.php:16
 msgid "Cormorant Hero"
 msgstr "Cormorant ヒーロー"
 
-#: inc/block-patterns/block-patterns.php:18
+#: inc/block-patterns/block-patterns.php:17
 msgid "Cormorant Profile"
 msgstr "Cormorant プロフィール"
 
-#: inc/block-patterns/block-patterns.php:19
+#: inc/block-patterns/block-patterns.php:18
 msgid "Cormorant Team"
 msgstr "Cormorant チーム"
 
-#: inc/block-patterns/block-patterns.php:20
+#: inc/block-patterns/block-patterns.php:19
 msgid "Cormorant Testimonial"
 msgstr "Cormorant お客様の声"
 
-#: inc/block-patterns/block-patterns.php:22
+#: inc/block-patterns/block-patterns.php:20
 msgid "Cormorant FAQ"
 msgstr "Cormorant FAQ"
 
-#: inc/block-patterns/block-patterns.php:23
+#: inc/block-patterns/block-patterns.php:21
 msgid "Cormorant Query"
 msgstr "Cormorant クエリーループ"
 
-#: inc/block-patterns/block-patterns.php:24
+#: inc/block-patterns/block-patterns.php:22
 msgid "Cormorant Page"
 msgstr "Cormorant ページ"
 
-#: inc/block-patterns/block-patterns.php:25
+#: inc/block-patterns/block-patterns.php:23
 msgid "Cormorant Header"
 msgstr "Cormorant ヘッダー"
 
-#: inc/block-patterns/block-patterns.php:26
+#: inc/block-patterns/block-patterns.php:24
 msgid "Cormorant Footer"
 msgstr "Cormorant フッター"
 
-#: inc/block-patterns/block-patterns.php:27
+#: inc/block-patterns/block-patterns.php:25
 msgid "Cormorant Demo"
 msgstr "Cormorant デモ"
 
@@ -195,7 +195,7 @@ msgid "Fluid Typography"
 msgstr "流体タイポグラフィ"
 
 #: patterns/demo-features.php:37
-msgid "Comfortable<br>Fluid Typography"
+msgid "Comfortable Fluid Typography"
 msgstr ""
 "心地よく快適な\n"
 "流体タイポグラフィ"

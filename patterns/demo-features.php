@@ -34,7 +34,7 @@
 
 			<!-- wp:column {"verticalAlignment":"center"} -->
 			<div class="wp-block-column is-vertically-aligned-center"><!-- wp:heading {"level":3} -->
-				<h3 class="wp-block-heading"><?php esc_html_e( 'Comfortable<br>Fluid Typography', 'cormorant' ); ?></h3>
+				<h3 class="wp-block-heading"><?php esc_html_e( 'Comfortable Fluid Typography', 'cormorant' ); ?></h3>
 				<!-- /wp:heading -->
 
 				<!-- wp:paragraph -->
