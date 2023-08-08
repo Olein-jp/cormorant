@@ -4,5 +4,5 @@
 }
 
 .is-style-cormorant-blur-shadow-group {
-  box-shadow: 0 0 10px var( --wp--preset--color--lighter-gray );
+  box-shadow: 0 0 10px var(--wp--preset--color--lighter-gray);
 }
