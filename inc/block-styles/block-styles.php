@@ -56,9 +56,6 @@ if ( ! function_exists( 'cormorant_register_block_styles' ) ) {
 			'core/gallery'          => array(
 				'cormorant-gallery-tiles' => __( 'Tiles', 'cormorant' ),
 			),
-			'core/details'          => array(
-				'cormorant-details-right-caret' => __( 'Right Caret', 'cormorant' ),
-			),
 		);
 
 		/**
