@@ -1,9 +1,9 @@
 == cormorant ==
 Contributors: Koji Kuno
 Donate link: https://www.amazon.co.jp/hz/wishlist/ls/WH93ZBVDA08I
-Requires at least: 6.2
-Requires PHP: 5.6
-Tested up to: 6.2
+Requires at least: 6.3
+Requires PHP: 7.4
+Tested up to: 6.3
 Stable tag: trunk
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
@@ -18,12 +18,12 @@ Cormorant which is WordPress theme is licensed by GPLv2 or later.
 
 Cormorant bundles the following third-party resources:
 
+## Fonts
 Noto Sans JP subset
 License: SIL Open Font License, 1.1, https://opensource.org/licenses/OFL-1.1
 Source: https://github.com/ixkaito/NotoSansJP-subset
 
-PHOTO
-
+## Photos
 HD Wallpapers
 https://stocksnap.io/author/hdwallpapers
 License: CC0 https://creativecommons.org/publicdomain/zero/1.0/
@@ -56,7 +56,19 @@ Source: https://stocksnap.io/photo/business-woman-FPQIEQBMPA renamed to `cormora
 Source: https://stocksnap.io/photo/business-woman-S81ZPXJZUU renamed to `cormorant-sample-11.jpg`
 Source: https://stocksnap.io/photo/business-man-NHW7CBJDFM renamed to `cormorant-sample-12.jpg`
 
-== Changelog ==
+== Changelog =
+Version 3.0.3(2023-08-08)
+--------------------
+- Updated readme.txt
+
+Version 3.0.1(2023-08-08)
+--------------------
+- Fixed some bugs
+
+Version 3.0.0(2023-08-08)
+--------------------
+- Updated to fix for WordPress 6.3
+
 Version 2.0.5(2023-04-17)
 --------------------
 - Fixed doesn't work left and right padding on page template
