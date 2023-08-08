@@ -57,6 +57,10 @@ Source: https://stocksnap.io/photo/business-woman-S81ZPXJZUU renamed to `cormora
 Source: https://stocksnap.io/photo/business-man-NHW7CBJDFM renamed to `cormorant-sample-12.jpg`
 
 == Changelog =
+Version 3.0.4(2023-08-08)
+--------------------
+- added images
+
 Version 3.0.3(2023-08-08)
 --------------------
 - Updated readme.txt, style.css
