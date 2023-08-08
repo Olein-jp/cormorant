@@ -394,8 +394,8 @@
       }
     },
     "layout": {
-      "contentSize": "50rem",
-      "wideSize": "70rem"
+      "contentSize": "700px",
+      "wideSize": "1120px"
     },
     "spacing": {
       "blockGap": true,

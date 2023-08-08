@@ -12,8 +12,9 @@
  * @since 3.0.0
  */
 ?>
-<!-- wp:group {"style":{"spacing":{"padding":{"top":"var:preset|spacing|3-xl","right":"var:preset|spacing|default","bottom":"var:preset|spacing|3-xl","left":"var:preset|spacing|default"}}},"layout":{"type":"constrained"}} -->
-<div class="wp-block-group" style="padding-top:var(--wp--preset--spacing--3-xl);padding-right:var(--wp--preset--spacing--default);padding-bottom:var(--wp--preset--spacing--3-xl);padding-left:var(--wp--preset--spacing--default)"><!-- wp:group {"tagName":"header","align":"wide","style":{"spacing":{"margin":{"top":"var:preset|spacing|default","bottom":"var:preset|spacing|l"}}},"layout":{"type":"constrained"}} -->
+<!-- wp:group {"align":"wide","style":{"spacing":{"padding":{"top":"var:preset|spacing|3-xl","right":"var:preset|spacing|s","bottom":"var:preset|spacing|3-xl","left":"var:preset|spacing|s"}}},"layout":{"type":"constrained"}} -->
+<div class="wp-block-group alignwide" style="padding-top:var(--wp--preset--spacing--3-xl);padding-right:var(--wp--preset--spacing--s);padding-bottom:var(--wp--preset--spacing--3-xl);padding-left:var(--wp--preset--spacing--s)">
+	<!-- wp:group {"tagName":"header","align":"wide","style":{"spacing":{"margin":{"top":"var:preset|spacing|default","bottom":"var:preset|spacing|l"}}},"layout":{"type":"constrained"}} -->
 	<header class="wp-block-group alignwide" style="margin-top:var(--wp--preset--spacing--default);margin-bottom:var(--wp--preset--spacing--l)"><!-- wp:heading {"textAlign":"center","fontSize":"3-xl"} -->
 		<h2 class="wp-block-heading has-text-align-center has-3-xl-font-size"><?php esc_html_e( 'Simple Design', 'cormorant' ); ?></h2>
 		<!-- /wp:heading -->
@@ -80,6 +81,8 @@
 				<p><?php esc_html_e( 'There is also a gradient preset based on them.', 'cormorant' ); ?></p>
 				<!-- /wp:paragraph --></div>
 			<!-- /wp:column --></div>
-		<!-- /wp:columns --></div>
-	<!-- /wp:group --></div>
+		<!-- /wp:columns -->
+	</div>
+	<!-- /wp:group -->
+</div>
 <!-- /wp:group -->

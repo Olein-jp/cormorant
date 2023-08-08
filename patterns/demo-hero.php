@@ -29,7 +29,7 @@
 					<!-- /wp:button -->
 
 					<!-- wp:button {"className":"is-style-cormorant-outlined-square-button-secondary"} -->
-					<div class="wp-block-button is-style-cormorant-outlined-square-button-secondary"><a class="wp-block-button__link wp-element-button" href="<?php echo esc_url( 'https://cormorant.kunokoji.com' ); ?>"><?php esc_html_e( 'Learn More', 'cormorant' ); ?></a></div>
+					<div class="wp-block-button is-style-cormorant-outlined-square-button-secondary"><a class="wp-block-button__link wp-element-button" href="<?php echo esc_url( 'https://cormorant.kunokoji.com' ); ?>"><?php esc_html_e( 'Getting Started!', 'cormorant' ); ?></a></div>
 					<!-- /wp:button --></div>
 				<!-- /wp:buttons --></div>
 			<!-- /wp:group --></div>
