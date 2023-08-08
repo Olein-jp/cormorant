@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Cormorant\n"
-"POT-Creation-Date: 2023-08-07 13:18+0900\n"
-"PO-Revision-Date: 2023-08-07 13:19+0900\n"
+"POT-Creation-Date: 2023-08-08 16:28+0900\n"
+"PO-Revision-Date: 2023-08-08 16:28+0900\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: ja\n"
@@ -66,11 +66,11 @@ msgstr "Cormorant フッター"
 msgid "Cormorant Demo"
 msgstr "Cormorant デモ"
 
-#: inc/block-styles/block-styles.php:16 inc/block-styles/block-styles.php:25
+#: inc/block-styles/block-styles.php:16 inc/block-styles/block-styles.php:26
 msgid "Solid Shadow"
 msgstr "はっきりした影"
 
-#: inc/block-styles/block-styles.php:17 inc/block-styles/block-styles.php:26
+#: inc/block-styles/block-styles.php:17 inc/block-styles/block-styles.php:27
 msgid "Blur Shadow"
 msgstr "ぼやけた影"
 
@@ -86,85 +86,89 @@ msgstr "点点"
 msgid "Dashed"
 msgstr "破線"
 
-#: inc/block-styles/block-styles.php:29
+#: inc/block-styles/block-styles.php:23
+msgid "Gradient"
+msgstr "グラデーション"
+
+#: inc/block-styles/block-styles.php:30
 msgid "Block"
 msgstr "四角"
 
-#: inc/block-styles/block-styles.php:30
+#: inc/block-styles/block-styles.php:31
 msgid "Circle"
 msgstr "円"
 
-#: inc/block-styles/block-styles.php:33
-msgid "Base Filled"
-msgstr ""
-
 #: inc/block-styles/block-styles.php:34
-msgid "Contrast Filled"
-msgstr ""
+msgid "Base Filled"
+msgstr "ベース塗り"
 
 #: inc/block-styles/block-styles.php:35
-msgid "Primary Filled"
-msgstr ""
+msgid "Contrast Filled"
+msgstr "コントラスト塗り"
 
 #: inc/block-styles/block-styles.php:36
-msgid "Secondary Filled"
-msgstr ""
+msgid "Primary Filled"
+msgstr "第１色塗り"
 
 #: inc/block-styles/block-styles.php:37
-msgid "Tertiary Filled"
-msgstr ""
+msgid "Secondary Filled"
+msgstr "第２色塗り"
 
 #: inc/block-styles/block-styles.php:38
-msgid "Quaternary Filled"
-msgstr ""
+msgid "Tertiary Filled"
+msgstr "第３色塗り"
 
 #: inc/block-styles/block-styles.php:39
-msgid "Base Outlined"
-msgstr ""
+msgid "Quaternary Filled"
+msgstr "第４色塗り"
 
 #: inc/block-styles/block-styles.php:40
-msgid "Contrast Outlined"
-msgstr ""
+msgid "Base Outlined"
+msgstr "ベース線"
 
 #: inc/block-styles/block-styles.php:41
-msgid "Primary Outlined"
-msgstr ""
+msgid "Contrast Outlined"
+msgstr "コントラスト線"
 
 #: inc/block-styles/block-styles.php:42
-msgid "Secondary Outlined"
-msgstr ""
+msgid "Primary Outlined"
+msgstr "第１色ライン"
 
 #: inc/block-styles/block-styles.php:43
-msgid "Tertiary Outlined"
-msgstr ""
+msgid "Secondary Outlined"
+msgstr "第２色ライン"
 
 #: inc/block-styles/block-styles.php:44
-msgid "Quaternary Outlined"
-msgstr ""
+msgid "Tertiary Outlined"
+msgstr "第３色ライン"
 
-#: inc/block-styles/block-styles.php:47
+#: inc/block-styles/block-styles.php:45
+msgid "Quaternary Outlined"
+msgstr "第４色ライン"
+
+#: inc/block-styles/block-styles.php:48
 msgid "Quote Mark"
 msgstr "引用マーク"
 
-#: inc/block-styles/block-styles.php:50
+#: inc/block-styles/block-styles.php:51
 msgid "Square Label"
 msgstr "四角ラベル"
 
-#: inc/block-styles/block-styles.php:53
+#: inc/block-styles/block-styles.php:54
 msgid "Eyecatch Tiles"
 msgstr "タイル状アイキャッチ"
 
-#: inc/block-styles/block-styles.php:56
+#: inc/block-styles/block-styles.php:57
 msgid "Tiles"
 msgstr "タイル"
 
-#: inc/block-styles/block-styles.php:59
+#: inc/block-styles/block-styles.php:60
 msgid "Right Caret"
 msgstr "右矢印"
 
 #: patterns/cta-image-banner.php:18
 msgid "Let's join our service"
-msgstr ""
+msgstr "Let’s join our service"
 
 #: patterns/cta-image-banner.php:22
 msgid "We look forward to exchanging ideas and feedback with you."
@@ -172,13 +176,13 @@ msgstr "私たちは、皆さんとアイデアや意見を交換できること
 
 #: patterns/cta-image-banner.php:27 patterns/cta-simple-banner.php:24
 msgid "Chat with us"
-msgstr ""
+msgstr "Chat with us"
 
-#: patterns/demo-features.php:18
+#: patterns/demo-features.php:19
 msgid "Simple Design"
 msgstr "シンプル デザイン"
 
-#: patterns/demo-features.php:22
+#: patterns/demo-features.php:23
 msgid ""
 "Cormorant is designed to be simple enough to take full advantage of the "
 "functionality of WordPress Core."
@@ -186,17 +190,17 @@ msgstr ""
 "Cormorantは WordPress Core の機能を最大限に活用できるようシンプルに設計されて"
 "います。"
 
-#: patterns/demo-features.php:30
+#: patterns/demo-features.php:31
 msgid "Fluid Typography"
 msgstr "流体タイポグラフィ"
 
-#: patterns/demo-features.php:36
+#: patterns/demo-features.php:37
 msgid "Comfortable<br>Fluid Typography"
 msgstr ""
 "心地よく快適な\n"
 "流体タイポグラフィ"
 
-#: patterns/demo-features.php:40
+#: patterns/demo-features.php:41
 msgid ""
 "Flexible font size depending on the device's screen width. It eliminates too "
 "small or too large fonts as much as possible."
@@ -204,11 +208,11 @@ msgstr ""
 "デバイスの画面幅に応じて、フォントサイズをフレキシブルに対応。可能な限り小さ"
 "すぎたり大きすぎたりするフォントサイズにならないようにしています。"
 
-#: patterns/demo-features.php:48
+#: patterns/demo-features.php:49
 msgid "User-friendly Spacing"
 msgstr "ユーザーフレンドリー・スペーシング"
 
-#: patterns/demo-features.php:52
+#: patterns/demo-features.php:53
 msgid ""
 "Flexibly scales the spacing unit according to the screen width. Smaller for "
 "smaller devices and 1.5 times larger for larger devices."
@@ -216,19 +220,19 @@ msgstr ""
 "スペーシングの単位を画面幅に応じてフレキシブルに拡大縮小します。小さなデバイ"
 "スには小さく、大きなデバイスには1.5倍に拡大します。"
 
-#: patterns/demo-features.php:58
+#: patterns/demo-features.php:59
 msgid "Spacing"
 msgstr "スペーシング"
 
-#: patterns/demo-features.php:66
+#: patterns/demo-features.php:67
 msgid "Colors"
 msgstr "カラー"
 
-#: patterns/demo-features.php:72
+#: patterns/demo-features.php:73
 msgid "Extensive colour palette and gradient presets available"
 msgstr "豊富なカラーパレットとグラデーションプリセットを用意しています"
 
-#: patterns/demo-features.php:76
+#: patterns/demo-features.php:77
 msgid ""
 "For colour presets, a contrast colour is prepared for the base colour and "
 "four other colours are prepared in advance."
@@ -236,31 +240,86 @@ msgstr ""
 "カラー・プリセットでは、ベース・カラーとコントラスト・カラーが用意され、それ"
 "以外の4色があらかじめ用意されています。"
 
-#: patterns/demo-features.php:80
+#: patterns/demo-features.php:81
 msgid "There is also a gradient preset based on them."
 msgstr "それらに基づいたグラデーションのプリセットも用意しています。"
 
-#: patterns/demo-hero.php:17
+#: patterns/demo-hero.php:19
 msgid "You can touch the next generation of WordPress."
 msgstr "次世代の WordPress に触れることができます。"
 
-#: patterns/demo-hero.php:21
+#: patterns/demo-hero.php:23
 msgid "Cormorant is Simple WordPress Block Theme for building website."
 msgstr ""
 "Cormorant はウェブサイトを構築するためのシンプルな WordPress ブロックテーマで"
 "す。"
 
-#: patterns/demo-hero.php:26
+#: patterns/demo-hero.php:28 patterns/demo-leading.php:48
 msgid "Download on WP.org"
 msgstr "WP.org でダウンロード"
 
-#: patterns/demo-hero.php:30
-msgid "Learn More"
-msgstr "もっと学ぶ"
+#: patterns/demo-hero.php:32
+msgid "Getting Started!"
+msgstr "ここからはじめよう！"
+
+#: patterns/demo-leading.php:17
+msgid "A new era of WordPress is about to arrive. Is everyone ready for it?"
+msgstr ""
+"WordPress の新しい時代が到来しようとしています。みなさんは準備は整っています"
+"か？"
+
+#: patterns/demo-leading.php:23
+msgid ""
+"Over the last few years, WordPress has undergone significant changes "
+"together with the Gutenberg project. The main thing is that the block editor "
+"and site editor are now available."
+msgstr ""
+"ここ数年、WordPress が Gutenberg プロジェクトと共に大きな変化を遂げてきまし"
+"た。ブロックエディターやサイトエディターが使えるようになったことが大きな点で"
+"しょう。"
+
+#: patterns/demo-leading.php:27
+msgid ""
+"The new theme format that has been added is called Block Theme. This "
+"Cormorant is one of them. By using these, you can build an entire website in "
+"a more sensible way, with dramatically less code than before."
+msgstr ""
+"そこで加わった新しいテーマ形式がブロックテーマと呼ばれるものです。この "
+"Cormorant もその一つです。これらを使うことで従来よりも飛躍的にコードの記述を"
+"少なくして、より感覚的にWebサイト全体を構築していくことができるようになりま"
+"す。"
+
+#: patterns/demo-leading.php:33
+msgid ""
+"Cormorant is designed to allow you to edit your site while using as many of "
+"these WordPress features as possible."
+msgstr ""
+"Cormorant はこれら WordPress が提供する機能をできるだけ利用しつつ、サイト編集"
+"ができるように設計しています。"
+
+#: patterns/demo-leading.php:37
+msgid ""
+"And to make it as customisable as possible, we have reduced the amount of "
+"decoration by theme.json and CSS as much as possible."
+msgstr ""
+"そして、できるだけカスタマイズしやすいようにするために、theme.json や CSS に"
+"よる装飾を極力少なくしています。"
+
+#: patterns/demo-leading.php:41
+msgid "We invite you to try out the new WordPress."
+msgstr "ぜひ新しい WordPress にチャレンジしてみてください。"
+
+#: patterns/demo-leading.php:52
+msgid "Demo"
+msgstr "デモ"
+
+#: patterns/demo-leading.php:56
+msgid "Watch on GitHub"
+msgstr "GitHub を見る"
 
 #: patterns/faq-big-header.php:18
 msgid "FAQs"
-msgstr ""
+msgstr "FAQs"
 
 #: patterns/faq-big-header.php:22
 msgid ""
@@ -356,47 +415,47 @@ msgstr ""
 #: patterns/footer-site-name-links.php:94
 #: patterns/footer-site-name-links.php:98
 msgid "Menu Item"
-msgstr ""
+msgstr "メニューアイテム"
 
 #: patterns/header-2-row-standard.php:24 patterns/header-standard-button.php:23
 #: patterns/header-standard.php:23
 msgid "Home"
-msgstr ""
+msgstr "ホーム"
 
 #: patterns/header-2-row-standard.php:25 patterns/header-standard-button.php:24
 #: patterns/header-standard.php:24
 msgid "About"
-msgstr ""
+msgstr "我々について"
 
 #: patterns/header-2-row-standard.php:26 patterns/header-standard-button.php:25
 #: patterns/header-standard.php:25
 msgid "Services"
-msgstr ""
+msgstr "サービス"
 
 #: patterns/header-2-row-standard.php:27 patterns/header-standard-button.php:26
 #: patterns/header-standard.php:26
 msgid "Service A"
-msgstr ""
+msgstr "サービスA"
 
 #: patterns/header-2-row-standard.php:28 patterns/header-standard-button.php:27
 #: patterns/header-standard.php:27
 msgid "Service B"
-msgstr ""
+msgstr "サービスB"
 
 #: patterns/header-2-row-standard.php:29 patterns/header-standard-button.php:28
 #: patterns/header-standard.php:28
 msgid "Service C"
-msgstr ""
+msgstr "サービスC"
 
 #: patterns/header-2-row-standard.php:31 patterns/header-standard-button.php:30
 #: patterns/header-standard.php:30
 msgid "Blog"
-msgstr ""
+msgstr "サービスC"
 
 #: patterns/header-2-row-standard.php:32 patterns/header-standard-button.php:31
 #: patterns/header-standard.php:31
 msgid "Contact"
-msgstr ""
+msgstr "お問い合わせ"
 
 #: patterns/hero-covered-image.php:17
 msgid "WordPress Block Theme<br>Cormorant"
@@ -417,6 +476,34 @@ msgstr ""
 "WordPress Block Theme Cormorant は、心地よいスペーシング設計、流体タイポグラ"
 "フィ設計、その他 WordPress Core が提供する素晴らしい機能を出来るだけ楽しめる"
 "ように考え抜かれた設計が施されています。"
+
+#: patterns/page-404.php:21
+msgid ""
+"Unfortunately the page you have accessed does not exist or has an incorrect "
+"URL."
+msgstr ""
+"残念ながらあなたがアクセスしたページは存在しないか、URL が間違っているようで"
+"す。"
+
+#: patterns/page-404.php:25
+msgid ""
+"Please use the search form below to search the site, or try to find similar "
+"information by keyword categories or tags."
+msgstr ""
+"下の検索フォームからサイト内検索をしていただくか、キーワードとなるカテゴリー"
+"やタグなどから類似情報を探してみてください。"
+
+#: patterns/page-404.php:30
+msgid "Search"
+msgstr "検索"
+
+#: patterns/page-404.php:36
+msgid "Category"
+msgstr "カテゴリー"
+
+#: patterns/page-404.php:42
+msgid "Tag"
+msgstr "タグ"
 
 #: patterns/profile-2-col.php:21 patterns/team-horizontal-3-menbers.php:34
 msgid "Edward Smith"
@@ -703,11 +790,11 @@ msgstr "エマ・ヨハンソン"
 
 #. Theme Name of the plugin/theme
 msgid "Cormorant"
-msgstr ""
+msgstr "Cormorant"
 
 #. Theme URI of the plugin/theme
 msgid "https://cormorant.kunokoji.com"
-msgstr ""
+msgstr "https://cormorant.kunokoji.com"
 
 #. Description of the plugin/theme
 msgid ""
@@ -732,7 +819,13 @@ msgstr "久野 晃司"
 
 #. Author URI of the plugin/theme
 msgid "https://kunokoji.com"
-msgstr ""
+msgstr "https://kunokoji.com"
+
+#~ msgid "Learn More"
+#~ msgstr "もっと学ぶ"
+
+#~ msgid "Brand Color Gradient"
+#~ msgstr "ブランドカラー・グラデーション"
 
 #~ msgid "How to change color"
 #~ msgstr "どうやって色を変えるのか"
