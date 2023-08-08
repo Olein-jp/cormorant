@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Cormorant\n"
-"POT-Creation-Date: 2023-08-08 16:28+0900\n"
-"PO-Revision-Date: 2023-08-08 16:28+0900\n"
+"POT-Creation-Date: 2023-08-08 18:36+0900\n"
+"PO-Revision-Date: 2023-08-08 18:36+0900\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: ja\n"
@@ -793,8 +793,8 @@ msgid "Cormorant"
 msgstr "Cormorant"
 
 #. Theme URI of the plugin/theme
-msgid "https://cormorant.kunokoji.com"
-msgstr "https://cormorant.kunokoji.com"
+msgid "https://cormorant.olein-design.com"
+msgstr "https://cormorant.olein-design.com"
 
 #. Description of the plugin/theme
 msgid ""
