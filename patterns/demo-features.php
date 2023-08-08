@@ -33,8 +33,8 @@
 			<!-- /wp:column -->
 
 			<!-- wp:column {"verticalAlignment":"center"} -->
-			<div class="wp-block-column is-vertically-aligned-center"><!-- wp:heading {"level":3} -->
-				<h3 class="wp-block-heading"><?php esc_html_e( 'Comfortable Fluid Typography', 'cormorant' ); ?></h3>
+			<div class="wp-block-column is-vertically-aligned-center"><!-- wp:heading {"level":3,"fontSize":"2-xl"} -->
+				<h3 class="wp-block-heading has-2-xl-font-size"><?php esc_html_e( 'Comfortable Fluid Typography', 'cormorant' ); ?></h3>
 				<!-- /wp:heading -->
 
 				<!-- wp:paragraph -->
@@ -45,8 +45,8 @@
 
 		<!-- wp:columns {"verticalAlignment":null,"align":"wide"} -->
 		<div class="wp-block-columns alignwide switch-places"><!-- wp:column {"verticalAlignment":"center"} -->
-			<div class="wp-block-column is-vertically-aligned-center"><!-- wp:heading {"level":3} -->
-				<h3 class="wp-block-heading"><?php esc_html_e( 'User-friendly Spacing', 'cormorant' ); ?></h3>
+			<div class="wp-block-column is-vertically-aligned-center"><!-- wp:heading {"level":3,"fontSize":"2-xl"} -->
+				<h3 class="wp-block-heading has-2-xl-font-size"><?php esc_html_e( 'User-friendly Spacing', 'cormorant' ); ?></h3>
 				<!-- /wp:heading -->
 
 				<!-- wp:paragraph -->
@@ -69,8 +69,8 @@
 			<!-- /wp:column -->
 
 			<!-- wp:column {"verticalAlignment":"center"} -->
-			<div class="wp-block-column is-vertically-aligned-center"><!-- wp:heading {"level":3} -->
-				<h3 class="wp-block-heading"><?php esc_html_e( 'Extensive colour palette and gradient presets available', 'cormorant' ); ?></h3>
+			<div class="wp-block-column is-vertically-aligned-center"><!-- wp:heading {"level":3,"fontSize":"2-xl"} -->
+				<h3 class="wp-block-heading has-2-xl-font-size"><?php esc_html_e( 'Extensive colour palette and gradient presets available', 'cormorant' ); ?></h3>
 				<!-- /wp:heading -->
 
 				<!-- wp:paragraph -->
