@@ -59,7 +59,7 @@ Source: https://stocksnap.io/photo/business-man-NHW7CBJDFM renamed to `cormorant
 == Changelog =
 Version 3.0.3(2023-08-08)
 --------------------
-- Updated readme.txt
+- Updated readme.txt, style.css
 
 Version 3.0.1(2023-08-08)
 --------------------
